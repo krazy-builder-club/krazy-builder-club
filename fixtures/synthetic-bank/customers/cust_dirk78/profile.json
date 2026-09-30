@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_dirk78",
+  "personal": {
+    "first_name": "Dirk",
+    "last_name": "Goossens",
+    "birth_date": "1966-02-15",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Dorpsstraat 29",
+      "postal_code": "2000",
+      "city": "Antwerpen",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1990-07-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Scholengroep Rivierenland",
+    "job_title": "Teacher",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_dirk78_current",
+      "type": "current",
+      "iban": "BE00 SYNT DIRK78 0001",
+      "balance_cents": 304983,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_dirk78_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT DIRK78 0002",
+      "balance_cents": 4282000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_dirk78_int1",
+      "date": "2025-04-15",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 8,000 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

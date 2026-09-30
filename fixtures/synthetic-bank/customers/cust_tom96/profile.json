@@ -1,0 +1,74 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_tom96",
+  "personal": {
+    "first_name": "Tom",
+    "last_name": "Goossens",
+    "birth_date": "1992-07-07",
+    "place_of_birth": "Antwerpen",
+    "address": {
+      "street": "Kerkstraat 137",
+      "postal_code": "8500",
+      "city": "Kortrijk",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2010-05-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Brabant Retail NV",
+    "job_title": "Store manager",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_tom96_current",
+      "type": "current",
+      "iban": "BE00 SYNT TOM96 0001",
+      "balance_cents": 452420,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_tom96_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT TOM96 0002",
+      "balance_cents": 1788000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_tom96_int1",
+      "date": "2025-04-15",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_tom96_int2",
+      "date": "2025-04-15",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 7,500 EUR on savings as a safety buffer."
+    },
+    {
+      "interaction_id": "cust_tom96_int3",
+      "date": "2025-05-24",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

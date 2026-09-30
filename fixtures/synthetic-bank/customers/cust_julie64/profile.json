@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_julie64",
+  "personal": {
+    "first_name": "Julie",
+    "last_name": "Janssens",
+    "birth_date": "1987-06-28",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Nieuwstraat 86",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2005-01-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Deltaport Logistics NV",
+    "job_title": "Planner",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_julie64_current",
+      "type": "current",
+      "iban": "BE00 SYNT JULIE64 0001",
+      "balance_cents": 450412,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_julie64_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JULIE64 0002",
+      "balance_cents": 2141000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_julie64_int1",
+      "date": "2025-03-14",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

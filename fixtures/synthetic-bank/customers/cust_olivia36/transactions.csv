@@ -1,0 +1,258 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_olivia36_tx00001,acc_olivia36_current,2025-10-01,-2519,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00002,acc_olivia36_current,2025-10-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00003,acc_olivia36_current,2025-10-03,-3059,EUR,Zalando,Online aankoop,shopping_online
+cust_olivia36_tx00004,acc_olivia36_current,2025-10-04,-7787,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00005,acc_olivia36_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00006,acc_olivia36_current,2025-10-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00007,acc_olivia36_current,2025-10-08,-2694,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00008,acc_olivia36_current,2025-10-10,-2973,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00009,acc_olivia36_current,2025-10-11,-8334,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00010,acc_olivia36_current,2025-10-12,-1699,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_olivia36_tx00011,acc_olivia36_current,2025-10-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00012,acc_olivia36_current,2025-10-15,-2384,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00013,acc_olivia36_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00014,acc_olivia36_current,2025-10-18,-7228,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00015,acc_olivia36_current,2025-10-18,-8273,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00016,acc_olivia36_current,2025-10-22,-828,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00017,acc_olivia36_current,2025-10-24,-2150,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00018,acc_olivia36_current,2025-10-25,-8192,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00019,acc_olivia36_current,2025-10-26,-1621,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_olivia36_tx00020,acc_olivia36_current,2025-10-28,227000,EUR,Flanders Care vzw,Loon 2025-10,income_salary
+cust_olivia36_tx00021,acc_olivia36_current,2025-10-28,-45000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00022,acc_olivia36_savings,2025-10-28,45000,EUR,Olivia Martens,Van zichtrekening,transfer_internal
+cust_olivia36_tx00023,acc_olivia36_current,2025-10-29,-1175,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00024,acc_olivia36_current,2025-10-31,-2143,EUR,Zalando,Online aankoop,shopping_online
+cust_olivia36_tx00025,acc_olivia36_current,2025-11-01,-7405,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00026,acc_olivia36_current,2025-11-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00027,acc_olivia36_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00028,acc_olivia36_current,2025-11-07,-4783,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00029,acc_olivia36_current,2025-11-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00030,acc_olivia36_current,2025-11-08,-9018,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00031,acc_olivia36_current,2025-11-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00032,acc_olivia36_current,2025-11-14,-4704,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00033,acc_olivia36_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00034,acc_olivia36_current,2025-11-15,-10380,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00035,acc_olivia36_current,2025-11-18,-5636,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00036,acc_olivia36_current,2025-11-19,-2126,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00037,acc_olivia36_current,2025-11-21,-1940,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00038,acc_olivia36_current,2025-11-22,-9139,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00039,acc_olivia36_current,2025-11-26,-2125,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00040,acc_olivia36_current,2025-11-28,227000,EUR,Flanders Care vzw,Loon 2025-11,income_salary
+cust_olivia36_tx00041,acc_olivia36_current,2025-11-28,-45000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00042,acc_olivia36_savings,2025-11-28,45000,EUR,Olivia Martens,Van zichtrekening,transfer_internal
+cust_olivia36_tx00043,acc_olivia36_current,2025-11-29,-9732,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00044,acc_olivia36_current,2025-12-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00045,acc_olivia36_current,2025-12-03,-1264,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00046,acc_olivia36_current,2025-12-05,-3649,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00047,acc_olivia36_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00048,acc_olivia36_current,2025-12-06,-9262,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00049,acc_olivia36_current,2025-12-07,-1936,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_olivia36_tx00050,acc_olivia36_current,2025-12-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00051,acc_olivia36_current,2025-12-10,-1978,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00052,acc_olivia36_current,2025-12-12,-2128,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00053,acc_olivia36_current,2025-12-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00054,acc_olivia36_current,2025-12-13,-10220,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00055,acc_olivia36_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00056,acc_olivia36_current,2025-12-17,-905,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00057,acc_olivia36_current,2025-12-18,-5777,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00058,acc_olivia36_current,2025-12-19,-2672,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00059,acc_olivia36_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_olivia36_tx00060,acc_olivia36_current,2025-12-20,-9354,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00061,acc_olivia36_current,2025-12-26,-4595,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00062,acc_olivia36_current,2025-12-27,-9796,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00063,acc_olivia36_current,2025-12-28,227000,EUR,Flanders Care vzw,Loon 2025-12,income_salary
+cust_olivia36_tx00064,acc_olivia36_current,2025-12-28,-30000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00065,acc_olivia36_savings,2025-12-28,30000,EUR,Olivia Martens,Van zichtrekening,transfer_internal
+cust_olivia36_tx00066,acc_olivia36_current,2025-12-31,-1516,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00067,acc_olivia36_current,2026-01-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00068,acc_olivia36_current,2026-01-02,-2868,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00069,acc_olivia36_current,2026-01-03,-8894,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00070,acc_olivia36_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00071,acc_olivia36_current,2026-01-07,-1165,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00072,acc_olivia36_current,2026-01-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00073,acc_olivia36_current,2026-01-09,-2020,EUR,Zalando,Online aankoop,shopping_online
+cust_olivia36_tx00074,acc_olivia36_current,2026-01-10,-9206,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00075,acc_olivia36_current,2026-01-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00076,acc_olivia36_current,2026-01-14,-1316,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00077,acc_olivia36_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00078,acc_olivia36_current,2026-01-17,-8325,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00079,acc_olivia36_current,2026-01-18,-5835,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00080,acc_olivia36_current,2026-01-21,-1784,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00081,acc_olivia36_current,2026-01-24,-7303,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00082,acc_olivia36_current,2026-01-25,-2059,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_olivia36_tx00083,acc_olivia36_current,2026-01-28,227000,EUR,Flanders Care vzw,Loon 2026-01,income_salary
+cust_olivia36_tx00084,acc_olivia36_current,2026-01-28,-55000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00085,acc_olivia36_savings,2026-01-28,55000,EUR,Olivia Martens,Van zichtrekening,transfer_internal
+cust_olivia36_tx00086,acc_olivia36_current,2026-01-30,-4671,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00087,acc_olivia36_current,2026-01-31,-8203,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00088,acc_olivia36_current,2026-02-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00089,acc_olivia36_current,2026-02-04,-2029,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00090,acc_olivia36_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00091,acc_olivia36_current,2026-02-07,-10485,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00092,acc_olivia36_current,2026-02-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00093,acc_olivia36_current,2026-02-11,-2132,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00094,acc_olivia36_current,2026-02-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00095,acc_olivia36_current,2026-02-13,-4213,EUR,Zalando,Online aankoop,shopping_online
+cust_olivia36_tx00096,acc_olivia36_current,2026-02-14,-8869,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00097,acc_olivia36_current,2026-02-15,-1585,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_olivia36_tx00098,acc_olivia36_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00099,acc_olivia36_current,2026-02-18,-4435,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00100,acc_olivia36_current,2026-02-21,-9161,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00101,acc_olivia36_current,2026-02-25,-1273,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00102,acc_olivia36_current,2026-02-27,-4005,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00103,acc_olivia36_current,2026-02-28,227000,EUR,Flanders Care vzw,Loon 2026-02,income_salary
+cust_olivia36_tx00104,acc_olivia36_current,2026-02-28,-8930,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00105,acc_olivia36_current,2026-02-28,-35000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00106,acc_olivia36_savings,2026-02-28,35000,EUR,Olivia Martens,Van zichtrekening,transfer_internal
+cust_olivia36_tx00107,acc_olivia36_current,2026-03-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00108,acc_olivia36_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00109,acc_olivia36_current,2026-03-07,-7928,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00110,acc_olivia36_current,2026-03-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00111,acc_olivia36_current,2026-03-11,-991,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00112,acc_olivia36_current,2026-03-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00113,acc_olivia36_current,2026-03-14,-8458,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00114,acc_olivia36_current,2026-03-15,-1489,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_olivia36_tx00115,acc_olivia36_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00116,acc_olivia36_current,2026-03-18,-1534,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00117,acc_olivia36_current,2026-03-18,-5583,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00118,acc_olivia36_current,2026-03-20,-2329,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00119,acc_olivia36_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_olivia36_tx00120,acc_olivia36_current,2026-03-21,-8479,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00121,acc_olivia36_current,2026-03-22,-2728,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_olivia36_tx00122,acc_olivia36_current,2026-03-25,-1153,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00123,acc_olivia36_current,2026-03-27,-4772,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00124,acc_olivia36_current,2026-03-28,227000,EUR,Flanders Care vzw,Loon 2026-03,income_salary
+cust_olivia36_tx00125,acc_olivia36_current,2026-03-28,-10232,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00126,acc_olivia36_current,2026-03-28,-50000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00127,acc_olivia36_savings,2026-03-28,50000,EUR,Olivia Martens,Van zichtrekening,transfer_internal
+cust_olivia36_tx00128,acc_olivia36_current,2026-04-01,-1860,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00129,acc_olivia36_current,2026-04-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00130,acc_olivia36_current,2026-04-03,-1782,EUR,Zalando,Online aankoop,shopping_online
+cust_olivia36_tx00131,acc_olivia36_current,2026-04-04,-9870,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00132,acc_olivia36_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00133,acc_olivia36_current,2026-04-08,-2162,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00134,acc_olivia36_current,2026-04-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00135,acc_olivia36_current,2026-04-11,-7320,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00136,acc_olivia36_current,2026-04-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00137,acc_olivia36_current,2026-04-15,-1484,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00138,acc_olivia36_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00139,acc_olivia36_current,2026-04-18,-5886,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00140,acc_olivia36_current,2026-04-18,-8639,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00141,acc_olivia36_current,2026-04-19,-1946,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_olivia36_tx00142,acc_olivia36_current,2026-04-22,-1611,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00143,acc_olivia36_current,2026-04-25,-10262,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00144,acc_olivia36_current,2026-04-26,-2890,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_olivia36_tx00145,acc_olivia36_current,2026-04-28,227000,EUR,Flanders Care vzw,Loon 2026-04,income_salary
+cust_olivia36_tx00146,acc_olivia36_current,2026-04-28,-50000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00147,acc_olivia36_savings,2026-04-28,50000,EUR,Olivia Martens,Van zichtrekening,transfer_internal
+cust_olivia36_tx00148,acc_olivia36_current,2026-04-29,-2061,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00149,acc_olivia36_current,2026-05-01,-3836,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00150,acc_olivia36_current,2026-05-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00151,acc_olivia36_current,2026-05-02,-7685,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00152,acc_olivia36_current,2026-05-03,-2397,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_olivia36_tx00153,acc_olivia36_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00154,acc_olivia36_current,2026-05-06,-1714,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00155,acc_olivia36_current,2026-05-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00156,acc_olivia36_current,2026-05-08,-2741,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00157,acc_olivia36_current,2026-05-09,-7484,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00158,acc_olivia36_current,2026-05-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00159,acc_olivia36_current,2026-05-13,-2661,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00160,acc_olivia36_current,2026-05-15,-2927,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00161,acc_olivia36_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00162,acc_olivia36_current,2026-05-16,-8046,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00163,acc_olivia36_current,2026-05-17,-1537,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_olivia36_tx00164,acc_olivia36_current,2026-05-18,-6381,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00165,acc_olivia36_current,2026-05-20,-1576,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00166,acc_olivia36_current,2026-05-23,-10182,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00167,acc_olivia36_current,2026-05-27,-940,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00168,acc_olivia36_current,2026-05-28,227000,EUR,Flanders Care vzw,Loon 2026-05,income_salary
+cust_olivia36_tx00169,acc_olivia36_current,2026-05-28,-45000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00170,acc_olivia36_savings,2026-05-28,45000,EUR,Olivia Martens,Van zichtrekening,transfer_internal
+cust_olivia36_tx00171,acc_olivia36_current,2026-05-29,-2225,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00172,acc_olivia36_current,2026-05-30,-9163,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00173,acc_olivia36_current,2026-05-31,-1803,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_olivia36_tx00174,acc_olivia36_current,2026-06-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00175,acc_olivia36_current,2026-06-03,-1351,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00176,acc_olivia36_current,2026-06-05,-2264,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00177,acc_olivia36_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00178,acc_olivia36_current,2026-06-06,-6901,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00179,acc_olivia36_current,2026-06-07,-2800,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_olivia36_tx00180,acc_olivia36_current,2026-06-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00181,acc_olivia36_current,2026-06-10,-1824,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00182,acc_olivia36_current,2026-06-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00183,acc_olivia36_current,2026-06-13,-9407,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00184,acc_olivia36_current,2026-06-14,-2281,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_olivia36_tx00185,acc_olivia36_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00186,acc_olivia36_current,2026-06-17,-1422,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00187,acc_olivia36_current,2026-06-18,-5650,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00188,acc_olivia36_current,2026-06-19,-4039,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00189,acc_olivia36_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_olivia36_tx00190,acc_olivia36_current,2026-06-20,-8702,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00191,acc_olivia36_current,2026-06-24,-751,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00192,acc_olivia36_current,2026-06-27,-7302,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00193,acc_olivia36_current,2026-06-28,227000,EUR,Flanders Care vzw,Loon 2026-06,income_salary
+cust_olivia36_tx00194,acc_olivia36_current,2026-06-28,-30000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00195,acc_olivia36_savings,2026-06-28,30000,EUR,Olivia Martens,Van zichtrekening,transfer_internal
+cust_olivia36_tx00196,acc_olivia36_current,2026-07-01,-1876,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00197,acc_olivia36_current,2026-07-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00198,acc_olivia36_current,2026-07-03,-2248,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00199,acc_olivia36_current,2026-07-04,-7430,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00200,acc_olivia36_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00201,acc_olivia36_current,2026-07-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00202,acc_olivia36_current,2026-07-10,-2187,EUR,Zalando,Online aankoop,shopping_online
+cust_olivia36_tx00203,acc_olivia36_current,2026-07-11,-7726,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00204,acc_olivia36_current,2026-07-11,-101800,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_olivia36_tx00205,acc_olivia36_current,2026-07-12,-2087,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_olivia36_tx00206,acc_olivia36_current,2026-07-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00207,acc_olivia36_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00208,acc_olivia36_current,2026-07-18,-7032,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00209,acc_olivia36_current,2026-07-18,-7296,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00210,acc_olivia36_current,2026-07-22,-2137,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00211,acc_olivia36_current,2026-07-24,-3306,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00212,acc_olivia36_current,2026-07-25,-9197,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00213,acc_olivia36_current,2026-07-28,227000,EUR,Flanders Care vzw,Loon 2026-07,income_salary
+cust_olivia36_tx00214,acc_olivia36_current,2026-07-29,-2223,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00215,acc_olivia36_current,2026-07-31,-2382,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00216,acc_olivia36_current,2026-08-01,-9321,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00217,acc_olivia36_current,2026-08-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00218,acc_olivia36_current,2026-08-05,-1988,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00219,acc_olivia36_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00220,acc_olivia36_current,2026-08-07,-2943,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00221,acc_olivia36_current,2026-08-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00222,acc_olivia36_current,2026-08-08,-10012,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00223,acc_olivia36_current,2026-08-09,-2918,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_olivia36_tx00224,acc_olivia36_current,2026-08-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00225,acc_olivia36_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00226,acc_olivia36_current,2026-08-15,-7982,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00227,acc_olivia36_current,2026-08-18,-7498,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00228,acc_olivia36_current,2026-08-19,-2285,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00229,acc_olivia36_current,2026-08-21,-3682,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00230,acc_olivia36_current,2026-08-22,-7384,EUR,Aldi,Betaling Bancontact,groceries
+cust_olivia36_tx00231,acc_olivia36_current,2026-08-23,-2453,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_olivia36_tx00232,acc_olivia36_current,2026-08-26,-1061,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00233,acc_olivia36_current,2026-08-28,227000,EUR,Flanders Care vzw,Loon 2026-08,income_salary
+cust_olivia36_tx00234,acc_olivia36_current,2026-08-28,-2997,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00235,acc_olivia36_current,2026-08-29,-10204,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00236,acc_olivia36_current,2026-09-01,-91500,EUR,F. Willems,Huur,housing_rent
+cust_olivia36_tx00237,acc_olivia36_current,2026-09-02,-1962,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_olivia36_tx00238,acc_olivia36_current,2026-09-04,-4153,EUR,Bol.com,Online aankoop,shopping_online
+cust_olivia36_tx00239,acc_olivia36_current,2026-09-05,-7368,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00240,acc_olivia36_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_olivia36_tx00241,acc_olivia36_current,2026-09-06,-1851,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_olivia36_tx00242,acc_olivia36_current,2026-09-08,-2450,EUR,Synthetic Verzekeringen,Familiale verzekering,insurance
+cust_olivia36_tx00243,acc_olivia36_current,2026-09-11,-4041,EUR,Coolblue,Online aankoop,shopping_online
+cust_olivia36_tx00244,acc_olivia36_current,2026-09-12,-8080,EUR,Colruyt,Betaling Bancontact,groceries
+cust_olivia36_tx00245,acc_olivia36_current,2026-09-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_olivia36_tx00246,acc_olivia36_current,2026-09-13,-1193,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_olivia36_tx00247,acc_olivia36_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_olivia36_tx00248,acc_olivia36_current,2026-09-16,-2429,EUR,Action,Betaling Bancontact,shopping_household
+cust_olivia36_tx00249,acc_olivia36_current,2026-09-18,-6465,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_olivia36_tx00250,acc_olivia36_current,2026-09-19,-7833,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00251,acc_olivia36_current,2026-09-20,-2456,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_olivia36_tx00252,acc_olivia36_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_olivia36_tx00253,acc_olivia36_current,2026-09-23,-2447,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_olivia36_tx00254,acc_olivia36_current,2026-09-26,-7556,EUR,Delhaize,Betaling Bancontact,groceries
+cust_olivia36_tx00255,acc_olivia36_current,2026-09-28,227000,EUR,Flanders Care vzw,Loon 2026-09,income_salary
+cust_olivia36_tx00256,acc_olivia36_current,2026-09-28,-25000,EUR,Olivia Martens,Naar spaarrekening,transfer_internal
+cust_olivia36_tx00257,acc_olivia36_savings,2026-09-28,25000,EUR,Olivia Martens,Van zichtrekening,transfer_internal

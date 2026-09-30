@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_lucas80",
+  "personal": {
+    "first_name": "Lucas",
+    "last_name": "De Wit",
+    "birth_date": "1970-02-25",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Molenstraat 81",
+      "postal_code": "2500",
+      "city": "Lier",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "1990-11-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Leie Consulting BV",
+    "job_title": "Consultant",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_lucas80_current",
+      "type": "current",
+      "iban": "BE00 SYNT LUCAS80 0001",
+      "balance_cents": 302760,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_lucas80_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LUCAS80 0002",
+      "balance_cents": 3054000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_lucas80_int1",
+      "date": "2025-08-13",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 7,000 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_lucas98",
+  "personal": {
+    "first_name": "Lucas",
+    "last_name": "Lambrechts",
+    "birth_date": "1990-08-14",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Kerkstraat 111",
+      "postal_code": "3001",
+      "city": "Heverlee",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2008-10-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Noordzee Foods NV",
+    "job_title": "Quality lead",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_lucas98_current",
+      "type": "current",
+      "iban": "BE00 SYNT LUCAS98 0001",
+      "balance_cents": 451705,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_lucas98_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LUCAS98 0002",
+      "balance_cents": 1412000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_lucas98_int1",
+      "date": "2025-02-18",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 8,500 EUR on savings as a safety buffer."
+    },
+    {
+      "interaction_id": "cust_lucas98_int2",
+      "date": "2025-07-21",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

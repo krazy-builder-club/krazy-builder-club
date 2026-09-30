@@ -1,0 +1,238 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_louis23_tx00001,acc_louis23_current,2025-10-01,-435,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00002,acc_louis23_current,2025-10-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00003,acc_louis23_current,2025-10-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00004,acc_louis23_current,2025-10-03,-2314,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00005,acc_louis23_current,2025-10-04,-4550,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00006,acc_louis23_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00007,acc_louis23_current,2025-10-08,-1173,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00008,acc_louis23_current,2025-10-10,-1128,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00009,acc_louis23_current,2025-10-11,-4420,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00010,acc_louis23_current,2025-10-12,-627,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_louis23_tx00011,acc_louis23_current,2025-10-15,-723,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00012,acc_louis23_current,2025-10-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00013,acc_louis23_current,2025-10-18,-1814,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00014,acc_louis23_current,2025-10-18,-4868,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00015,acc_louis23_current,2025-10-22,-643,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00016,acc_louis23_current,2025-10-24,-1229,EUR,Coolblue,Online aankoop,shopping_online
+cust_louis23_tx00017,acc_louis23_current,2025-10-25,-3970,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00018,acc_louis23_current,2025-10-26,-772,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00019,acc_louis23_current,2025-10-28,33417,EUR,Café De Kroon,Studentenjob 10/2025,income_student_job
+cust_louis23_tx00020,acc_louis23_current,2025-10-28,-5000,EUR,Louis Willems,Naar spaarrekening,transfer_internal
+cust_louis23_tx00021,acc_louis23_savings,2025-10-28,5000,EUR,Louis Willems,Van zichtrekening,transfer_internal
+cust_louis23_tx00022,acc_louis23_current,2025-10-29,-672,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00023,acc_louis23_current,2025-11-01,-3893,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00024,acc_louis23_current,2025-11-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00025,acc_louis23_current,2025-11-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00026,acc_louis23_current,2025-11-02,-1167,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_louis23_tx00027,acc_louis23_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00028,acc_louis23_current,2025-11-08,-4464,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00029,acc_louis23_current,2025-11-12,-917,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00030,acc_louis23_current,2025-11-14,-789,EUR,Bol.com,Online aankoop,shopping_online
+cust_louis23_tx00031,acc_louis23_current,2025-11-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00032,acc_louis23_current,2025-11-15,-4369,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00033,acc_louis23_current,2025-11-18,-2162,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00034,acc_louis23_current,2025-11-19,-537,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00035,acc_louis23_current,2025-11-21,-1127,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00036,acc_louis23_current,2025-11-22,-5205,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00037,acc_louis23_current,2025-11-23,-1333,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00038,acc_louis23_current,2025-11-28,33605,EUR,Café De Kroon,Studentenjob 11/2025,income_student_job
+cust_louis23_tx00039,acc_louis23_current,2025-11-28,-1613,EUR,Bol.com,Online aankoop,shopping_online
+cust_louis23_tx00040,acc_louis23_current,2025-11-28,-10000,EUR,Louis Willems,Naar spaarrekening,transfer_internal
+cust_louis23_tx00041,acc_louis23_savings,2025-11-28,10000,EUR,Louis Willems,Van zichtrekening,transfer_internal
+cust_louis23_tx00042,acc_louis23_current,2025-11-29,-4494,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00043,acc_louis23_current,2025-12-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00044,acc_louis23_current,2025-12-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00045,acc_louis23_current,2025-12-03,-797,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00046,acc_louis23_current,2025-12-05,-1146,EUR,Coolblue,Online aankoop,shopping_online
+cust_louis23_tx00047,acc_louis23_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00048,acc_louis23_current,2025-12-06,-4599,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00049,acc_louis23_current,2025-12-07,-1201,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00050,acc_louis23_current,2025-12-10,-1063,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00051,acc_louis23_current,2025-12-12,-830,EUR,Bol.com,Online aankoop,shopping_online
+cust_louis23_tx00052,acc_louis23_current,2025-12-13,-4439,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00053,acc_louis23_current,2025-12-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00054,acc_louis23_current,2025-12-17,-981,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00055,acc_louis23_current,2025-12-18,-2675,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00056,acc_louis23_current,2025-12-20,-3822,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00057,acc_louis23_current,2025-12-24,-915,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00058,acc_louis23_current,2025-12-27,-4167,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00059,acc_louis23_current,2025-12-28,34693,EUR,Café De Kroon,Studentenjob 12/2025,income_student_job
+cust_louis23_tx00060,acc_louis23_current,2025-12-28,-1622,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_louis23_tx00061,acc_louis23_current,2025-12-28,-10000,EUR,Louis Willems,Naar spaarrekening,transfer_internal
+cust_louis23_tx00062,acc_louis23_savings,2025-12-28,10000,EUR,Louis Willems,Van zichtrekening,transfer_internal
+cust_louis23_tx00063,acc_louis23_current,2025-12-31,-427,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00064,acc_louis23_current,2026-01-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00065,acc_louis23_current,2026-01-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00066,acc_louis23_current,2026-01-02,-1663,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00067,acc_louis23_current,2026-01-03,-4265,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00068,acc_louis23_current,2026-01-04,-664,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00069,acc_louis23_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00070,acc_louis23_current,2026-01-09,-755,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00071,acc_louis23_current,2026-01-10,-4679,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00072,acc_louis23_current,2026-01-11,-718,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00073,acc_louis23_current,2026-01-14,-1240,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00074,acc_louis23_current,2026-01-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00075,acc_louis23_current,2026-01-16,-1044,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00076,acc_louis23_current,2026-01-17,-4745,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00077,acc_louis23_current,2026-01-18,-1443,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00078,acc_louis23_current,2026-01-18,-3970,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00079,acc_louis23_current,2026-01-21,-931,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00080,acc_louis23_current,2026-01-23,-1130,EUR,Coolblue,Online aankoop,shopping_online
+cust_louis23_tx00081,acc_louis23_current,2026-01-24,-4493,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00082,acc_louis23_current,2026-01-28,46122,EUR,Café De Kroon,Studentenjob 01/2026,income_student_job
+cust_louis23_tx00083,acc_louis23_current,2026-01-28,-15000,EUR,Louis Willems,Naar spaarrekening,transfer_internal
+cust_louis23_tx00084,acc_louis23_savings,2026-01-28,15000,EUR,Louis Willems,Van zichtrekening,transfer_internal
+cust_louis23_tx00085,acc_louis23_current,2026-01-30,-1332,EUR,Bol.com,Online aankoop,shopping_online
+cust_louis23_tx00086,acc_louis23_current,2026-01-31,-4536,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00087,acc_louis23_current,2026-02-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00088,acc_louis23_current,2026-02-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00089,acc_louis23_current,2026-02-06,-766,EUR,Bol.com,Online aankoop,shopping_online
+cust_louis23_tx00090,acc_louis23_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00091,acc_louis23_current,2026-02-07,-4517,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00092,acc_louis23_current,2026-02-08,-936,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00093,acc_louis23_current,2026-02-11,-1153,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00094,acc_louis23_current,2026-02-14,-4169,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00095,acc_louis23_current,2026-02-15,-1045,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_louis23_tx00096,acc_louis23_current,2026-02-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00097,acc_louis23_current,2026-02-18,-858,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00098,acc_louis23_current,2026-02-18,-3098,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00099,acc_louis23_current,2026-02-20,-911,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00100,acc_louis23_current,2026-02-21,-3890,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00101,acc_louis23_current,2026-02-22,-1031,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_louis23_tx00102,acc_louis23_current,2026-02-25,-881,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00103,acc_louis23_current,2026-02-28,35725,EUR,Café De Kroon,Studentenjob 02/2026,income_student_job
+cust_louis23_tx00104,acc_louis23_current,2026-02-28,-3781,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00105,acc_louis23_current,2026-02-28,-10000,EUR,Louis Willems,Naar spaarrekening,transfer_internal
+cust_louis23_tx00106,acc_louis23_savings,2026-02-28,10000,EUR,Louis Willems,Van zichtrekening,transfer_internal
+cust_louis23_tx00107,acc_louis23_current,2026-03-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00108,acc_louis23_current,2026-03-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00109,acc_louis23_current,2026-03-04,-480,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00110,acc_louis23_current,2026-03-06,-967,EUR,Coolblue,Online aankoop,shopping_online
+cust_louis23_tx00111,acc_louis23_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00112,acc_louis23_current,2026-03-07,-4230,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00113,acc_louis23_current,2026-03-08,-1259,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00114,acc_louis23_current,2026-03-13,-1174,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00115,acc_louis23_current,2026-03-14,-4882,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00116,acc_louis23_current,2026-03-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00117,acc_louis23_current,2026-03-18,-497,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00118,acc_louis23_current,2026-03-18,-1801,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00119,acc_louis23_current,2026-03-20,-2067,EUR,Bol.com,Online aankoop,shopping_online
+cust_louis23_tx00120,acc_louis23_current,2026-03-21,-3824,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00121,acc_louis23_current,2026-03-25,-1330,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00122,acc_louis23_current,2026-03-27,-925,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00123,acc_louis23_current,2026-03-28,39289,EUR,Café De Kroon,Studentenjob 03/2026,income_student_job
+cust_louis23_tx00124,acc_louis23_current,2026-03-28,-4588,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00125,acc_louis23_current,2026-03-28,-15000,EUR,Louis Willems,Naar spaarrekening,transfer_internal
+cust_louis23_tx00126,acc_louis23_savings,2026-03-28,15000,EUR,Louis Willems,Van zichtrekening,transfer_internal
+cust_louis23_tx00127,acc_louis23_current,2026-03-29,-932,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_louis23_tx00128,acc_louis23_current,2026-04-01,-1145,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00129,acc_louis23_current,2026-04-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00130,acc_louis23_current,2026-04-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00131,acc_louis23_current,2026-04-04,-3872,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00132,acc_louis23_current,2026-04-05,-1074,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00133,acc_louis23_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00134,acc_louis23_current,2026-04-08,-948,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00135,acc_louis23_current,2026-04-10,-1491,EUR,Coolblue,Online aankoop,shopping_online
+cust_louis23_tx00136,acc_louis23_current,2026-04-11,-4269,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00137,acc_louis23_current,2026-04-15,-960,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00138,acc_louis23_current,2026-04-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00139,acc_louis23_current,2026-04-17,-2135,EUR,Bol.com,Online aankoop,shopping_online
+cust_louis23_tx00140,acc_louis23_current,2026-04-18,-2201,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00141,acc_louis23_current,2026-04-18,-4937,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00142,acc_louis23_current,2026-04-19,-992,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00143,acc_louis23_current,2026-04-22,-958,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00144,acc_louis23_current,2026-04-25,-4248,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00145,acc_louis23_current,2026-04-28,31181,EUR,Café De Kroon,Studentenjob 04/2026,income_student_job
+cust_louis23_tx00146,acc_louis23_current,2026-04-28,-5000,EUR,Louis Willems,Naar spaarrekening,transfer_internal
+cust_louis23_tx00147,acc_louis23_savings,2026-04-28,5000,EUR,Louis Willems,Van zichtrekening,transfer_internal
+cust_louis23_tx00148,acc_louis23_current,2026-04-29,-410,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00149,acc_louis23_current,2026-05-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00150,acc_louis23_current,2026-05-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00151,acc_louis23_current,2026-05-02,-4424,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00152,acc_louis23_current,2026-05-06,-604,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00153,acc_louis23_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00154,acc_louis23_current,2026-05-09,-5143,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00155,acc_louis23_current,2026-05-13,-647,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00156,acc_louis23_current,2026-05-15,-1156,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00157,acc_louis23_current,2026-05-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00158,acc_louis23_current,2026-05-16,-4903,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00159,acc_louis23_current,2026-05-18,-3269,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00160,acc_louis23_current,2026-05-20,-844,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00161,acc_louis23_current,2026-05-23,-5190,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00162,acc_louis23_current,2026-05-27,-729,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00163,acc_louis23_current,2026-05-28,39467,EUR,Café De Kroon,Studentenjob 05/2026,income_student_job
+cust_louis23_tx00164,acc_louis23_current,2026-05-28,-20000,EUR,Louis Willems,Naar spaarrekening,transfer_internal
+cust_louis23_tx00165,acc_louis23_savings,2026-05-28,20000,EUR,Louis Willems,Van zichtrekening,transfer_internal
+cust_louis23_tx00166,acc_louis23_current,2026-05-30,-4377,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00167,acc_louis23_current,2026-06-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00168,acc_louis23_current,2026-06-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00169,acc_louis23_current,2026-06-03,-672,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00170,acc_louis23_current,2026-06-05,-2154,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00171,acc_louis23_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00172,acc_louis23_current,2026-06-06,-4031,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00173,acc_louis23_current,2026-06-10,-832,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00174,acc_louis23_current,2026-06-12,-1955,EUR,Coolblue,Online aankoop,shopping_online
+cust_louis23_tx00175,acc_louis23_current,2026-06-13,-4100,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00176,acc_louis23_current,2026-06-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00177,acc_louis23_current,2026-06-17,-1312,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00178,acc_louis23_current,2026-06-18,-2053,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00179,acc_louis23_current,2026-06-20,-5223,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00180,acc_louis23_current,2026-06-26,-1038,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00181,acc_louis23_current,2026-06-27,-4686,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00182,acc_louis23_current,2026-06-28,32327,EUR,Café De Kroon,Studentenjob 06/2026,income_student_job
+cust_louis23_tx00183,acc_louis23_current,2026-07-01,-477,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00184,acc_louis23_current,2026-07-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00185,acc_louis23_current,2026-07-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00186,acc_louis23_current,2026-07-04,-4907,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00187,acc_louis23_current,2026-07-05,-1062,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00188,acc_louis23_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00189,acc_louis23_current,2026-07-08,-374,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00190,acc_louis23_current,2026-07-10,-1626,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00191,acc_louis23_current,2026-07-11,-4187,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00192,acc_louis23_current,2026-07-11,-14700,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_louis23_tx00193,acc_louis23_current,2026-07-12,-1420,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_louis23_tx00194,acc_louis23_current,2026-07-15,-986,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00195,acc_louis23_current,2026-07-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00196,acc_louis23_current,2026-07-18,-3731,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00197,acc_louis23_current,2026-07-18,-4501,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00198,acc_louis23_current,2026-07-19,-1479,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00199,acc_louis23_current,2026-07-22,-1255,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_louis23_tx00200,acc_louis23_current,2026-07-25,-4229,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00201,acc_louis23_current,2026-07-28,31762,EUR,Café De Kroon,Studentenjob 07/2026,income_student_job
+cust_louis23_tx00202,acc_louis23_current,2026-07-29,-374,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00203,acc_louis23_current,2026-07-31,-804,EUR,Bol.com,Online aankoop,shopping_online
+cust_louis23_tx00204,acc_louis23_current,2026-08-01,-3658,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00205,acc_louis23_current,2026-08-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00206,acc_louis23_current,2026-08-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00207,acc_louis23_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00208,acc_louis23_current,2026-08-08,-4955,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00209,acc_louis23_current,2026-08-12,-382,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_louis23_tx00210,acc_louis23_current,2026-08-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00211,acc_louis23_current,2026-08-15,-4168,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00212,acc_louis23_current,2026-08-16,-1489,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00213,acc_louis23_current,2026-08-18,-1839,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00214,acc_louis23_current,2026-08-19,-576,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00215,acc_louis23_current,2026-08-21,-1995,EUR,Coolblue,Online aankoop,shopping_online
+cust_louis23_tx00216,acc_louis23_current,2026-08-22,-3738,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00217,acc_louis23_current,2026-08-28,31310,EUR,Café De Kroon,Studentenjob 08/2026,income_student_job
+cust_louis23_tx00218,acc_louis23_current,2026-08-28,-5000,EUR,Louis Willems,Naar spaarrekening,transfer_internal
+cust_louis23_tx00219,acc_louis23_savings,2026-08-28,5000,EUR,Louis Willems,Van zichtrekening,transfer_internal
+cust_louis23_tx00220,acc_louis23_current,2026-08-29,-3769,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00221,acc_louis23_current,2026-09-01,-49500,EUR,L. Hendrickx,Huur studentenkamer,housing_rent
+cust_louis23_tx00222,acc_louis23_current,2026-09-02,57500,EUR,Ouders Willems,Bijdrage kot en studies,income_transfer_family
+cust_louis23_tx00223,acc_louis23_current,2026-09-02,-1212,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00224,acc_louis23_current,2026-09-05,-4101,EUR,Aldi,Betaling Bancontact,groceries
+cust_louis23_tx00225,acc_louis23_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_louis23_tx00226,acc_louis23_current,2026-09-09,-467,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00227,acc_louis23_current,2026-09-11,-1359,EUR,Coolblue,Online aankoop,shopping_online
+cust_louis23_tx00228,acc_louis23_current,2026-09-12,-5230,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00229,acc_louis23_current,2026-09-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_louis23_tx00230,acc_louis23_current,2026-09-16,-1310,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00231,acc_louis23_current,2026-09-18,-1761,EUR,Zalando,Online aankoop,shopping_online
+cust_louis23_tx00232,acc_louis23_current,2026-09-18,-2697,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_louis23_tx00233,acc_louis23_current,2026-09-19,-5158,EUR,Delhaize,Betaling Bancontact,groceries
+cust_louis23_tx00234,acc_louis23_current,2026-09-20,-734,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_louis23_tx00235,acc_louis23_current,2026-09-23,-1333,EUR,Action,Betaling Bancontact,shopping_household
+cust_louis23_tx00236,acc_louis23_current,2026-09-26,-4469,EUR,Colruyt,Betaling Bancontact,groceries
+cust_louis23_tx00237,acc_louis23_current,2026-09-28,26481,EUR,Café De Kroon,Studentenjob 09/2026,income_student_job

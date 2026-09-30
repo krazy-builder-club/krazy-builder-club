@@ -34,14 +34,14 @@
     {
       "account_id": "acc_elien04_current",
       "type": "current",
-      "iban": "BE00 SYNT ELIE 0001",
+      "iban": "BE00 SYNT ELIEN04 0001",
       "balance_cents": 450981,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_elien04_savings",
       "type": "savings",
-      "iban": "BE00 SYNT ELIE 0002",
+      "iban": "BE00 SYNT ELIEN04 0002",
       "balance_cents": 1673954,
       "balance_as_of": "2026-09-30"
     }

@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_tom50",
+  "personal": {
+    "first_name": "Tom",
+    "last_name": "Stevens",
+    "birth_date": "1997-11-25",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Stationsstraat 78",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2015-06-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Flanders Care vzw",
+    "job_title": "Nurse",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_tom50_current",
+      "type": "current",
+      "iban": "BE00 SYNT TOM50 0001",
+      "balance_cents": 304315,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_tom50_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT TOM50 0002",
+      "balance_cents": 2148000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_tom50_int1",
+      "date": "2025-09-09",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

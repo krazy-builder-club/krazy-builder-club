@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_elien48",
+  "personal": {
+    "first_name": "Elien",
+    "last_name": "De Wit",
+    "birth_date": "1994-02-07",
+    "place_of_birth": "Brugge",
+    "address": {
+      "street": "Nieuwstraat 43",
+      "postal_code": "3500",
+      "city": "Hasselt",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2012-01-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Kempen Tech BV",
+    "job_title": "Developer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_elien48_current",
+      "type": "current",
+      "iban": "BE00 SYNT ELIEN48 0001",
+      "balance_cents": 303369,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_elien48_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT ELIEN48 0002",
+      "balance_cents": 2346000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_elien48_int1",
+      "date": "2025-09-14",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

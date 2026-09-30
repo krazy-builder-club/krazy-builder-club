@@ -1,0 +1,348 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_bram53_tx00001,acc_bram53_current,2025-10-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00002,acc_bram53_current,2025-10-02,-5346,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00003,acc_bram53_current,2025-10-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00004,acc_bram53_current,2025-10-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00005,acc_bram53_current,2025-10-04,-11874,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00006,acc_bram53_current,2025-10-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00007,acc_bram53_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00008,acc_bram53_current,2025-10-08,-3593,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00009,acc_bram53_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00010,acc_bram53_current,2025-10-09,-6480,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00011,acc_bram53_current,2025-10-10,41237,EUR,FONS,Groeipakket 10/2025 kind 1+2,income_child_benefit
+cust_bram53_tx00012,acc_bram53_current,2025-10-10,-5305,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00013,acc_bram53_current,2025-10-11,-16428,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00014,acc_bram53_current,2025-10-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00015,acc_bram53_current,2025-10-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 10/2025,childcare
+cust_bram53_tx00016,acc_bram53_current,2025-10-15,-2787,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00017,acc_bram53_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00018,acc_bram53_current,2025-10-16,-6337,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00019,acc_bram53_current,2025-10-18,-8567,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00020,acc_bram53_current,2025-10-18,-16178,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00021,acc_bram53_current,2025-10-19,-5197,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_bram53_tx00022,acc_bram53_current,2025-10-22,-4377,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00023,acc_bram53_current,2025-10-24,-3440,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00024,acc_bram53_current,2025-10-25,-14632,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00025,acc_bram53_current,2025-10-26,-3274,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00026,acc_bram53_current,2025-10-28,328000,EUR,Deltaport Logistics NV,Loon 2025-10,income_salary
+cust_bram53_tx00027,acc_bram53_current,2025-10-28,-160000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00028,acc_bram53_savings,2025-10-28,160000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00029,acc_bram53_current,2025-10-29,-2406,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00030,acc_bram53_current,2025-10-31,-2802,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00031,acc_bram53_current,2025-11-01,-11688,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00032,acc_bram53_current,2025-11-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00033,acc_bram53_current,2025-11-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00034,acc_bram53_current,2025-11-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00035,acc_bram53_current,2025-11-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00036,acc_bram53_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00037,acc_bram53_current,2025-11-07,-4311,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00038,acc_bram53_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00039,acc_bram53_current,2025-11-08,-17357,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00040,acc_bram53_current,2025-11-09,-5134,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_bram53_tx00041,acc_bram53_current,2025-11-10,41237,EUR,FONS,Groeipakket 11/2025 kind 1+2,income_child_benefit
+cust_bram53_tx00042,acc_bram53_current,2025-11-12,-1251,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00043,acc_bram53_current,2025-11-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00044,acc_bram53_current,2025-11-13,-4941,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00045,acc_bram53_current,2025-11-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 11/2025,childcare
+cust_bram53_tx00046,acc_bram53_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00047,acc_bram53_current,2025-11-15,-13472,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00048,acc_bram53_current,2025-11-18,-6698,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00049,acc_bram53_current,2025-11-19,-2687,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00050,acc_bram53_current,2025-11-20,-4517,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00051,acc_bram53_current,2025-11-21,-6256,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00052,acc_bram53_current,2025-11-22,-12245,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00053,acc_bram53_current,2025-11-23,-2020,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00054,acc_bram53_current,2025-11-28,328000,EUR,Deltaport Logistics NV,Loon 2025-11,income_salary
+cust_bram53_tx00055,acc_bram53_current,2025-11-28,-3325,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00056,acc_bram53_current,2025-11-28,-170000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00057,acc_bram53_savings,2025-11-28,170000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00058,acc_bram53_current,2025-11-29,-11526,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00059,acc_bram53_current,2025-12-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00060,acc_bram53_current,2025-12-03,-2743,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00061,acc_bram53_current,2025-12-04,-6570,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00062,acc_bram53_current,2025-12-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00063,acc_bram53_current,2025-12-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00064,acc_bram53_current,2025-12-05,-7809,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00065,acc_bram53_current,2025-12-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00066,acc_bram53_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00067,acc_bram53_current,2025-12-06,-17307,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00068,acc_bram53_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00069,acc_bram53_current,2025-12-10,41237,EUR,FONS,Groeipakket 12/2025 kind 1+2,income_child_benefit
+cust_bram53_tx00070,acc_bram53_current,2025-12-11,-6856,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00071,acc_bram53_current,2025-12-12,-4012,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00072,acc_bram53_current,2025-12-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00073,acc_bram53_current,2025-12-13,-12998,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00074,acc_bram53_current,2025-12-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 12/2025,childcare
+cust_bram53_tx00075,acc_bram53_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00076,acc_bram53_current,2025-12-17,-3593,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00077,acc_bram53_current,2025-12-18,-12112,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00078,acc_bram53_current,2025-12-19,-3494,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00079,acc_bram53_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_bram53_tx00080,acc_bram53_current,2025-12-20,-14458,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00081,acc_bram53_current,2025-12-21,-5351,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_bram53_tx00082,acc_bram53_current,2025-12-25,-5250,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00083,acc_bram53_current,2025-12-26,-6931,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00084,acc_bram53_current,2025-12-27,-14062,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00085,acc_bram53_current,2025-12-28,328000,EUR,Deltaport Logistics NV,Loon 2025-12,income_salary
+cust_bram53_tx00086,acc_bram53_current,2025-12-28,-130000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00087,acc_bram53_savings,2025-12-28,130000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00088,acc_bram53_current,2025-12-31,-3662,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00089,acc_bram53_current,2026-01-01,-6776,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00090,acc_bram53_current,2026-01-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00091,acc_bram53_current,2026-01-02,-5621,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00092,acc_bram53_current,2026-01-03,-17167,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00093,acc_bram53_current,2026-01-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00094,acc_bram53_current,2026-01-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00095,acc_bram53_current,2026-01-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00096,acc_bram53_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00097,acc_bram53_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00098,acc_bram53_current,2026-01-10,41237,EUR,FONS,Groeipakket 01/2026 kind 1+2,income_child_benefit
+cust_bram53_tx00099,acc_bram53_current,2026-01-10,-16434,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00100,acc_bram53_current,2026-01-11,-4922,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_bram53_tx00101,acc_bram53_current,2026-01-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00102,acc_bram53_current,2026-01-14,-3195,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00103,acc_bram53_current,2026-01-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 01/2026,childcare
+cust_bram53_tx00104,acc_bram53_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00105,acc_bram53_current,2026-01-16,-4599,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00106,acc_bram53_current,2026-01-17,-17198,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00107,acc_bram53_current,2026-01-18,-2247,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_bram53_tx00108,acc_bram53_current,2026-01-18,-7804,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00109,acc_bram53_current,2026-01-21,-3628,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00110,acc_bram53_current,2026-01-22,-5598,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00111,acc_bram53_current,2026-01-23,-6302,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00112,acc_bram53_current,2026-01-24,-12805,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00113,acc_bram53_current,2026-01-25,-2746,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00114,acc_bram53_current,2026-01-28,328000,EUR,Deltaport Logistics NV,Loon 2026-01,income_salary
+cust_bram53_tx00115,acc_bram53_current,2026-01-28,-4001,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00116,acc_bram53_current,2026-01-28,-155000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00117,acc_bram53_savings,2026-01-28,155000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00118,acc_bram53_current,2026-01-30,-3908,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00119,acc_bram53_current,2026-01-31,-15803,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00120,acc_bram53_current,2026-02-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00121,acc_bram53_current,2026-02-04,-1781,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00122,acc_bram53_current,2026-02-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00123,acc_bram53_current,2026-02-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00124,acc_bram53_current,2026-02-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00125,acc_bram53_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00126,acc_bram53_current,2026-02-06,-6039,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00127,acc_bram53_current,2026-02-07,-14952,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00128,acc_bram53_current,2026-02-08,-4222,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_bram53_tx00129,acc_bram53_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00130,acc_bram53_current,2026-02-10,41237,EUR,FONS,Groeipakket 02/2026 kind 1+2,income_child_benefit
+cust_bram53_tx00131,acc_bram53_current,2026-02-12,-4910,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00132,acc_bram53_current,2026-02-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00133,acc_bram53_current,2026-02-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 02/2026,childcare
+cust_bram53_tx00134,acc_bram53_current,2026-02-14,-11903,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00135,acc_bram53_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00136,acc_bram53_current,2026-02-18,-13331,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00137,acc_bram53_current,2026-02-19,-6047,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00138,acc_bram53_current,2026-02-20,-7146,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00139,acc_bram53_current,2026-02-21,-14879,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00140,acc_bram53_current,2026-02-22,-1934,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_bram53_tx00141,acc_bram53_current,2026-02-25,-2271,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00142,acc_bram53_current,2026-02-28,328000,EUR,Deltaport Logistics NV,Loon 2026-02,income_salary
+cust_bram53_tx00143,acc_bram53_current,2026-02-28,-14067,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00144,acc_bram53_current,2026-02-28,-155000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00145,acc_bram53_savings,2026-02-28,155000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00146,acc_bram53_current,2026-03-01,-3161,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_bram53_tx00147,acc_bram53_current,2026-03-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00148,acc_bram53_current,2026-03-04,-3857,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00149,acc_bram53_current,2026-03-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00150,acc_bram53_current,2026-03-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00151,acc_bram53_current,2026-03-05,-4778,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00152,acc_bram53_current,2026-03-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00153,acc_bram53_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00154,acc_bram53_current,2026-03-07,-14266,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00155,acc_bram53_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00156,acc_bram53_current,2026-03-10,41237,EUR,FONS,Groeipakket 03/2026 kind 1+2,income_child_benefit
+cust_bram53_tx00157,acc_bram53_current,2026-03-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00158,acc_bram53_current,2026-03-13,-3767,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00159,acc_bram53_current,2026-03-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 03/2026,childcare
+cust_bram53_tx00160,acc_bram53_current,2026-03-14,-14575,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00161,acc_bram53_current,2026-03-15,-4868,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00162,acc_bram53_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00163,acc_bram53_current,2026-03-18,-2824,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00164,acc_bram53_current,2026-03-18,-6782,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00165,acc_bram53_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_bram53_tx00166,acc_bram53_current,2026-03-21,-12500,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00167,acc_bram53_current,2026-03-22,-5211,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00168,acc_bram53_current,2026-03-28,328000,EUR,Deltaport Logistics NV,Loon 2026-03,income_salary
+cust_bram53_tx00169,acc_bram53_current,2026-03-28,-12004,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00170,acc_bram53_current,2026-03-28,-185000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00171,acc_bram53_savings,2026-03-28,185000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00172,acc_bram53_current,2026-03-29,-2068,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00173,acc_bram53_current,2026-04-01,-1931,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00174,acc_bram53_current,2026-04-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00175,acc_bram53_current,2026-04-03,-7640,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00176,acc_bram53_current,2026-04-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00177,acc_bram53_current,2026-04-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00178,acc_bram53_current,2026-04-04,-12142,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00179,acc_bram53_current,2026-04-05,-2260,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00180,acc_bram53_current,2026-04-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00181,acc_bram53_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00182,acc_bram53_current,2026-04-08,-3869,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00183,acc_bram53_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00184,acc_bram53_current,2026-04-09,-5830,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00185,acc_bram53_current,2026-04-10,41237,EUR,FONS,Groeipakket 04/2026 kind 1+2,income_child_benefit
+cust_bram53_tx00186,acc_bram53_current,2026-04-11,-12315,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00187,acc_bram53_current,2026-04-12,-5312,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00188,acc_bram53_current,2026-04-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00189,acc_bram53_current,2026-04-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 04/2026,childcare
+cust_bram53_tx00190,acc_bram53_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00191,acc_bram53_current,2026-04-18,-11858,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00192,acc_bram53_current,2026-04-18,-14741,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00193,acc_bram53_current,2026-04-19,-3428,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_bram53_tx00194,acc_bram53_current,2026-04-22,-3484,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00195,acc_bram53_current,2026-04-23,-6989,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00196,acc_bram53_current,2026-04-24,-6041,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00197,acc_bram53_current,2026-04-25,-12374,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00198,acc_bram53_current,2026-04-26,-2699,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00199,acc_bram53_current,2026-04-28,328000,EUR,Deltaport Logistics NV,Loon 2026-04,income_salary
+cust_bram53_tx00200,acc_bram53_current,2026-04-28,-165000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00201,acc_bram53_savings,2026-04-28,165000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00202,acc_bram53_current,2026-05-01,-5274,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00203,acc_bram53_current,2026-05-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00204,acc_bram53_current,2026-05-02,-14074,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00205,acc_bram53_current,2026-05-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00206,acc_bram53_current,2026-05-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00207,acc_bram53_current,2026-05-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00208,acc_bram53_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00209,acc_bram53_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00210,acc_bram53_current,2026-05-09,-17465,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00211,acc_bram53_current,2026-05-10,41237,EUR,FONS,Groeipakket 05/2026 kind 1+2,income_child_benefit
+cust_bram53_tx00212,acc_bram53_current,2026-05-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00213,acc_bram53_current,2026-05-13,-2630,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00214,acc_bram53_current,2026-05-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 05/2026,childcare
+cust_bram53_tx00215,acc_bram53_current,2026-05-15,-5868,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00216,acc_bram53_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00217,acc_bram53_current,2026-05-16,-13529,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00218,acc_bram53_current,2026-05-18,-7817,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00219,acc_bram53_current,2026-05-20,-4375,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00220,acc_bram53_current,2026-05-21,-6103,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00221,acc_bram53_current,2026-05-22,-5508,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00222,acc_bram53_current,2026-05-23,-15745,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00223,acc_bram53_current,2026-05-28,328000,EUR,Deltaport Logistics NV,Loon 2026-05,income_salary
+cust_bram53_tx00224,acc_bram53_current,2026-05-28,-175000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00225,acc_bram53_savings,2026-05-28,175000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00226,acc_bram53_current,2026-05-30,-16727,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00227,acc_bram53_current,2026-05-31,-4020,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00228,acc_bram53_current,2026-06-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00229,acc_bram53_current,2026-06-03,-1806,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00230,acc_bram53_current,2026-06-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00231,acc_bram53_current,2026-06-04,-6499,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00232,acc_bram53_current,2026-06-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00233,acc_bram53_current,2026-06-05,-5969,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00234,acc_bram53_current,2026-06-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00235,acc_bram53_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00236,acc_bram53_current,2026-06-06,-16887,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00237,acc_bram53_current,2026-06-07,-3649,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_bram53_tx00238,acc_bram53_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00239,acc_bram53_current,2026-06-10,41237,EUR,FONS,Groeipakket 06/2026 kind 1+2,income_child_benefit
+cust_bram53_tx00240,acc_bram53_current,2026-06-10,-2136,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00241,acc_bram53_current,2026-06-12,-5924,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00242,acc_bram53_current,2026-06-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00243,acc_bram53_current,2026-06-13,-11913,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00244,acc_bram53_current,2026-06-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 06/2026,childcare
+cust_bram53_tx00245,acc_bram53_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00246,acc_bram53_current,2026-06-18,-5778,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00247,acc_bram53_current,2026-06-18,-10428,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00248,acc_bram53_current,2026-06-19,-3775,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00249,acc_bram53_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_bram53_tx00250,acc_bram53_current,2026-06-20,-13446,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00251,acc_bram53_current,2026-06-21,-4805,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00252,acc_bram53_current,2026-06-24,-3493,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00253,acc_bram53_current,2026-06-26,-5747,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00254,acc_bram53_current,2026-06-27,-14483,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00255,acc_bram53_current,2026-06-28,328000,EUR,Deltaport Logistics NV,Loon 2026-06,income_salary
+cust_bram53_tx00256,acc_bram53_current,2026-06-28,-2758,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00257,acc_bram53_current,2026-06-28,-130000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00258,acc_bram53_savings,2026-06-28,130000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00259,acc_bram53_current,2026-07-01,-1200,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00260,acc_bram53_current,2026-07-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00261,acc_bram53_current,2026-07-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00262,acc_bram53_current,2026-07-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00263,acc_bram53_current,2026-07-04,-13830,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00264,acc_bram53_current,2026-07-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00265,acc_bram53_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00266,acc_bram53_current,2026-07-08,-1545,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00267,acc_bram53_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00268,acc_bram53_current,2026-07-09,-6280,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00269,acc_bram53_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_bram53_tx00270,acc_bram53_current,2026-07-11,-12404,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00271,acc_bram53_current,2026-07-11,-77700,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_bram53_tx00272,acc_bram53_current,2026-07-12,-5449,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_bram53_tx00273,acc_bram53_current,2026-07-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00274,acc_bram53_current,2026-07-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
+cust_bram53_tx00275,acc_bram53_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00276,acc_bram53_current,2026-07-17,-3425,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00277,acc_bram53_current,2026-07-18,-9479,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00278,acc_bram53_current,2026-07-18,-17345,EUR,Colruyt,Betaling Bancontact,groceries
+cust_bram53_tx00279,acc_bram53_current,2026-07-19,-2347,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_bram53_tx00280,acc_bram53_current,2026-07-23,-5430,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00281,acc_bram53_current,2026-07-24,-4583,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00282,acc_bram53_current,2026-07-25,-13662,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00283,acc_bram53_current,2026-07-28,328000,EUR,Deltaport Logistics NV,Loon 2026-07,income_salary
+cust_bram53_tx00284,acc_bram53_current,2026-07-28,-105000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00285,acc_bram53_savings,2026-07-28,105000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00286,acc_bram53_current,2026-07-29,-1271,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00287,acc_bram53_current,2026-08-01,-17068,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00288,acc_bram53_current,2026-08-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00289,acc_bram53_current,2026-08-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00290,acc_bram53_current,2026-08-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00291,acc_bram53_current,2026-08-05,-2332,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00292,acc_bram53_current,2026-08-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00293,acc_bram53_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00294,acc_bram53_current,2026-08-06,-5693,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00295,acc_bram53_current,2026-08-07,-2856,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00296,acc_bram53_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00297,acc_bram53_current,2026-08-08,-14022,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00298,acc_bram53_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_bram53_tx00299,acc_bram53_current,2026-08-12,-2043,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00300,acc_bram53_current,2026-08-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00301,acc_bram53_current,2026-08-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_bram53_tx00302,acc_bram53_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00303,acc_bram53_current,2026-08-15,-13003,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00304,acc_bram53_current,2026-08-18,-11762,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00305,acc_bram53_current,2026-08-19,-3407,EUR,Action,Betaling Bancontact,shopping_household
+cust_bram53_tx00306,acc_bram53_current,2026-08-22,-12054,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00307,acc_bram53_current,2026-08-23,-2682,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_bram53_tx00308,acc_bram53_current,2026-08-26,-2554,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00309,acc_bram53_current,2026-08-27,-6629,EUR,Q8,Brandstof,transport_fuel
+cust_bram53_tx00310,acc_bram53_current,2026-08-28,328000,EUR,Deltaport Logistics NV,Loon 2026-08,income_salary
+cust_bram53_tx00311,acc_bram53_current,2026-08-28,-7228,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00312,acc_bram53_current,2026-08-28,-175000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00313,acc_bram53_savings,2026-08-28,175000,EUR,Bram Aerts,Van zichtrekening,transfer_internal
+cust_bram53_tx00314,acc_bram53_current,2026-08-29,-16520,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00315,acc_bram53_current,2026-08-30,-3305,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_bram53_tx00316,acc_bram53_current,2026-09-02,70000,EUR,M. Aerts,Bijdrage huishouden,income_transfer_household
+cust_bram53_tx00317,acc_bram53_current,2026-09-02,-4499,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00318,acc_bram53_current,2026-09-03,-14018,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_bram53_tx00319,acc_bram53_current,2026-09-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_bram53_tx00320,acc_bram53_current,2026-09-04,-7147,EUR,Coolblue,Online aankoop,shopping_online
+cust_bram53_tx00321,acc_bram53_current,2026-09-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_bram53_tx00322,acc_bram53_current,2026-09-04,-12715,EUR,Basisschool Sint-Jozef,Schoolrekening kind 2,education
+cust_bram53_tx00323,acc_bram53_current,2026-09-05,-12182,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00324,acc_bram53_current,2026-09-05,-108000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_bram53_tx00325,acc_bram53_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_bram53_tx00326,acc_bram53_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_bram53_tx00327,acc_bram53_current,2026-09-09,-3788,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00328,acc_bram53_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_bram53_tx00329,acc_bram53_current,2026-09-10,-4625,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00330,acc_bram53_current,2026-09-12,-13023,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00331,acc_bram53_current,2026-09-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_bram53_tx00332,acc_bram53_current,2026-09-14,-7400,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
+cust_bram53_tx00333,acc_bram53_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_bram53_tx00334,acc_bram53_current,2026-09-16,-4274,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_bram53_tx00335,acc_bram53_current,2026-09-17,-4588,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00336,acc_bram53_current,2026-09-18,-6725,EUR,Zalando,Online aankoop,shopping_online
+cust_bram53_tx00337,acc_bram53_current,2026-09-18,-7880,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_bram53_tx00338,acc_bram53_current,2026-09-19,-16107,EUR,Delhaize,Betaling Bancontact,groceries
+cust_bram53_tx00339,acc_bram53_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_bram53_tx00340,acc_bram53_current,2026-09-23,-2384,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_bram53_tx00341,acc_bram53_current,2026-09-24,-5476,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_bram53_tx00342,acc_bram53_current,2026-09-25,-7250,EUR,Bol.com,Online aankoop,shopping_online
+cust_bram53_tx00343,acc_bram53_current,2026-09-26,-15559,EUR,Aldi,Betaling Bancontact,groceries
+cust_bram53_tx00344,acc_bram53_current,2026-09-27,-3944,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_bram53_tx00345,acc_bram53_current,2026-09-28,328000,EUR,Deltaport Logistics NV,Loon 2026-09,income_salary
+cust_bram53_tx00346,acc_bram53_current,2026-09-28,-105000,EUR,Bram Aerts,Naar spaarrekening,transfer_internal
+cust_bram53_tx00347,acc_bram53_savings,2026-09-28,105000,EUR,Bram Aerts,Van zichtrekening,transfer_internal

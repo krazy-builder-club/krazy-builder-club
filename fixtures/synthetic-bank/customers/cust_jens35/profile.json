@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_jens35",
+  "personal": {
+    "first_name": "Jens",
+    "last_name": "De Smet",
+    "birth_date": "1994-09-28",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Dorpsstraat 177",
+      "postal_code": "2500",
+      "city": "Lier",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2012-08-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Kempen Tech BV",
+    "job_title": "Developer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_jens35_current",
+      "type": "current",
+      "iban": "BE00 SYNT JENS35 0001",
+      "balance_cents": 302752,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_jens35_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JENS35 0002",
+      "balance_cents": 1307000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_jens35_int1",
+      "date": "2025-08-15",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

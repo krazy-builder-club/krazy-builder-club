@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_stijn34",
+  "personal": {
+    "first_name": "Stijn",
+    "last_name": "Verbeke",
+    "birth_date": "1996-02-18",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Dorpsstraat 141",
+      "postal_code": "3001",
+      "city": "Heverlee",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2014-10-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Brabant Retail NV",
+    "job_title": "Store manager",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_stijn34_current",
+      "type": "current",
+      "iban": "BE00 SYNT STIJN34 0001",
+      "balance_cents": 304229,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_stijn34_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT STIJN34 0002",
+      "balance_cents": 1517000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_stijn34_int1",
+      "date": "2025-04-09",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 9,000 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

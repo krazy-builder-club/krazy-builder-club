@@ -4,7 +4,7 @@
 
 ## Tags
 
-`homeowner` · `recently_moved` · `family_two_children` · `new_job` · `income_rising`
+`homeowner` · `recently_moved` · `couple` · `family_two_children` · `new_job` · `income_rising`
 
 ## Facts
 

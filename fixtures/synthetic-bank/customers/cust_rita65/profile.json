@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_rita65",
+  "personal": {
+    "first_name": "Rita",
+    "last_name": "Dubois",
+    "birth_date": "1990-06-19",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Nieuwstraat 90",
+      "postal_code": "2500",
+      "city": "Lier",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2008-08-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Noordzee Foods NV",
+    "job_title": "Quality lead",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_rita65_current",
+      "type": "current",
+      "iban": "BE00 SYNT RITA65 0001",
+      "balance_cents": 452687,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_rita65_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT RITA65 0002",
+      "balance_cents": 1983000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_rita65_int1",
+      "date": "2025-01-27",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_sarah69",
+  "personal": {
+    "first_name": "Sarah",
+    "last_name": "Lambrechts",
+    "birth_date": "1994-12-26",
+    "place_of_birth": "Aalst",
+    "address": {
+      "street": "Schoolstraat 29",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2012-07-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Brabant Retail NV",
+    "job_title": "Store manager",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_sarah69_current",
+      "type": "current",
+      "iban": "BE00 SYNT SARAH69 0001",
+      "balance_cents": 302639,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_sarah69_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT SARAH69 0002",
+      "balance_cents": 1475000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_sarah69_int1",
+      "date": "2025-05-10",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_sarah69_int2",
+      "date": "2025-08-14",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

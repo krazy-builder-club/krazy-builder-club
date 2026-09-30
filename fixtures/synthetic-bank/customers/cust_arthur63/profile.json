@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_arthur63",
+  "personal": {
+    "first_name": "Arthur",
+    "last_name": "Dubois",
+    "birth_date": "1978-08-13",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Nieuwstraat 40",
+      "postal_code": "3000",
+      "city": "Leuven",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1996-07-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Kempen Tech BV",
+    "job_title": "Developer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_arthur63_current",
+      "type": "current",
+      "iban": "BE00 SYNT ARTHUR63 0001",
+      "balance_cents": 450813,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_arthur63_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT ARTHUR63 0002",
+      "balance_cents": 3736000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

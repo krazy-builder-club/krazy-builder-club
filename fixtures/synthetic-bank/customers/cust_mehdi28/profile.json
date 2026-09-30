@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_mehdi28",
+  "personal": {
+    "first_name": "Mehdi",
+    "last_name": "Janssens",
+    "birth_date": "2004-04-26",
+    "place_of_birth": "Aalst",
+    "address": {
+      "street": "Kerkstraat 84",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2022-05-01"
+  },
+  "employment": {
+    "status": "student",
+    "employer": "Delhaize",
+    "job_title": "Student job",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_mehdi28_current",
+      "type": "current",
+      "iban": "BE00 SYNT MEHDI28 0001",
+      "balance_cents": 123388,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_mehdi28_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT MEHDI28 0002",
+      "balance_cents": 333000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_mehdi28_int1",
+      "date": "2025-08-17",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 8,500 EUR on savings as a safety buffer."
+    },
+    {
+      "interaction_id": "cust_mehdi28_int2",
+      "date": "2025-09-20",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

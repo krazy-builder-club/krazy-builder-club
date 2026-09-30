@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_joris79",
+  "personal": {
+    "first_name": "Joris",
+    "last_name": "Jacobs",
+    "birth_date": "1981-10-17",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Stationsstraat 18",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1999-01-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Leie Consulting BV",
+    "job_title": "Consultant",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_joris79_current",
+      "type": "current",
+      "iban": "BE00 SYNT JORIS79 0001",
+      "balance_cents": 302709,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_joris79_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JORIS79 0002",
+      "balance_cents": 2969000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_joris79_int1",
+      "date": "2025-03-25",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

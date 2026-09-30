@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_elien82",
+  "personal": {
+    "first_name": "Elien",
+    "last_name": "Hendrickx",
+    "birth_date": "1967-08-03",
+    "place_of_birth": "Hasselt",
+    "address": {
+      "street": "Kerkstraat 3",
+      "postal_code": "3500",
+      "city": "Hasselt",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1990-01-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "City of Mechelen",
+    "job_title": "Policy officer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_elien82_current",
+      "type": "current",
+      "iban": "BE00 SYNT ELIEN82 0001",
+      "balance_cents": 300843,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_elien82_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT ELIEN82 0002",
+      "balance_cents": 2729000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_elien82_int1",
+      "date": "2025-02-25",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_elien82_int2",
+      "date": "2025-08-22",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 8,500 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

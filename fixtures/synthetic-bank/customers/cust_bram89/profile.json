@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_bram89",
+  "personal": {
+    "first_name": "Bram",
+    "last_name": "Vermeulen",
+    "birth_date": "1953-06-28",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Nieuwstraat 118",
+      "postal_code": "3000",
+      "city": "Leuven",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1990-07-01"
+  },
+  "employment": {
+    "status": "retired",
+    "employer": "Federale Pensioendienst",
+    "job_title": "Retired",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_bram89_current",
+      "type": "current",
+      "iban": "BE00 SYNT BRAM89 0001",
+      "balance_cents": 302431,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_bram89_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT BRAM89 0002",
+      "balance_cents": 4780000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [
+    {
+      "product": "Synthetic Global Equity Fund",
+      "type": "fund",
+      "units": 120.0,
+      "value_cents": 3152000,
+      "as_of": "2026-09-30"
+    }
+  ],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

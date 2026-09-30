@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_nina77",
+  "personal": {
+    "first_name": "Nina",
+    "last_name": "Stevens",
+    "birth_date": "1975-05-04",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Nieuwstraat 102",
+      "postal_code": "3500",
+      "city": "Hasselt",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1993-11-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Noordzee Foods NV",
+    "job_title": "Quality lead",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_nina77_current",
+      "type": "current",
+      "iban": "BE00 SYNT NINA77 0001",
+      "balance_cents": 301679,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_nina77_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT NINA77 0002",
+      "balance_cents": 4791000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_nina77_int1",
+      "date": "2025-01-05",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

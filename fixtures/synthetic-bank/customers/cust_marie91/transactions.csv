@@ -1,0 +1,279 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_marie91_tx00001,acc_marie91_current,2025-10-01,-1960,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00002,acc_marie91_current,2025-10-04,-10463,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00003,acc_marie91_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00004,acc_marie91_current,2025-10-08,-2065,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00005,acc_marie91_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00006,acc_marie91_current,2025-10-10,-4670,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00007,acc_marie91_current,2025-10-11,-11789,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00008,acc_marie91_current,2025-10-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00009,acc_marie91_current,2025-10-15,-1543,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00010,acc_marie91_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00011,acc_marie91_current,2025-10-16,-6526,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00012,acc_marie91_current,2025-10-17,-3270,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00013,acc_marie91_current,2025-10-18,-6854,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00014,acc_marie91_current,2025-10-18,-10511,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00015,acc_marie91_current,2025-10-22,-2304,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00016,acc_marie91_current,2025-10-23,-6872,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00017,acc_marie91_current,2025-10-24,-4152,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00018,acc_marie91_current,2025-10-25,-11372,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00019,acc_marie91_current,2025-10-26,-3463,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_marie91_tx00020,acc_marie91_current,2025-10-28,230500,EUR,Federale Pensioendienst,Pensioen 2025-10,income_pension
+cust_marie91_tx00021,acc_marie91_current,2025-10-28,-105000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00022,acc_marie91_savings,2025-10-28,105000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00023,acc_marie91_current,2025-10-30,-6028,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00024,acc_marie91_current,2025-10-31,-5090,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00025,acc_marie91_current,2025-11-01,-10401,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00026,acc_marie91_current,2025-11-05,-1929,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00027,acc_marie91_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00028,acc_marie91_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00029,acc_marie91_current,2025-11-08,-11325,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00030,acc_marie91_current,2025-11-09,-1736,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00031,acc_marie91_current,2025-11-12,-2448,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00032,acc_marie91_current,2025-11-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00033,acc_marie91_current,2025-11-14,-3060,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00034,acc_marie91_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00035,acc_marie91_current,2025-11-15,-8223,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00036,acc_marie91_current,2025-11-16,-1433,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00037,acc_marie91_current,2025-11-18,-6469,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00038,acc_marie91_current,2025-11-19,-1786,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00039,acc_marie91_current,2025-11-21,-3568,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00040,acc_marie91_current,2025-11-22,-11246,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00041,acc_marie91_current,2025-11-23,-1686,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_marie91_tx00042,acc_marie91_current,2025-11-26,-1093,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00043,acc_marie91_current,2025-11-27,-6231,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00044,acc_marie91_current,2025-11-28,230500,EUR,Federale Pensioendienst,Pensioen 2025-11,income_pension
+cust_marie91_tx00045,acc_marie91_current,2025-11-28,-4968,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00046,acc_marie91_current,2025-11-28,-110000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00047,acc_marie91_savings,2025-11-28,110000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00048,acc_marie91_current,2025-11-29,-10833,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00049,acc_marie91_current,2025-11-30,-3195,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_marie91_tx00050,acc_marie91_current,2025-12-03,-1279,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00051,acc_marie91_current,2025-12-05,-3022,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00052,acc_marie91_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00053,acc_marie91_current,2025-12-06,-11290,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00054,acc_marie91_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00055,acc_marie91_current,2025-12-10,-2790,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00056,acc_marie91_current,2025-12-11,-4530,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00057,acc_marie91_current,2025-12-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00058,acc_marie91_current,2025-12-13,-9301,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00059,acc_marie91_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00060,acc_marie91_current,2025-12-17,-2181,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00061,acc_marie91_current,2025-12-18,-4919,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00062,acc_marie91_current,2025-12-18,-6750,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00063,acc_marie91_current,2025-12-19,-2844,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00064,acc_marie91_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_marie91_tx00065,acc_marie91_current,2025-12-20,-10054,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00066,acc_marie91_current,2025-12-24,-2543,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00067,acc_marie91_current,2025-12-25,-5530,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00068,acc_marie91_current,2025-12-26,-4788,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00069,acc_marie91_current,2025-12-27,-10155,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00070,acc_marie91_current,2025-12-28,230500,EUR,Federale Pensioendienst,Pensioen 2025-12,income_pension
+cust_marie91_tx00071,acc_marie91_current,2025-12-28,-3219,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00072,acc_marie91_current,2025-12-28,-90000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00073,acc_marie91_savings,2025-12-28,90000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00074,acc_marie91_current,2025-12-31,-1286,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00075,acc_marie91_current,2026-01-01,-6968,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00076,acc_marie91_current,2026-01-02,-3634,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00077,acc_marie91_current,2026-01-03,-9788,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00078,acc_marie91_current,2026-01-04,-2318,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00079,acc_marie91_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00080,acc_marie91_current,2026-01-07,-1392,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00081,acc_marie91_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00082,acc_marie91_current,2026-01-09,-2990,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00083,acc_marie91_current,2026-01-10,-8280,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00084,acc_marie91_current,2026-01-11,-3745,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00085,acc_marie91_current,2026-01-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00086,acc_marie91_current,2026-01-14,-923,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00087,acc_marie91_current,2026-01-15,-7000,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00088,acc_marie91_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00089,acc_marie91_current,2026-01-16,-2979,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00090,acc_marie91_current,2026-01-17,-10112,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00091,acc_marie91_current,2026-01-18,-9545,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00092,acc_marie91_current,2026-01-22,-6746,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00093,acc_marie91_current,2026-01-24,-10437,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00094,acc_marie91_current,2026-01-28,230500,EUR,Federale Pensioendienst,Pensioen 2026-01,income_pension
+cust_marie91_tx00095,acc_marie91_current,2026-01-28,-2793,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00096,acc_marie91_current,2026-01-28,-105000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00097,acc_marie91_savings,2026-01-28,105000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00098,acc_marie91_current,2026-01-29,-6490,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00099,acc_marie91_current,2026-01-30,-3203,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00100,acc_marie91_current,2026-01-31,-10717,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00101,acc_marie91_current,2026-02-05,-6180,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00102,acc_marie91_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00103,acc_marie91_current,2026-02-07,-10830,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00104,acc_marie91_current,2026-02-08,-3662,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_marie91_tx00105,acc_marie91_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00106,acc_marie91_current,2026-02-11,-1967,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00107,acc_marie91_current,2026-02-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00108,acc_marie91_current,2026-02-13,-3570,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00109,acc_marie91_current,2026-02-14,-11336,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00110,acc_marie91_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00111,acc_marie91_current,2026-02-18,-7280,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00112,acc_marie91_current,2026-02-20,-3679,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00113,acc_marie91_current,2026-02-21,-12179,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00114,acc_marie91_current,2026-02-26,-6100,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00115,acc_marie91_current,2026-02-27,-5468,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00116,acc_marie91_current,2026-02-28,230500,EUR,Federale Pensioendienst,Pensioen 2026-02,income_pension
+cust_marie91_tx00117,acc_marie91_current,2026-02-28,-10805,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00118,acc_marie91_current,2026-02-28,-90000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00119,acc_marie91_savings,2026-02-28,90000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00120,acc_marie91_current,2026-03-04,-2560,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00121,acc_marie91_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00122,acc_marie91_current,2026-03-06,-4267,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00123,acc_marie91_current,2026-03-07,-10588,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00124,acc_marie91_current,2026-03-08,-1650,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00125,acc_marie91_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00126,acc_marie91_current,2026-03-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00127,acc_marie91_current,2026-03-13,-3905,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00128,acc_marie91_current,2026-03-14,-10484,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00129,acc_marie91_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00130,acc_marie91_current,2026-03-18,-2135,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00131,acc_marie91_current,2026-03-18,-4858,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00132,acc_marie91_current,2026-03-20,-4542,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00133,acc_marie91_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_marie91_tx00134,acc_marie91_current,2026-03-21,-11224,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00135,acc_marie91_current,2026-03-25,-2243,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00136,acc_marie91_current,2026-03-28,230500,EUR,Federale Pensioendienst,Pensioen 2026-03,income_pension
+cust_marie91_tx00137,acc_marie91_current,2026-03-28,-8322,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00138,acc_marie91_current,2026-03-28,-125000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00139,acc_marie91_savings,2026-03-28,125000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00140,acc_marie91_current,2026-03-29,-2667,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00141,acc_marie91_current,2026-04-01,-1121,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00142,acc_marie91_current,2026-04-02,-5391,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00143,acc_marie91_current,2026-04-03,-4766,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00144,acc_marie91_current,2026-04-04,-9751,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00145,acc_marie91_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00146,acc_marie91_current,2026-04-08,-1228,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00147,acc_marie91_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00148,acc_marie91_current,2026-04-09,-6641,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00149,acc_marie91_current,2026-04-10,-3336,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00150,acc_marie91_current,2026-04-11,-8994,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00151,acc_marie91_current,2026-04-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00152,acc_marie91_current,2026-04-15,-1250,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00153,acc_marie91_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00154,acc_marie91_current,2026-04-16,-5551,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00155,acc_marie91_current,2026-04-17,-3855,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00156,acc_marie91_current,2026-04-18,-9694,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00157,acc_marie91_current,2026-04-18,-11047,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00158,acc_marie91_current,2026-04-22,-1407,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00159,acc_marie91_current,2026-04-24,-2653,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00160,acc_marie91_current,2026-04-25,-12212,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00161,acc_marie91_current,2026-04-28,230500,EUR,Federale Pensioendienst,Pensioen 2026-04,income_pension
+cust_marie91_tx00162,acc_marie91_current,2026-04-28,-105000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00163,acc_marie91_savings,2026-04-28,105000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00164,acc_marie91_current,2026-04-29,-1529,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00165,acc_marie91_current,2026-04-30,-6522,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00166,acc_marie91_current,2026-05-02,-11549,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00167,acc_marie91_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00168,acc_marie91_current,2026-05-06,-2186,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00169,acc_marie91_current,2026-05-07,-6757,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00170,acc_marie91_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00171,acc_marie91_current,2026-05-09,-10266,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00172,acc_marie91_current,2026-05-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00173,acc_marie91_current,2026-05-13,-2693,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00174,acc_marie91_current,2026-05-15,-2428,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00175,acc_marie91_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00176,acc_marie91_current,2026-05-16,-10441,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00177,acc_marie91_current,2026-05-18,-4325,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00178,acc_marie91_current,2026-05-21,-6045,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00179,acc_marie91_current,2026-05-23,-8702,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00180,acc_marie91_current,2026-05-27,-2827,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00181,acc_marie91_current,2026-05-28,230500,EUR,Federale Pensioendienst,Pensioen 2026-05,income_pension
+cust_marie91_tx00182,acc_marie91_current,2026-05-28,-5447,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00183,acc_marie91_current,2026-05-28,-110000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00184,acc_marie91_savings,2026-05-28,110000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00185,acc_marie91_current,2026-05-30,-10147,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00186,acc_marie91_current,2026-06-04,-6457,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00187,acc_marie91_current,2026-06-05,-2000,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00188,acc_marie91_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00189,acc_marie91_current,2026-06-06,-11416,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00190,acc_marie91_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00191,acc_marie91_current,2026-06-10,-2512,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00192,acc_marie91_current,2026-06-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00193,acc_marie91_current,2026-06-13,-8774,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00194,acc_marie91_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00195,acc_marie91_current,2026-06-17,-2905,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00196,acc_marie91_current,2026-06-18,-5995,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00197,acc_marie91_current,2026-06-18,-6688,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00198,acc_marie91_current,2026-06-19,-3356,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00199,acc_marie91_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_marie91_tx00200,acc_marie91_current,2026-06-20,-11632,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00201,acc_marie91_current,2026-06-24,-1834,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00202,acc_marie91_current,2026-06-26,-5494,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00203,acc_marie91_current,2026-06-27,-9566,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00204,acc_marie91_current,2026-06-28,230500,EUR,Federale Pensioendienst,Pensioen 2026-06,income_pension
+cust_marie91_tx00205,acc_marie91_current,2026-06-28,-100000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00206,acc_marie91_savings,2026-06-28,100000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00207,acc_marie91_current,2026-07-01,-2621,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00208,acc_marie91_current,2026-07-04,-12015,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00209,acc_marie91_current,2026-07-05,-3003,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_marie91_tx00210,acc_marie91_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00211,acc_marie91_current,2026-07-08,-2507,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00212,acc_marie91_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00213,acc_marie91_current,2026-07-09,-6060,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00214,acc_marie91_current,2026-07-10,-3481,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00215,acc_marie91_current,2026-07-11,-9554,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00216,acc_marie91_current,2026-07-11,-96100,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_marie91_tx00217,acc_marie91_current,2026-07-12,-1280,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00218,acc_marie91_current,2026-07-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00219,acc_marie91_current,2026-07-15,-2603,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00220,acc_marie91_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00221,acc_marie91_current,2026-07-16,-6146,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00222,acc_marie91_current,2026-07-17,-2816,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00223,acc_marie91_current,2026-07-18,-4397,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00224,acc_marie91_current,2026-07-18,-8787,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00225,acc_marie91_current,2026-07-19,-2472,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00226,acc_marie91_current,2026-07-22,-1382,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00227,acc_marie91_current,2026-07-23,-5229,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00228,acc_marie91_current,2026-07-24,-5241,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00229,acc_marie91_current,2026-07-25,-8888,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00230,acc_marie91_current,2026-07-26,-2334,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_marie91_tx00231,acc_marie91_current,2026-07-28,230500,EUR,Federale Pensioendienst,Pensioen 2026-07,income_pension
+cust_marie91_tx00232,acc_marie91_current,2026-07-28,-10000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00233,acc_marie91_savings,2026-07-28,10000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00234,acc_marie91_current,2026-07-29,-1898,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00235,acc_marie91_current,2026-07-31,-4198,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00236,acc_marie91_current,2026-08-01,-10293,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00237,acc_marie91_current,2026-08-05,-1117,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00238,acc_marie91_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00239,acc_marie91_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00240,acc_marie91_current,2026-08-08,-9579,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00241,acc_marie91_current,2026-08-12,-977,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00242,acc_marie91_current,2026-08-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00243,acc_marie91_current,2026-08-14,-1995,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00244,acc_marie91_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00245,acc_marie91_current,2026-08-15,-9999,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00246,acc_marie91_current,2026-08-18,-5459,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00247,acc_marie91_current,2026-08-19,-2131,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00248,acc_marie91_current,2026-08-21,-1928,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00249,acc_marie91_current,2026-08-22,-9441,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00250,acc_marie91_current,2026-08-23,-1365,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00251,acc_marie91_current,2026-08-26,-897,EUR,Action,Betaling Bancontact,shopping_household
+cust_marie91_tx00252,acc_marie91_current,2026-08-27,-6649,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00253,acc_marie91_current,2026-08-28,230500,EUR,Federale Pensioendienst,Pensioen 2026-08,income_pension
+cust_marie91_tx00254,acc_marie91_current,2026-08-28,-2633,EUR,Zalando,Online aankoop,shopping_online
+cust_marie91_tx00255,acc_marie91_current,2026-08-28,-125000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00256,acc_marie91_savings,2026-08-28,125000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal
+cust_marie91_tx00257,acc_marie91_current,2026-08-29,-11472,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00258,acc_marie91_current,2026-09-02,-1125,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marie91_tx00259,acc_marie91_current,2026-09-04,-3077,EUR,Bol.com,Online aankoop,shopping_online
+cust_marie91_tx00260,acc_marie91_current,2026-09-05,-8564,EUR,Aldi,Betaling Bancontact,groceries
+cust_marie91_tx00261,acc_marie91_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marie91_tx00262,acc_marie91_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marie91_tx00263,acc_marie91_current,2026-09-10,-5462,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marie91_tx00264,acc_marie91_current,2026-09-12,-9679,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00265,acc_marie91_current,2026-09-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marie91_tx00266,acc_marie91_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marie91_tx00267,acc_marie91_current,2026-09-16,-2783,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00268,acc_marie91_current,2026-09-18,-5053,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_marie91_tx00269,acc_marie91_current,2026-09-19,-9717,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marie91_tx00270,acc_marie91_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_marie91_tx00271,acc_marie91_current,2026-09-23,-1427,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marie91_tx00272,acc_marie91_current,2026-09-24,-5738,EUR,Q8,Brandstof,transport_fuel
+cust_marie91_tx00273,acc_marie91_current,2026-09-25,-5429,EUR,Coolblue,Online aankoop,shopping_online
+cust_marie91_tx00274,acc_marie91_current,2026-09-26,-9366,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marie91_tx00275,acc_marie91_current,2026-09-27,-1439,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marie91_tx00276,acc_marie91_current,2026-09-28,230500,EUR,Federale Pensioendienst,Pensioen 2026-09,income_pension
+cust_marie91_tx00277,acc_marie91_current,2026-09-28,-110000,EUR,Marie Vermeulen,Naar spaarrekening,transfer_internal
+cust_marie91_tx00278,acc_marie91_savings,2026-09-28,110000,EUR,Marie Vermeulen,Van zichtrekening,transfer_internal

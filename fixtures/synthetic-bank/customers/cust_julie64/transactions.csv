@@ -1,0 +1,343 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_julie64_tx00001,acc_julie64_current,2025-10-01,-3899,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00002,acc_julie64_current,2025-10-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00003,acc_julie64_current,2025-10-03,-4014,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00004,acc_julie64_current,2025-10-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00005,acc_julie64_current,2025-10-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00006,acc_julie64_current,2025-10-04,-17083,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00007,acc_julie64_current,2025-10-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00008,acc_julie64_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00009,acc_julie64_current,2025-10-08,-1863,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00010,acc_julie64_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00011,acc_julie64_current,2025-10-09,-6874,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00012,acc_julie64_current,2025-10-10,41237,EUR,FONS,Groeipakket 10/2025 kind 1+2,income_child_benefit
+cust_julie64_tx00013,acc_julie64_current,2025-10-11,-17433,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00014,acc_julie64_current,2025-10-12,-3283,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_julie64_tx00015,acc_julie64_current,2025-10-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00016,acc_julie64_current,2025-10-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 10/2025,childcare
+cust_julie64_tx00017,acc_julie64_current,2025-10-15,-2633,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00018,acc_julie64_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00019,acc_julie64_current,2025-10-17,-4857,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00020,acc_julie64_current,2025-10-18,-11872,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00021,acc_julie64_current,2025-10-18,-12054,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00022,acc_julie64_current,2025-10-22,-3110,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00023,acc_julie64_current,2025-10-23,-6486,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_julie64_tx00024,acc_julie64_current,2025-10-24,-6057,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00025,acc_julie64_current,2025-10-25,-15182,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00026,acc_julie64_current,2025-10-26,-4701,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_julie64_tx00027,acc_julie64_current,2025-10-28,270500,EUR,Deltaport Logistics NV,Loon 2025-10,income_salary
+cust_julie64_tx00028,acc_julie64_current,2025-10-28,-95000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00029,acc_julie64_savings,2025-10-28,95000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00030,acc_julie64_current,2025-10-29,-1355,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00031,acc_julie64_current,2025-11-01,-16722,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00032,acc_julie64_current,2025-11-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00033,acc_julie64_current,2025-11-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00034,acc_julie64_current,2025-11-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00035,acc_julie64_current,2025-11-05,-2189,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00036,acc_julie64_current,2025-11-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00037,acc_julie64_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00038,acc_julie64_current,2025-11-06,-4579,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00039,acc_julie64_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00040,acc_julie64_current,2025-11-08,-11937,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00041,acc_julie64_current,2025-11-10,41237,EUR,FONS,Groeipakket 11/2025 kind 1+2,income_child_benefit
+cust_julie64_tx00042,acc_julie64_current,2025-11-12,-2160,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00043,acc_julie64_current,2025-11-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00044,acc_julie64_current,2025-11-14,-7811,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00045,acc_julie64_current,2025-11-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 11/2025,childcare
+cust_julie64_tx00046,acc_julie64_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00047,acc_julie64_current,2025-11-15,-15086,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00048,acc_julie64_current,2025-11-18,-13843,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00049,acc_julie64_current,2025-11-19,-1460,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00050,acc_julie64_current,2025-11-20,-6031,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_julie64_tx00051,acc_julie64_current,2025-11-22,-14727,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00052,acc_julie64_current,2025-11-28,270500,EUR,Deltaport Logistics NV,Loon 2025-11,income_salary
+cust_julie64_tx00053,acc_julie64_current,2025-11-28,-4062,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00054,acc_julie64_current,2025-11-28,-120000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00055,acc_julie64_savings,2025-11-28,120000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00056,acc_julie64_current,2025-11-29,-15194,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00057,acc_julie64_current,2025-12-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00058,acc_julie64_current,2025-12-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00059,acc_julie64_current,2025-12-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00060,acc_julie64_current,2025-12-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00061,acc_julie64_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00062,acc_julie64_current,2025-12-06,-13356,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00063,acc_julie64_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00064,acc_julie64_current,2025-12-10,41237,EUR,FONS,Groeipakket 12/2025 kind 1+2,income_child_benefit
+cust_julie64_tx00065,acc_julie64_current,2025-12-10,-2623,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00066,acc_julie64_current,2025-12-11,-5126,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_julie64_tx00067,acc_julie64_current,2025-12-12,-6972,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00068,acc_julie64_current,2025-12-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00069,acc_julie64_current,2025-12-13,-14013,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00070,acc_julie64_current,2025-12-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 12/2025,childcare
+cust_julie64_tx00071,acc_julie64_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00072,acc_julie64_current,2025-12-17,-1799,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00073,acc_julie64_current,2025-12-18,-9223,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00074,acc_julie64_current,2025-12-19,-5992,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00075,acc_julie64_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_julie64_tx00076,acc_julie64_current,2025-12-20,-15582,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00077,acc_julie64_current,2025-12-24,-3092,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00078,acc_julie64_current,2025-12-25,-5655,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00079,acc_julie64_current,2025-12-27,-17061,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00080,acc_julie64_current,2025-12-28,270500,EUR,Deltaport Logistics NV,Loon 2025-12,income_salary
+cust_julie64_tx00081,acc_julie64_current,2025-12-28,-105000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00082,acc_julie64_savings,2025-12-28,105000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00083,acc_julie64_current,2025-12-31,-1464,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00084,acc_julie64_current,2026-01-01,-5632,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00085,acc_julie64_current,2026-01-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00086,acc_julie64_current,2026-01-02,-7810,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00087,acc_julie64_current,2026-01-03,-15731,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00088,acc_julie64_current,2026-01-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00089,acc_julie64_current,2026-01-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00090,acc_julie64_current,2026-01-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00091,acc_julie64_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00092,acc_julie64_current,2026-01-07,-3105,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00093,acc_julie64_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00094,acc_julie64_current,2026-01-09,-4935,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00095,acc_julie64_current,2026-01-10,41237,EUR,FONS,Groeipakket 01/2026 kind 1+2,income_child_benefit
+cust_julie64_tx00096,acc_julie64_current,2026-01-10,-13308,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00097,acc_julie64_current,2026-01-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00098,acc_julie64_current,2026-01-14,-1271,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00099,acc_julie64_current,2026-01-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 01/2026,childcare
+cust_julie64_tx00100,acc_julie64_current,2026-01-15,-6530,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00101,acc_julie64_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00102,acc_julie64_current,2026-01-17,-13962,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00103,acc_julie64_current,2026-01-18,-3884,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00104,acc_julie64_current,2026-01-18,-8338,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00105,acc_julie64_current,2026-01-21,-3240,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00106,acc_julie64_current,2026-01-23,-6804,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00107,acc_julie64_current,2026-01-24,-12533,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00108,acc_julie64_current,2026-01-25,-4950,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00109,acc_julie64_current,2026-01-28,270500,EUR,Deltaport Logistics NV,Loon 2026-01,income_salary
+cust_julie64_tx00110,acc_julie64_current,2026-01-28,-105000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00111,acc_julie64_savings,2026-01-28,105000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00112,acc_julie64_current,2026-01-29,-4787,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00113,acc_julie64_current,2026-01-30,-7558,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00114,acc_julie64_current,2026-01-31,-14514,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00115,acc_julie64_current,2026-02-01,-3515,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_julie64_tx00116,acc_julie64_current,2026-02-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00117,acc_julie64_current,2026-02-04,-2818,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00118,acc_julie64_current,2026-02-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00119,acc_julie64_current,2026-02-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00120,acc_julie64_current,2026-02-05,-6903,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00121,acc_julie64_current,2026-02-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00122,acc_julie64_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00123,acc_julie64_current,2026-02-06,-4817,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00124,acc_julie64_current,2026-02-07,-15705,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00125,acc_julie64_current,2026-02-08,-1851,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00126,acc_julie64_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00127,acc_julie64_current,2026-02-10,41237,EUR,FONS,Groeipakket 02/2026 kind 1+2,income_child_benefit
+cust_julie64_tx00128,acc_julie64_current,2026-02-11,-4067,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00129,acc_julie64_current,2026-02-12,-6422,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_julie64_tx00130,acc_julie64_current,2026-02-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00131,acc_julie64_current,2026-02-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 02/2026,childcare
+cust_julie64_tx00132,acc_julie64_current,2026-02-14,-15001,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00133,acc_julie64_current,2026-02-15,-2165,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00134,acc_julie64_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00135,acc_julie64_current,2026-02-18,-2553,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00136,acc_julie64_current,2026-02-18,-13557,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00137,acc_julie64_current,2026-02-19,-6261,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00138,acc_julie64_current,2026-02-20,-5837,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00139,acc_julie64_current,2026-02-21,-17014,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00140,acc_julie64_current,2026-02-22,-3005,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00141,acc_julie64_current,2026-02-28,270500,EUR,Deltaport Logistics NV,Loon 2026-02,income_salary
+cust_julie64_tx00142,acc_julie64_current,2026-02-28,-14289,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00143,acc_julie64_current,2026-02-28,-70000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00144,acc_julie64_savings,2026-02-28,70000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00145,acc_julie64_current,2026-03-01,-5351,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_julie64_tx00146,acc_julie64_current,2026-03-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00147,acc_julie64_current,2026-03-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00148,acc_julie64_current,2026-03-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00149,acc_julie64_current,2026-03-05,-5132,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00150,acc_julie64_current,2026-03-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00151,acc_julie64_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00152,acc_julie64_current,2026-03-06,-4638,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00153,acc_julie64_current,2026-03-07,-13780,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00154,acc_julie64_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00155,acc_julie64_current,2026-03-10,41237,EUR,FONS,Groeipakket 03/2026 kind 1+2,income_child_benefit
+cust_julie64_tx00156,acc_julie64_current,2026-03-11,-3740,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00157,acc_julie64_current,2026-03-12,-6248,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00158,acc_julie64_current,2026-03-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00159,acc_julie64_current,2026-03-13,-5063,EUR,Bol.com,Online aankoop,shopping_online
+cust_julie64_tx00160,acc_julie64_current,2026-03-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 03/2026,childcare
+cust_julie64_tx00161,acc_julie64_current,2026-03-14,-16951,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00162,acc_julie64_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00163,acc_julie64_current,2026-03-18,-4478,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00164,acc_julie64_current,2026-03-18,-13508,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00165,acc_julie64_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_julie64_tx00166,acc_julie64_current,2026-03-20,-7039,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00167,acc_julie64_current,2026-03-21,-14818,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00168,acc_julie64_current,2026-03-25,-4161,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00169,acc_julie64_current,2026-03-27,-5820,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00170,acc_julie64_current,2026-03-28,270500,EUR,Deltaport Logistics NV,Loon 2026-03,income_salary
+cust_julie64_tx00171,acc_julie64_current,2026-03-28,-14693,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00172,acc_julie64_current,2026-03-28,-90000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00173,acc_julie64_savings,2026-03-28,90000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00174,acc_julie64_current,2026-04-01,-3769,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00175,acc_julie64_current,2026-04-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00176,acc_julie64_current,2026-04-02,-5925,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00177,acc_julie64_current,2026-04-03,-5536,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00178,acc_julie64_current,2026-04-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00179,acc_julie64_current,2026-04-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00180,acc_julie64_current,2026-04-04,-11585,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00181,acc_julie64_current,2026-04-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00182,acc_julie64_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00183,acc_julie64_current,2026-04-08,-3390,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00184,acc_julie64_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00185,acc_julie64_current,2026-04-10,41237,EUR,FONS,Groeipakket 04/2026 kind 1+2,income_child_benefit
+cust_julie64_tx00186,acc_julie64_current,2026-04-11,-16066,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00187,acc_julie64_current,2026-04-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00188,acc_julie64_current,2026-04-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 04/2026,childcare
+cust_julie64_tx00189,acc_julie64_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00190,acc_julie64_current,2026-04-17,-5049,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00191,acc_julie64_current,2026-04-18,-12996,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00192,acc_julie64_current,2026-04-18,-13349,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00193,acc_julie64_current,2026-04-19,-2994,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00194,acc_julie64_current,2026-04-23,-6604,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_julie64_tx00195,acc_julie64_current,2026-04-24,-4620,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00196,acc_julie64_current,2026-04-25,-14462,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00197,acc_julie64_current,2026-04-28,270500,EUR,Deltaport Logistics NV,Loon 2026-04,income_salary
+cust_julie64_tx00198,acc_julie64_current,2026-04-28,-115000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00199,acc_julie64_savings,2026-04-28,115000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00200,acc_julie64_current,2026-04-29,-4486,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00201,acc_julie64_current,2026-04-30,-4783,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00202,acc_julie64_current,2026-05-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00203,acc_julie64_current,2026-05-02,-15055,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00204,acc_julie64_current,2026-05-03,-2947,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00205,acc_julie64_current,2026-05-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00206,acc_julie64_current,2026-05-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00207,acc_julie64_current,2026-05-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00208,acc_julie64_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00209,acc_julie64_current,2026-05-07,-4912,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_julie64_tx00210,acc_julie64_current,2026-05-08,-7508,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00211,acc_julie64_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00212,acc_julie64_current,2026-05-09,-12752,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00213,acc_julie64_current,2026-05-10,41237,EUR,FONS,Groeipakket 05/2026 kind 1+2,income_child_benefit
+cust_julie64_tx00214,acc_julie64_current,2026-05-10,-4376,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_julie64_tx00215,acc_julie64_current,2026-05-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00216,acc_julie64_current,2026-05-13,-3375,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00217,acc_julie64_current,2026-05-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 05/2026,childcare
+cust_julie64_tx00218,acc_julie64_current,2026-05-15,-3942,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00219,acc_julie64_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00220,acc_julie64_current,2026-05-16,-16460,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00221,acc_julie64_current,2026-05-18,-10573,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00222,acc_julie64_current,2026-05-20,-2408,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00223,acc_julie64_current,2026-05-22,-4473,EUR,Bol.com,Online aankoop,shopping_online
+cust_julie64_tx00224,acc_julie64_current,2026-05-23,-17069,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00225,acc_julie64_current,2026-05-27,-3951,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00226,acc_julie64_current,2026-05-28,270500,EUR,Deltaport Logistics NV,Loon 2026-05,income_salary
+cust_julie64_tx00227,acc_julie64_current,2026-05-28,-5074,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00228,acc_julie64_current,2026-05-28,-95000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00229,acc_julie64_savings,2026-05-28,95000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00230,acc_julie64_current,2026-05-30,-16942,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00231,acc_julie64_current,2026-06-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00232,acc_julie64_current,2026-06-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00233,acc_julie64_current,2026-06-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00234,acc_julie64_current,2026-06-05,-6522,EUR,Bol.com,Online aankoop,shopping_online
+cust_julie64_tx00235,acc_julie64_current,2026-06-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00236,acc_julie64_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00237,acc_julie64_current,2026-06-06,-15438,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00238,acc_julie64_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00239,acc_julie64_current,2026-06-10,41237,EUR,FONS,Groeipakket 06/2026 kind 1+2,income_child_benefit
+cust_julie64_tx00240,acc_julie64_current,2026-06-10,-1631,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00241,acc_julie64_current,2026-06-11,-5208,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00242,acc_julie64_current,2026-06-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00243,acc_julie64_current,2026-06-13,-13674,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00244,acc_julie64_current,2026-06-14,-2915,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00245,acc_julie64_current,2026-06-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 06/2026,childcare
+cust_julie64_tx00246,acc_julie64_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00247,acc_julie64_current,2026-06-18,-4667,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00248,acc_julie64_current,2026-06-18,-12840,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00249,acc_julie64_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_julie64_tx00250,acc_julie64_current,2026-06-20,-17225,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00251,acc_julie64_current,2026-06-21,-2595,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_julie64_tx00252,acc_julie64_current,2026-06-24,-3330,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00253,acc_julie64_current,2026-06-26,-4259,EUR,Bol.com,Online aankoop,shopping_online
+cust_julie64_tx00254,acc_julie64_current,2026-06-27,-16053,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00255,acc_julie64_current,2026-06-28,270500,EUR,Deltaport Logistics NV,Loon 2026-06,income_salary
+cust_julie64_tx00256,acc_julie64_current,2026-06-28,-90000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00257,acc_julie64_savings,2026-06-28,90000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00258,acc_julie64_current,2026-07-01,-4212,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00259,acc_julie64_current,2026-07-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00260,acc_julie64_current,2026-07-03,-6395,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00261,acc_julie64_current,2026-07-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00262,acc_julie64_current,2026-07-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00263,acc_julie64_current,2026-07-04,-13419,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00264,acc_julie64_current,2026-07-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00265,acc_julie64_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00266,acc_julie64_current,2026-07-08,-2955,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_julie64_tx00267,acc_julie64_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00268,acc_julie64_current,2026-07-09,-4600,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00269,acc_julie64_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_julie64_tx00270,acc_julie64_current,2026-07-10,-2730,EUR,Bol.com,Online aankoop,shopping_online
+cust_julie64_tx00271,acc_julie64_current,2026-07-11,-16622,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00272,acc_julie64_current,2026-07-11,-76500,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_julie64_tx00273,acc_julie64_current,2026-07-12,-2903,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00274,acc_julie64_current,2026-07-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00275,acc_julie64_current,2026-07-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
+cust_julie64_tx00276,acc_julie64_current,2026-07-15,-2477,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00277,acc_julie64_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00278,acc_julie64_current,2026-07-16,-4546,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_julie64_tx00279,acc_julie64_current,2026-07-17,-3201,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00280,acc_julie64_current,2026-07-18,-11445,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00281,acc_julie64_current,2026-07-18,-13975,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00282,acc_julie64_current,2026-07-19,-4479,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00283,acc_julie64_current,2026-07-23,-5742,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00284,acc_julie64_current,2026-07-25,-12361,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00285,acc_julie64_current,2026-07-28,270500,EUR,Deltaport Logistics NV,Loon 2026-07,income_salary
+cust_julie64_tx00286,acc_julie64_current,2026-07-28,-30000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00287,acc_julie64_savings,2026-07-28,30000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00288,acc_julie64_current,2026-07-29,-2823,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00289,acc_julie64_current,2026-07-30,-6143,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00290,acc_julie64_current,2026-07-31,-2660,EUR,Zalando,Online aankoop,shopping_online
+cust_julie64_tx00291,acc_julie64_current,2026-08-01,-12828,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00292,acc_julie64_current,2026-08-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00293,acc_julie64_current,2026-08-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00294,acc_julie64_current,2026-08-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00295,acc_julie64_current,2026-08-05,-1787,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_julie64_tx00296,acc_julie64_current,2026-08-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00297,acc_julie64_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00298,acc_julie64_current,2026-08-07,-5299,EUR,Coolblue,Online aankoop,shopping_online
+cust_julie64_tx00299,acc_julie64_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00300,acc_julie64_current,2026-08-08,-15719,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00301,acc_julie64_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_julie64_tx00302,acc_julie64_current,2026-08-12,-2822,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00303,acc_julie64_current,2026-08-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00304,acc_julie64_current,2026-08-13,-6527,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00305,acc_julie64_current,2026-08-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_julie64_tx00306,acc_julie64_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00307,acc_julie64_current,2026-08-15,-15763,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00308,acc_julie64_current,2026-08-18,-9045,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00309,acc_julie64_current,2026-08-22,-11741,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00310,acc_julie64_current,2026-08-26,-3214,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00311,acc_julie64_current,2026-08-27,-5707,EUR,Q8,Brandstof,transport_fuel
+cust_julie64_tx00312,acc_julie64_current,2026-08-28,270500,EUR,Deltaport Logistics NV,Loon 2026-08,income_salary
+cust_julie64_tx00313,acc_julie64_current,2026-08-28,-6479,EUR,Bol.com,Online aankoop,shopping_online
+cust_julie64_tx00314,acc_julie64_current,2026-08-28,-115000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00315,acc_julie64_savings,2026-08-28,115000,EUR,Julie Janssens,Van zichtrekening,transfer_internal
+cust_julie64_tx00316,acc_julie64_current,2026-08-29,-16035,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00317,acc_julie64_current,2026-08-30,-5168,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_julie64_tx00318,acc_julie64_current,2026-09-02,65000,EUR,K. Aerts,Bijdrage huishouden,income_transfer_household
+cust_julie64_tx00319,acc_julie64_current,2026-09-02,-4123,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00320,acc_julie64_current,2026-09-03,-14966,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_julie64_tx00321,acc_julie64_current,2026-09-04,-3529,EUR,Bol.com,Online aankoop,shopping_online
+cust_julie64_tx00322,acc_julie64_current,2026-09-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_julie64_tx00323,acc_julie64_current,2026-09-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_julie64_tx00324,acc_julie64_current,2026-09-04,-11757,EUR,Basisschool Sint-Jozef,Schoolrekening kind 2,education
+cust_julie64_tx00325,acc_julie64_current,2026-09-05,-14407,EUR,Colruyt,Betaling Bancontact,groceries
+cust_julie64_tx00326,acc_julie64_current,2026-09-05,-98000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_julie64_tx00327,acc_julie64_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_julie64_tx00328,acc_julie64_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_julie64_tx00329,acc_julie64_current,2026-09-09,-3915,EUR,Action,Betaling Bancontact,shopping_household
+cust_julie64_tx00330,acc_julie64_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_julie64_tx00331,acc_julie64_current,2026-09-10,-6072,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_julie64_tx00332,acc_julie64_current,2026-09-12,-11551,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00333,acc_julie64_current,2026-09-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_julie64_tx00334,acc_julie64_current,2026-09-14,-10350,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
+cust_julie64_tx00335,acc_julie64_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_julie64_tx00336,acc_julie64_current,2026-09-18,-12317,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_julie64_tx00337,acc_julie64_current,2026-09-19,-13221,EUR,Aldi,Betaling Bancontact,groceries
+cust_julie64_tx00338,acc_julie64_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_julie64_tx00339,acc_julie64_current,2026-09-26,-15481,EUR,Delhaize,Betaling Bancontact,groceries
+cust_julie64_tx00340,acc_julie64_current,2026-09-28,270500,EUR,Deltaport Logistics NV,Loon 2026-09,income_salary
+cust_julie64_tx00341,acc_julie64_current,2026-09-28,-85000,EUR,Julie Janssens,Naar spaarrekening,transfer_internal
+cust_julie64_tx00342,acc_julie64_savings,2026-09-28,85000,EUR,Julie Janssens,Van zichtrekening,transfer_internal

@@ -279,34 +279,34 @@ cust_lotte01_tx00277,acc_lotte01_current,2026-07-23,-6534,EUR,Q8,Brandstof,trans
 cust_lotte01_tx00278,acc_lotte01_current,2026-07-24,-4937,EUR,Zalando,Online aankoop,shopping_online
 cust_lotte01_tx00279,acc_lotte01_current,2026-07-25,-13375,EUR,Colruyt,Betaling Bancontact,groceries
 cust_lotte01_tx00280,acc_lotte01_current,2026-07-28,300500,EUR,Brabant Retail NV,Loon 2026-07,income_salary
-cust_lotte01_tx00281,acc_lotte01_current,2026-07-28,65000,EUR,Lotte Peeters,Van spaarrekening,transfer_internal
-cust_lotte01_tx00282,acc_lotte01_savings,2026-07-28,-65000,EUR,Lotte Peeters,Naar zichtrekening,transfer_internal
-cust_lotte01_tx00283,acc_lotte01_current,2026-07-29,-2765,EUR,HEMA,Betaling Bancontact,shopping_household
-cust_lotte01_tx00284,acc_lotte01_current,2026-08-01,-17077,EUR,Delhaize,Betaling Bancontact,groceries
-cust_lotte01_tx00285,acc_lotte01_current,2026-08-02,25000,EUR,S. De Smet,Bijdrage huishouden,income_transfer_household
-cust_lotte01_tx00286,acc_lotte01_current,2026-08-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
-cust_lotte01_tx00287,acc_lotte01_current,2026-08-05,-4128,EUR,Kruidvat,Betaling Bancontact,shopping_household
-cust_lotte01_tx00288,acc_lotte01_current,2026-08-05,-62900,EUR,Kinderdagverblijf De Speelboom,Opvang kind 2 08/2026,childcare
-cust_lotte01_tx00289,acc_lotte01_current,2026-08-05,-145950,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
-cust_lotte01_tx00290,acc_lotte01_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
-cust_lotte01_tx00291,acc_lotte01_current,2026-08-06,-5576,EUR,Q8,Brandstof,transport_fuel
-cust_lotte01_tx00292,acc_lotte01_current,2026-08-07,-8006,EUR,Coolblue,Online aankoop,shopping_online
-cust_lotte01_tx00293,acc_lotte01_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
-cust_lotte01_tx00294,acc_lotte01_current,2026-08-08,-17455,EUR,Colruyt,Betaling Bancontact,groceries
-cust_lotte01_tx00295,acc_lotte01_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
-cust_lotte01_tx00296,acc_lotte01_current,2026-08-12,-2584,EUR,HEMA,Betaling Bancontact,shopping_household
-cust_lotte01_tx00297,acc_lotte01_current,2026-08-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
-cust_lotte01_tx00298,acc_lotte01_current,2026-08-13,-5497,EUR,TotalEnergies,Brandstof,transport_fuel
-cust_lotte01_tx00299,acc_lotte01_current,2026-08-14,-7117,EUR,Coolblue,Online aankoop,shopping_online
-cust_lotte01_tx00300,acc_lotte01_current,2026-08-14,-10400,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
-cust_lotte01_tx00301,acc_lotte01_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
-cust_lotte01_tx00302,acc_lotte01_current,2026-08-15,-16285,EUR,Delhaize,Betaling Bancontact,groceries
-cust_lotte01_tx00303,acc_lotte01_current,2026-08-18,-11102,EUR,H&M,Betaling Bancontact,shopping_clothing
-cust_lotte01_tx00304,acc_lotte01_current,2026-08-19,-4329,EUR,Kruidvat,Betaling Bancontact,shopping_household
-cust_lotte01_tx00305,acc_lotte01_current,2026-08-20,-4868,EUR,Q8,Brandstof,transport_fuel
-cust_lotte01_tx00306,acc_lotte01_current,2026-08-22,-18031,EUR,Colruyt,Betaling Bancontact,groceries
-cust_lotte01_tx00307,acc_lotte01_current,2026-08-26,-2427,EUR,HEMA,Betaling Bancontact,shopping_household
-cust_lotte01_tx00308,acc_lotte01_current,2026-08-28,300500,EUR,Brabant Retail NV,Loon 2026-08,income_salary
+cust_lotte01_tx00281,acc_lotte01_current,2026-07-29,-2765,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_lotte01_tx00282,acc_lotte01_current,2026-08-01,-17077,EUR,Delhaize,Betaling Bancontact,groceries
+cust_lotte01_tx00283,acc_lotte01_current,2026-08-02,25000,EUR,S. De Smet,Bijdrage huishouden,income_transfer_household
+cust_lotte01_tx00284,acc_lotte01_current,2026-08-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_lotte01_tx00285,acc_lotte01_current,2026-08-05,-4128,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_lotte01_tx00286,acc_lotte01_current,2026-08-05,-62900,EUR,Kinderdagverblijf De Speelboom,Opvang kind 2 08/2026,childcare
+cust_lotte01_tx00287,acc_lotte01_current,2026-08-05,-145950,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_lotte01_tx00288,acc_lotte01_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_lotte01_tx00289,acc_lotte01_current,2026-08-06,-5576,EUR,Q8,Brandstof,transport_fuel
+cust_lotte01_tx00290,acc_lotte01_current,2026-08-07,-8006,EUR,Coolblue,Online aankoop,shopping_online
+cust_lotte01_tx00291,acc_lotte01_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_lotte01_tx00292,acc_lotte01_current,2026-08-08,-17455,EUR,Colruyt,Betaling Bancontact,groceries
+cust_lotte01_tx00293,acc_lotte01_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_lotte01_tx00294,acc_lotte01_current,2026-08-12,-2584,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_lotte01_tx00295,acc_lotte01_current,2026-08-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_lotte01_tx00296,acc_lotte01_current,2026-08-13,-5497,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_lotte01_tx00297,acc_lotte01_current,2026-08-14,-7117,EUR,Coolblue,Online aankoop,shopping_online
+cust_lotte01_tx00298,acc_lotte01_current,2026-08-14,-10400,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_lotte01_tx00299,acc_lotte01_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_lotte01_tx00300,acc_lotte01_current,2026-08-15,-16285,EUR,Delhaize,Betaling Bancontact,groceries
+cust_lotte01_tx00301,acc_lotte01_current,2026-08-18,-11102,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_lotte01_tx00302,acc_lotte01_current,2026-08-19,-4329,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_lotte01_tx00303,acc_lotte01_current,2026-08-20,-4868,EUR,Q8,Brandstof,transport_fuel
+cust_lotte01_tx00304,acc_lotte01_current,2026-08-22,-18031,EUR,Colruyt,Betaling Bancontact,groceries
+cust_lotte01_tx00305,acc_lotte01_current,2026-08-26,-2427,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_lotte01_tx00306,acc_lotte01_current,2026-08-28,300500,EUR,Brabant Retail NV,Loon 2026-08,income_salary
+cust_lotte01_tx00307,acc_lotte01_current,2026-08-28,85000,EUR,Lotte Peeters,Van spaarrekening,transfer_internal
+cust_lotte01_tx00308,acc_lotte01_savings,2026-08-28,-85000,EUR,Lotte Peeters,Naar zichtrekening,transfer_internal
 cust_lotte01_tx00309,acc_lotte01_current,2026-08-29,-15321,EUR,Colruyt,Betaling Bancontact,groceries
 cust_lotte01_tx00310,acc_lotte01_current,2026-08-30,-4447,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
 cust_lotte01_tx00311,acc_lotte01_current,2026-09-02,25000,EUR,S. De Smet,Bijdrage huishouden,income_transfer_household
@@ -336,5 +336,3 @@ cust_lotte01_tx00334,acc_lotte01_current,2026-09-25,-7740,EUR,Bol.com,Online aan
 cust_lotte01_tx00335,acc_lotte01_current,2026-09-26,-16095,EUR,Colruyt,Betaling Bancontact,groceries
 cust_lotte01_tx00336,acc_lotte01_current,2026-09-27,-5691,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
 cust_lotte01_tx00337,acc_lotte01_current,2026-09-28,300500,EUR,Brabant Retail NV,Loon 2026-09,income_salary
-cust_lotte01_tx00338,acc_lotte01_current,2026-09-28,70000,EUR,Lotte Peeters,Van spaarrekening,transfer_internal
-cust_lotte01_tx00339,acc_lotte01_savings,2026-09-28,-70000,EUR,Lotte Peeters,Naar zichtrekening,transfer_internal

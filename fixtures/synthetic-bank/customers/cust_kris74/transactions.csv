@@ -1,0 +1,277 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_kris74_tx00001,acc_kris74_current,2025-10-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00002,acc_kris74_current,2025-10-02,-5829,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_kris74_tx00003,acc_kris74_current,2025-10-04,-15477,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00004,acc_kris74_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00005,acc_kris74_current,2025-10-08,-1784,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00006,acc_kris74_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00007,acc_kris74_current,2025-10-11,-13568,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00008,acc_kris74_current,2025-10-12,-3416,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_kris74_tx00009,acc_kris74_current,2025-10-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00010,acc_kris74_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00011,acc_kris74_current,2025-10-17,-3491,EUR,Bol.com,Online aankoop,shopping_online
+cust_kris74_tx00012,acc_kris74_current,2025-10-18,-10977,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00013,acc_kris74_current,2025-10-18,-11386,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00014,acc_kris74_current,2025-10-22,-3365,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_kris74_tx00015,acc_kris74_current,2025-10-24,-5095,EUR,Bol.com,Online aankoop,shopping_online
+cust_kris74_tx00016,acc_kris74_current,2025-10-25,-15460,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00017,acc_kris74_current,2025-10-28,300000,EUR,Deltaport Logistics NV,Loon 2025-10,income_salary
+cust_kris74_tx00018,acc_kris74_current,2025-10-28,-250000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00019,acc_kris74_savings,2025-10-28,250000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00020,acc_kris74_current,2025-10-31,-6976,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00021,acc_kris74_current,2025-11-01,-13959,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00022,acc_kris74_current,2025-11-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00023,acc_kris74_current,2025-11-05,-3449,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00024,acc_kris74_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00025,acc_kris74_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00026,acc_kris74_current,2025-11-08,-12456,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00027,acc_kris74_current,2025-11-09,-2934,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_kris74_tx00028,acc_kris74_current,2025-11-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00029,acc_kris74_current,2025-11-14,-2721,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00030,acc_kris74_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00031,acc_kris74_current,2025-11-15,-12843,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00032,acc_kris74_current,2025-11-18,-8567,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00033,acc_kris74_current,2025-11-20,-6504,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00034,acc_kris74_current,2025-11-21,-5711,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00035,acc_kris74_current,2025-11-22,-11367,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00036,acc_kris74_current,2025-11-23,-3226,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_kris74_tx00037,acc_kris74_current,2025-11-26,-3640,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00038,acc_kris74_current,2025-11-28,300000,EUR,Deltaport Logistics NV,Loon 2025-11,income_salary
+cust_kris74_tx00039,acc_kris74_current,2025-11-28,-2785,EUR,Bol.com,Online aankoop,shopping_online
+cust_kris74_tx00040,acc_kris74_current,2025-11-28,-250000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00041,acc_kris74_savings,2025-11-28,250000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00042,acc_kris74_current,2025-11-29,-13758,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00043,acc_kris74_current,2025-11-30,-2076,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_kris74_tx00044,acc_kris74_current,2025-12-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00045,acc_kris74_current,2025-12-03,-3851,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00046,acc_kris74_current,2025-12-04,-5877,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00047,acc_kris74_current,2025-12-05,-6101,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00048,acc_kris74_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00049,acc_kris74_current,2025-12-06,-12400,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00050,acc_kris74_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00051,acc_kris74_current,2025-12-10,-3963,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_kris74_tx00052,acc_kris74_current,2025-12-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00053,acc_kris74_current,2025-12-13,-12334,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00054,acc_kris74_current,2025-12-14,-4664,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_kris74_tx00055,acc_kris74_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00056,acc_kris74_current,2025-12-17,-1268,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00057,acc_kris74_current,2025-12-18,-6430,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00058,acc_kris74_current,2025-12-18,-11229,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00059,acc_kris74_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_kris74_tx00060,acc_kris74_current,2025-12-20,-13687,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00061,acc_kris74_current,2025-12-24,-3807,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00062,acc_kris74_current,2025-12-25,-6527,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00063,acc_kris74_current,2025-12-26,-4826,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00064,acc_kris74_current,2025-12-27,-12623,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00065,acc_kris74_current,2025-12-28,300000,EUR,Deltaport Logistics NV,Loon 2025-12,income_salary
+cust_kris74_tx00066,acc_kris74_current,2025-12-28,-4505,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_kris74_tx00067,acc_kris74_current,2025-12-28,-210000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00068,acc_kris74_savings,2025-12-28,210000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00069,acc_kris74_current,2025-12-31,-2424,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00070,acc_kris74_current,2026-01-01,-6849,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00071,acc_kris74_current,2026-01-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00072,acc_kris74_current,2026-01-02,-6452,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00073,acc_kris74_current,2026-01-03,-14622,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00074,acc_kris74_current,2026-01-04,-3078,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_kris74_tx00075,acc_kris74_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00076,acc_kris74_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00077,acc_kris74_current,2026-01-10,-10691,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00078,acc_kris74_current,2026-01-11,-2222,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_kris74_tx00079,acc_kris74_current,2026-01-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00080,acc_kris74_current,2026-01-14,-1649,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_kris74_tx00081,acc_kris74_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00082,acc_kris74_current,2026-01-16,-7061,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00083,acc_kris74_current,2026-01-17,-12672,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00084,acc_kris74_current,2026-01-18,-10874,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00085,acc_kris74_current,2026-01-23,-5758,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00086,acc_kris74_current,2026-01-24,-15547,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00087,acc_kris74_current,2026-01-25,-2463,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_kris74_tx00088,acc_kris74_current,2026-01-28,300000,EUR,Deltaport Logistics NV,Loon 2026-01,income_salary
+cust_kris74_tx00089,acc_kris74_current,2026-01-28,-2953,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00090,acc_kris74_current,2026-01-28,-240000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00091,acc_kris74_savings,2026-01-28,240000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00092,acc_kris74_current,2026-01-31,-14407,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00093,acc_kris74_current,2026-02-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00094,acc_kris74_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00095,acc_kris74_current,2026-02-06,-7171,EUR,Bol.com,Online aankoop,shopping_online
+cust_kris74_tx00096,acc_kris74_current,2026-02-07,-10521,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00097,acc_kris74_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00098,acc_kris74_current,2026-02-12,-6706,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00099,acc_kris74_current,2026-02-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00100,acc_kris74_current,2026-02-13,-5207,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00101,acc_kris74_current,2026-02-14,-15269,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00102,acc_kris74_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00103,acc_kris74_current,2026-02-18,-3959,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00104,acc_kris74_current,2026-02-18,-8844,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00105,acc_kris74_current,2026-02-20,-6614,EUR,Bol.com,Online aankoop,shopping_online
+cust_kris74_tx00106,acc_kris74_current,2026-02-21,-14089,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00107,acc_kris74_current,2026-02-22,-2294,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_kris74_tx00108,acc_kris74_current,2026-02-25,-2319,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00109,acc_kris74_current,2026-02-28,300000,EUR,Deltaport Logistics NV,Loon 2026-02,income_salary
+cust_kris74_tx00110,acc_kris74_current,2026-02-28,-14323,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00111,acc_kris74_current,2026-02-28,-235000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00112,acc_kris74_savings,2026-02-28,235000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00113,acc_kris74_current,2026-03-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00114,acc_kris74_current,2026-03-04,-2918,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00115,acc_kris74_current,2026-03-05,-5289,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00116,acc_kris74_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00117,acc_kris74_current,2026-03-06,-5847,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00118,acc_kris74_current,2026-03-07,-14699,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00119,acc_kris74_current,2026-03-08,-2135,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_kris74_tx00120,acc_kris74_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00121,acc_kris74_current,2026-03-11,-2551,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_kris74_tx00122,acc_kris74_current,2026-03-12,-5502,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_kris74_tx00123,acc_kris74_current,2026-03-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00124,acc_kris74_current,2026-03-13,-5622,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00125,acc_kris74_current,2026-03-14,-14523,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00126,acc_kris74_current,2026-03-15,-1804,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_kris74_tx00127,acc_kris74_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00128,acc_kris74_current,2026-03-18,-3325,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00129,acc_kris74_current,2026-03-18,-9046,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00130,acc_kris74_current,2026-03-19,-4951,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00131,acc_kris74_current,2026-03-20,-4033,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00132,acc_kris74_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_kris74_tx00133,acc_kris74_current,2026-03-21,-14909,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00134,acc_kris74_current,2026-03-22,-2746,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_kris74_tx00135,acc_kris74_current,2026-03-25,-2055,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00136,acc_kris74_current,2026-03-26,-4529,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00137,acc_kris74_current,2026-03-28,300000,EUR,Deltaport Logistics NV,Loon 2026-03,income_salary
+cust_kris74_tx00138,acc_kris74_current,2026-03-28,-11608,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00139,acc_kris74_current,2026-03-28,-220000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00140,acc_kris74_savings,2026-03-28,220000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00141,acc_kris74_current,2026-03-29,-2318,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_kris74_tx00142,acc_kris74_current,2026-04-01,-1792,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00143,acc_kris74_current,2026-04-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00144,acc_kris74_current,2026-04-03,-6063,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00145,acc_kris74_current,2026-04-04,-10510,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00146,acc_kris74_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00147,acc_kris74_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00148,acc_kris74_current,2026-04-09,-4987,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00149,acc_kris74_current,2026-04-11,-15651,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00150,acc_kris74_current,2026-04-12,-1950,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_kris74_tx00151,acc_kris74_current,2026-04-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00152,acc_kris74_current,2026-04-15,-1539,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00153,acc_kris74_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00154,acc_kris74_current,2026-04-18,-8483,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00155,acc_kris74_current,2026-04-18,-10710,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00156,acc_kris74_current,2026-04-19,-4725,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_kris74_tx00157,acc_kris74_current,2026-04-22,-2947,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00158,acc_kris74_current,2026-04-23,-4710,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_kris74_tx00159,acc_kris74_current,2026-04-24,-2808,EUR,Bol.com,Online aankoop,shopping_online
+cust_kris74_tx00160,acc_kris74_current,2026-04-25,-10896,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00161,acc_kris74_current,2026-04-28,300000,EUR,Deltaport Logistics NV,Loon 2026-04,income_salary
+cust_kris74_tx00162,acc_kris74_current,2026-04-28,-255000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00163,acc_kris74_savings,2026-04-28,255000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00164,acc_kris74_current,2026-04-30,-5758,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00165,acc_kris74_current,2026-05-01,-2745,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00166,acc_kris74_current,2026-05-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00167,acc_kris74_current,2026-05-02,-10659,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00168,acc_kris74_current,2026-05-03,-2610,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_kris74_tx00169,acc_kris74_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00170,acc_kris74_current,2026-05-06,-3101,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00171,acc_kris74_current,2026-05-07,-5661,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00172,acc_kris74_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00173,acc_kris74_current,2026-05-09,-14020,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00174,acc_kris74_current,2026-05-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00175,acc_kris74_current,2026-05-14,-5126,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_kris74_tx00176,acc_kris74_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00177,acc_kris74_current,2026-05-16,-14208,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00178,acc_kris74_current,2026-05-18,-9062,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00179,acc_kris74_current,2026-05-20,-3176,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00180,acc_kris74_current,2026-05-21,-6216,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00181,acc_kris74_current,2026-05-22,-2553,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00182,acc_kris74_current,2026-05-23,-13955,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00183,acc_kris74_current,2026-05-27,-2163,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_kris74_tx00184,acc_kris74_current,2026-05-28,300000,EUR,Deltaport Logistics NV,Loon 2026-05,income_salary
+cust_kris74_tx00185,acc_kris74_current,2026-05-28,-5564,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_kris74_tx00186,acc_kris74_current,2026-05-28,-240000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00187,acc_kris74_savings,2026-05-28,240000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00188,acc_kris74_current,2026-05-29,-5957,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00189,acc_kris74_current,2026-05-30,-13282,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00190,acc_kris74_current,2026-06-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00191,acc_kris74_current,2026-06-04,-5619,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00192,acc_kris74_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00193,acc_kris74_current,2026-06-06,-15158,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00194,acc_kris74_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00195,acc_kris74_current,2026-06-10,-1526,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_kris74_tx00196,acc_kris74_current,2026-06-11,-4880,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00197,acc_kris74_current,2026-06-12,-5734,EUR,Bol.com,Online aankoop,shopping_online
+cust_kris74_tx00198,acc_kris74_current,2026-06-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00199,acc_kris74_current,2026-06-13,-13014,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00200,acc_kris74_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00201,acc_kris74_current,2026-06-17,-2416,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00202,acc_kris74_current,2026-06-18,-8438,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00203,acc_kris74_current,2026-06-19,-6826,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00204,acc_kris74_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_kris74_tx00205,acc_kris74_current,2026-06-20,-14296,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00206,acc_kris74_current,2026-06-21,-3690,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_kris74_tx00207,acc_kris74_current,2026-06-24,-3728,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00208,acc_kris74_current,2026-06-26,-6091,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00209,acc_kris74_current,2026-06-27,-15388,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00210,acc_kris74_current,2026-06-28,300000,EUR,Deltaport Logistics NV,Loon 2026-06,income_salary
+cust_kris74_tx00211,acc_kris74_current,2026-06-28,-210000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00212,acc_kris74_savings,2026-06-28,210000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00213,acc_kris74_current,2026-07-01,-2772,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00214,acc_kris74_current,2026-07-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00215,acc_kris74_current,2026-07-04,-14006,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00216,acc_kris74_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00217,acc_kris74_current,2026-07-08,-1775,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00218,acc_kris74_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00219,acc_kris74_current,2026-07-10,-2860,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00220,acc_kris74_current,2026-07-11,-14392,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00221,acc_kris74_current,2026-07-11,-81300,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_kris74_tx00222,acc_kris74_current,2026-07-12,-2297,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_kris74_tx00223,acc_kris74_current,2026-07-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00224,acc_kris74_current,2026-07-15,-1652,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00225,acc_kris74_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00226,acc_kris74_current,2026-07-16,-6033,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00227,acc_kris74_current,2026-07-17,-4772,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00228,acc_kris74_current,2026-07-18,-5978,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00229,acc_kris74_current,2026-07-18,-12536,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00230,acc_kris74_current,2026-07-22,-1863,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00231,acc_kris74_current,2026-07-25,-12948,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00232,acc_kris74_current,2026-07-28,300000,EUR,Deltaport Logistics NV,Loon 2026-07,income_salary
+cust_kris74_tx00233,acc_kris74_current,2026-07-28,-180000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00234,acc_kris74_savings,2026-07-28,180000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00235,acc_kris74_current,2026-07-30,-5990,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00236,acc_kris74_current,2026-07-31,-6226,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00237,acc_kris74_current,2026-08-01,-15745,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00238,acc_kris74_current,2026-08-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00239,acc_kris74_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00240,acc_kris74_current,2026-08-07,-5578,EUR,Bol.com,Online aankoop,shopping_online
+cust_kris74_tx00241,acc_kris74_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00242,acc_kris74_current,2026-08-08,-13366,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00243,acc_kris74_current,2026-08-12,-1806,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00244,acc_kris74_current,2026-08-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00245,acc_kris74_current,2026-08-13,-6641,EUR,Q8,Brandstof,transport_fuel
+cust_kris74_tx00246,acc_kris74_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00247,acc_kris74_current,2026-08-15,-12399,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00248,acc_kris74_current,2026-08-18,-7549,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00249,acc_kris74_current,2026-08-19,-2413,EUR,Action,Betaling Bancontact,shopping_household
+cust_kris74_tx00250,acc_kris74_current,2026-08-21,-6105,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00251,acc_kris74_current,2026-08-22,-12507,EUR,Colruyt,Betaling Bancontact,groceries
+cust_kris74_tx00252,acc_kris74_current,2026-08-27,-6297,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_kris74_tx00253,acc_kris74_current,2026-08-28,300000,EUR,Deltaport Logistics NV,Loon 2026-08,income_salary
+cust_kris74_tx00254,acc_kris74_current,2026-08-28,-245000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00255,acc_kris74_savings,2026-08-28,245000,EUR,Kris Smets,Van zichtrekening,transfer_internal
+cust_kris74_tx00256,acc_kris74_current,2026-08-29,-10589,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00257,acc_kris74_current,2026-09-02,80000,EUR,L. Verbeke,Bijdrage huishouden,income_transfer_household
+cust_kris74_tx00258,acc_kris74_current,2026-09-02,-2653,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00259,acc_kris74_current,2026-09-05,-10877,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00260,acc_kris74_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_kris74_tx00261,acc_kris74_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_kris74_tx00262,acc_kris74_current,2026-09-12,-13511,EUR,Aldi,Betaling Bancontact,groceries
+cust_kris74_tx00263,acc_kris74_current,2026-09-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_kris74_tx00264,acc_kris74_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_kris74_tx00265,acc_kris74_current,2026-09-16,-2606,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_kris74_tx00266,acc_kris74_current,2026-09-17,-6625,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_kris74_tx00267,acc_kris74_current,2026-09-18,-6720,EUR,Coolblue,Online aankoop,shopping_online
+cust_kris74_tx00268,acc_kris74_current,2026-09-18,-7087,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_kris74_tx00269,acc_kris74_current,2026-09-19,-12762,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00270,acc_kris74_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_kris74_tx00271,acc_kris74_current,2026-09-25,-4299,EUR,Zalando,Online aankoop,shopping_online
+cust_kris74_tx00272,acc_kris74_current,2026-09-26,-11433,EUR,Delhaize,Betaling Bancontact,groceries
+cust_kris74_tx00273,acc_kris74_current,2026-09-27,-4595,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_kris74_tx00274,acc_kris74_current,2026-09-28,300000,EUR,Deltaport Logistics NV,Loon 2026-09,income_salary
+cust_kris74_tx00275,acc_kris74_current,2026-09-28,-245000,EUR,Kris Smets,Naar spaarrekening,transfer_internal
+cust_kris74_tx00276,acc_kris74_savings,2026-09-28,245000,EUR,Kris Smets,Van zichtrekening,transfer_internal

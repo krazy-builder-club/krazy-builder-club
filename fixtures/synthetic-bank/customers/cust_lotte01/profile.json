@@ -34,15 +34,15 @@
     {
       "account_id": "acc_lotte01_current",
       "type": "current",
-      "iban": "BE00 SYNT LOTT 0001",
-      "balance_cents": 452625,
+      "iban": "BE00 SYNT LOTTE01 0001",
+      "balance_cents": 402625,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_lotte01_savings",
       "type": "savings",
-      "iban": "BE00 SYNT LOTT 0002",
-      "balance_cents": 965608,
+      "iban": "BE00 SYNT LOTTE01 0002",
+      "balance_cents": 1015608,
       "balance_as_of": "2026-09-30"
     }
   ],

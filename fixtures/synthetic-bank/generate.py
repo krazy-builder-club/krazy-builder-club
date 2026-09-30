@@ -154,13 +154,95 @@ def lookalike(i, outcome):
         "opening": {"current": rng.randrange(300000, 450000, 1000), "savings": rng.randrange(600000, 1600000, 1000)},
         "cushion": 450000, "positions": [], "interactions": interactions, "events": events,
         "reference": {"cutoff": (raise_at + timedelta(days=31)).isoformat(),
-                      "situation_tags_at_cutoff": ["renting", "family_two_children", "new_job", "income_rising"],
+                      "situation_tags_at_cutoff": ["renting", "couple", "family_two_children", "new_job", "income_rising"],
                       "personality_tags": traits, "outcome": outcome,
                       "outcome_date": events[0]["date"] if events else None, "outcome_window_days": 183},
     }
 
 
-PERSONAS = [EMMA, JONAS] + [lookalike(i, o) for i, o in enumerate(OUTCOMES)]
+# Other life stages so most Mondays stay quiet. Counts sum to 76 (100 customers total).
+ARCHETYPES = (["student"] * 8 + ["single"] * 12 + ["couple_renting"] * 10 + ["family_owner"] * 14 + ["single_parent"] * 6
+              + ["couple_owner"] * 10 + ["retired"] * 10 + ["family_renting_stable"] * 6)
+FIRST_POOL = FIRST + ["Marie", "Anna", "Lien", "Fien", "Lore", "Els", "Griet", "Mieke", "Rita", "Jan", "Luc", "Marc", "Koen",
+                      "Bart", "Geert", "Dirk", "Lucas", "Arthur", "Louis", "Noah", "Mila", "Olivia", "Amira", "Yasmine",
+                      "Mehdi", "Youssef", "Sanne", "Wim", "Paul", "Hilde", "Kris", "Robin", "Senne", "Lars", "Febe", "Kato"]
+
+
+def filler(i, arch):
+    rng = random.Random(3000 + i)
+    first, last = rng.choice(FIRST_POOL), rng.choice(LAST)
+    postal, city = rng.choice(CITIES)
+    emp, title = rng.choice(EMPLOYERS)
+    initial = lambda: f"{rng.choice('ABDEFGHKLMNPRSTV')}. {rng.choice(LAST)}"
+    kid = lambda y: {"birth_year": y, **({"after_school": rng.randrange(7000, 11000, 50)} if 3 <= 2026 - y <= 11 else {})}
+    salary = lambda lo, hi: [{"employer": emp, "title": title, "net": rng.randrange(lo, hi, 500), "start": None}]
+    partner = lambda lo, hi: {"name": initial(), "contribution": rng.randrange(lo, hi, 5000)}
+    p = {"partner": None, "kids": [], "housing": "rent", "rent": 0, "landlord": initial(), "car_loan": None, "spend": 1.0,
+         "holiday": rng.randrange(30000, 110000, 100), "cushion": 300000, "positions": [], "events": []}
+    if arch == "student":
+        born, civil = rng.randint(2003, 2006), "single"
+        rent = rng.randrange(40000, 52000, 500)
+        p |= {"jobs": [{"employer": rng.choice(["Delhaize", "Bpost", "Randstad Studentenjobs", "Café De Kroon"]), "title": "Student job",
+                        "net": rng.randrange(30000, 50000, 500), "start": None, "kind": "student_job"}],
+              "partner": {"name": f"Ouders {last}", "contribution": rent + rng.randrange(5000, 15000, 1000), "desc": "Bijdrage kot en studies",
+                          "cat": "income_transfer_family"},
+              "rent": rent, "rent_desc": "Huur studentenkamer", "utilities": False, "car": False,
+              "telecom": 2000, "spend": 0.3, "holiday": rng.randrange(10000, 30000, 100), "cushion": 120000,
+              "opening": {"current": 120000, "savings": rng.randrange(100000, 300000, 1000)}}
+    elif arch == "single":
+        born, civil = rng.randint(1990, 2000), "single"
+        p |= {"jobs": salary(210000, 280000), "rent": rng.randrange(72000, 95000, 500), "spend": 0.6, "car": rng.random() < 0.6}
+    elif arch == "couple_renting":
+        born, civil = rng.randint(1990, 1998), rng.choice(["married", "cohabiting"])
+        p |= {"jobs": salary(240000, 320000), "partner": partner(60000, 90000), "rent": rng.randrange(90000, 120000, 500), "spend": 0.8}
+    elif arch == "family_owner":
+        born, civil = rng.randint(1978, 1990), rng.choice(["married", "legally_cohabiting"])
+        p |= {"jobs": salary(270000, 360000), "partner": partner(50000, 90000), "housing": "mortgage", "mortgage": rng.randrange(90000, 150000, 500),
+              "kids": [kid(rng.randint(2010, 2022)) for _ in range(rng.choice([1, 2, 2, 3]))], "cushion": 450000}
+    elif arch == "single_parent":
+        born, civil = rng.randint(1982, 1994), rng.choice(["single", "divorced"])
+        p |= {"jobs": salary(230000, 290000), "rent": rng.randrange(80000, 100000, 500), "spend": 0.7,
+              "kids": [kid(rng.randint(2012, 2021)) for _ in range(rng.choice([1, 2]))]}
+    elif arch == "couple_owner":
+        born, civil = rng.randint(1966, 1985), rng.choice(["married", "legally_cohabiting"])
+        owned = rng.random() < 0.5
+        p |= {"jobs": salary(300000, 400000), "partner": partner(70000, 120000), "housing": "owned" if owned else "mortgage",
+              "mortgage": rng.randrange(60000, 120000, 500), "spend": 0.9}
+    elif arch == "retired":
+        born, civil = rng.randint(1946, 1960), rng.choice(["married", "married", "widowed"])
+        p |= {"jobs": [{"employer": "Federale Pensioendienst", "title": "Retired", "net": rng.randrange(170000, 260000, 500), "start": None, "kind": "pension"}],
+              "partner": partner(90000, 150000) if civil == "married" else None, "housing": "owned", "spend": 0.7, "car": rng.random() < 0.7,
+              "opening": {"current": 300000, "savings": rng.randrange(1500000, 6000000, 1000)},
+              "positions": [{"product": "Synthetic Global Equity Fund", "type": "fund", "units": 120.0, "value_cents": rng.randrange(1000000, 8000000, 1000)}]
+              if rng.random() < 0.5 else []}
+    else:  # family_renting_stable: near-miss for Emma (no income rise); story text is checked below
+        born, civil = rng.randint(1986, 1994), rng.choice(["married", "cohabiting"])
+        p |= {"jobs": salary(270000, 330000), "partner": partner(30000, 60000), "rent": rng.randrange(100000, 130000, 500), "spend": 0.95,
+              "kids": [kid(rng.randint(2016, 2020)), kid(rng.randint(2021, 2023))], "cushion": 450000}
+    p.setdefault("opening", {"current": p["cushion"], "savings": rng.randrange(200000, 1500000, 1000)})
+    interactions = []
+    for t in rng.sample(list(TRAIT_NOTES), rng.choice([0, 1, 1, 2])):
+        if t == "prefers_self_service" and any(x["trait"] == "prefers_advisor_for_big_decisions" for x in interactions):
+            continue
+        ch, note = TRAIT_NOTES[t]
+        interactions.append({"date": f"2025-{rng.randint(1, 9):02d}-{rng.randint(3, 27):02d}", "channel": ch, "topic": "contact", "trait": t, "note": note})
+    if rng.random() < 0.3:
+        g = rng.randrange(200000, 1000000, 50000)
+        interactions.append({"date": f"2025-{rng.randint(1, 9):02d}-{rng.randint(3, 27):02d}", "channel": "phone", "topic": "savings",
+                             "goal": (f"Keep at least {eur(g)} on savings as a safety buffer", g),
+                             "note": f"Wants to keep at least {g // 100:,} EUR on savings as a safety buffer."})
+    interactions.sort(key=lambda x: x["date"])
+    return p | {
+        "customer_id": f"cust_{first.lower()}{23 + i:02d}", "seed": 4000 + i, "story": f"Filler: {arch.replace('_', ' ')}." + (" Emma near-miss." if arch == "family_renting_stable" else ""),
+        "personal": {"first_name": first, "last_name": last, "birth_date": f"{born}-{rng.randint(1, 12):02d}-{rng.randint(1, 28):02d}",
+                     "place_of_birth": rng.choice(CITIES)[1],
+                     "address": {"street": f"{rng.choice(STREETS)} {rng.randint(2, 180)}", "postal_code": postal, "city": city, "country": "BE"},
+                     "civil_status": civil, "language": "nl", "customer_since": f"{max(born + 18, 1990)}-{rng.randint(1, 12):02d}-01"},
+        "interactions": interactions,
+    }
+
+
+PERSONAS = [EMMA, JONAS] + [lookalike(i, o) for i, o in enumerate(OUTCOMES)] + [filler(i, a) for i, a in enumerate(ARCHETYPES)]
 
 
 # --- Transactions -----------------------------------------------------------
@@ -181,15 +263,24 @@ def build(p):
 
     for d in on(28):
         job = [j for j in p["jobs"] if j["start"] is None or D(j["start"]) <= d][-1]
-        add(cur, d, job["net"], job["employer"], f"Loon {d:%Y-%m}", "income_salary")
-    for d in on(2):
-        add(cur, d, p["partner"]["contribution"], p["partner"]["name"], "Bijdrage huishouden", "income_transfer_household")
+        k = job.get("kind", "salary")
+        desc = {"salary": f"Loon {d:%Y-%m}", "pension": f"Pensioen {d:%Y-%m}", "student_job": f"Studentenjob {d:%m/%Y}"}[k]
+        add(cur, d, job["net"] * rng.uniform(0.6, 1.2) if k == "student_job" else job["net"], job["employer"], desc, f"income_{k}")
+    if p["partner"]:
+        pa = p["partner"]
+        for d in on(2):
+            add(cur, d, pa["contribution"], pa["name"], pa.get("desc", "Bijdrage huishouden"), pa.get("cat", "income_transfer_household"))
     n = len(p["kids"])
-    for d in on(10):
+    for d in on(10) if n else []:
         add(cur, d, 20618 * n + 1, "FONS", f"Groeipakket {d:%m/%Y} kind {'+'.join(str(k + 1) for k in range(n))}", "income_child_benefit")
 
-    for d in on(1, to=moved or END):
-        add(cur, d, -p["rent"], p["landlord"], "Huur", "housing_rent")
+    housing = p.get("housing", "rent")
+    if housing == "rent":
+        for d in on(1, to=moved or END):
+            add(cur, d, -p["rent"], p["landlord"], p.get("rent_desc", "Huur"), "housing_rent")
+    elif housing == "mortgage":
+        for d in on(5):
+            add(cur, d, -p["mortgage"], "Synthetic Bank", "Aflossing woonkrediet", "housing_mortgage")
     if purchase:
         price = purchase["price"]
         add(sav, moved - timedelta(days=75), price * 0.10, "Ouders", "Schenking", "income_gift")
@@ -218,17 +309,18 @@ def build(p):
             for d in on(4):
                 add(cur, d, -rng.choice([4500, 6400, 7500]), "Sportclub", f"Lidgeld kind {k}", "kids_activities")
 
-    for d in on(12):
+    utilities, car = p.get("utilities", True), p.get("car", True)
+    for d in on(12) if utilities else []:
         add(cur, d, -rng.choice([15500, 16800, 17900]), "Engie", "Voorschot energie", "utilities_energy")
     for d in on(15):
-        add(cur, d, -7499, "Proximus", "Internet + mobiel", "utilities_telecom")
-    for d in on(20):
+        add(cur, d, -p.get("telecom", 7499), "Proximus", "Internet + mobiel" if utilities else "Mobiel", "utilities_telecom")
+    for d in on(20) if utilities else []:
         if d.month in (12, 3, 6, 9):
             add(cur, d, -6120, "De Watergroep", "Water voorschot", "utilities_water")
     for d in on(6):
         add(cur, d, -1399, "Netflix", "Netflix abonnement", "subscription_streaming")
-    for d in on(8):
-        add(cur, d, -9210, "Synthetic Verzekeringen", "Familiale + auto verzekering", "insurance")
+    for d in on(8) if car or utilities else []:
+        add(cur, d, -9210 if car else -2450, "Synthetic Verzekeringen", "Familiale + auto verzekering" if car else "Familiale verzekering", "insurance")
     if p["car_loan"]:
         for d in on(3):
             add(cur, d, -p["car_loan"], "Synthetic Auto Finance", "Aflossing autolening", "loan_repayment")
@@ -240,7 +332,7 @@ def build(p):
         add(cur, d, -rng.uniform(11500, 17500) * s, rng.choice(["Colruyt", "Delhaize", "Aldi"]), "Betaling Bancontact", "groceries")
         if rng.random() < 0.35:
             add(cur, d + timedelta(days=1), -rng.uniform(1800, 5500) * s, rng.choice(["Pizzeria Da Mario", "Frituur 't Pleintje", "Bakkerij Moens"]), "Betaling Bancontact", "eating_out")
-        if rng.random() < 0.5:
+        if car and rng.random() < 0.5:
             add(cur, d - timedelta(days=2), -rng.uniform(4500, 7000), rng.choice(["TotalEnergies", "Q8"]), "Brandstof", "transport_fuel")
         if rng.random() < 0.8:
             add(cur, d - timedelta(days=3), -rng.uniform(1200, 4500) * s, rng.choice(["Kruidvat", "Action", "HEMA"]), "Betaling Bancontact", "shopping_household")
@@ -256,7 +348,7 @@ def build(p):
     for day in on(28):
         c = p["opening"]["current"] + sum(t["amount_cents"] for t in tx if t["account_id"] == cur and D(t["booking_date"]) <= day)
         delta = (c - p["cushion"]) // 5000 * 5000
-        if delta >= 5000 or c < p["cushion"] - 50000:
+        if delta >= 5000 or c < p["cushion"] * 0.85:
             add(cur, day, -delta, me, "Naar spaarrekening" if delta > 0 else "Van spaarrekening", "transfer_internal")
             add(sav, day, delta, me, "Van zichtrekening" if delta > 0 else "Naar zichtrekening", "transfer_internal")
 
@@ -270,7 +362,7 @@ def build(p):
         bal[a] += t["amount_cents"]
         history[a].append((t["booking_date"], bal[a]))
         assert bal[a] >= 0, f"{p['customer_id']} {a} overdrawn on {t['booking_date']}"
-    tag = short[:4].upper()
+    tag = short.upper()
     accounts = [{"account_id": cur, "type": "current", "iban": f"BE00 SYNT {tag} 0001", "balance_cents": bal["current"]},
                 {"account_id": sav, "type": "savings", "iban": f"BE00 SYNT {tag} 0002", "balance_cents": bal["savings"]}]
     return tx, accounts, history
@@ -285,7 +377,7 @@ def render_brain(p, tx, accounts, history):
     cid = p["customer_id"]
     name = f'{p["personal"]["first_name"]} {p["personal"]["last_name"]}'
     ints = [dict(it, id=f"{cid}_int{n}") for n, it in enumerate(p["interactions"], 1)]
-    old, new = p["jobs"][-2], p["jobs"][-1]
+    old, new = (p["jobs"][-2] if len(p["jobs"]) > 1 else None), p["jobs"][-1]
 
     def first(cat, since=""):
         return next(t["transaction_id"] for t in tx if t["category"] == cat and t["booking_date"] >= since)
@@ -303,29 +395,50 @@ def render_brain(p, tx, accounts, history):
         tags += ["homeowner", "recently_moved"]
         facts.append(line(f"Bought a home on {purchase['date']}; mortgage repayment {eur(purchase['mortgage'])}/month.",
                           "observed", first("housing_purchase"), first("housing_mortgage")))
-    else:
+    elif p.get("housing", "rent") == "rent":
         tags.append("renting")
         facts.append(line(f"Rents; {eur(p['rent'])}/month to {p['landlord']}.", "observed", last("housing_rent")))
+    elif p["housing"] == "mortgage":
+        tags += ["homeowner", "has_mortgage"]
+        facts.append(line(f"Owns home; mortgage repayment {eur(p['mortgage'])}/month.", "observed", last("housing_mortgage")))
+    else:
+        tags.append("homeowner")
+        facts.append(line("Owns home without mortgage or rent payments.", "inferred", "transactions"))
     n = len(p["kids"])
-    tags.append(f"family_{NUM[n]}_children")
-    facts.append(line(f"{n} children receive Groeipakket child benefit.", "observed", last("income_child_benefit")))
+    kind = new.get("kind", "salary")
+    household = p["partner"] and p["partner"].get("cat", "income_transfer_household") == "income_transfer_household"
+    tags += ["couple"] if household else ["single_parent"] if n else [] if kind == "student_job" else ["single"]
+    if n:
+        tags.append(f"family_{NUM[n]}_{'child' if n == 1 else 'children'}")
+        facts.append(line(f"{n} {'child receives' if n == 1 else 'children receive'} Groeipakket child benefit.", "observed", last("income_child_benefit")))
     for kid in p["kids"]:
         if kid.get("daycare"):
             tags.append("childcare_costs")
             facts.append(line(f"Daycare since {kid['daycare_from']}, {eur(kid['daycare'])}/month.", "observed", first("childcare", kid["daycare_from"])))
-    if new["start"] and new["net"] > old["net"]:
+    if old and new["start"] and new["net"] > old["net"]:
         tags += (["new_job"] if new["employer"] != old["employer"] else []) + ["income_rising"]
         pct = round((new["net"] / old["net"] - 1) * 100)
         facts.append(line(f"Net salary up {pct}% since {new['start']} ({new['employer']}, {eur(new['net'])}/month).",
                           "observed", first("income_salary", new["start"])))
-    facts.append(line(f"Partner contributes {eur(p['partner']['contribution'])}/month to household costs.", "observed", last("income_transfer_household")))
+    elif kind == "pension":
+        tags.append("retired")
+        facts.append(line(f"Pension {eur(new['net'])}/month.", "observed", last("income_pension")))
+    elif kind == "student_job":
+        tags.append("student")
+        facts.append(line(f"Irregular student job income around {eur(new['net'])}/month ({new['employer']}).", "observed", last("income_student_job")))
+    else:
+        facts.append(line(f"Net salary {eur(new['net'])}/month ({new['employer']}).", "observed", last("income_salary")))
+    if household:
+        facts.append(line(f"Partner contributes {eur(p['partner']['contribution'])}/month to household costs.", "observed", last("income_transfer_household")))
+    elif p["partner"]:
+        facts.append(line(f"Parents transfer {eur(p['partner']['contribution'])}/month.", "observed", last(p["partner"]["cat"])))
     facts.append(line(f"Lives in {p['personal']['address']['city']}; civil status {p['personal']['civil_status'].replace('_', ' ')}.", "bank_record", "profile"))
     sav = accounts[1]
     facts.append(line(f"Savings balance {eur(sav['balance_cents'])}.", "observed", sav["account_id"]))
     goal = next((it for it in ints if it.get("goal")), None)
     if goal and sav["balance_cents"] < goal["goal"][1]:
         h, g = history["savings"], goal["goal"][1]
-        since = [d for (_, prev), (d, b) in zip(h, h[1:]) if prev >= g > b][-1]  # most recent drop below goal
+        since = ([START.isoformat()] + [d for (_, prev), (d, b) in zip(h, h[1:]) if prev >= g > b])[-1]  # most recent drop below goal
         tags.append("savings_below_goal")
         facts.append(line(f"Savings under own {eur(goal['goal'][1])} buffer goal since {since}.", "observed", sav["account_id"], goal["id"]))
     for e in p["events"]:
@@ -340,17 +453,17 @@ def render_brain(p, tx, accounts, history):
     names = {t["trait"] for t in traits}
     pref = ("advisor, in person" if "prefers_advisor_for_big_decisions" in names
             else "app, self-service" if "prefers_self_service" in names else "unknown")
-    personality = (f"# Personality: {name}\n\n{HEADER}## Tags\n\n" + " · ".join(f"`{t['trait']}`" for t in traits) + "\n\n## Observations\n\n"
-                   + "".join(line(t["note"], "customer_stated", t["id"]) for t in traits)
+    personality = (f"# Personality: {name}\n\n{HEADER}## Tags\n\n" + (" · ".join(f"`{t['trait']}`" for t in traits) or "_None observed yet._")
+                   + "\n\n## Observations\n\n" + ("".join(line(t["note"], "customer_stated", t["id"]) for t in traits) or "_None yet._\n")
                    + f"\n## Communication\n\n- Preferred channel for big decisions: {pref}.\n- Language: {p['personal']['language']}.\n")
 
     # Experience
-    timeline = [(new["start"], f"Started as {new['title']} at {new['employer']} (was {old['title']} at {old['employer']}).")] if new["start"] else []
+    timeline = [(new["start"], f"Started as {new['title']} at {new['employer']} (was {old['title']} at {old['employer']}).")] if old and new["start"] else []
     timeline += [(k["daycare_from"], "Youngest child started daycare.") for k in p["kids"] if k.get("daycare_from")]
     timeline += [(e["date"], "Bought a home and moved." if e["type"] == "home_purchase" else "Started attic renovation.") for e in p["events"]]
     experience = (f"# Experience: {name}\n\n{HEADER}## Goals\n\n" + (line(goal["goal"][0], "customer_stated", goal["id"]) if goal else "_None stated._\n")
-                  + "\n## Life events\n\n" + "".join(f"- {d}: {t}\n" for d, t in sorted(timeline))
-                  + "\n## Interactions\n\n" + "".join(f"- {it['date']} ({it['channel']}): {it['note']} [{it['id']}]\n" for it in ints))
+                  + "\n## Life events\n\n" + ("".join(f"- {d}: {t}\n" for d, t in sorted(timeline)) or "_None observed in history window._\n")
+                  + "\n## Interactions\n\n" + ("".join(f"- {it['date']} ({it['channel']}): {it['note']} [{it['id']}]\n" for it in ints) or "_None recorded._\n"))
     return {"situation.md": situation, "personality.md": personality, "experience.md": experience}
 
 
@@ -361,11 +474,12 @@ def write(p):
     cid = p["customer_id"]
     d = OUT / cid
     (d / "brain").mkdir(parents=True)
-    old, new = p["jobs"][-2], p["jobs"][-1]
+    old, new = (p["jobs"][-2] if len(p["jobs"]) > 1 else None), p["jobs"][-1]
     profile = {
         "synthetic": True, "customer_id": cid, "personal": p["personal"],
-        "employment": {"status": "employed", "employer": new["employer"], "job_title": new["title"], "since": new["start"],
-                       "previous": {"employer": old["employer"], "job_title": old["title"]}},
+        "employment": {"status": {"salary": "employed", "pension": "retired", "student_job": "student"}[new.get("kind", "salary")],
+                       "employer": new["employer"], "job_title": new["title"], "since": new["start"],
+                       "previous": {"employer": old["employer"], "job_title": old["title"]} if old else None},
         "consent": {"personalised_insights": True, "marketing": False},
         "accounts": [dict(a, balance_as_of=END.isoformat()) for a in accounts],
         "positions": [dict(x, as_of=END.isoformat()) for x in p["positions"]],
@@ -375,7 +489,7 @@ def write(p):
     }
     (d / "profile.json").write_text(json.dumps(profile, indent=2, ensure_ascii=False) + "\n")
     with open(d / "transactions.csv", "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["transaction_id", "account_id", "booking_date", "amount_cents", "currency", "counterparty", "description", "category"])
+        w = csv.DictWriter(f, lineterminator="\n", fieldnames=["transaction_id", "account_id", "booking_date", "amount_cents", "currency", "counterparty", "description", "category"])
         w.writeheader()
         w.writerows(tx)
     for name, md in render_brain(p, tx, accounts, history).items():
@@ -396,5 +510,14 @@ if __name__ == "__main__":
     hits = [r for r in refs if r["outcome"] == "home_purchase"
             and 0 <= (D(r["outcome_date"]) - D(r["cutoff"])).days <= r["outcome_window_days"]]
     assert (len(hits), len(refs)) == (14, 22), (len(hits), len(refs))
+    # Matcher sanity (situation Jaccard vs look-alike cutoff tags; 0.5 is the architecture's demo threshold).
+    cutoff = set(refs[0]["situation_tags_at_cutoff"])
+    tags = {p["customer_id"]: set(render_brain(p, *build(p))["situation.md"].split("## Tags\n\n")[1].split("\n")[0].replace("`", "").split(" · "))
+            for p in PERSONAS if p["customer_id"] == "cust_emma" or "near-miss" in p.get("story", "")}
+    jac = {c: len(t & cutoff) / len(t | cutoff) for c, t in tags.items()}
+    assert jac.pop("cust_emma") >= 0.5, "Emma no longer matches her look-alikes"
+    # Known gap: near-misses (no income rise) also clear 0.5 with plain overlap; matcher needs key-tag weighting.
+    print(f"near-miss Jaccard (should ideally be < 0.5): {sorted(set(round(v, 2) for v in jac.values()))}")
+    assert len(PERSONAS) == 100 and len(results) == 100, "customer_id collision or wrong count"
     print(f"{len(PERSONAS)} customers, {sum(len(t) for t, _ in results.values())} transactions; "
           f"Emma savings {eur(emma_sav)}; {len(hits)}/{len(refs)} look-alikes bought a home within 6 months of cutoff")

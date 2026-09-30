@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_kris74",
+  "personal": {
+    "first_name": "Kris",
+    "last_name": "Smets",
+    "birth_date": "1979-07-09",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Kerkstraat 117",
+      "postal_code": "8500",
+      "city": "Kortrijk",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1997-10-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Deltaport Logistics NV",
+    "job_title": "Planner",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_kris74_current",
+      "type": "current",
+      "iban": "BE00 SYNT KRIS74 0001",
+      "balance_cents": 301110,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_kris74_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT KRIS74 0002",
+      "balance_cents": 3728000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_kris74_int1",
+      "date": "2025-07-05",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_kris74_int2",
+      "date": "2025-09-20",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 5,000 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

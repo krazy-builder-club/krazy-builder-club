@@ -34,14 +34,14 @@
     {
       "account_id": "acc_stijn16_current",
       "type": "current",
-      "iban": "BE00 SYNT STIJ 0001",
+      "iban": "BE00 SYNT STIJN16 0001",
       "balance_cents": 452831,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_stijn16_savings",
       "type": "savings",
-      "iban": "BE00 SYNT STIJ 0002",
+      "iban": "BE00 SYNT STIJN16 0002",
       "balance_cents": 1229000,
       "balance_as_of": "2026-09-30"
     }

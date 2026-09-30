@@ -34,14 +34,14 @@
     {
       "account_id": "acc_maarten21_current",
       "type": "current",
-      "iban": "BE00 SYNT MAAR 0001",
+      "iban": "BE00 SYNT MAARTEN21 0001",
       "balance_cents": 454743,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_maarten21_savings",
       "type": "savings",
-      "iban": "BE00 SYNT MAAR 0002",
+      "iban": "BE00 SYNT MAARTEN21 0002",
       "balance_cents": 1729000,
       "balance_as_of": "2026-09-30"
     }

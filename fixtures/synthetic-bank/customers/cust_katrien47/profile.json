@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_katrien47",
+  "personal": {
+    "first_name": "Katrien",
+    "last_name": "Hendrickx",
+    "birth_date": "1997-03-01",
+    "place_of_birth": "Aalst",
+    "address": {
+      "street": "Dorpsstraat 27",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2015-02-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "City of Mechelen",
+    "job_title": "Policy officer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_katrien47_current",
+      "type": "current",
+      "iban": "BE00 SYNT KATRIEN47 0001",
+      "balance_cents": 303996,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_katrien47_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT KATRIEN47 0002",
+      "balance_cents": 2215000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_katrien47_int1",
+      "date": "2025-08-05",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

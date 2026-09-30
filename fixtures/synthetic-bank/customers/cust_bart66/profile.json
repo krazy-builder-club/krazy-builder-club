@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_bart66",
+  "personal": {
+    "first_name": "Bart",
+    "last_name": "Vermeulen",
+    "birth_date": "1981-02-27",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Stationsstraat 170",
+      "postal_code": "8000",
+      "city": "Brugge",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1999-09-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Kempen Tech BV",
+    "job_title": "Developer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_bart66_current",
+      "type": "current",
+      "iban": "BE00 SYNT BART66 0001",
+      "balance_cents": 454631,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_bart66_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT BART66 0002",
+      "balance_cents": 2904000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_bart66_int1",
+      "date": "2025-06-16",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

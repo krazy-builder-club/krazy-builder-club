@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_griet45",
+  "personal": {
+    "first_name": "Griet",
+    "last_name": "Willems",
+    "birth_date": "1996-09-18",
+    "place_of_birth": "Antwerpen",
+    "address": {
+      "street": "Dorpsstraat 126",
+      "postal_code": "9000",
+      "city": "Gent",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2014-07-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Leie Consulting BV",
+    "job_title": "Consultant",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_griet45_current",
+      "type": "current",
+      "iban": "BE00 SYNT GRIET45 0001",
+      "balance_cents": 300617,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_griet45_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT GRIET45 0002",
+      "balance_cents": 1256000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

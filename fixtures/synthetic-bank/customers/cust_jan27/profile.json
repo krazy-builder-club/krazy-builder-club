@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_jan27",
+  "personal": {
+    "first_name": "Jan",
+    "last_name": "Martens",
+    "birth_date": "2005-06-02",
+    "place_of_birth": "Hasselt",
+    "address": {
+      "street": "Dorpsstraat 95",
+      "postal_code": "2000",
+      "city": "Antwerpen",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2023-12-01"
+  },
+  "employment": {
+    "status": "student",
+    "employer": "Bpost",
+    "job_title": "Student job",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_jan27_current",
+      "type": "current",
+      "iban": "BE00 SYNT JAN27 0001",
+      "balance_cents": 123650,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_jan27_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JAN27 0002",
+      "balance_cents": 410000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_jan27_int1",
+      "date": "2025-01-24",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

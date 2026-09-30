@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_hilde56",
+  "personal": {
+    "first_name": "Hilde",
+    "last_name": "Wouters",
+    "birth_date": "1988-03-06",
+    "place_of_birth": "Mechelen",
+    "address": {
+      "street": "Schoolstraat 161",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2006-11-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Deltaport Logistics NV",
+    "job_title": "Planner",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_hilde56_current",
+      "type": "current",
+      "iban": "BE00 SYNT HILDE56 0001",
+      "balance_cents": 453395,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_hilde56_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT HILDE56 0002",
+      "balance_cents": 2668000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_hilde56_int1",
+      "date": "2025-07-19",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_hilde56_int2",
+      "date": "2025-07-22",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

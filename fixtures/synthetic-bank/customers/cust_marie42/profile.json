@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_marie42",
+  "personal": {
+    "first_name": "Marie",
+    "last_name": "Vermeulen",
+    "birth_date": "1995-05-21",
+    "place_of_birth": "Mechelen",
+    "address": {
+      "street": "Molenstraat 171",
+      "postal_code": "9000",
+      "city": "Gent",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2013-09-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Deltaport Logistics NV",
+    "job_title": "Planner",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_marie42_current",
+      "type": "current",
+      "iban": "BE00 SYNT MARIE42 0001",
+      "balance_cents": 300756,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_marie42_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT MARIE42 0002",
+      "balance_cents": 1695000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_marie42_int1",
+      "date": "2025-04-27",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_marie42_int2",
+      "date": "2025-09-10",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

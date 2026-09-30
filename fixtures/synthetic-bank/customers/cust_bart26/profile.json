@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_bart26",
+  "personal": {
+    "first_name": "Bart",
+    "last_name": "Coppens",
+    "birth_date": "2005-12-28",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Schoolstraat 150",
+      "postal_code": "2000",
+      "city": "Antwerpen",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2023-01-01"
+  },
+  "employment": {
+    "status": "student",
+    "employer": "Delhaize",
+    "job_title": "Student job",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_bart26_current",
+      "type": "current",
+      "iban": "BE00 SYNT BART26 0001",
+      "balance_cents": 123770,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_bart26_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT BART26 0002",
+      "balance_cents": 232000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_bart26_int1",
+      "date": "2025-01-03",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

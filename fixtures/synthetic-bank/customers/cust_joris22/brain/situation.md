@@ -4,7 +4,7 @@
 
 ## Tags
 
-`renting` · `family_two_children` · `childcare_costs` · `new_job` · `income_rising`
+`renting` · `couple` · `family_two_children` · `childcare_costs` · `new_job` · `income_rising`
 
 ## Facts
 

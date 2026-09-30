@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_olivia36",
+  "personal": {
+    "first_name": "Olivia",
+    "last_name": "Martens",
+    "birth_date": "1992-07-27",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Stationsstraat 85",
+      "postal_code": "3000",
+      "city": "Leuven",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2010-04-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Flanders Care vzw",
+    "job_title": "Nurse",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_olivia36_current",
+      "type": "current",
+      "iban": "BE00 SYNT OLIVIA36 0001",
+      "balance_cents": 302749,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_olivia36_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT OLIVIA36 0002",
+      "balance_cents": 931000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_olivia36_int1",
+      "date": "2025-02-22",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_olivia36_int2",
+      "date": "2025-03-13",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

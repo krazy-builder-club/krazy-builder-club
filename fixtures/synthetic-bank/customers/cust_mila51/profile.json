@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_mila51",
+  "personal": {
+    "first_name": "Mila",
+    "last_name": "Hendrickx",
+    "birth_date": "1995-05-10",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Dorpsstraat 23",
+      "postal_code": "2000",
+      "city": "Antwerpen",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2013-04-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Kempen Tech BV",
+    "job_title": "Developer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_mila51_current",
+      "type": "current",
+      "iban": "BE00 SYNT MILA51 0001",
+      "balance_cents": 304258,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_mila51_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT MILA51 0002",
+      "balance_cents": 2928000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_mila51_int1",
+      "date": "2025-01-20",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

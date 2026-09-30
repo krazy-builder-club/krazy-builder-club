@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_marie91",
+  "personal": {
+    "first_name": "Marie",
+    "last_name": "Vermeulen",
+    "birth_date": "1955-12-13",
+    "place_of_birth": "Aalst",
+    "address": {
+      "street": "Dorpsstraat 116",
+      "postal_code": "3000",
+      "city": "Leuven",
+      "country": "BE"
+    },
+    "civil_status": "widowed",
+    "language": "nl",
+    "customer_since": "1990-12-01"
+  },
+  "employment": {
+    "status": "retired",
+    "employer": "Federale Pensioendienst",
+    "job_title": "Retired",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_marie91_current",
+      "type": "current",
+      "iban": "BE00 SYNT MARIE91 0001",
+      "balance_cents": 301224,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_marie91_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT MARIE91 0002",
+      "balance_cents": 4845000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_marie91_int1",
+      "date": "2025-08-15",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_marie91_int2",
+      "date": "2025-09-11",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 5,500 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

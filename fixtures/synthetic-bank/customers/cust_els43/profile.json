@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_els43",
+  "personal": {
+    "first_name": "Els",
+    "last_name": "Coppens",
+    "birth_date": "1997-03-17",
+    "place_of_birth": "Hasselt",
+    "address": {
+      "street": "Nieuwstraat 100",
+      "postal_code": "3500",
+      "city": "Hasselt",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2015-12-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Kempen Tech BV",
+    "job_title": "Developer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_els43_current",
+      "type": "current",
+      "iban": "BE00 SYNT ELS43 0001",
+      "balance_cents": 301828,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_els43_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT ELS43 0002",
+      "balance_cents": 2447000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_els43_int1",
+      "date": "2025-03-19",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_els43_int2",
+      "date": "2025-04-18",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 7,500 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

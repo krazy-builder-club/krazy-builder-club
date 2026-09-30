@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_luc73",
+  "personal": {
+    "first_name": "Luc",
+    "last_name": "Aerts",
+    "birth_date": "1985-02-19",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Nieuwstraat 172",
+      "postal_code": "8500",
+      "city": "Kortrijk",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2003-05-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Leie Consulting BV",
+    "job_title": "Consultant",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_luc73_current",
+      "type": "current",
+      "iban": "BE00 SYNT LUC73 0001",
+      "balance_cents": 301802,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_luc73_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LUC73 0002",
+      "balance_cents": 2338000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_luc73_int1",
+      "date": "2025-07-13",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 6,500 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

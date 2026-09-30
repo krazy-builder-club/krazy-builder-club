@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_katrien95",
+  "personal": {
+    "first_name": "Katrien",
+    "last_name": "Wouters",
+    "birth_date": "1987-10-21",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Stationsstraat 20",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2005-04-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Scholengroep Rivierenland",
+    "job_title": "Teacher",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_katrien95_current",
+      "type": "current",
+      "iban": "BE00 SYNT KATRIEN95 0001",
+      "balance_cents": 452843,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_katrien95_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT KATRIEN95 0002",
+      "balance_cents": 2045000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_katrien95_int1",
+      "date": "2025-06-07",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_dirk87",
+  "personal": {
+    "first_name": "Dirk",
+    "last_name": "Stevens",
+    "birth_date": "1954-12-16",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Dorpsstraat 9",
+      "postal_code": "2000",
+      "city": "Antwerpen",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1990-09-01"
+  },
+  "employment": {
+    "status": "retired",
+    "employer": "Federale Pensioendienst",
+    "job_title": "Retired",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_dirk87_current",
+      "type": "current",
+      "iban": "BE00 SYNT DIRK87 0001",
+      "balance_cents": 302584,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_dirk87_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT DIRK87 0002",
+      "balance_cents": 6948000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

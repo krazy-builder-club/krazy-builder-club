@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_koen81",
+  "personal": {
+    "first_name": "Koen",
+    "last_name": "Van den Broeck",
+    "birth_date": "1968-02-08",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Schoolstraat 120",
+      "postal_code": "2500",
+      "city": "Lier",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1990-02-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "City of Mechelen",
+    "job_title": "Policy officer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_koen81_current",
+      "type": "current",
+      "iban": "BE00 SYNT KOEN81 0001",
+      "balance_cents": 300970,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_koen81_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT KOEN81 0002",
+      "balance_cents": 4117000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

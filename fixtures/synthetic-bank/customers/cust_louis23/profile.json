@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_louis23",
+  "personal": {
+    "first_name": "Louis",
+    "last_name": "Willems",
+    "birth_date": "2004-11-14",
+    "place_of_birth": "Aalst",
+    "address": {
+      "street": "Molenstraat 143",
+      "postal_code": "3500",
+      "city": "Hasselt",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2022-06-01"
+  },
+  "employment": {
+    "status": "student",
+    "employer": "Café De Kroon",
+    "job_title": "Student job",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_louis23_current",
+      "type": "current",
+      "iban": "BE00 SYNT LOUIS23 0001",
+      "balance_cents": 120405,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_louis23_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LOUIS23 0002",
+      "balance_cents": 334000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_louis23_int1",
+      "date": "2025-09-13",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

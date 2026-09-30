@@ -34,14 +34,14 @@
     {
       "account_id": "acc_nina08_current",
       "type": "current",
-      "iban": "BE00 SYNT NINA 0001",
+      "iban": "BE00 SYNT NINA08 0001",
       "balance_cents": 452017,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_nina08_savings",
       "type": "savings",
-      "iban": "BE00 SYNT NINA 0002",
+      "iban": "BE00 SYNT NINA08 0002",
       "balance_cents": 2609506,
       "balance_as_of": "2026-09-30"
     }

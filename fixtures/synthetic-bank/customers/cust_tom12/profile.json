@@ -34,14 +34,14 @@
     {
       "account_id": "acc_tom12_current",
       "type": "current",
-      "iban": "BE00 SYNT TOM1 0001",
+      "iban": "BE00 SYNT TOM12 0001",
       "balance_cents": 452961,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_tom12_savings",
       "type": "savings",
-      "iban": "BE00 SYNT TOM1 0002",
+      "iban": "BE00 SYNT TOM12 0002",
       "balance_cents": 2440904,
       "balance_as_of": "2026-09-30"
     }

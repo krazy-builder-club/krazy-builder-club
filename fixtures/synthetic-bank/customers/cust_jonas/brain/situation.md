@@ -4,7 +4,7 @@
 
 ## Tags
 
-`renting` · `family_two_children` · `income_rising`
+`renting` · `couple` · `family_two_children` · `income_rising`
 
 ## Facts
 

@@ -34,14 +34,14 @@
     {
       "account_id": "acc_bram15_current",
       "type": "current",
-      "iban": "BE00 SYNT BRAM 0001",
+      "iban": "BE00 SYNT BRAM15 0001",
       "balance_cents": 453730,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_bram15_savings",
       "type": "savings",
-      "iban": "BE00 SYNT BRAM 0002",
+      "iban": "BE00 SYNT BRAM15 0002",
       "balance_cents": 1878000,
       "balance_as_of": "2026-09-30"
     }

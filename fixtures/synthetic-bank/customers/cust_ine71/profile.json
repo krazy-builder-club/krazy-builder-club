@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_ine71",
+  "personal": {
+    "first_name": "Ine",
+    "last_name": "Dubois",
+    "birth_date": "1991-03-12",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Stationsstraat 145",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "divorced",
+    "language": "nl",
+    "customer_since": "2009-09-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Brabant Retail NV",
+    "job_title": "Store manager",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_ine71_current",
+      "type": "current",
+      "iban": "BE00 SYNT INE71 0001",
+      "balance_cents": 304685,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_ine71_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT INE71 0002",
+      "balance_cents": 1181000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_ine71_int1",
+      "date": "2025-03-19",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

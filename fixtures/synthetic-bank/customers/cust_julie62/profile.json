@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_julie62",
+  "personal": {
+    "first_name": "Julie",
+    "last_name": "Dubois",
+    "birth_date": "1985-11-20",
+    "place_of_birth": "Mechelen",
+    "address": {
+      "street": "Stationsstraat 156",
+      "postal_code": "3001",
+      "city": "Heverlee",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2003-08-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Noordzee Foods NV",
+    "job_title": "Quality lead",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_julie62_current",
+      "type": "current",
+      "iban": "BE00 SYNT JULIE62 0001",
+      "balance_cents": 453080,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_julie62_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JULIE62 0002",
+      "balance_cents": 1855000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_julie62_int1",
+      "date": "2025-02-21",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 9,500 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

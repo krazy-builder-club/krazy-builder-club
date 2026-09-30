@@ -1,0 +1,331 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_tom96_tx00001,acc_tom96_current,2025-10-01,-1653,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00002,acc_tom96_current,2025-10-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00003,acc_tom96_current,2025-10-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00004,acc_tom96_current,2025-10-02,-5047,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom96_tx00005,acc_tom96_current,2025-10-03,-5854,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00006,acc_tom96_current,2025-10-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00007,acc_tom96_current,2025-10-04,-11514,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00008,acc_tom96_current,2025-10-05,-4468,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom96_tx00009,acc_tom96_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00010,acc_tom96_current,2025-10-08,-2243,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00011,acc_tom96_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00012,acc_tom96_current,2025-10-10,41237,EUR,FONS,Groeipakket 10/2025 kind 1+2,income_child_benefit
+cust_tom96_tx00013,acc_tom96_current,2025-10-10,-3070,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00014,acc_tom96_current,2025-10-11,-12339,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00015,acc_tom96_current,2025-10-12,-3981,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom96_tx00016,acc_tom96_current,2025-10-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00017,acc_tom96_current,2025-10-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 10/2025,childcare
+cust_tom96_tx00018,acc_tom96_current,2025-10-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 10/2025,childcare
+cust_tom96_tx00019,acc_tom96_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00020,acc_tom96_current,2025-10-16,-4587,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom96_tx00021,acc_tom96_current,2025-10-18,-7494,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00022,acc_tom96_current,2025-10-18,-14129,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00023,acc_tom96_current,2025-10-23,-6480,EUR,Q8,Brandstof,transport_fuel
+cust_tom96_tx00024,acc_tom96_current,2025-10-24,-6133,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00025,acc_tom96_current,2025-10-25,-11105,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00026,acc_tom96_current,2025-10-28,271000,EUR,Brabant Retail NV,Loon 2025-10,income_salary
+cust_tom96_tx00027,acc_tom96_current,2025-10-28,-60000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00028,acc_tom96_savings,2025-10-28,60000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00029,acc_tom96_current,2025-10-29,-3973,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00030,acc_tom96_current,2025-11-01,-15649,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00031,acc_tom96_current,2025-11-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00032,acc_tom96_current,2025-11-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00033,acc_tom96_current,2025-11-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00034,acc_tom96_current,2025-11-05,-1272,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00035,acc_tom96_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00036,acc_tom96_current,2025-11-07,-2849,EUR,Zalando,Online aankoop,shopping_online
+cust_tom96_tx00037,acc_tom96_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00038,acc_tom96_current,2025-11-08,-13660,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00039,acc_tom96_current,2025-11-09,-5119,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom96_tx00040,acc_tom96_current,2025-11-10,41237,EUR,FONS,Groeipakket 11/2025 kind 1+2,income_child_benefit
+cust_tom96_tx00041,acc_tom96_current,2025-11-12,-4141,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00042,acc_tom96_current,2025-11-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00043,acc_tom96_current,2025-11-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 11/2025,childcare
+cust_tom96_tx00044,acc_tom96_current,2025-11-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 11/2025,childcare
+cust_tom96_tx00045,acc_tom96_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00046,acc_tom96_current,2025-11-15,-13391,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00047,acc_tom96_current,2025-11-16,-3652,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom96_tx00048,acc_tom96_current,2025-11-18,-6181,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00049,acc_tom96_current,2025-11-19,-2083,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00050,acc_tom96_current,2025-11-20,-4830,EUR,Q8,Brandstof,transport_fuel
+cust_tom96_tx00051,acc_tom96_current,2025-11-21,-6309,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom96_tx00052,acc_tom96_current,2025-11-22,-13427,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00053,acc_tom96_current,2025-11-28,271000,EUR,Brabant Retail NV,Loon 2025-11,income_salary
+cust_tom96_tx00054,acc_tom96_current,2025-11-28,-4016,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom96_tx00055,acc_tom96_current,2025-11-28,-65000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00056,acc_tom96_savings,2025-11-28,65000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00057,acc_tom96_current,2025-11-29,-13922,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00058,acc_tom96_current,2025-12-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00059,acc_tom96_current,2025-12-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00060,acc_tom96_current,2025-12-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00061,acc_tom96_current,2025-12-05,-3671,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00062,acc_tom96_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00063,acc_tom96_current,2025-12-06,-11561,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00064,acc_tom96_current,2025-12-07,-4510,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom96_tx00065,acc_tom96_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00066,acc_tom96_current,2025-12-10,41237,EUR,FONS,Groeipakket 12/2025 kind 1+2,income_child_benefit
+cust_tom96_tx00067,acc_tom96_current,2025-12-10,-2989,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00068,acc_tom96_current,2025-12-12,-4487,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00069,acc_tom96_current,2025-12-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00070,acc_tom96_current,2025-12-13,-13380,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00071,acc_tom96_current,2025-12-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 12/2025,childcare
+cust_tom96_tx00072,acc_tom96_current,2025-12-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 12/2025,childcare
+cust_tom96_tx00073,acc_tom96_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00074,acc_tom96_current,2025-12-18,-5854,EUR,Q8,Brandstof,transport_fuel
+cust_tom96_tx00075,acc_tom96_current,2025-12-18,-13191,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00076,acc_tom96_current,2025-12-19,-5761,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom96_tx00077,acc_tom96_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_tom96_tx00078,acc_tom96_current,2025-12-20,-13102,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00079,acc_tom96_current,2025-12-24,-2571,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00080,acc_tom96_current,2025-12-26,-3108,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00081,acc_tom96_current,2025-12-27,-13200,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00082,acc_tom96_current,2025-12-28,271000,EUR,Brabant Retail NV,Loon 2025-12,income_salary
+cust_tom96_tx00083,acc_tom96_current,2025-12-28,-5032,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom96_tx00084,acc_tom96_current,2025-12-28,-45000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00085,acc_tom96_savings,2025-12-28,45000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00086,acc_tom96_current,2025-12-31,-4245,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00087,acc_tom96_current,2026-01-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00088,acc_tom96_current,2026-01-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00089,acc_tom96_current,2026-01-03,-13807,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00090,acc_tom96_current,2026-01-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00091,acc_tom96_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00092,acc_tom96_current,2026-01-07,-1231,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00093,acc_tom96_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00094,acc_tom96_current,2026-01-09,-5155,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom96_tx00095,acc_tom96_current,2026-01-10,41237,EUR,FONS,Groeipakket 01/2026 kind 1+2,income_child_benefit
+cust_tom96_tx00096,acc_tom96_current,2026-01-10,-15785,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00097,acc_tom96_current,2026-01-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00098,acc_tom96_current,2026-01-14,-3349,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00099,acc_tom96_current,2026-01-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 01/2026,childcare
+cust_tom96_tx00100,acc_tom96_current,2026-01-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 01/2026,childcare
+cust_tom96_tx00101,acc_tom96_current,2026-01-15,-5641,EUR,Q8,Brandstof,transport_fuel
+cust_tom96_tx00102,acc_tom96_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00103,acc_tom96_current,2026-01-17,-10949,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00104,acc_tom96_current,2026-01-18,-2557,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom96_tx00105,acc_tom96_current,2026-01-18,-7758,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00106,acc_tom96_current,2026-01-21,-1831,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00107,acc_tom96_current,2026-01-24,-16391,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00108,acc_tom96_current,2026-01-28,271000,EUR,Brabant Retail NV,Loon 2026-01,income_salary
+cust_tom96_tx00109,acc_tom96_current,2026-01-28,-1667,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00110,acc_tom96_current,2026-01-28,-70000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00111,acc_tom96_savings,2026-01-28,70000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00112,acc_tom96_current,2026-01-31,-15149,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00113,acc_tom96_current,2026-02-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00114,acc_tom96_current,2026-02-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00115,acc_tom96_current,2026-02-04,-3926,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00116,acc_tom96_current,2026-02-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00117,acc_tom96_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00118,acc_tom96_current,2026-02-07,-12588,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00119,acc_tom96_current,2026-02-08,-3498,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom96_tx00120,acc_tom96_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00121,acc_tom96_current,2026-02-10,41237,EUR,FONS,Groeipakket 02/2026 kind 1+2,income_child_benefit
+cust_tom96_tx00122,acc_tom96_current,2026-02-11,-1949,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00123,acc_tom96_current,2026-02-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00124,acc_tom96_current,2026-02-13,-4804,EUR,Zalando,Online aankoop,shopping_online
+cust_tom96_tx00125,acc_tom96_current,2026-02-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 02/2026,childcare
+cust_tom96_tx00126,acc_tom96_current,2026-02-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 02/2026,childcare
+cust_tom96_tx00127,acc_tom96_current,2026-02-14,-15850,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00128,acc_tom96_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00129,acc_tom96_current,2026-02-18,-1804,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00130,acc_tom96_current,2026-02-18,-6934,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00131,acc_tom96_current,2026-02-19,-4541,EUR,Q8,Brandstof,transport_fuel
+cust_tom96_tx00132,acc_tom96_current,2026-02-20,-7528,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom96_tx00133,acc_tom96_current,2026-02-21,-16103,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00134,acc_tom96_current,2026-02-22,-3969,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom96_tx00135,acc_tom96_current,2026-02-27,-3013,EUR,Zalando,Online aankoop,shopping_online
+cust_tom96_tx00136,acc_tom96_current,2026-02-28,271000,EUR,Brabant Retail NV,Loon 2026-02,income_salary
+cust_tom96_tx00137,acc_tom96_current,2026-02-28,-11119,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00138,acc_tom96_current,2026-02-28,-50000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00139,acc_tom96_savings,2026-02-28,50000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00140,acc_tom96_current,2026-03-01,-2601,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom96_tx00141,acc_tom96_current,2026-03-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00142,acc_tom96_current,2026-03-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00143,acc_tom96_current,2026-03-04,-1279,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00144,acc_tom96_current,2026-03-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00145,acc_tom96_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00146,acc_tom96_current,2026-03-06,-4026,EUR,Zalando,Online aankoop,shopping_online
+cust_tom96_tx00147,acc_tom96_current,2026-03-07,-14533,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00148,acc_tom96_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00149,acc_tom96_current,2026-03-10,41237,EUR,FONS,Groeipakket 03/2026 kind 1+2,income_child_benefit
+cust_tom96_tx00150,acc_tom96_current,2026-03-11,-2819,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00151,acc_tom96_current,2026-03-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00152,acc_tom96_current,2026-03-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 03/2026,childcare
+cust_tom96_tx00153,acc_tom96_current,2026-03-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 03/2026,childcare
+cust_tom96_tx00154,acc_tom96_current,2026-03-14,-15706,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00155,acc_tom96_current,2026-03-15,-5126,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom96_tx00156,acc_tom96_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00157,acc_tom96_current,2026-03-18,-11091,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00158,acc_tom96_current,2026-03-19,-5596,EUR,Q8,Brandstof,transport_fuel
+cust_tom96_tx00159,acc_tom96_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_tom96_tx00160,acc_tom96_current,2026-03-21,-13479,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00161,acc_tom96_current,2026-03-25,-3564,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00162,acc_tom96_current,2026-03-26,-5395,EUR,Q8,Brandstof,transport_fuel
+cust_tom96_tx00163,acc_tom96_current,2026-03-27,-4519,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom96_tx00164,acc_tom96_current,2026-03-28,271000,EUR,Brabant Retail NV,Loon 2026-03,income_salary
+cust_tom96_tx00165,acc_tom96_current,2026-03-28,-11275,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00166,acc_tom96_current,2026-03-28,-60000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00167,acc_tom96_savings,2026-03-28,60000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00168,acc_tom96_current,2026-03-29,-3860,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom96_tx00169,acc_tom96_current,2026-04-01,-2594,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00170,acc_tom96_current,2026-04-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00171,acc_tom96_current,2026-04-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00172,acc_tom96_current,2026-04-02,-5288,EUR,Q8,Brandstof,transport_fuel
+cust_tom96_tx00173,acc_tom96_current,2026-04-03,-6845,EUR,Zalando,Online aankoop,shopping_online
+cust_tom96_tx00174,acc_tom96_current,2026-04-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00175,acc_tom96_current,2026-04-04,-13016,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00176,acc_tom96_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00177,acc_tom96_current,2026-04-08,-4014,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00178,acc_tom96_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00179,acc_tom96_current,2026-04-09,-5472,EUR,Q8,Brandstof,transport_fuel
+cust_tom96_tx00180,acc_tom96_current,2026-04-10,41237,EUR,FONS,Groeipakket 04/2026 kind 1+2,income_child_benefit
+cust_tom96_tx00181,acc_tom96_current,2026-04-10,-4854,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00182,acc_tom96_current,2026-04-11,-11015,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00183,acc_tom96_current,2026-04-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00184,acc_tom96_current,2026-04-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 04/2026,childcare
+cust_tom96_tx00185,acc_tom96_current,2026-04-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 04/2026,childcare
+cust_tom96_tx00186,acc_tom96_current,2026-04-15,-3712,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00187,acc_tom96_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00188,acc_tom96_current,2026-04-16,-6519,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom96_tx00189,acc_tom96_current,2026-04-17,-3211,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00190,acc_tom96_current,2026-04-18,-11094,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00191,acc_tom96_current,2026-04-18,-16145,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00192,acc_tom96_current,2026-04-19,-4056,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom96_tx00193,acc_tom96_current,2026-04-22,-1227,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00194,acc_tom96_current,2026-04-24,-4981,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00195,acc_tom96_current,2026-04-25,-13954,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00196,acc_tom96_current,2026-04-28,271000,EUR,Brabant Retail NV,Loon 2026-04,income_salary
+cust_tom96_tx00197,acc_tom96_current,2026-04-28,-40000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00198,acc_tom96_savings,2026-04-28,40000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00199,acc_tom96_current,2026-04-29,-2940,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00200,acc_tom96_current,2026-04-30,-6777,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom96_tx00201,acc_tom96_current,2026-05-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00202,acc_tom96_current,2026-05-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00203,acc_tom96_current,2026-05-02,-11806,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00204,acc_tom96_current,2026-05-03,-4949,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom96_tx00205,acc_tom96_current,2026-05-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00206,acc_tom96_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00207,acc_tom96_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00208,acc_tom96_current,2026-05-09,-16621,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00209,acc_tom96_current,2026-05-10,41237,EUR,FONS,Groeipakket 05/2026 kind 1+2,income_child_benefit
+cust_tom96_tx00210,acc_tom96_current,2026-05-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00211,acc_tom96_current,2026-05-13,-2357,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00212,acc_tom96_current,2026-05-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 05/2026,childcare
+cust_tom96_tx00213,acc_tom96_current,2026-05-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 05/2026,childcare
+cust_tom96_tx00214,acc_tom96_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00215,acc_tom96_current,2026-05-16,-12625,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00216,acc_tom96_current,2026-05-18,-7504,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00217,acc_tom96_current,2026-05-23,-15507,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00218,acc_tom96_current,2026-05-28,271000,EUR,Brabant Retail NV,Loon 2026-05,income_salary
+cust_tom96_tx00219,acc_tom96_current,2026-05-28,-85000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00220,acc_tom96_savings,2026-05-28,85000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00221,acc_tom96_current,2026-05-30,-14417,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00222,acc_tom96_current,2026-06-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00223,acc_tom96_current,2026-06-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00224,acc_tom96_current,2026-06-03,-2940,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00225,acc_tom96_current,2026-06-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00226,acc_tom96_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00227,acc_tom96_current,2026-06-06,-13215,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00228,acc_tom96_current,2026-06-07,-2000,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom96_tx00229,acc_tom96_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00230,acc_tom96_current,2026-06-10,41237,EUR,FONS,Groeipakket 06/2026 kind 1+2,income_child_benefit
+cust_tom96_tx00231,acc_tom96_current,2026-06-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00232,acc_tom96_current,2026-06-13,-13752,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00233,acc_tom96_current,2026-06-14,-3622,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom96_tx00234,acc_tom96_current,2026-06-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 06/2026,childcare
+cust_tom96_tx00235,acc_tom96_current,2026-06-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 06/2026,childcare
+cust_tom96_tx00236,acc_tom96_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00237,acc_tom96_current,2026-06-17,-2779,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00238,acc_tom96_current,2026-06-18,-5747,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00239,acc_tom96_current,2026-06-19,-4668,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00240,acc_tom96_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_tom96_tx00241,acc_tom96_current,2026-06-20,-13336,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00242,acc_tom96_current,2026-06-24,-4054,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00243,acc_tom96_current,2026-06-25,-4692,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom96_tx00244,acc_tom96_current,2026-06-26,-6026,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00245,acc_tom96_current,2026-06-27,-13357,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00246,acc_tom96_current,2026-06-28,271000,EUR,Brabant Retail NV,Loon 2026-06,income_salary
+cust_tom96_tx00247,acc_tom96_current,2026-06-28,-2208,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom96_tx00248,acc_tom96_current,2026-06-28,-55000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00249,acc_tom96_savings,2026-06-28,55000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00250,acc_tom96_current,2026-07-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00251,acc_tom96_current,2026-07-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00252,acc_tom96_current,2026-07-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00253,acc_tom96_current,2026-07-04,-12501,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00254,acc_tom96_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00255,acc_tom96_current,2026-07-08,-2583,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00256,acc_tom96_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00257,acc_tom96_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_tom96_tx00258,acc_tom96_current,2026-07-11,-14858,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00259,acc_tom96_current,2026-07-11,-74700,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_tom96_tx00260,acc_tom96_current,2026-07-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00261,acc_tom96_current,2026-07-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 07/2026,childcare
+cust_tom96_tx00262,acc_tom96_current,2026-07-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
+cust_tom96_tx00263,acc_tom96_current,2026-07-15,-3233,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00264,acc_tom96_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00265,acc_tom96_current,2026-07-18,-10506,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00266,acc_tom96_current,2026-07-18,-13310,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00267,acc_tom96_current,2026-07-22,-2558,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00268,acc_tom96_current,2026-07-24,-7209,EUR,Zalando,Online aankoop,shopping_online
+cust_tom96_tx00269,acc_tom96_current,2026-07-25,-15782,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00270,acc_tom96_current,2026-07-28,271000,EUR,Brabant Retail NV,Loon 2026-07,income_salary
+cust_tom96_tx00271,acc_tom96_current,2026-07-28,-5000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00272,acc_tom96_savings,2026-07-28,5000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00273,acc_tom96_current,2026-07-31,-5056,EUR,Zalando,Online aankoop,shopping_online
+cust_tom96_tx00274,acc_tom96_current,2026-08-01,-14378,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00275,acc_tom96_current,2026-08-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00276,acc_tom96_current,2026-08-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00277,acc_tom96_current,2026-08-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00278,acc_tom96_current,2026-08-05,-2205,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00279,acc_tom96_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00280,acc_tom96_current,2026-08-06,-6777,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom96_tx00281,acc_tom96_current,2026-08-07,-7018,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00282,acc_tom96_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00283,acc_tom96_current,2026-08-08,-13831,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00284,acc_tom96_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_tom96_tx00285,acc_tom96_current,2026-08-12,-3916,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00286,acc_tom96_current,2026-08-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00287,acc_tom96_current,2026-08-13,-6133,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom96_tx00288,acc_tom96_current,2026-08-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 08/2026,childcare
+cust_tom96_tx00289,acc_tom96_current,2026-08-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_tom96_tx00290,acc_tom96_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00291,acc_tom96_current,2026-08-15,-14249,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00292,acc_tom96_current,2026-08-16,-3884,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom96_tx00293,acc_tom96_current,2026-08-18,-11236,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00294,acc_tom96_current,2026-08-19,-3207,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom96_tx00295,acc_tom96_current,2026-08-22,-11612,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00296,acc_tom96_current,2026-08-26,-3016,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00297,acc_tom96_current,2026-08-28,271000,EUR,Brabant Retail NV,Loon 2026-08,income_salary
+cust_tom96_tx00298,acc_tom96_current,2026-08-28,-7448,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom96_tx00299,acc_tom96_current,2026-08-28,-50000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00300,acc_tom96_savings,2026-08-28,50000,EUR,Tom Goossens,Van zichtrekening,transfer_internal
+cust_tom96_tx00301,acc_tom96_current,2026-08-29,-13119,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom96_tx00302,acc_tom96_current,2026-08-30,-4726,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom96_tx00303,acc_tom96_current,2026-09-01,-118000,EUR,P. Verbeke,Huur,housing_rent
+cust_tom96_tx00304,acc_tom96_current,2026-09-02,30000,EUR,V. Mertens,Bijdrage huishouden,income_transfer_household
+cust_tom96_tx00305,acc_tom96_current,2026-09-02,-3887,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom96_tx00306,acc_tom96_current,2026-09-03,-13483,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_tom96_tx00307,acc_tom96_current,2026-09-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_tom96_tx00308,acc_tom96_current,2026-09-04,-13946,EUR,Basisschool Sint-Jozef,Schoolrekening kind 2,education
+cust_tom96_tx00309,acc_tom96_current,2026-09-05,-11536,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00310,acc_tom96_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom96_tx00311,acc_tom96_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom96_tx00312,acc_tom96_current,2026-09-09,-1719,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00313,acc_tom96_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_tom96_tx00314,acc_tom96_current,2026-09-10,-5661,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom96_tx00315,acc_tom96_current,2026-09-11,-3428,EUR,Zalando,Online aankoop,shopping_online
+cust_tom96_tx00316,acc_tom96_current,2026-09-12,-15404,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00317,acc_tom96_current,2026-09-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom96_tx00318,acc_tom96_current,2026-09-14,-8950,EUR,IBO De Knikker,Naschoolse opvang kind 2 09/2026,childcare
+cust_tom96_tx00319,acc_tom96_current,2026-09-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
+cust_tom96_tx00320,acc_tom96_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom96_tx00321,acc_tom96_current,2026-09-16,-3504,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom96_tx00322,acc_tom96_current,2026-09-18,-12018,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_tom96_tx00323,acc_tom96_current,2026-09-19,-11480,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom96_tx00324,acc_tom96_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_tom96_tx00325,acc_tom96_current,2026-09-25,-4970,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom96_tx00326,acc_tom96_current,2026-09-26,-15148,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom96_tx00327,acc_tom96_current,2026-09-27,-2619,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom96_tx00328,acc_tom96_current,2026-09-28,271000,EUR,Brabant Retail NV,Loon 2026-09,income_salary
+cust_tom96_tx00329,acc_tom96_current,2026-09-28,-20000,EUR,Tom Goossens,Naar spaarrekening,transfer_internal
+cust_tom96_tx00330,acc_tom96_savings,2026-09-28,20000,EUR,Tom Goossens,Van zichtrekening,transfer_internal

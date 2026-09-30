@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_tom92",
+  "personal": {
+    "first_name": "Tom",
+    "last_name": "Willems",
+    "birth_date": "1957-04-03",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Stationsstraat 172",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1990-04-01"
+  },
+  "employment": {
+    "status": "retired",
+    "employer": "Federale Pensioendienst",
+    "job_title": "Retired",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_tom92_current",
+      "type": "current",
+      "iban": "BE00 SYNT TOM92 0001",
+      "balance_cents": 300646,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_tom92_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT TOM92 0002",
+      "balance_cents": 5936000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

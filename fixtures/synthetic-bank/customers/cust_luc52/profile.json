@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_luc52",
+  "personal": {
+    "first_name": "Luc",
+    "last_name": "Goossens",
+    "birth_date": "1991-03-17",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Dorpsstraat 147",
+      "postal_code": "9000",
+      "city": "Gent",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2009-10-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "City of Mechelen",
+    "job_title": "Policy officer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_luc52_current",
+      "type": "current",
+      "iban": "BE00 SYNT LUC52 0001",
+      "balance_cents": 301453,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_luc52_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LUC52 0002",
+      "balance_cents": 1859000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_luc52_int1",
+      "date": "2025-03-18",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 9,500 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

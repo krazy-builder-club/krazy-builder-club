@@ -4,7 +4,7 @@
 
 ## Tags
 
-`homeowner` · `recently_moved` · `family_two_children` · `childcare_costs` · `new_job` · `income_rising`
+`homeowner` · `recently_moved` · `couple` · `family_two_children` · `childcare_costs` · `new_job` · `income_rising`
 
 ## Facts
 
@@ -14,7 +14,7 @@
 - Net salary up 12% since 2026-01-01 (Brabant Retail NV, €3,005.00/month). _observed_ [cust_lotte01_tx00101]
 - Partner contributes €250.00/month to household costs. _observed_ [cust_lotte01_tx00311]
 - Lives in Aalst; civil status cohabiting. _bank_record_ [profile]
-- Savings balance €9,656.08. _observed_ [acc_lotte01_savings]
+- Savings balance €10,156.08. _observed_ [acc_lotte01_savings]
 
 ## Open hypotheses
 

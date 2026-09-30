@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_mila30",
+  "personal": {
+    "first_name": "Mila",
+    "last_name": "Lambrechts",
+    "birth_date": "2005-03-14",
+    "place_of_birth": "Antwerpen",
+    "address": {
+      "street": "Schoolstraat 77",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2023-01-01"
+  },
+  "employment": {
+    "status": "student",
+    "employer": "Café De Kroon",
+    "job_title": "Student job",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_mila30_current",
+      "type": "current",
+      "iban": "BE00 SYNT MILA30 0001",
+      "balance_cents": 105092,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_mila30_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT MILA30 0002",
+      "balance_cents": 246000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_mila30_int1",
+      "date": "2025-09-17",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 7,500 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

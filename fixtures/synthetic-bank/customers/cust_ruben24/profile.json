@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_ruben24",
+  "personal": {
+    "first_name": "Ruben",
+    "last_name": "Coppens",
+    "birth_date": "2005-11-01",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Stationsstraat 114",
+      "postal_code": "9000",
+      "city": "Gent",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2023-08-01"
+  },
+  "employment": {
+    "status": "student",
+    "employer": "Randstad Studentenjobs",
+    "job_title": "Student job",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_ruben24_current",
+      "type": "current",
+      "iban": "BE00 SYNT RUBEN24 0001",
+      "balance_cents": 122544,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_ruben24_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT RUBEN24 0002",
+      "balance_cents": 399000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

@@ -34,14 +34,14 @@
     {
       "account_id": "acc_sarah02_current",
       "type": "current",
-      "iban": "BE00 SYNT SARA 0001",
+      "iban": "BE00 SYNT SARAH02 0001",
       "balance_cents": 451642,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_sarah02_savings",
       "type": "savings",
-      "iban": "BE00 SYNT SARA 0002",
+      "iban": "BE00 SYNT SARAH02 0002",
       "balance_cents": 3168728,
       "balance_as_of": "2026-09-30"
     }

@@ -1,0 +1,68 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_arthur88",
+  "personal": {
+    "first_name": "Arthur",
+    "last_name": "Jacobs",
+    "birth_date": "1958-03-28",
+    "place_of_birth": "Brugge",
+    "address": {
+      "street": "Kerkstraat 167",
+      "postal_code": "9000",
+      "city": "Gent",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1990-02-01"
+  },
+  "employment": {
+    "status": "retired",
+    "employer": "Federale Pensioendienst",
+    "job_title": "Retired",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_arthur88_current",
+      "type": "current",
+      "iban": "BE00 SYNT ARTHUR88 0001",
+      "balance_cents": 303698,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_arthur88_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT ARTHUR88 0002",
+      "balance_cents": 6006000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [
+    {
+      "product": "Synthetic Global Equity Fund",
+      "type": "fund",
+      "units": 120.0,
+      "value_cents": 7146000,
+      "as_of": "2026-09-30"
+    }
+  ],
+  "interactions": [
+    {
+      "interaction_id": "cust_arthur88_int1",
+      "date": "2025-02-23",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

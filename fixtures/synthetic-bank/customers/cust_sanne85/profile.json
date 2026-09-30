@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_sanne85",
+  "personal": {
+    "first_name": "Sanne",
+    "last_name": "Vermeulen",
+    "birth_date": "1956-11-17",
+    "place_of_birth": "Antwerpen",
+    "address": {
+      "street": "Kerkstraat 82",
+      "postal_code": "3500",
+      "city": "Hasselt",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1990-04-01"
+  },
+  "employment": {
+    "status": "retired",
+    "employer": "Federale Pensioendienst",
+    "job_title": "Retired",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_sanne85_current",
+      "type": "current",
+      "iban": "BE00 SYNT SANNE85 0001",
+      "balance_cents": 301068,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_sanne85_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT SANNE85 0002",
+      "balance_cents": 5054000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [
+    {
+      "product": "Synthetic Global Equity Fund",
+      "type": "fund",
+      "units": 120.0,
+      "value_cents": 7090000,
+      "as_of": "2026-09-30"
+    }
+  ],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

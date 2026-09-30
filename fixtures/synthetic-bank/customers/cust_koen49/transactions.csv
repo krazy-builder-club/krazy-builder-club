@@ -1,0 +1,296 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_koen49_tx00001,acc_koen49_current,2025-10-01,-1165,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00002,acc_koen49_current,2025-10-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00003,acc_koen49_current,2025-10-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00004,acc_koen49_current,2025-10-02,-6795,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00005,acc_koen49_current,2025-10-04,-10580,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00006,acc_koen49_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00007,acc_koen49_current,2025-10-08,-3198,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00008,acc_koen49_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00009,acc_koen49_current,2025-10-09,-6437,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00010,acc_koen49_current,2025-10-11,-12350,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00011,acc_koen49_current,2025-10-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00012,acc_koen49_current,2025-10-15,-2104,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00013,acc_koen49_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00014,acc_koen49_current,2025-10-16,-6477,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00015,acc_koen49_current,2025-10-18,-6652,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00016,acc_koen49_current,2025-10-18,-11047,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00017,acc_koen49_current,2025-10-22,-1084,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00018,acc_koen49_current,2025-10-24,-3533,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00019,acc_koen49_current,2025-10-25,-9867,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00020,acc_koen49_current,2025-10-28,270000,EUR,Leie Consulting BV,Loon 2025-10,income_salary
+cust_koen49_tx00021,acc_koen49_current,2025-10-28,-125000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00022,acc_koen49_savings,2025-10-28,125000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00023,acc_koen49_current,2025-10-29,-3117,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00024,acc_koen49_current,2025-10-31,-5845,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00025,acc_koen49_current,2025-11-01,-11536,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00026,acc_koen49_current,2025-11-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00027,acc_koen49_current,2025-11-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00028,acc_koen49_current,2025-11-05,-2261,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00029,acc_koen49_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00030,acc_koen49_current,2025-11-07,-3694,EUR,Zalando,Online aankoop,shopping_online
+cust_koen49_tx00031,acc_koen49_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00032,acc_koen49_current,2025-11-08,-11175,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00033,acc_koen49_current,2025-11-12,-1314,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00034,acc_koen49_current,2025-11-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00035,acc_koen49_current,2025-11-13,-6999,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00036,acc_koen49_current,2025-11-14,-2566,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00037,acc_koen49_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00038,acc_koen49_current,2025-11-15,-10613,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00039,acc_koen49_current,2025-11-16,-3775,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_koen49_tx00040,acc_koen49_current,2025-11-18,-6566,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00041,acc_koen49_current,2025-11-19,-3577,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00042,acc_koen49_current,2025-11-20,-4845,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00043,acc_koen49_current,2025-11-22,-12230,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00044,acc_koen49_current,2025-11-23,-3340,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_koen49_tx00045,acc_koen49_current,2025-11-26,-1596,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00046,acc_koen49_current,2025-11-28,270000,EUR,Leie Consulting BV,Loon 2025-11,income_salary
+cust_koen49_tx00047,acc_koen49_current,2025-11-28,-2867,EUR,Zalando,Online aankoop,shopping_online
+cust_koen49_tx00048,acc_koen49_current,2025-11-28,-110000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00049,acc_koen49_savings,2025-11-28,110000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00050,acc_koen49_current,2025-11-29,-11463,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00051,acc_koen49_current,2025-11-30,-2300,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_koen49_tx00052,acc_koen49_current,2025-12-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00053,acc_koen49_current,2025-12-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00054,acc_koen49_current,2025-12-03,-1913,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00055,acc_koen49_current,2025-12-04,-6163,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00056,acc_koen49_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00057,acc_koen49_current,2025-12-06,-13647,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00058,acc_koen49_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00059,acc_koen49_current,2025-12-11,-6752,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00060,acc_koen49_current,2025-12-12,-2955,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00061,acc_koen49_current,2025-12-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00062,acc_koen49_current,2025-12-13,-13086,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00063,acc_koen49_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00064,acc_koen49_current,2025-12-17,-1192,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00065,acc_koen49_current,2025-12-18,-6121,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00066,acc_koen49_current,2025-12-18,-10078,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00067,acc_koen49_current,2025-12-19,-5351,EUR,Zalando,Online aankoop,shopping_online
+cust_koen49_tx00068,acc_koen49_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_koen49_tx00069,acc_koen49_current,2025-12-20,-12460,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00070,acc_koen49_current,2025-12-24,-1624,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00071,acc_koen49_current,2025-12-27,-12860,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00072,acc_koen49_current,2025-12-28,270000,EUR,Leie Consulting BV,Loon 2025-12,income_salary
+cust_koen49_tx00073,acc_koen49_current,2025-12-28,-90000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00074,acc_koen49_savings,2025-12-28,90000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00075,acc_koen49_current,2025-12-31,-1283,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00076,acc_koen49_current,2026-01-01,-5181,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00077,acc_koen49_current,2026-01-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00078,acc_koen49_current,2026-01-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00079,acc_koen49_current,2026-01-03,-13711,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00080,acc_koen49_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00081,acc_koen49_current,2026-01-07,-1789,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00082,acc_koen49_current,2026-01-08,-6890,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00083,acc_koen49_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00084,acc_koen49_current,2026-01-10,-11926,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00085,acc_koen49_current,2026-01-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00086,acc_koen49_current,2026-01-14,-1452,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00087,acc_koen49_current,2026-01-15,-6353,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00088,acc_koen49_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00089,acc_koen49_current,2026-01-17,-13136,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00090,acc_koen49_current,2026-01-18,-4057,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_koen49_tx00091,acc_koen49_current,2026-01-18,-10260,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00092,acc_koen49_current,2026-01-21,-1234,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00093,acc_koen49_current,2026-01-22,-6221,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00094,acc_koen49_current,2026-01-24,-11685,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00095,acc_koen49_current,2026-01-28,270000,EUR,Leie Consulting BV,Loon 2026-01,income_salary
+cust_koen49_tx00096,acc_koen49_current,2026-01-28,-115000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00097,acc_koen49_savings,2026-01-28,115000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00098,acc_koen49_current,2026-01-29,-4758,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00099,acc_koen49_current,2026-01-31,-9653,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00100,acc_koen49_current,2026-02-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00101,acc_koen49_current,2026-02-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00102,acc_koen49_current,2026-02-04,-1767,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00103,acc_koen49_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00104,acc_koen49_current,2026-02-06,-5919,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00105,acc_koen49_current,2026-02-07,-12918,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00106,acc_koen49_current,2026-02-08,-3444,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_koen49_tx00107,acc_koen49_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00108,acc_koen49_current,2026-02-11,-1751,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00109,acc_koen49_current,2026-02-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00110,acc_koen49_current,2026-02-13,-5554,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00111,acc_koen49_current,2026-02-14,-13824,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00112,acc_koen49_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00113,acc_koen49_current,2026-02-18,-1187,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00114,acc_koen49_current,2026-02-18,-7262,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00115,acc_koen49_current,2026-02-21,-10606,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00116,acc_koen49_current,2026-02-26,-6768,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00117,acc_koen49_current,2026-02-28,270000,EUR,Leie Consulting BV,Loon 2026-02,income_salary
+cust_koen49_tx00118,acc_koen49_current,2026-02-28,-11510,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00119,acc_koen49_current,2026-02-28,-105000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00120,acc_koen49_savings,2026-02-28,105000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00121,acc_koen49_current,2026-03-01,-3858,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_koen49_tx00122,acc_koen49_current,2026-03-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00123,acc_koen49_current,2026-03-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00124,acc_koen49_current,2026-03-04,-1570,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00125,acc_koen49_current,2026-03-05,-6498,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00126,acc_koen49_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00127,acc_koen49_current,2026-03-06,-3055,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00128,acc_koen49_current,2026-03-07,-11623,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00129,acc_koen49_current,2026-03-08,-4291,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_koen49_tx00130,acc_koen49_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00131,acc_koen49_current,2026-03-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00132,acc_koen49_current,2026-03-14,-12939,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00133,acc_koen49_current,2026-03-15,-4158,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_koen49_tx00134,acc_koen49_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00135,acc_koen49_current,2026-03-18,-2536,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00136,acc_koen49_current,2026-03-18,-5881,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00137,acc_koen49_current,2026-03-19,-5568,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00138,acc_koen49_current,2026-03-20,-3496,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00139,acc_koen49_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_koen49_tx00140,acc_koen49_current,2026-03-21,-13239,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00141,acc_koen49_current,2026-03-22,-2472,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_koen49_tx00142,acc_koen49_current,2026-03-25,-3553,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00143,acc_koen49_current,2026-03-28,270000,EUR,Leie Consulting BV,Loon 2026-03,income_salary
+cust_koen49_tx00144,acc_koen49_current,2026-03-28,-10881,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00145,acc_koen49_current,2026-03-28,-110000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00146,acc_koen49_savings,2026-03-28,110000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00147,acc_koen49_current,2026-03-29,-4309,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_koen49_tx00148,acc_koen49_current,2026-04-01,-3455,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00149,acc_koen49_current,2026-04-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00150,acc_koen49_current,2026-04-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00151,acc_koen49_current,2026-04-02,-4738,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00152,acc_koen49_current,2026-04-03,-5239,EUR,Zalando,Online aankoop,shopping_online
+cust_koen49_tx00153,acc_koen49_current,2026-04-04,-11919,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00154,acc_koen49_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00155,acc_koen49_current,2026-04-08,-1577,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00156,acc_koen49_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00157,acc_koen49_current,2026-04-11,-12725,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00158,acc_koen49_current,2026-04-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00159,acc_koen49_current,2026-04-15,-2318,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00160,acc_koen49_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00161,acc_koen49_current,2026-04-16,-6953,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00162,acc_koen49_current,2026-04-17,-5561,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00163,acc_koen49_current,2026-04-18,-9380,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00164,acc_koen49_current,2026-04-18,-10276,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00165,acc_koen49_current,2026-04-19,-2854,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_koen49_tx00166,acc_koen49_current,2026-04-22,-3121,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00167,acc_koen49_current,2026-04-24,-3042,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00168,acc_koen49_current,2026-04-25,-11827,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00169,acc_koen49_current,2026-04-28,270000,EUR,Leie Consulting BV,Loon 2026-04,income_salary
+cust_koen49_tx00170,acc_koen49_current,2026-04-28,-105000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00171,acc_koen49_savings,2026-04-28,105000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00172,acc_koen49_current,2026-04-29,-3536,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00173,acc_koen49_current,2026-04-30,-5986,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00174,acc_koen49_current,2026-05-01,-5700,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00175,acc_koen49_current,2026-05-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00176,acc_koen49_current,2026-05-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00177,acc_koen49_current,2026-05-02,-9641,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00178,acc_koen49_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00179,acc_koen49_current,2026-05-08,-3171,EUR,Zalando,Online aankoop,shopping_online
+cust_koen49_tx00180,acc_koen49_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00181,acc_koen49_current,2026-05-09,-11618,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00182,acc_koen49_current,2026-05-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00183,acc_koen49_current,2026-05-15,-3781,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00184,acc_koen49_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00185,acc_koen49_current,2026-05-16,-9811,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00186,acc_koen49_current,2026-05-17,-2373,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_koen49_tx00187,acc_koen49_current,2026-05-18,-6268,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00188,acc_koen49_current,2026-05-20,-2031,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00189,acc_koen49_current,2026-05-21,-6765,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00190,acc_koen49_current,2026-05-22,-5019,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00191,acc_koen49_current,2026-05-23,-10383,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00192,acc_koen49_current,2026-05-27,-2779,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00193,acc_koen49_current,2026-05-28,270000,EUR,Leie Consulting BV,Loon 2026-05,income_salary
+cust_koen49_tx00194,acc_koen49_current,2026-05-28,-120000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00195,acc_koen49_savings,2026-05-28,120000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00196,acc_koen49_current,2026-05-29,-5145,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00197,acc_koen49_current,2026-05-30,-11583,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00198,acc_koen49_current,2026-05-31,-2851,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_koen49_tx00199,acc_koen49_current,2026-06-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00200,acc_koen49_current,2026-06-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00201,acc_koen49_current,2026-06-03,-1191,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00202,acc_koen49_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00203,acc_koen49_current,2026-06-06,-9803,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00204,acc_koen49_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00205,acc_koen49_current,2026-06-11,-6939,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00206,acc_koen49_current,2026-06-12,-2355,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00207,acc_koen49_current,2026-06-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00208,acc_koen49_current,2026-06-13,-11491,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00209,acc_koen49_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00210,acc_koen49_current,2026-06-18,-6828,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00211,acc_koen49_current,2026-06-19,-5321,EUR,Zalando,Online aankoop,shopping_online
+cust_koen49_tx00212,acc_koen49_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_koen49_tx00213,acc_koen49_current,2026-06-20,-9931,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00214,acc_koen49_current,2026-06-21,-2878,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_koen49_tx00215,acc_koen49_current,2026-06-24,-983,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00216,acc_koen49_current,2026-06-26,-2254,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00217,acc_koen49_current,2026-06-27,-12926,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00218,acc_koen49_current,2026-06-28,270000,EUR,Leie Consulting BV,Loon 2026-06,income_salary
+cust_koen49_tx00219,acc_koen49_current,2026-06-28,-110000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00220,acc_koen49_savings,2026-06-28,110000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00221,acc_koen49_current,2026-07-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00222,acc_koen49_current,2026-07-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00223,acc_koen49_current,2026-07-02,-5996,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00224,acc_koen49_current,2026-07-04,-12038,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00225,acc_koen49_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00226,acc_koen49_current,2026-07-08,-3108,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00227,acc_koen49_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00228,acc_koen49_current,2026-07-11,-13205,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00229,acc_koen49_current,2026-07-11,-39400,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_koen49_tx00230,acc_koen49_current,2026-07-12,-2580,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_koen49_tx00231,acc_koen49_current,2026-07-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00232,acc_koen49_current,2026-07-15,-2305,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00233,acc_koen49_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00234,acc_koen49_current,2026-07-16,-6572,EUR,Q8,Brandstof,transport_fuel
+cust_koen49_tx00235,acc_koen49_current,2026-07-18,-9945,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00236,acc_koen49_current,2026-07-18,-10658,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00237,acc_koen49_current,2026-07-22,-2859,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00238,acc_koen49_current,2026-07-24,-2226,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00239,acc_koen49_current,2026-07-25,-12698,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00240,acc_koen49_current,2026-07-28,270000,EUR,Leie Consulting BV,Loon 2026-07,income_salary
+cust_koen49_tx00241,acc_koen49_current,2026-07-28,-85000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00242,acc_koen49_savings,2026-07-28,85000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00243,acc_koen49_current,2026-07-29,-2683,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_koen49_tx00244,acc_koen49_current,2026-07-30,-5866,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00245,acc_koen49_current,2026-08-01,-9919,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00246,acc_koen49_current,2026-08-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00247,acc_koen49_current,2026-08-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00248,acc_koen49_current,2026-08-05,-1966,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00249,acc_koen49_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00250,acc_koen49_current,2026-08-06,-6248,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00251,acc_koen49_current,2026-08-07,-2099,EUR,Zalando,Online aankoop,shopping_online
+cust_koen49_tx00252,acc_koen49_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00253,acc_koen49_current,2026-08-08,-9531,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00254,acc_koen49_current,2026-08-09,-2960,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_koen49_tx00255,acc_koen49_current,2026-08-12,-2622,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00256,acc_koen49_current,2026-08-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00257,acc_koen49_current,2026-08-13,-6003,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00258,acc_koen49_current,2026-08-14,-4897,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00259,acc_koen49_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00260,acc_koen49_current,2026-08-15,-10997,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00261,acc_koen49_current,2026-08-16,-2624,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_koen49_tx00262,acc_koen49_current,2026-08-18,-4907,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00263,acc_koen49_current,2026-08-19,-3432,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00264,acc_koen49_current,2026-08-20,-5698,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00265,acc_koen49_current,2026-08-21,-2631,EUR,Coolblue,Online aankoop,shopping_online
+cust_koen49_tx00266,acc_koen49_current,2026-08-22,-11318,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00267,acc_koen49_current,2026-08-23,-3516,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_koen49_tx00268,acc_koen49_current,2026-08-26,-2195,EUR,Action,Betaling Bancontact,shopping_household
+cust_koen49_tx00269,acc_koen49_current,2026-08-27,-5192,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00270,acc_koen49_current,2026-08-28,270000,EUR,Leie Consulting BV,Loon 2026-08,income_salary
+cust_koen49_tx00271,acc_koen49_current,2026-08-28,-2571,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00272,acc_koen49_current,2026-08-28,-95000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00273,acc_koen49_savings,2026-08-28,95000,EUR,Koen Stevens,Van zichtrekening,transfer_internal
+cust_koen49_tx00274,acc_koen49_current,2026-08-29,-9513,EUR,Delhaize,Betaling Bancontact,groceries
+cust_koen49_tx00275,acc_koen49_current,2026-09-01,-113000,EUR,H. Michiels,Huur,housing_rent
+cust_koen49_tx00276,acc_koen49_current,2026-09-02,85000,EUR,N. Janssens,Bijdrage huishouden,income_transfer_household
+cust_koen49_tx00277,acc_koen49_current,2026-09-02,-3535,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00278,acc_koen49_current,2026-09-03,-6095,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_koen49_tx00279,acc_koen49_current,2026-09-05,-10758,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00280,acc_koen49_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_koen49_tx00281,acc_koen49_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_koen49_tx00282,acc_koen49_current,2026-09-11,-3874,EUR,Zalando,Online aankoop,shopping_online
+cust_koen49_tx00283,acc_koen49_current,2026-09-12,-13166,EUR,Colruyt,Betaling Bancontact,groceries
+cust_koen49_tx00284,acc_koen49_current,2026-09-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_koen49_tx00285,acc_koen49_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_koen49_tx00286,acc_koen49_current,2026-09-16,-2862,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_koen49_tx00287,acc_koen49_current,2026-09-18,-2530,EUR,Zalando,Online aankoop,shopping_online
+cust_koen49_tx00288,acc_koen49_current,2026-09-18,-6420,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_koen49_tx00289,acc_koen49_current,2026-09-19,-12462,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00290,acc_koen49_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_koen49_tx00291,acc_koen49_current,2026-09-25,-2644,EUR,Bol.com,Online aankoop,shopping_online
+cust_koen49_tx00292,acc_koen49_current,2026-09-26,-10754,EUR,Aldi,Betaling Bancontact,groceries
+cust_koen49_tx00293,acc_koen49_current,2026-09-28,270000,EUR,Leie Consulting BV,Loon 2026-09,income_salary
+cust_koen49_tx00294,acc_koen49_current,2026-09-28,-120000,EUR,Koen Stevens,Naar spaarrekening,transfer_internal
+cust_koen49_tx00295,acc_koen49_savings,2026-09-28,120000,EUR,Koen Stevens,Van zichtrekening,transfer_internal

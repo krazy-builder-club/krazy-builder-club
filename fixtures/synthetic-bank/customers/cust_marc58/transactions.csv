@@ -1,0 +1,342 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_marc58_tx00001,acc_marc58_current,2025-10-01,-1566,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00002,acc_marc58_current,2025-10-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00003,acc_marc58_current,2025-10-02,-6592,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00004,acc_marc58_current,2025-10-03,-4587,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00005,acc_marc58_current,2025-10-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00006,acc_marc58_current,2025-10-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00007,acc_marc58_current,2025-10-04,-13047,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00008,acc_marc58_current,2025-10-05,-3850,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marc58_tx00009,acc_marc58_current,2025-10-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00010,acc_marc58_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00011,acc_marc58_current,2025-10-08,-2032,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00012,acc_marc58_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00013,acc_marc58_current,2025-10-10,41237,EUR,FONS,Groeipakket 10/2025 kind 1+2,income_child_benefit
+cust_marc58_tx00014,acc_marc58_current,2025-10-10,-6565,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00015,acc_marc58_current,2025-10-11,-14303,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00016,acc_marc58_current,2025-10-12,-2286,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_marc58_tx00017,acc_marc58_current,2025-10-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00018,acc_marc58_current,2025-10-15,-4130,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00019,acc_marc58_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00020,acc_marc58_current,2025-10-16,-5818,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00021,acc_marc58_current,2025-10-18,-12851,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00022,acc_marc58_current,2025-10-18,-14333,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00023,acc_marc58_current,2025-10-22,-2076,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00024,acc_marc58_current,2025-10-25,-13116,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00025,acc_marc58_current,2025-10-26,-3028,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marc58_tx00026,acc_marc58_current,2025-10-28,330000,EUR,Deltaport Logistics NV,Loon 2025-10,income_salary
+cust_marc58_tx00027,acc_marc58_current,2025-10-28,-150000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00028,acc_marc58_savings,2025-10-28,150000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00029,acc_marc58_current,2025-10-29,-3923,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00030,acc_marc58_current,2025-10-31,-3469,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00031,acc_marc58_current,2025-11-01,-17275,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00032,acc_marc58_current,2025-11-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00033,acc_marc58_current,2025-11-02,-2823,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_marc58_tx00034,acc_marc58_current,2025-11-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00035,acc_marc58_current,2025-11-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00036,acc_marc58_current,2025-11-05,-3865,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00037,acc_marc58_current,2025-11-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00038,acc_marc58_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00039,acc_marc58_current,2025-11-06,-6483,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00040,acc_marc58_current,2025-11-07,-6779,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00041,acc_marc58_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00042,acc_marc58_current,2025-11-08,-15339,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00043,acc_marc58_current,2025-11-09,-5196,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marc58_tx00044,acc_marc58_current,2025-11-10,41237,EUR,FONS,Groeipakket 11/2025 kind 1+2,income_child_benefit
+cust_marc58_tx00045,acc_marc58_current,2025-11-12,-2421,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00046,acc_marc58_current,2025-11-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00047,acc_marc58_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00048,acc_marc58_current,2025-11-15,-15577,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00049,acc_marc58_current,2025-11-16,-4974,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marc58_tx00050,acc_marc58_current,2025-11-18,-8418,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00051,acc_marc58_current,2025-11-19,-2755,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00052,acc_marc58_current,2025-11-20,-5237,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00053,acc_marc58_current,2025-11-22,-17496,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00054,acc_marc58_current,2025-11-26,-3078,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00055,acc_marc58_current,2025-11-28,330000,EUR,Deltaport Logistics NV,Loon 2025-11,income_salary
+cust_marc58_tx00056,acc_marc58_current,2025-11-28,-4609,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00057,acc_marc58_current,2025-11-28,-130000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00058,acc_marc58_savings,2025-11-28,130000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00059,acc_marc58_current,2025-11-29,-16172,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00060,acc_marc58_current,2025-12-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00061,acc_marc58_current,2025-12-03,-2265,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00062,acc_marc58_current,2025-12-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00063,acc_marc58_current,2025-12-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00064,acc_marc58_current,2025-12-05,-7926,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00065,acc_marc58_current,2025-12-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00066,acc_marc58_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00067,acc_marc58_current,2025-12-06,-13396,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00068,acc_marc58_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00069,acc_marc58_current,2025-12-10,41237,EUR,FONS,Groeipakket 12/2025 kind 1+2,income_child_benefit
+cust_marc58_tx00070,acc_marc58_current,2025-12-10,-2997,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00071,acc_marc58_current,2025-12-11,-5603,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00072,acc_marc58_current,2025-12-12,-5228,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00073,acc_marc58_current,2025-12-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00074,acc_marc58_current,2025-12-13,-15209,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00075,acc_marc58_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00076,acc_marc58_current,2025-12-17,-4416,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00077,acc_marc58_current,2025-12-18,-6173,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00078,acc_marc58_current,2025-12-18,-7654,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00079,acc_marc58_current,2025-12-19,-3528,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00080,acc_marc58_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_marc58_tx00081,acc_marc58_current,2025-12-20,-13889,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00082,acc_marc58_current,2025-12-24,-3223,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00083,acc_marc58_current,2025-12-26,-3965,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00084,acc_marc58_current,2025-12-27,-15933,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00085,acc_marc58_current,2025-12-28,330000,EUR,Deltaport Logistics NV,Loon 2025-12,income_salary
+cust_marc58_tx00086,acc_marc58_current,2025-12-28,-125000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00087,acc_marc58_savings,2025-12-28,125000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00088,acc_marc58_current,2026-01-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00089,acc_marc58_current,2026-01-02,-7891,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00090,acc_marc58_current,2026-01-03,-16062,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00091,acc_marc58_current,2026-01-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00092,acc_marc58_current,2026-01-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00093,acc_marc58_current,2026-01-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00094,acc_marc58_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00095,acc_marc58_current,2026-01-07,-3315,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00096,acc_marc58_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00097,acc_marc58_current,2026-01-09,-5198,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00098,acc_marc58_current,2026-01-10,41237,EUR,FONS,Groeipakket 01/2026 kind 1+2,income_child_benefit
+cust_marc58_tx00099,acc_marc58_current,2026-01-10,-14069,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00100,acc_marc58_current,2026-01-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00101,acc_marc58_current,2026-01-14,-4271,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00102,acc_marc58_current,2026-01-15,-6289,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00103,acc_marc58_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00104,acc_marc58_current,2026-01-16,-5485,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00105,acc_marc58_current,2026-01-17,-17272,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00106,acc_marc58_current,2026-01-18,-8328,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00107,acc_marc58_current,2026-01-21,-2189,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00108,acc_marc58_current,2026-01-23,-7993,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00109,acc_marc58_current,2026-01-24,-12176,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00110,acc_marc58_current,2026-01-28,330000,EUR,Deltaport Logistics NV,Loon 2026-01,income_salary
+cust_marc58_tx00111,acc_marc58_current,2026-01-28,-2141,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00112,acc_marc58_current,2026-01-28,-150000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00113,acc_marc58_savings,2026-01-28,150000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00114,acc_marc58_current,2026-01-29,-5665,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00115,acc_marc58_current,2026-01-30,-6981,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00116,acc_marc58_current,2026-01-31,-17498,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00117,acc_marc58_current,2026-02-01,-2804,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_marc58_tx00118,acc_marc58_current,2026-02-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00119,acc_marc58_current,2026-02-04,-3436,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00120,acc_marc58_current,2026-02-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00121,acc_marc58_current,2026-02-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00122,acc_marc58_current,2026-02-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00123,acc_marc58_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00124,acc_marc58_current,2026-02-06,-3732,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00125,acc_marc58_current,2026-02-07,-16897,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00126,acc_marc58_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00127,acc_marc58_current,2026-02-10,41237,EUR,FONS,Groeipakket 02/2026 kind 1+2,income_child_benefit
+cust_marc58_tx00128,acc_marc58_current,2026-02-11,-2130,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00129,acc_marc58_current,2026-02-12,-4771,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00130,acc_marc58_current,2026-02-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00131,acc_marc58_current,2026-02-13,-3822,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00132,acc_marc58_current,2026-02-14,-12879,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00133,acc_marc58_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00134,acc_marc58_current,2026-02-18,-4303,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00135,acc_marc58_current,2026-02-18,-11779,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00136,acc_marc58_current,2026-02-21,-17170,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00137,acc_marc58_current,2026-02-22,-1861,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_marc58_tx00138,acc_marc58_current,2026-02-25,-2424,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00139,acc_marc58_current,2026-02-28,330000,EUR,Deltaport Logistics NV,Loon 2026-02,income_salary
+cust_marc58_tx00140,acc_marc58_current,2026-02-28,-12146,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00141,acc_marc58_current,2026-02-28,-130000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00142,acc_marc58_savings,2026-02-28,130000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00143,acc_marc58_current,2026-03-01,-2096,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_marc58_tx00144,acc_marc58_current,2026-03-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00145,acc_marc58_current,2026-03-04,-3469,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00146,acc_marc58_current,2026-03-04,-4500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00147,acc_marc58_current,2026-03-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00148,acc_marc58_current,2026-03-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00149,acc_marc58_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00150,acc_marc58_current,2026-03-06,-6665,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00151,acc_marc58_current,2026-03-07,-15082,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00152,acc_marc58_current,2026-03-08,-2344,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_marc58_tx00153,acc_marc58_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00154,acc_marc58_current,2026-03-10,41237,EUR,FONS,Groeipakket 03/2026 kind 1+2,income_child_benefit
+cust_marc58_tx00155,acc_marc58_current,2026-03-12,-5716,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00156,acc_marc58_current,2026-03-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00157,acc_marc58_current,2026-03-13,-3450,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00158,acc_marc58_current,2026-03-14,-16253,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00159,acc_marc58_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00160,acc_marc58_current,2026-03-18,-3133,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00161,acc_marc58_current,2026-03-18,-8090,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00162,acc_marc58_current,2026-03-19,-6458,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00163,acc_marc58_current,2026-03-20,-3229,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00164,acc_marc58_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_marc58_tx00165,acc_marc58_current,2026-03-21,-13051,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00166,acc_marc58_current,2026-03-25,-2226,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00167,acc_marc58_current,2026-03-28,330000,EUR,Deltaport Logistics NV,Loon 2026-03,income_salary
+cust_marc58_tx00168,acc_marc58_current,2026-03-28,-13631,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00169,acc_marc58_current,2026-03-28,-150000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00170,acc_marc58_savings,2026-03-28,150000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00171,acc_marc58_current,2026-03-29,-5264,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marc58_tx00172,acc_marc58_current,2026-04-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00173,acc_marc58_current,2026-04-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00174,acc_marc58_current,2026-04-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00175,acc_marc58_current,2026-04-04,-17247,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00176,acc_marc58_current,2026-04-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00177,acc_marc58_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00178,acc_marc58_current,2026-04-08,-2715,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00179,acc_marc58_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00180,acc_marc58_current,2026-04-09,-4614,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00181,acc_marc58_current,2026-04-10,41237,EUR,FONS,Groeipakket 04/2026 kind 1+2,income_child_benefit
+cust_marc58_tx00182,acc_marc58_current,2026-04-10,-6602,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00183,acc_marc58_current,2026-04-11,-15548,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00184,acc_marc58_current,2026-04-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00185,acc_marc58_current,2026-04-15,-3125,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00186,acc_marc58_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00187,acc_marc58_current,2026-04-16,-6804,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00188,acc_marc58_current,2026-04-17,-7412,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00189,acc_marc58_current,2026-04-18,-9222,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00190,acc_marc58_current,2026-04-18,-12506,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00191,acc_marc58_current,2026-04-22,-2702,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00192,acc_marc58_current,2026-04-23,-4871,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00193,acc_marc58_current,2026-04-25,-15327,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00194,acc_marc58_current,2026-04-28,330000,EUR,Deltaport Logistics NV,Loon 2026-04,income_salary
+cust_marc58_tx00195,acc_marc58_current,2026-04-28,-145000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00196,acc_marc58_savings,2026-04-28,145000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00197,acc_marc58_current,2026-04-29,-3621,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00198,acc_marc58_current,2026-04-30,-5470,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00199,acc_marc58_current,2026-05-01,-3636,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00200,acc_marc58_current,2026-05-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00201,acc_marc58_current,2026-05-02,-14380,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00202,acc_marc58_current,2026-05-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00203,acc_marc58_current,2026-05-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00204,acc_marc58_current,2026-05-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00205,acc_marc58_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00206,acc_marc58_current,2026-05-06,-2148,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00207,acc_marc58_current,2026-05-07,-6747,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00208,acc_marc58_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00209,acc_marc58_current,2026-05-09,-13164,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00210,acc_marc58_current,2026-05-10,41237,EUR,FONS,Groeipakket 05/2026 kind 1+2,income_child_benefit
+cust_marc58_tx00211,acc_marc58_current,2026-05-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00212,acc_marc58_current,2026-05-13,-2810,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00213,acc_marc58_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00214,acc_marc58_current,2026-05-16,-14955,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00215,acc_marc58_current,2026-05-18,-11158,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00216,acc_marc58_current,2026-05-20,-4440,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00217,acc_marc58_current,2026-05-21,-5151,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00218,acc_marc58_current,2026-05-22,-4553,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00219,acc_marc58_current,2026-05-23,-16041,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00220,acc_marc58_current,2026-05-27,-3246,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00221,acc_marc58_current,2026-05-28,330000,EUR,Deltaport Logistics NV,Loon 2026-05,income_salary
+cust_marc58_tx00222,acc_marc58_current,2026-05-28,-6420,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00223,acc_marc58_current,2026-05-28,-145000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00224,acc_marc58_savings,2026-05-28,145000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00225,acc_marc58_current,2026-05-29,-3699,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00226,acc_marc58_current,2026-05-30,-17496,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00227,acc_marc58_current,2026-05-31,-2147,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marc58_tx00228,acc_marc58_current,2026-06-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00229,acc_marc58_current,2026-06-03,-2957,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00230,acc_marc58_current,2026-06-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00231,acc_marc58_current,2026-06-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00232,acc_marc58_current,2026-06-05,-2695,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00233,acc_marc58_current,2026-06-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00234,acc_marc58_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00235,acc_marc58_current,2026-06-06,-13826,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00236,acc_marc58_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00237,acc_marc58_current,2026-06-10,41237,EUR,FONS,Groeipakket 06/2026 kind 1+2,income_child_benefit
+cust_marc58_tx00238,acc_marc58_current,2026-06-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00239,acc_marc58_current,2026-06-13,-14635,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00240,acc_marc58_current,2026-06-14,-5248,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marc58_tx00241,acc_marc58_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00242,acc_marc58_current,2026-06-17,-1426,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00243,acc_marc58_current,2026-06-18,-4955,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00244,acc_marc58_current,2026-06-18,-10040,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00245,acc_marc58_current,2026-06-19,-6871,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00246,acc_marc58_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_marc58_tx00247,acc_marc58_current,2026-06-20,-17040,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00248,acc_marc58_current,2026-06-21,-3854,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_marc58_tx00249,acc_marc58_current,2026-06-24,-2052,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00250,acc_marc58_current,2026-06-26,-7780,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00251,acc_marc58_current,2026-06-27,-12911,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00252,acc_marc58_current,2026-06-28,330000,EUR,Deltaport Logistics NV,Loon 2026-06,income_salary
+cust_marc58_tx00253,acc_marc58_current,2026-06-28,-125000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00254,acc_marc58_savings,2026-06-28,125000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00255,acc_marc58_current,2026-07-01,-2802,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00256,acc_marc58_current,2026-07-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00257,acc_marc58_current,2026-07-02,-5091,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00258,acc_marc58_current,2026-07-03,-4992,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00259,acc_marc58_current,2026-07-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00260,acc_marc58_current,2026-07-04,-6400,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00261,acc_marc58_current,2026-07-04,-14120,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00262,acc_marc58_current,2026-07-05,-2340,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_marc58_tx00263,acc_marc58_current,2026-07-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00264,acc_marc58_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00265,acc_marc58_current,2026-07-08,-4013,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00266,acc_marc58_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00267,acc_marc58_current,2026-07-09,-5077,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00268,acc_marc58_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_marc58_tx00269,acc_marc58_current,2026-07-10,-7958,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00270,acc_marc58_current,2026-07-11,-16566,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00271,acc_marc58_current,2026-07-11,-30900,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_marc58_tx00272,acc_marc58_current,2026-07-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00273,acc_marc58_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00274,acc_marc58_current,2026-07-16,-6516,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00275,acc_marc58_current,2026-07-17,-2618,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00276,acc_marc58_current,2026-07-18,-12675,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00277,acc_marc58_current,2026-07-18,-13297,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00278,acc_marc58_current,2026-07-22,-2851,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00279,acc_marc58_current,2026-07-24,-3874,EUR,Bol.com,Online aankoop,shopping_online
+cust_marc58_tx00280,acc_marc58_current,2026-07-25,-16367,EUR,Aldi,Betaling Bancontact,groceries
+cust_marc58_tx00281,acc_marc58_current,2026-07-28,330000,EUR,Deltaport Logistics NV,Loon 2026-07,income_salary
+cust_marc58_tx00282,acc_marc58_current,2026-07-28,-105000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00283,acc_marc58_savings,2026-07-28,105000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00284,acc_marc58_current,2026-07-29,-3256,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00285,acc_marc58_current,2026-07-31,-5019,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00286,acc_marc58_current,2026-08-01,-13978,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00287,acc_marc58_current,2026-08-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00288,acc_marc58_current,2026-08-02,-3693,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_marc58_tx00289,acc_marc58_current,2026-08-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00290,acc_marc58_current,2026-08-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00291,acc_marc58_current,2026-08-05,-3722,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00292,acc_marc58_current,2026-08-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00293,acc_marc58_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00294,acc_marc58_current,2026-08-06,-4951,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00295,acc_marc58_current,2026-08-07,-4576,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00296,acc_marc58_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00297,acc_marc58_current,2026-08-08,-13711,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00298,acc_marc58_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_marc58_tx00299,acc_marc58_current,2026-08-12,-2319,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00300,acc_marc58_current,2026-08-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00301,acc_marc58_current,2026-08-13,-4893,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00302,acc_marc58_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00303,acc_marc58_current,2026-08-15,-16664,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00304,acc_marc58_current,2026-08-18,-8844,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00305,acc_marc58_current,2026-08-19,-3872,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00306,acc_marc58_current,2026-08-22,-12352,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00307,acc_marc58_current,2026-08-26,-2421,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00308,acc_marc58_current,2026-08-27,-6872,EUR,Q8,Brandstof,transport_fuel
+cust_marc58_tx00309,acc_marc58_current,2026-08-28,330000,EUR,Deltaport Logistics NV,Loon 2026-08,income_salary
+cust_marc58_tx00310,acc_marc58_current,2026-08-28,-150000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00311,acc_marc58_savings,2026-08-28,150000,EUR,Marc Michiels,Van zichtrekening,transfer_internal
+cust_marc58_tx00312,acc_marc58_current,2026-08-29,-16214,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00313,acc_marc58_current,2026-09-02,80000,EUR,P. Hendrickx,Bijdrage huishouden,income_transfer_household
+cust_marc58_tx00314,acc_marc58_current,2026-09-03,-11009,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_marc58_tx00315,acc_marc58_current,2026-09-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_marc58_tx00316,acc_marc58_current,2026-09-04,-7500,EUR,Sportclub,Lidgeld kind 2,kids_activities
+cust_marc58_tx00317,acc_marc58_current,2026-09-04,-8726,EUR,Basisschool Sint-Jozef,Schoolrekening kind 2,education
+cust_marc58_tx00318,acc_marc58_current,2026-09-05,-16154,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00319,acc_marc58_current,2026-09-05,-144000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_marc58_tx00320,acc_marc58_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_marc58_tx00321,acc_marc58_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_marc58_tx00322,acc_marc58_current,2026-09-09,-3595,EUR,Action,Betaling Bancontact,shopping_household
+cust_marc58_tx00323,acc_marc58_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_marc58_tx00324,acc_marc58_current,2026-09-10,-6274,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00325,acc_marc58_current,2026-09-11,-5894,EUR,Zalando,Online aankoop,shopping_online
+cust_marc58_tx00326,acc_marc58_current,2026-09-12,-13877,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00327,acc_marc58_current,2026-09-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_marc58_tx00328,acc_marc58_current,2026-09-13,-2919,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_marc58_tx00329,acc_marc58_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_marc58_tx00330,acc_marc58_current,2026-09-16,-2959,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_marc58_tx00331,acc_marc58_current,2026-09-17,-6651,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_marc58_tx00332,acc_marc58_current,2026-09-18,-7018,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00333,acc_marc58_current,2026-09-18,-9525,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_marc58_tx00334,acc_marc58_current,2026-09-19,-16373,EUR,Delhaize,Betaling Bancontact,groceries
+cust_marc58_tx00335,acc_marc58_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_marc58_tx00336,acc_marc58_current,2026-09-23,-3039,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_marc58_tx00337,acc_marc58_current,2026-09-25,-5669,EUR,Coolblue,Online aankoop,shopping_online
+cust_marc58_tx00338,acc_marc58_current,2026-09-26,-13162,EUR,Colruyt,Betaling Bancontact,groceries
+cust_marc58_tx00339,acc_marc58_current,2026-09-28,330000,EUR,Deltaport Logistics NV,Loon 2026-09,income_salary
+cust_marc58_tx00340,acc_marc58_current,2026-09-28,-105000,EUR,Marc Michiels,Naar spaarrekening,transfer_internal
+cust_marc58_tx00341,acc_marc58_savings,2026-09-28,105000,EUR,Marc Michiels,Van zichtrekening,transfer_internal

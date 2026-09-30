@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_marie70",
+  "personal": {
+    "first_name": "Marie",
+    "last_name": "Hendrickx",
+    "birth_date": "1991-11-19",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Nieuwstraat 172",
+      "postal_code": "8500",
+      "city": "Kortrijk",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2009-12-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Leie Consulting BV",
+    "job_title": "Consultant",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_marie70_current",
+      "type": "current",
+      "iban": "BE00 SYNT MARIE70 0001",
+      "balance_cents": 303193,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_marie70_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT MARIE70 0002",
+      "balance_cents": 1246000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_marie70_int1",
+      "date": "2025-02-03",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

@@ -1,0 +1,277 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_tom92_tx00001,acc_tom92_current,2025-10-01,-2894,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00002,acc_tom92_current,2025-10-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00003,acc_tom92_current,2025-10-02,-6858,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00004,acc_tom92_current,2025-10-03,-4467,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00005,acc_tom92_current,2025-10-04,-10520,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00006,acc_tom92_current,2025-10-05,-3124,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom92_tx00007,acc_tom92_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00008,acc_tom92_current,2025-10-08,-2351,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00009,acc_tom92_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00010,acc_tom92_current,2025-10-10,-5154,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00011,acc_tom92_current,2025-10-11,-11938,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00012,acc_tom92_current,2025-10-12,-1944,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom92_tx00013,acc_tom92_current,2025-10-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00014,acc_tom92_current,2025-10-15,-2477,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00015,acc_tom92_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00016,acc_tom92_current,2025-10-17,-2496,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00017,acc_tom92_current,2025-10-18,-7095,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00018,acc_tom92_current,2025-10-18,-9858,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00019,acc_tom92_current,2025-10-24,-3164,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00020,acc_tom92_current,2025-10-25,-12180,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00021,acc_tom92_current,2025-10-28,219500,EUR,Federale Pensioendienst,Pensioen 2025-10,income_pension
+cust_tom92_tx00022,acc_tom92_current,2025-10-28,-230000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00023,acc_tom92_savings,2025-10-28,230000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00024,acc_tom92_current,2025-10-29,-1311,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00025,acc_tom92_current,2025-11-01,-8451,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00026,acc_tom92_current,2025-11-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00027,acc_tom92_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00028,acc_tom92_current,2025-11-06,-6082,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00029,acc_tom92_current,2025-11-07,-4745,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00030,acc_tom92_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00031,acc_tom92_current,2025-11-08,-10877,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00032,acc_tom92_current,2025-11-12,-2226,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00033,acc_tom92_current,2025-11-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00034,acc_tom92_current,2025-11-14,-3642,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00035,acc_tom92_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00036,acc_tom92_current,2025-11-15,-8843,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00037,acc_tom92_current,2025-11-18,-6030,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00038,acc_tom92_current,2025-11-19,-877,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00039,acc_tom92_current,2025-11-22,-11708,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00040,acc_tom92_current,2025-11-23,-2212,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom92_tx00041,acc_tom92_current,2025-11-28,219500,EUR,Federale Pensioendienst,Pensioen 2025-11,income_pension
+cust_tom92_tx00042,acc_tom92_current,2025-11-28,-2109,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00043,acc_tom92_current,2025-11-28,-250000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00044,acc_tom92_savings,2025-11-28,250000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00045,acc_tom92_current,2025-11-29,-10899,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00046,acc_tom92_current,2025-12-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00047,acc_tom92_current,2025-12-04,-5013,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00048,acc_tom92_current,2025-12-05,-4177,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00049,acc_tom92_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00050,acc_tom92_current,2025-12-06,-9167,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00051,acc_tom92_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00052,acc_tom92_current,2025-12-10,-974,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00053,acc_tom92_current,2025-12-12,-2269,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00054,acc_tom92_current,2025-12-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00055,acc_tom92_current,2025-12-13,-10456,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00056,acc_tom92_current,2025-12-14,-2413,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom92_tx00057,acc_tom92_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00058,acc_tom92_current,2025-12-17,-3114,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00059,acc_tom92_current,2025-12-18,-4579,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00060,acc_tom92_current,2025-12-18,-8718,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00061,acc_tom92_current,2025-12-19,-1753,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00062,acc_tom92_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_tom92_tx00063,acc_tom92_current,2025-12-20,-9294,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00064,acc_tom92_current,2025-12-26,-4623,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00065,acc_tom92_current,2025-12-27,-9729,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00066,acc_tom92_current,2025-12-28,219500,EUR,Federale Pensioendienst,Pensioen 2025-12,income_pension
+cust_tom92_tx00067,acc_tom92_current,2025-12-28,-230000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00068,acc_tom92_savings,2025-12-28,230000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00069,acc_tom92_current,2025-12-31,-2889,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00070,acc_tom92_current,2026-01-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00071,acc_tom92_current,2026-01-03,-8452,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00072,acc_tom92_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00073,acc_tom92_current,2026-01-08,-6158,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00074,acc_tom92_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00075,acc_tom92_current,2026-01-09,-2322,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00076,acc_tom92_current,2026-01-10,-10647,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00077,acc_tom92_current,2026-01-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00078,acc_tom92_current,2026-01-14,-3109,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00079,acc_tom92_current,2026-01-15,-4502,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00080,acc_tom92_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00081,acc_tom92_current,2026-01-16,-4150,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00082,acc_tom92_current,2026-01-17,-11266,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00083,acc_tom92_current,2026-01-18,-3309,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom92_tx00084,acc_tom92_current,2026-01-18,-5992,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00085,acc_tom92_current,2026-01-21,-2206,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00086,acc_tom92_current,2026-01-22,-5532,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00087,acc_tom92_current,2026-01-24,-9870,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00088,acc_tom92_current,2026-01-28,219500,EUR,Federale Pensioendienst,Pensioen 2026-01,income_pension
+cust_tom92_tx00089,acc_tom92_current,2026-01-28,-2500,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00090,acc_tom92_current,2026-01-28,-240000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00091,acc_tom92_savings,2026-01-28,240000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00092,acc_tom92_current,2026-01-29,-6172,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00093,acc_tom92_current,2026-01-31,-10572,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00094,acc_tom92_current,2026-02-01,-2430,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_tom92_tx00095,acc_tom92_current,2026-02-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00096,acc_tom92_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00097,acc_tom92_current,2026-02-06,-2712,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00098,acc_tom92_current,2026-02-07,-11043,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00099,acc_tom92_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00100,acc_tom92_current,2026-02-11,-1217,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00101,acc_tom92_current,2026-02-12,-6378,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00102,acc_tom92_current,2026-02-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00103,acc_tom92_current,2026-02-14,-10377,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00104,acc_tom92_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00105,acc_tom92_current,2026-02-18,-2346,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00106,acc_tom92_current,2026-02-18,-9541,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00107,acc_tom92_current,2026-02-20,-5537,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00108,acc_tom92_current,2026-02-21,-11855,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00109,acc_tom92_current,2026-02-25,-1909,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00110,acc_tom92_current,2026-02-27,-4211,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00111,acc_tom92_current,2026-02-28,219500,EUR,Federale Pensioendienst,Pensioen 2026-02,income_pension
+cust_tom92_tx00112,acc_tom92_current,2026-02-28,-10597,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00113,acc_tom92_current,2026-02-28,-220000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00114,acc_tom92_savings,2026-02-28,220000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00115,acc_tom92_current,2026-03-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00116,acc_tom92_current,2026-03-04,-2113,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00117,acc_tom92_current,2026-03-05,-5740,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00118,acc_tom92_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00119,acc_tom92_current,2026-03-06,-1919,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00120,acc_tom92_current,2026-03-07,-10316,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00121,acc_tom92_current,2026-03-08,-2373,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom92_tx00122,acc_tom92_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00123,acc_tom92_current,2026-03-11,-1225,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00124,acc_tom92_current,2026-03-12,-6831,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00125,acc_tom92_current,2026-03-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00126,acc_tom92_current,2026-03-13,-4684,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00127,acc_tom92_current,2026-03-14,-9874,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00128,acc_tom92_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00129,acc_tom92_current,2026-03-18,-1087,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00130,acc_tom92_current,2026-03-18,-8007,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00131,acc_tom92_current,2026-03-20,-2952,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00132,acc_tom92_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_tom92_tx00133,acc_tom92_current,2026-03-21,-9070,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00134,acc_tom92_current,2026-03-25,-2522,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00135,acc_tom92_current,2026-03-28,219500,EUR,Federale Pensioendienst,Pensioen 2026-03,income_pension
+cust_tom92_tx00136,acc_tom92_current,2026-03-28,-10668,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00137,acc_tom92_current,2026-03-28,-235000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00138,acc_tom92_savings,2026-03-28,235000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00139,acc_tom92_current,2026-04-01,-3048,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00140,acc_tom92_current,2026-04-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00141,acc_tom92_current,2026-04-04,-9938,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00142,acc_tom92_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00143,acc_tom92_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00144,acc_tom92_current,2026-04-10,-3071,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00145,acc_tom92_current,2026-04-11,-10166,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00146,acc_tom92_current,2026-04-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00147,acc_tom92_current,2026-04-15,-1554,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00148,acc_tom92_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00149,acc_tom92_current,2026-04-18,-7343,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00150,acc_tom92_current,2026-04-18,-10740,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00151,acc_tom92_current,2026-04-19,-3558,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom92_tx00152,acc_tom92_current,2026-04-22,-2688,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00153,acc_tom92_current,2026-04-25,-10238,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00154,acc_tom92_current,2026-04-28,219500,EUR,Federale Pensioendienst,Pensioen 2026-04,income_pension
+cust_tom92_tx00155,acc_tom92_current,2026-04-28,-255000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00156,acc_tom92_savings,2026-04-28,255000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00157,acc_tom92_current,2026-04-29,-2713,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00158,acc_tom92_current,2026-05-01,-4975,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00159,acc_tom92_current,2026-05-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00160,acc_tom92_current,2026-05-02,-10006,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00161,acc_tom92_current,2026-05-03,-3250,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom92_tx00162,acc_tom92_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00163,acc_tom92_current,2026-05-08,-4924,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00164,acc_tom92_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00165,acc_tom92_current,2026-05-09,-10642,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00166,acc_tom92_current,2026-05-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00167,acc_tom92_current,2026-05-13,-2344,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00168,acc_tom92_current,2026-05-14,-4993,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00169,acc_tom92_current,2026-05-15,-2107,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00170,acc_tom92_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00171,acc_tom92_current,2026-05-16,-9625,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00172,acc_tom92_current,2026-05-18,-7096,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00173,acc_tom92_current,2026-05-20,-2414,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00174,acc_tom92_current,2026-05-21,-5195,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00175,acc_tom92_current,2026-05-23,-10913,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00176,acc_tom92_current,2026-05-27,-1165,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00177,acc_tom92_current,2026-05-28,219500,EUR,Federale Pensioendienst,Pensioen 2026-05,income_pension
+cust_tom92_tx00178,acc_tom92_current,2026-05-28,-6268,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00179,acc_tom92_current,2026-05-28,-230000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00180,acc_tom92_savings,2026-05-28,230000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00181,acc_tom92_current,2026-05-29,-5043,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00182,acc_tom92_current,2026-05-30,-10647,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00183,acc_tom92_current,2026-06-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00184,acc_tom92_current,2026-06-05,-2599,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00185,acc_tom92_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00186,acc_tom92_current,2026-06-06,-9879,EUR,Colruyt,Betaling Bancontact,groceries
+cust_tom92_tx00187,acc_tom92_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00188,acc_tom92_current,2026-06-10,-1961,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00189,acc_tom92_current,2026-06-12,-4637,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00190,acc_tom92_current,2026-06-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00191,acc_tom92_current,2026-06-13,-11267,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00192,acc_tom92_current,2026-06-14,-3658,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom92_tx00193,acc_tom92_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00194,acc_tom92_current,2026-06-17,-3049,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00195,acc_tom92_current,2026-06-18,-9109,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00196,acc_tom92_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_tom92_tx00197,acc_tom92_current,2026-06-20,-12226,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00198,acc_tom92_current,2026-06-21,-2215,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom92_tx00199,acc_tom92_current,2026-06-24,-3011,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00200,acc_tom92_current,2026-06-26,-2209,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00201,acc_tom92_current,2026-06-27,-10441,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00202,acc_tom92_current,2026-06-28,219500,EUR,Federale Pensioendienst,Pensioen 2026-06,income_pension
+cust_tom92_tx00203,acc_tom92_current,2026-06-28,-1725,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom92_tx00204,acc_tom92_current,2026-06-28,-225000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00205,acc_tom92_savings,2026-06-28,225000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00206,acc_tom92_current,2026-07-01,-2358,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00207,acc_tom92_current,2026-07-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00208,acc_tom92_current,2026-07-02,-6787,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00209,acc_tom92_current,2026-07-04,-10978,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00210,acc_tom92_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00211,acc_tom92_current,2026-07-08,-2056,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00212,acc_tom92_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00213,acc_tom92_current,2026-07-11,-9664,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00214,acc_tom92_current,2026-07-11,-38700,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_tom92_tx00215,acc_tom92_current,2026-07-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00216,acc_tom92_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00217,acc_tom92_current,2026-07-18,-5371,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00218,acc_tom92_current,2026-07-18,-10619,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00219,acc_tom92_current,2026-07-22,-1154,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00220,acc_tom92_current,2026-07-23,-5058,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00221,acc_tom92_current,2026-07-24,-4303,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00222,acc_tom92_current,2026-07-25,-11390,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00223,acc_tom92_current,2026-07-28,219500,EUR,Federale Pensioendienst,Pensioen 2026-07,income_pension
+cust_tom92_tx00224,acc_tom92_current,2026-07-28,-210000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00225,acc_tom92_savings,2026-07-28,210000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00226,acc_tom92_current,2026-07-29,-2020,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00227,acc_tom92_current,2026-07-30,-6680,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00228,acc_tom92_current,2026-07-31,-2198,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00229,acc_tom92_current,2026-08-01,-9318,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00230,acc_tom92_current,2026-08-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00231,acc_tom92_current,2026-08-02,-3111,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom92_tx00232,acc_tom92_current,2026-08-05,-1105,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00233,acc_tom92_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00234,acc_tom92_current,2026-08-07,-3474,EUR,Zalando,Online aankoop,shopping_online
+cust_tom92_tx00235,acc_tom92_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00236,acc_tom92_current,2026-08-08,-9685,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00237,acc_tom92_current,2026-08-12,-1132,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00238,acc_tom92_current,2026-08-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00239,acc_tom92_current,2026-08-13,-5161,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00240,acc_tom92_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00241,acc_tom92_current,2026-08-15,-9431,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00242,acc_tom92_current,2026-08-16,-2775,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom92_tx00243,acc_tom92_current,2026-08-18,-5061,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00244,acc_tom92_current,2026-08-19,-1402,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00245,acc_tom92_current,2026-08-21,-3088,EUR,Bol.com,Online aankoop,shopping_online
+cust_tom92_tx00246,acc_tom92_current,2026-08-22,-12123,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00247,acc_tom92_current,2026-08-26,-2133,EUR,Action,Betaling Bancontact,shopping_household
+cust_tom92_tx00248,acc_tom92_current,2026-08-27,-6106,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00249,acc_tom92_current,2026-08-28,219500,EUR,Federale Pensioendienst,Pensioen 2026-08,income_pension
+cust_tom92_tx00250,acc_tom92_current,2026-08-28,-4879,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00251,acc_tom92_current,2026-08-28,-225000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00252,acc_tom92_savings,2026-08-28,225000,EUR,Tom Willems,Van zichtrekening,transfer_internal
+cust_tom92_tx00253,acc_tom92_current,2026-08-29,-9772,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00254,acc_tom92_current,2026-08-30,-1323,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom92_tx00255,acc_tom92_current,2026-09-02,135000,EUR,N. De Smet,Bijdrage huishouden,income_transfer_household
+cust_tom92_tx00256,acc_tom92_current,2026-09-02,-1624,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_tom92_tx00257,acc_tom92_current,2026-09-03,-6292,EUR,Q8,Brandstof,transport_fuel
+cust_tom92_tx00258,acc_tom92_current,2026-09-05,-8847,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00259,acc_tom92_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_tom92_tx00260,acc_tom92_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_tom92_tx00261,acc_tom92_current,2026-09-12,-9385,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00262,acc_tom92_current,2026-09-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_tom92_tx00263,acc_tom92_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_tom92_tx00264,acc_tom92_current,2026-09-16,-2120,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_tom92_tx00265,acc_tom92_current,2026-09-17,-6918,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00266,acc_tom92_current,2026-09-18,-7331,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_tom92_tx00267,acc_tom92_current,2026-09-19,-9209,EUR,Aldi,Betaling Bancontact,groceries
+cust_tom92_tx00268,acc_tom92_current,2026-09-20,-1546,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_tom92_tx00269,acc_tom92_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_tom92_tx00270,acc_tom92_current,2026-09-24,-5658,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_tom92_tx00271,acc_tom92_current,2026-09-25,-2979,EUR,Coolblue,Online aankoop,shopping_online
+cust_tom92_tx00272,acc_tom92_current,2026-09-26,-10333,EUR,Delhaize,Betaling Bancontact,groceries
+cust_tom92_tx00273,acc_tom92_current,2026-09-27,-1678,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_tom92_tx00274,acc_tom92_current,2026-09-28,219500,EUR,Federale Pensioendienst,Pensioen 2026-09,income_pension
+cust_tom92_tx00275,acc_tom92_current,2026-09-28,-230000,EUR,Tom Willems,Naar spaarrekening,transfer_internal
+cust_tom92_tx00276,acc_tom92_savings,2026-09-28,230000,EUR,Tom Willems,Van zichtrekening,transfer_internal

@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_geert46",
+  "personal": {
+    "first_name": "Geert",
+    "last_name": "Van den Broeck",
+    "birth_date": "1993-03-18",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Kerkstraat 111",
+      "postal_code": "2500",
+      "city": "Lier",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2011-07-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Flanders Care vzw",
+    "job_title": "Nurse",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_geert46_current",
+      "type": "current",
+      "iban": "BE00 SYNT GEERT46 0001",
+      "balance_cents": 303216,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_geert46_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT GEERT46 0002",
+      "balance_cents": 1475000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_geert46_int1",
+      "date": "2025-04-10",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

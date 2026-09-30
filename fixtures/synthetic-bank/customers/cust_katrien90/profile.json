@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_katrien90",
+  "personal": {
+    "first_name": "Katrien",
+    "last_name": "Michiels",
+    "birth_date": "1956-03-27",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Nieuwstraat 50",
+      "postal_code": "3000",
+      "city": "Leuven",
+      "country": "BE"
+    },
+    "civil_status": "widowed",
+    "language": "nl",
+    "customer_since": "1990-11-01"
+  },
+  "employment": {
+    "status": "retired",
+    "employer": "Federale Pensioendienst",
+    "job_title": "Retired",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_katrien90_current",
+      "type": "current",
+      "iban": "BE00 SYNT KATRIEN90 0001",
+      "balance_cents": 301410,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_katrien90_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT KATRIEN90 0002",
+      "balance_cents": 6297000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

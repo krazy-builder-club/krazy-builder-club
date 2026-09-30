@@ -34,14 +34,14 @@
     {
       "account_id": "acc_pieter13_current",
       "type": "current",
-      "iban": "BE00 SYNT PIET 0001",
+      "iban": "BE00 SYNT PIETER13 0001",
       "balance_cents": 450753,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_pieter13_savings",
       "type": "savings",
-      "iban": "BE00 SYNT PIET 0002",
+      "iban": "BE00 SYNT PIETER13 0002",
       "balance_cents": 2222662,
       "balance_as_of": "2026-09-30"
     }

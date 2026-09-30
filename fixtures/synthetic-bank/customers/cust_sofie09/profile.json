@@ -34,14 +34,14 @@
     {
       "account_id": "acc_sofie09_current",
       "type": "current",
-      "iban": "BE00 SYNT SOFI 0001",
+      "iban": "BE00 SYNT SOFIE09 0001",
       "balance_cents": 453271,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_sofie09_savings",
       "type": "savings",
-      "iban": "BE00 SYNT SOFI 0002",
+      "iban": "BE00 SYNT SOFIE09 0002",
       "balance_cents": 1785896,
       "balance_as_of": "2026-09-30"
     }

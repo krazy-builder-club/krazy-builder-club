@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_laura75",
+  "personal": {
+    "first_name": "Laura",
+    "last_name": "Dubois",
+    "birth_date": "1982-02-07",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Nieuwstraat 16",
+      "postal_code": "2000",
+      "city": "Antwerpen",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2000-11-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Flanders Care vzw",
+    "job_title": "Nurse",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_laura75_current",
+      "type": "current",
+      "iban": "BE00 SYNT LAURA75 0001",
+      "balance_cents": 301513,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_laura75_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LAURA75 0002",
+      "balance_cents": 4270000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_laura75_int1",
+      "date": "2025-05-15",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

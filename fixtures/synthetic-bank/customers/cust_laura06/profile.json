@@ -34,14 +34,14 @@
     {
       "account_id": "acc_laura06_current",
       "type": "current",
-      "iban": "BE00 SYNT LAUR 0001",
+      "iban": "BE00 SYNT LAURA06 0001",
       "balance_cents": 451429,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_laura06_savings",
       "type": "savings",
-      "iban": "BE00 SYNT LAUR 0002",
+      "iban": "BE00 SYNT LAURA06 0002",
       "balance_cents": 2590206,
       "balance_as_of": "2026-09-30"
     }

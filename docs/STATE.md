@@ -16,7 +16,7 @@ Onboarding and architecture design are complete. The selected backend is ready t
 | Technical architecture | Done | Google Cloud, Hono/TypeScript, Cloud SQL/GCS, Vertex, Tasks/Scheduler; ADRs 0003-0006 |
 | API contract | Done | Intake/upload/read/query, insight/feedback, schedule and signed webhook interfaces defined |
 | API, Librarian, Proactor | Planned | No implementation |
-| Synthetic fixtures | In progress | `fixtures/synthetic-bank/generate.py`: Emma, Jonas, 22 look-alikes (14 bought a home) with seeded 3-file brains; ~76 other-life-stage customers still to add |
+| Synthetic fixtures | Done (v1) | 100 customers via `fixtures/synthetic-bank/generate.py`: Emma, Jonas, 22 look-alikes (14 bought a home), 76 other life stages; seeded 3-file brains. Known gap: plain tag overlap also matches no-raise near-misses (0.6) |
 | Demo and presentation | In progress | Use case, video script and product description drafted in [plans](plans/video-and-product-description.md); original guide needed to verify submission rules |
 
 ## In Flight

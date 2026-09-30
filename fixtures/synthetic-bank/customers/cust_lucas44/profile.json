@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_lucas44",
+  "personal": {
+    "first_name": "Lucas",
+    "last_name": "Mertens",
+    "birth_date": "1990-10-26",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Nieuwstraat 45",
+      "postal_code": "3000",
+      "city": "Leuven",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2008-03-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Flanders Care vzw",
+    "job_title": "Nurse",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_lucas44_current",
+      "type": "current",
+      "iban": "BE00 SYNT LUCAS44 0001",
+      "balance_cents": 303020,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_lucas44_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LUCAS44 0002",
+      "balance_cents": 1972000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_lucas44_int1",
+      "date": "2025-07-04",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

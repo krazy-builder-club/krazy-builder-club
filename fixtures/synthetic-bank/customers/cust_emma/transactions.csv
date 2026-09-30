@@ -247,101 +247,99 @@ cust_emma_tx00245,acc_emma_current,2026-06-20,-13105,EUR,Delhaize,Betaling Banco
 cust_emma_tx00246,acc_emma_current,2026-06-26,-5325,EUR,Zalando,Online aankoop,shopping_online
 cust_emma_tx00247,acc_emma_current,2026-06-27,-15886,EUR,Colruyt,Betaling Bancontact,groceries
 cust_emma_tx00248,acc_emma_current,2026-06-28,285000,EUR,Brightwave Logistics NV,Loon 2026-06,income_salary
-cust_emma_tx00249,acc_emma_current,2026-06-28,65000,EUR,Emma Claes,Van spaarrekening,transfer_internal
-cust_emma_tx00250,acc_emma_savings,2026-06-28,-65000,EUR,Emma Claes,Naar zichtrekening,transfer_internal
-cust_emma_tx00251,acc_emma_current,2026-07-01,-3827,EUR,Kruidvat,Betaling Bancontact,shopping_household
-cust_emma_tx00252,acc_emma_current,2026-07-01,-124500,EUR,M. Peeters,Huur,housing_rent
-cust_emma_tx00253,acc_emma_current,2026-07-02,30000,EUR,J. Wouters,Bijdrage huishouden,income_transfer_household
-cust_emma_tx00254,acc_emma_current,2026-07-02,-6792,EUR,Q8,Brandstof,transport_fuel
-cust_emma_tx00255,acc_emma_current,2026-07-03,-28650,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
-cust_emma_tx00256,acc_emma_current,2026-07-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
-cust_emma_tx00257,acc_emma_current,2026-07-04,-15443,EUR,Aldi,Betaling Bancontact,groceries
-cust_emma_tx00258,acc_emma_current,2026-07-05,-3646,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
-cust_emma_tx00259,acc_emma_current,2026-07-05,-61240,EUR,Kinderdagverblijf De Speelboom,Opvang kind 2 07/2026,childcare
-cust_emma_tx00260,acc_emma_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
-cust_emma_tx00261,acc_emma_current,2026-07-08,-3169,EUR,Kruidvat,Betaling Bancontact,shopping_household
-cust_emma_tx00262,acc_emma_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
-cust_emma_tx00263,acc_emma_current,2026-07-09,-5560,EUR,Q8,Brandstof,transport_fuel
-cust_emma_tx00264,acc_emma_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
-cust_emma_tx00265,acc_emma_current,2026-07-10,-4249,EUR,Bol.com,Online aankoop,shopping_online
-cust_emma_tx00266,acc_emma_current,2026-07-11,-13059,EUR,Colruyt,Betaling Bancontact,groceries
-cust_emma_tx00267,acc_emma_current,2026-07-11,-61200,EUR,Synthetic Vakantieparken,Vakantie,travel
-cust_emma_tx00268,acc_emma_current,2026-07-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
-cust_emma_tx00269,acc_emma_current,2026-07-14,-9450,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
-cust_emma_tx00270,acc_emma_current,2026-07-15,-3821,EUR,HEMA,Betaling Bancontact,shopping_household
-cust_emma_tx00271,acc_emma_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
-cust_emma_tx00272,acc_emma_current,2026-07-16,-6758,EUR,Q8,Brandstof,transport_fuel
-cust_emma_tx00273,acc_emma_current,2026-07-17,-3965,EUR,Zalando,Online aankoop,shopping_online
-cust_emma_tx00274,acc_emma_current,2026-07-18,-12215,EUR,Delhaize,Betaling Bancontact,groceries
-cust_emma_tx00275,acc_emma_current,2026-07-18,-13031,EUR,Zeeman,Betaling Bancontact,shopping_clothing
-cust_emma_tx00276,acc_emma_current,2026-07-19,-2065,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
-cust_emma_tx00277,acc_emma_current,2026-07-22,-2924,EUR,Kruidvat,Betaling Bancontact,shopping_household
-cust_emma_tx00278,acc_emma_current,2026-07-23,-5832,EUR,Q8,Brandstof,transport_fuel
-cust_emma_tx00279,acc_emma_current,2026-07-24,-7827,EUR,Zalando,Online aankoop,shopping_online
-cust_emma_tx00280,acc_emma_current,2026-07-25,-12572,EUR,Colruyt,Betaling Bancontact,groceries
-cust_emma_tx00281,acc_emma_current,2026-07-26,-3465,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
-cust_emma_tx00282,acc_emma_current,2026-07-28,285000,EUR,Brightwave Logistics NV,Loon 2026-07,income_salary
-cust_emma_tx00283,acc_emma_current,2026-07-28,100000,EUR,Emma Claes,Van spaarrekening,transfer_internal
-cust_emma_tx00284,acc_emma_savings,2026-07-28,-100000,EUR,Emma Claes,Naar zichtrekening,transfer_internal
-cust_emma_tx00285,acc_emma_current,2026-07-29,-4430,EUR,Action,Betaling Bancontact,shopping_household
-cust_emma_tx00286,acc_emma_current,2026-08-01,-14067,EUR,Delhaize,Betaling Bancontact,groceries
-cust_emma_tx00287,acc_emma_current,2026-08-01,-124500,EUR,M. Peeters,Huur,housing_rent
-cust_emma_tx00288,acc_emma_current,2026-08-02,30000,EUR,J. Wouters,Bijdrage huishouden,income_transfer_household
-cust_emma_tx00289,acc_emma_current,2026-08-02,-4652,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
-cust_emma_tx00290,acc_emma_current,2026-08-03,-28650,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
-cust_emma_tx00291,acc_emma_current,2026-08-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
-cust_emma_tx00292,acc_emma_current,2026-08-05,-3541,EUR,HEMA,Betaling Bancontact,shopping_household
-cust_emma_tx00293,acc_emma_current,2026-08-05,-61240,EUR,Kinderdagverblijf De Speelboom,Opvang kind 2 08/2026,childcare
-cust_emma_tx00294,acc_emma_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
-cust_emma_tx00295,acc_emma_current,2026-08-07,-7124,EUR,Zalando,Online aankoop,shopping_online
-cust_emma_tx00296,acc_emma_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
-cust_emma_tx00297,acc_emma_current,2026-08-08,-17127,EUR,Colruyt,Betaling Bancontact,groceries
-cust_emma_tx00298,acc_emma_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
-cust_emma_tx00299,acc_emma_current,2026-08-12,-2841,EUR,HEMA,Betaling Bancontact,shopping_household
-cust_emma_tx00300,acc_emma_current,2026-08-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
-cust_emma_tx00301,acc_emma_current,2026-08-13,-6803,EUR,Q8,Brandstof,transport_fuel
-cust_emma_tx00302,acc_emma_current,2026-08-14,-6160,EUR,Zalando,Online aankoop,shopping_online
-cust_emma_tx00303,acc_emma_current,2026-08-14,-9450,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
-cust_emma_tx00304,acc_emma_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
-cust_emma_tx00305,acc_emma_current,2026-08-15,-11542,EUR,Colruyt,Betaling Bancontact,groceries
-cust_emma_tx00306,acc_emma_current,2026-08-18,-13829,EUR,JBC,Betaling Bancontact,shopping_clothing
-cust_emma_tx00307,acc_emma_current,2026-08-19,-1558,EUR,HEMA,Betaling Bancontact,shopping_household
-cust_emma_tx00308,acc_emma_current,2026-08-20,-5846,EUR,Q8,Brandstof,transport_fuel
-cust_emma_tx00309,acc_emma_current,2026-08-21,-3373,EUR,Bol.com,Online aankoop,shopping_online
-cust_emma_tx00310,acc_emma_current,2026-08-22,-15002,EUR,Delhaize,Betaling Bancontact,groceries
-cust_emma_tx00311,acc_emma_current,2026-08-28,336300,EUR,Nordlicht Software BV,Loon 2026-08,income_salary
-cust_emma_tx00312,acc_emma_current,2026-08-28,-6857,EUR,Zalando,Online aankoop,shopping_online
-cust_emma_tx00313,acc_emma_current,2026-08-28,-20000,EUR,Emma Claes,Naar spaarrekening,transfer_internal
-cust_emma_tx00314,acc_emma_savings,2026-08-28,20000,EUR,Emma Claes,Van zichtrekening,transfer_internal
-cust_emma_tx00315,acc_emma_current,2026-08-29,-12253,EUR,Colruyt,Betaling Bancontact,groceries
-cust_emma_tx00316,acc_emma_current,2026-08-30,-2347,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
-cust_emma_tx00317,acc_emma_current,2026-09-01,-124500,EUR,M. Peeters,Huur,housing_rent
-cust_emma_tx00318,acc_emma_current,2026-09-02,30000,EUR,J. Wouters,Bijdrage huishouden,income_transfer_household
-cust_emma_tx00319,acc_emma_current,2026-09-03,-6105,EUR,Q8,Brandstof,transport_fuel
-cust_emma_tx00320,acc_emma_current,2026-09-03,-14666,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
-cust_emma_tx00321,acc_emma_current,2026-09-03,-28650,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
-cust_emma_tx00322,acc_emma_current,2026-09-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
-cust_emma_tx00323,acc_emma_current,2026-09-04,-7030,EUR,Zalando,Online aankoop,shopping_online
-cust_emma_tx00324,acc_emma_current,2026-09-05,-16985,EUR,Aldi,Betaling Bancontact,groceries
-cust_emma_tx00325,acc_emma_current,2026-09-05,-61240,EUR,Kinderdagverblijf De Speelboom,Opvang kind 2 09/2026,childcare
-cust_emma_tx00326,acc_emma_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
-cust_emma_tx00327,acc_emma_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
-cust_emma_tx00328,acc_emma_current,2026-09-09,-1825,EUR,Action,Betaling Bancontact,shopping_household
-cust_emma_tx00329,acc_emma_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
-cust_emma_tx00330,acc_emma_current,2026-09-10,-6805,EUR,TotalEnergies,Brandstof,transport_fuel
-cust_emma_tx00331,acc_emma_current,2026-09-11,-2594,EUR,Coolblue,Online aankoop,shopping_online
-cust_emma_tx00332,acc_emma_current,2026-09-12,-13945,EUR,Delhaize,Betaling Bancontact,groceries
-cust_emma_tx00333,acc_emma_current,2026-09-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
-cust_emma_tx00334,acc_emma_current,2026-09-13,-3602,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
-cust_emma_tx00335,acc_emma_current,2026-09-14,-9450,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
-cust_emma_tx00336,acc_emma_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
-cust_emma_tx00337,acc_emma_current,2026-09-16,-2391,EUR,Action,Betaling Bancontact,shopping_household
-cust_emma_tx00338,acc_emma_current,2026-09-17,-6022,EUR,Q8,Brandstof,transport_fuel
-cust_emma_tx00339,acc_emma_current,2026-09-18,-6438,EUR,Bol.com,Online aankoop,shopping_online
-cust_emma_tx00340,acc_emma_current,2026-09-18,-6667,EUR,Zeeman,Betaling Bancontact,shopping_clothing
-cust_emma_tx00341,acc_emma_current,2026-09-19,-15316,EUR,Aldi,Betaling Bancontact,groceries
-cust_emma_tx00342,acc_emma_current,2026-09-20,-2980,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
-cust_emma_tx00343,acc_emma_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
-cust_emma_tx00344,acc_emma_current,2026-09-26,-16828,EUR,Colruyt,Betaling Bancontact,groceries
-cust_emma_tx00345,acc_emma_current,2026-09-27,-3690,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
-cust_emma_tx00346,acc_emma_current,2026-09-28,336300,EUR,Nordlicht Software BV,Loon 2026-09,income_salary
+cust_emma_tx00249,acc_emma_current,2026-07-01,-3827,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_emma_tx00250,acc_emma_current,2026-07-01,-124500,EUR,M. Peeters,Huur,housing_rent
+cust_emma_tx00251,acc_emma_current,2026-07-02,30000,EUR,J. Wouters,Bijdrage huishouden,income_transfer_household
+cust_emma_tx00252,acc_emma_current,2026-07-02,-6792,EUR,Q8,Brandstof,transport_fuel
+cust_emma_tx00253,acc_emma_current,2026-07-03,-28650,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_emma_tx00254,acc_emma_current,2026-07-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_emma_tx00255,acc_emma_current,2026-07-04,-15443,EUR,Aldi,Betaling Bancontact,groceries
+cust_emma_tx00256,acc_emma_current,2026-07-05,-3646,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_emma_tx00257,acc_emma_current,2026-07-05,-61240,EUR,Kinderdagverblijf De Speelboom,Opvang kind 2 07/2026,childcare
+cust_emma_tx00258,acc_emma_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_emma_tx00259,acc_emma_current,2026-07-08,-3169,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_emma_tx00260,acc_emma_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_emma_tx00261,acc_emma_current,2026-07-09,-5560,EUR,Q8,Brandstof,transport_fuel
+cust_emma_tx00262,acc_emma_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_emma_tx00263,acc_emma_current,2026-07-10,-4249,EUR,Bol.com,Online aankoop,shopping_online
+cust_emma_tx00264,acc_emma_current,2026-07-11,-13059,EUR,Colruyt,Betaling Bancontact,groceries
+cust_emma_tx00265,acc_emma_current,2026-07-11,-61200,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_emma_tx00266,acc_emma_current,2026-07-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_emma_tx00267,acc_emma_current,2026-07-14,-9450,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
+cust_emma_tx00268,acc_emma_current,2026-07-15,-3821,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_emma_tx00269,acc_emma_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_emma_tx00270,acc_emma_current,2026-07-16,-6758,EUR,Q8,Brandstof,transport_fuel
+cust_emma_tx00271,acc_emma_current,2026-07-17,-3965,EUR,Zalando,Online aankoop,shopping_online
+cust_emma_tx00272,acc_emma_current,2026-07-18,-12215,EUR,Delhaize,Betaling Bancontact,groceries
+cust_emma_tx00273,acc_emma_current,2026-07-18,-13031,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_emma_tx00274,acc_emma_current,2026-07-19,-2065,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_emma_tx00275,acc_emma_current,2026-07-22,-2924,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_emma_tx00276,acc_emma_current,2026-07-23,-5832,EUR,Q8,Brandstof,transport_fuel
+cust_emma_tx00277,acc_emma_current,2026-07-24,-7827,EUR,Zalando,Online aankoop,shopping_online
+cust_emma_tx00278,acc_emma_current,2026-07-25,-12572,EUR,Colruyt,Betaling Bancontact,groceries
+cust_emma_tx00279,acc_emma_current,2026-07-26,-3465,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_emma_tx00280,acc_emma_current,2026-07-28,285000,EUR,Brightwave Logistics NV,Loon 2026-07,income_salary
+cust_emma_tx00281,acc_emma_current,2026-07-28,165000,EUR,Emma Claes,Van spaarrekening,transfer_internal
+cust_emma_tx00282,acc_emma_savings,2026-07-28,-165000,EUR,Emma Claes,Naar zichtrekening,transfer_internal
+cust_emma_tx00283,acc_emma_current,2026-07-29,-4430,EUR,Action,Betaling Bancontact,shopping_household
+cust_emma_tx00284,acc_emma_current,2026-08-01,-14067,EUR,Delhaize,Betaling Bancontact,groceries
+cust_emma_tx00285,acc_emma_current,2026-08-01,-124500,EUR,M. Peeters,Huur,housing_rent
+cust_emma_tx00286,acc_emma_current,2026-08-02,30000,EUR,J. Wouters,Bijdrage huishouden,income_transfer_household
+cust_emma_tx00287,acc_emma_current,2026-08-02,-4652,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_emma_tx00288,acc_emma_current,2026-08-03,-28650,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_emma_tx00289,acc_emma_current,2026-08-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_emma_tx00290,acc_emma_current,2026-08-05,-3541,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_emma_tx00291,acc_emma_current,2026-08-05,-61240,EUR,Kinderdagverblijf De Speelboom,Opvang kind 2 08/2026,childcare
+cust_emma_tx00292,acc_emma_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_emma_tx00293,acc_emma_current,2026-08-07,-7124,EUR,Zalando,Online aankoop,shopping_online
+cust_emma_tx00294,acc_emma_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_emma_tx00295,acc_emma_current,2026-08-08,-17127,EUR,Colruyt,Betaling Bancontact,groceries
+cust_emma_tx00296,acc_emma_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_emma_tx00297,acc_emma_current,2026-08-12,-2841,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_emma_tx00298,acc_emma_current,2026-08-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_emma_tx00299,acc_emma_current,2026-08-13,-6803,EUR,Q8,Brandstof,transport_fuel
+cust_emma_tx00300,acc_emma_current,2026-08-14,-6160,EUR,Zalando,Online aankoop,shopping_online
+cust_emma_tx00301,acc_emma_current,2026-08-14,-9450,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_emma_tx00302,acc_emma_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_emma_tx00303,acc_emma_current,2026-08-15,-11542,EUR,Colruyt,Betaling Bancontact,groceries
+cust_emma_tx00304,acc_emma_current,2026-08-18,-13829,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_emma_tx00305,acc_emma_current,2026-08-19,-1558,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_emma_tx00306,acc_emma_current,2026-08-20,-5846,EUR,Q8,Brandstof,transport_fuel
+cust_emma_tx00307,acc_emma_current,2026-08-21,-3373,EUR,Bol.com,Online aankoop,shopping_online
+cust_emma_tx00308,acc_emma_current,2026-08-22,-15002,EUR,Delhaize,Betaling Bancontact,groceries
+cust_emma_tx00309,acc_emma_current,2026-08-28,336300,EUR,Nordlicht Software BV,Loon 2026-08,income_salary
+cust_emma_tx00310,acc_emma_current,2026-08-28,-6857,EUR,Zalando,Online aankoop,shopping_online
+cust_emma_tx00311,acc_emma_current,2026-08-28,-20000,EUR,Emma Claes,Naar spaarrekening,transfer_internal
+cust_emma_tx00312,acc_emma_savings,2026-08-28,20000,EUR,Emma Claes,Van zichtrekening,transfer_internal
+cust_emma_tx00313,acc_emma_current,2026-08-29,-12253,EUR,Colruyt,Betaling Bancontact,groceries
+cust_emma_tx00314,acc_emma_current,2026-08-30,-2347,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_emma_tx00315,acc_emma_current,2026-09-01,-124500,EUR,M. Peeters,Huur,housing_rent
+cust_emma_tx00316,acc_emma_current,2026-09-02,30000,EUR,J. Wouters,Bijdrage huishouden,income_transfer_household
+cust_emma_tx00317,acc_emma_current,2026-09-03,-6105,EUR,Q8,Brandstof,transport_fuel
+cust_emma_tx00318,acc_emma_current,2026-09-03,-14666,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_emma_tx00319,acc_emma_current,2026-09-03,-28650,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_emma_tx00320,acc_emma_current,2026-09-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_emma_tx00321,acc_emma_current,2026-09-04,-7030,EUR,Zalando,Online aankoop,shopping_online
+cust_emma_tx00322,acc_emma_current,2026-09-05,-16985,EUR,Aldi,Betaling Bancontact,groceries
+cust_emma_tx00323,acc_emma_current,2026-09-05,-61240,EUR,Kinderdagverblijf De Speelboom,Opvang kind 2 09/2026,childcare
+cust_emma_tx00324,acc_emma_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_emma_tx00325,acc_emma_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_emma_tx00326,acc_emma_current,2026-09-09,-1825,EUR,Action,Betaling Bancontact,shopping_household
+cust_emma_tx00327,acc_emma_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_emma_tx00328,acc_emma_current,2026-09-10,-6805,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_emma_tx00329,acc_emma_current,2026-09-11,-2594,EUR,Coolblue,Online aankoop,shopping_online
+cust_emma_tx00330,acc_emma_current,2026-09-12,-13945,EUR,Delhaize,Betaling Bancontact,groceries
+cust_emma_tx00331,acc_emma_current,2026-09-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_emma_tx00332,acc_emma_current,2026-09-13,-3602,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_emma_tx00333,acc_emma_current,2026-09-14,-9450,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
+cust_emma_tx00334,acc_emma_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_emma_tx00335,acc_emma_current,2026-09-16,-2391,EUR,Action,Betaling Bancontact,shopping_household
+cust_emma_tx00336,acc_emma_current,2026-09-17,-6022,EUR,Q8,Brandstof,transport_fuel
+cust_emma_tx00337,acc_emma_current,2026-09-18,-6438,EUR,Bol.com,Online aankoop,shopping_online
+cust_emma_tx00338,acc_emma_current,2026-09-18,-6667,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_emma_tx00339,acc_emma_current,2026-09-19,-15316,EUR,Aldi,Betaling Bancontact,groceries
+cust_emma_tx00340,acc_emma_current,2026-09-20,-2980,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_emma_tx00341,acc_emma_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_emma_tx00342,acc_emma_current,2026-09-26,-16828,EUR,Colruyt,Betaling Bancontact,groceries
+cust_emma_tx00343,acc_emma_current,2026-09-27,-3690,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_emma_tx00344,acc_emma_current,2026-09-28,336300,EUR,Nordlicht Software BV,Loon 2026-09,income_salary

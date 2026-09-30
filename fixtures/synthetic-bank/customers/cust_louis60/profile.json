@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_louis60",
+  "personal": {
+    "first_name": "Louis",
+    "last_name": "Vermeulen",
+    "birth_date": "1981-07-28",
+    "place_of_birth": "Hasselt",
+    "address": {
+      "street": "Kerkstraat 120",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1999-04-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Deltaport Logistics NV",
+    "job_title": "Planner",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_louis60_current",
+      "type": "current",
+      "iban": "BE00 SYNT LOUIS60 0001",
+      "balance_cents": 452414,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_louis60_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LOUIS60 0002",
+      "balance_cents": 2478000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_louis60_int1",
+      "date": "2025-07-04",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

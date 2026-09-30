@@ -1,0 +1,295 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_elien82_tx00001,acc_elien82_current,2025-10-01,-1192,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00002,acc_elien82_current,2025-10-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00003,acc_elien82_current,2025-10-04,-10632,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00004,acc_elien82_current,2025-10-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00005,acc_elien82_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00006,acc_elien82_current,2025-10-08,-3175,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00007,acc_elien82_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00008,acc_elien82_current,2025-10-11,-12852,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00009,acc_elien82_current,2025-10-12,-4465,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_elien82_tx00010,acc_elien82_current,2025-10-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00011,acc_elien82_current,2025-10-15,-3436,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00012,acc_elien82_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00013,acc_elien82_current,2025-10-17,-7141,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00014,acc_elien82_current,2025-10-18,-11309,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00015,acc_elien82_current,2025-10-18,-11719,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00016,acc_elien82_current,2025-10-22,-2831,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00017,acc_elien82_current,2025-10-24,-4944,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00018,acc_elien82_current,2025-10-25,-13516,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00019,acc_elien82_current,2025-10-28,372000,EUR,City of Mechelen,Loon 2025-10,income_salary
+cust_elien82_tx00020,acc_elien82_current,2025-10-28,-230000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00021,acc_elien82_savings,2025-10-28,230000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00022,acc_elien82_current,2025-10-29,-3806,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00023,acc_elien82_current,2025-10-30,-5234,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00024,acc_elien82_current,2025-10-31,-4367,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00025,acc_elien82_current,2025-11-01,-12945,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00026,acc_elien82_current,2025-11-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00027,acc_elien82_current,2025-11-05,-2991,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00028,acc_elien82_current,2025-11-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00029,acc_elien82_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00030,acc_elien82_current,2025-11-06,-5535,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00031,acc_elien82_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00032,acc_elien82_current,2025-11-08,-11338,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00033,acc_elien82_current,2025-11-12,-3601,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00034,acc_elien82_current,2025-11-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00035,acc_elien82_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00036,acc_elien82_current,2025-11-15,-12264,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00037,acc_elien82_current,2025-11-18,-10912,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00038,acc_elien82_current,2025-11-19,-2644,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00039,acc_elien82_current,2025-11-22,-10837,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00040,acc_elien82_current,2025-11-26,-3230,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00041,acc_elien82_current,2025-11-27,-5650,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00042,acc_elien82_current,2025-11-28,372000,EUR,City of Mechelen,Loon 2025-11,income_salary
+cust_elien82_tx00043,acc_elien82_current,2025-11-28,-230000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00044,acc_elien82_savings,2025-11-28,230000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00045,acc_elien82_current,2025-11-29,-15723,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00046,acc_elien82_current,2025-12-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00047,acc_elien82_current,2025-12-03,-2281,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00048,acc_elien82_current,2025-12-04,-4584,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00049,acc_elien82_current,2025-12-05,-5635,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00050,acc_elien82_current,2025-12-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00051,acc_elien82_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00052,acc_elien82_current,2025-12-06,-13092,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00053,acc_elien82_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00054,acc_elien82_current,2025-12-10,-2441,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00055,acc_elien82_current,2025-12-11,-6777,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00056,acc_elien82_current,2025-12-12,-3018,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00057,acc_elien82_current,2025-12-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00058,acc_elien82_current,2025-12-13,-11182,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00059,acc_elien82_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00060,acc_elien82_current,2025-12-17,-3333,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00061,acc_elien82_current,2025-12-18,-5712,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00062,acc_elien82_current,2025-12-19,-5200,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00063,acc_elien82_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_elien82_tx00064,acc_elien82_current,2025-12-20,-13889,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00065,acc_elien82_current,2025-12-21,-3281,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_elien82_tx00066,acc_elien82_current,2025-12-25,-5948,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00067,acc_elien82_current,2025-12-27,-14154,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00068,acc_elien82_current,2025-12-28,372000,EUR,City of Mechelen,Loon 2025-12,income_salary
+cust_elien82_tx00069,acc_elien82_current,2025-12-28,-205000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00070,acc_elien82_savings,2025-12-28,205000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00071,acc_elien82_current,2025-12-31,-2081,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00072,acc_elien82_current,2026-01-01,-4551,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00073,acc_elien82_current,2026-01-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00074,acc_elien82_current,2026-01-02,-4461,EUR,Bol.com,Online aankoop,shopping_online
+cust_elien82_tx00075,acc_elien82_current,2026-01-03,-14133,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00076,acc_elien82_current,2026-01-04,-3837,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_elien82_tx00077,acc_elien82_current,2026-01-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00078,acc_elien82_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00079,acc_elien82_current,2026-01-07,-3472,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00080,acc_elien82_current,2026-01-08,-5035,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00081,acc_elien82_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00082,acc_elien82_current,2026-01-09,-4810,EUR,Bol.com,Online aankoop,shopping_online
+cust_elien82_tx00083,acc_elien82_current,2026-01-10,-11439,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00084,acc_elien82_current,2026-01-11,-4694,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_elien82_tx00085,acc_elien82_current,2026-01-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00086,acc_elien82_current,2026-01-14,-3704,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00087,acc_elien82_current,2026-01-15,-5398,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00088,acc_elien82_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00089,acc_elien82_current,2026-01-17,-12814,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00090,acc_elien82_current,2026-01-18,-2161,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_elien82_tx00091,acc_elien82_current,2026-01-18,-7783,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00092,acc_elien82_current,2026-01-21,-2854,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00093,acc_elien82_current,2026-01-24,-15292,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00094,acc_elien82_current,2026-01-28,372000,EUR,City of Mechelen,Loon 2026-01,income_salary
+cust_elien82_tx00095,acc_elien82_current,2026-01-28,-3323,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00096,acc_elien82_current,2026-01-28,-210000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00097,acc_elien82_savings,2026-01-28,210000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00098,acc_elien82_current,2026-01-29,-6889,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00099,acc_elien82_current,2026-01-30,-5678,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00100,acc_elien82_current,2026-01-31,-11079,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00101,acc_elien82_current,2026-02-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00102,acc_elien82_current,2026-02-04,-3893,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00103,acc_elien82_current,2026-02-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00104,acc_elien82_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00105,acc_elien82_current,2026-02-07,-15484,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00106,acc_elien82_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00107,acc_elien82_current,2026-02-11,-2960,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00108,acc_elien82_current,2026-02-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00109,acc_elien82_current,2026-02-13,-2355,EUR,Bol.com,Online aankoop,shopping_online
+cust_elien82_tx00110,acc_elien82_current,2026-02-14,-12878,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00111,acc_elien82_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00112,acc_elien82_current,2026-02-18,-12421,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00113,acc_elien82_current,2026-02-20,-5155,EUR,Bol.com,Online aankoop,shopping_online
+cust_elien82_tx00114,acc_elien82_current,2026-02-21,-13196,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00115,acc_elien82_current,2026-02-22,-4671,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_elien82_tx00116,acc_elien82_current,2026-02-25,-3573,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00117,acc_elien82_current,2026-02-28,372000,EUR,City of Mechelen,Loon 2026-02,income_salary
+cust_elien82_tx00118,acc_elien82_current,2026-02-28,-13849,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00119,acc_elien82_current,2026-02-28,-210000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00120,acc_elien82_savings,2026-02-28,210000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00121,acc_elien82_current,2026-03-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00122,acc_elien82_current,2026-03-04,-2224,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00123,acc_elien82_current,2026-03-05,-5381,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00124,acc_elien82_current,2026-03-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00125,acc_elien82_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00126,acc_elien82_current,2026-03-06,-4769,EUR,Bol.com,Online aankoop,shopping_online
+cust_elien82_tx00127,acc_elien82_current,2026-03-07,-10727,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00128,acc_elien82_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00129,acc_elien82_current,2026-03-11,-3434,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00130,acc_elien82_current,2026-03-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00131,acc_elien82_current,2026-03-13,-5133,EUR,Bol.com,Online aankoop,shopping_online
+cust_elien82_tx00132,acc_elien82_current,2026-03-14,-13368,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00133,acc_elien82_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00134,acc_elien82_current,2026-03-18,-1188,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00135,acc_elien82_current,2026-03-18,-11925,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00136,acc_elien82_current,2026-03-19,-6370,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00137,acc_elien82_current,2026-03-20,-2845,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00138,acc_elien82_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_elien82_tx00139,acc_elien82_current,2026-03-21,-12758,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00140,acc_elien82_current,2026-03-25,-3781,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00141,acc_elien82_current,2026-03-26,-5246,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00142,acc_elien82_current,2026-03-28,372000,EUR,City of Mechelen,Loon 2026-03,income_salary
+cust_elien82_tx00143,acc_elien82_current,2026-03-28,-10375,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00144,acc_elien82_current,2026-03-28,-220000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00145,acc_elien82_savings,2026-03-28,220000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00146,acc_elien82_current,2026-04-01,-3711,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00147,acc_elien82_current,2026-04-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00148,acc_elien82_current,2026-04-03,-5327,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00149,acc_elien82_current,2026-04-04,-10477,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00150,acc_elien82_current,2026-04-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00151,acc_elien82_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00152,acc_elien82_current,2026-04-08,-3939,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00153,acc_elien82_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00154,acc_elien82_current,2026-04-09,-5975,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00155,acc_elien82_current,2026-04-11,-12153,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00156,acc_elien82_current,2026-04-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00157,acc_elien82_current,2026-04-15,-2123,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00158,acc_elien82_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00159,acc_elien82_current,2026-04-18,-10138,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00160,acc_elien82_current,2026-04-18,-14686,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00161,acc_elien82_current,2026-04-22,-2873,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00162,acc_elien82_current,2026-04-24,-2970,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00163,acc_elien82_current,2026-04-25,-12229,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00164,acc_elien82_current,2026-04-26,-4004,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_elien82_tx00165,acc_elien82_current,2026-04-28,372000,EUR,City of Mechelen,Loon 2026-04,income_salary
+cust_elien82_tx00166,acc_elien82_current,2026-04-28,-230000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00167,acc_elien82_savings,2026-04-28,230000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00168,acc_elien82_current,2026-04-29,-3943,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00169,acc_elien82_current,2026-04-30,-5918,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00170,acc_elien82_current,2026-05-01,-4133,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00171,acc_elien82_current,2026-05-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00172,acc_elien82_current,2026-05-02,-14121,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00173,acc_elien82_current,2026-05-03,-4258,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_elien82_tx00174,acc_elien82_current,2026-05-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00175,acc_elien82_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00176,acc_elien82_current,2026-05-06,-3668,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00177,acc_elien82_current,2026-05-07,-5142,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00178,acc_elien82_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00179,acc_elien82_current,2026-05-09,-11872,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00180,acc_elien82_current,2026-05-10,-4360,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_elien82_tx00181,acc_elien82_current,2026-05-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00182,acc_elien82_current,2026-05-13,-1422,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00183,acc_elien82_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00184,acc_elien82_current,2026-05-16,-11117,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00185,acc_elien82_current,2026-05-17,-2809,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_elien82_tx00186,acc_elien82_current,2026-05-18,-7765,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00187,acc_elien82_current,2026-05-20,-3931,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00188,acc_elien82_current,2026-05-22,-3498,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00189,acc_elien82_current,2026-05-23,-15092,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00190,acc_elien82_current,2026-05-27,-2661,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00191,acc_elien82_current,2026-05-28,372000,EUR,City of Mechelen,Loon 2026-05,income_salary
+cust_elien82_tx00192,acc_elien82_current,2026-05-28,-6097,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00193,acc_elien82_current,2026-05-28,-210000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00194,acc_elien82_savings,2026-05-28,210000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00195,acc_elien82_current,2026-05-29,-4134,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00196,acc_elien82_current,2026-05-30,-15005,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00197,acc_elien82_current,2026-05-31,-3389,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_elien82_tx00198,acc_elien82_current,2026-06-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00199,acc_elien82_current,2026-06-03,-3654,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00200,acc_elien82_current,2026-06-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00201,acc_elien82_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00202,acc_elien82_current,2026-06-06,-12131,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00203,acc_elien82_current,2026-06-07,-3751,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_elien82_tx00204,acc_elien82_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00205,acc_elien82_current,2026-06-10,-3561,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00206,acc_elien82_current,2026-06-11,-4537,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00207,acc_elien82_current,2026-06-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00208,acc_elien82_current,2026-06-13,-13190,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00209,acc_elien82_current,2026-06-14,-4667,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_elien82_tx00210,acc_elien82_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00211,acc_elien82_current,2026-06-18,-6460,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00212,acc_elien82_current,2026-06-19,-7147,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00213,acc_elien82_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_elien82_tx00214,acc_elien82_current,2026-06-20,-10690,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00215,acc_elien82_current,2026-06-21,-1769,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_elien82_tx00216,acc_elien82_current,2026-06-25,-5803,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00217,acc_elien82_current,2026-06-27,-14713,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00218,acc_elien82_current,2026-06-28,372000,EUR,City of Mechelen,Loon 2026-06,income_salary
+cust_elien82_tx00219,acc_elien82_current,2026-06-28,-205000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00220,acc_elien82_savings,2026-06-28,205000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00221,acc_elien82_current,2026-07-01,-2577,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00222,acc_elien82_current,2026-07-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00223,acc_elien82_current,2026-07-02,-4716,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00224,acc_elien82_current,2026-07-03,-3181,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00225,acc_elien82_current,2026-07-04,-12788,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00226,acc_elien82_current,2026-07-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00227,acc_elien82_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00228,acc_elien82_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00229,acc_elien82_current,2026-07-11,-14574,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00230,acc_elien82_current,2026-07-11,-95800,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_elien82_tx00231,acc_elien82_current,2026-07-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00232,acc_elien82_current,2026-07-15,-3449,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00233,acc_elien82_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00234,acc_elien82_current,2026-07-18,-9045,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00235,acc_elien82_current,2026-07-18,-15281,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00236,acc_elien82_current,2026-07-22,-3267,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00237,acc_elien82_current,2026-07-25,-15606,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00238,acc_elien82_current,2026-07-28,372000,EUR,City of Mechelen,Loon 2026-07,income_salary
+cust_elien82_tx00239,acc_elien82_current,2026-07-28,-140000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00240,acc_elien82_savings,2026-07-28,140000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00241,acc_elien82_current,2026-07-29,-2375,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00242,acc_elien82_current,2026-07-30,-5619,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00243,acc_elien82_current,2026-07-31,-3810,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00244,acc_elien82_current,2026-08-01,-14423,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00245,acc_elien82_current,2026-08-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00246,acc_elien82_current,2026-08-05,-2993,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_elien82_tx00247,acc_elien82_current,2026-08-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00248,acc_elien82_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00249,acc_elien82_current,2026-08-06,-5112,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00250,acc_elien82_current,2026-08-07,-4550,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00251,acc_elien82_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00252,acc_elien82_current,2026-08-08,-11583,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00253,acc_elien82_current,2026-08-12,-2705,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00254,acc_elien82_current,2026-08-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00255,acc_elien82_current,2026-08-14,-4051,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00256,acc_elien82_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00257,acc_elien82_current,2026-08-15,-13273,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00258,acc_elien82_current,2026-08-16,-1731,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_elien82_tx00259,acc_elien82_current,2026-08-18,-9843,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00260,acc_elien82_current,2026-08-19,-2360,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00261,acc_elien82_current,2026-08-20,-5182,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00262,acc_elien82_current,2026-08-22,-14144,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00263,acc_elien82_current,2026-08-26,-1221,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_elien82_tx00264,acc_elien82_current,2026-08-28,372000,EUR,City of Mechelen,Loon 2026-08,income_salary
+cust_elien82_tx00265,acc_elien82_current,2026-08-28,-220000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00266,acc_elien82_savings,2026-08-28,220000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal
+cust_elien82_tx00267,acc_elien82_current,2026-08-29,-10892,EUR,Colruyt,Betaling Bancontact,groceries
+cust_elien82_tx00268,acc_elien82_current,2026-09-02,100000,EUR,H. Hermans,Bijdrage huishouden,income_transfer_household
+cust_elien82_tx00269,acc_elien82_current,2026-09-02,-2277,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00270,acc_elien82_current,2026-09-03,-5526,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00271,acc_elien82_current,2026-09-04,-5094,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00272,acc_elien82_current,2026-09-05,-15520,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00273,acc_elien82_current,2026-09-05,-114000,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_elien82_tx00274,acc_elien82_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_elien82_tx00275,acc_elien82_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_elien82_tx00276,acc_elien82_current,2026-09-09,-3806,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00277,acc_elien82_current,2026-09-10,-6897,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00278,acc_elien82_current,2026-09-11,-5090,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00279,acc_elien82_current,2026-09-12,-10853,EUR,Delhaize,Betaling Bancontact,groceries
+cust_elien82_tx00280,acc_elien82_current,2026-09-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_elien82_tx00281,acc_elien82_current,2026-09-13,-4014,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_elien82_tx00282,acc_elien82_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_elien82_tx00283,acc_elien82_current,2026-09-16,-3095,EUR,Action,Betaling Bancontact,shopping_household
+cust_elien82_tx00284,acc_elien82_current,2026-09-17,-6963,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_elien82_tx00285,acc_elien82_current,2026-09-18,-5802,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_elien82_tx00286,acc_elien82_current,2026-09-18,-6399,EUR,Zalando,Online aankoop,shopping_online
+cust_elien82_tx00287,acc_elien82_current,2026-09-19,-14735,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00288,acc_elien82_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_elien82_tx00289,acc_elien82_current,2026-09-24,-5348,EUR,Q8,Brandstof,transport_fuel
+cust_elien82_tx00290,acc_elien82_current,2026-09-25,-5318,EUR,Coolblue,Online aankoop,shopping_online
+cust_elien82_tx00291,acc_elien82_current,2026-09-26,-12517,EUR,Aldi,Betaling Bancontact,groceries
+cust_elien82_tx00292,acc_elien82_current,2026-09-28,372000,EUR,City of Mechelen,Loon 2026-09,income_salary
+cust_elien82_tx00293,acc_elien82_current,2026-09-28,-185000,EUR,Elien Hendrickx,Naar spaarrekening,transfer_internal
+cust_elien82_tx00294,acc_elien82_savings,2026-09-28,185000,EUR,Elien Hendrickx,Van zichtrekening,transfer_internal

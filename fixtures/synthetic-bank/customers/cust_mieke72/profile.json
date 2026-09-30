@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_mieke72",
+  "personal": {
+    "first_name": "Mieke",
+    "last_name": "Smets",
+    "birth_date": "1991-07-07",
+    "place_of_birth": "Mechelen",
+    "address": {
+      "street": "Kerkstraat 71",
+      "postal_code": "3001",
+      "city": "Heverlee",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2009-03-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Noordzee Foods NV",
+    "job_title": "Quality lead",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_mieke72_current",
+      "type": "current",
+      "iban": "BE00 SYNT MIEKE72 0001",
+      "balance_cents": 304124,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_mieke72_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT MIEKE72 0002",
+      "balance_cents": 920000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_mieke72_int1",
+      "date": "2025-05-20",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_mieke72_int2",
+      "date": "2025-08-22",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 3,000 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

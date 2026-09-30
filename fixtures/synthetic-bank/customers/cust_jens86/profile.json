@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_jens86",
+  "personal": {
+    "first_name": "Jens",
+    "last_name": "Goossens",
+    "birth_date": "1951-08-05",
+    "place_of_birth": "Hasselt",
+    "address": {
+      "street": "Stationsstraat 93",
+      "postal_code": "8000",
+      "city": "Brugge",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1990-01-01"
+  },
+  "employment": {
+    "status": "retired",
+    "employer": "Federale Pensioendienst",
+    "job_title": "Retired",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_jens86_current",
+      "type": "current",
+      "iban": "BE00 SYNT JENS86 0001",
+      "balance_cents": 304320,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_jens86_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JENS86 0002",
+      "balance_cents": 6072000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_jens86_int1",
+      "date": "2025-06-21",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

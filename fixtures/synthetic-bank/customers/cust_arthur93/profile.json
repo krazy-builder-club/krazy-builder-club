@@ -1,0 +1,74 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_arthur93",
+  "personal": {
+    "first_name": "Arthur",
+    "last_name": "Michiels",
+    "birth_date": "1988-04-23",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Stationsstraat 15",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2006-08-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Flanders Care vzw",
+    "job_title": "Nurse",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_arthur93_current",
+      "type": "current",
+      "iban": "BE00 SYNT ARTHUR93 0001",
+      "balance_cents": 453059,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_arthur93_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT ARTHUR93 0002",
+      "balance_cents": 1699000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_arthur93_int1",
+      "date": "2025-03-23",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 9,000 EUR on savings as a safety buffer."
+    },
+    {
+      "interaction_id": "cust_arthur93_int2",
+      "date": "2025-03-25",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_arthur93_int3",
+      "date": "2025-04-17",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

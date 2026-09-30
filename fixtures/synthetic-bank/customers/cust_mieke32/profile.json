@@ -1,0 +1,67 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_mieke32",
+  "personal": {
+    "first_name": "Mieke",
+    "last_name": "Wouters",
+    "birth_date": "1990-10-16",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Nieuwstraat 14",
+      "postal_code": "8000",
+      "city": "Brugge",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2008-12-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Deltaport Logistics NV",
+    "job_title": "Planner",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_mieke32_current",
+      "type": "current",
+      "iban": "BE00 SYNT MIEKE32 0001",
+      "balance_cents": 304741,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_mieke32_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT MIEKE32 0002",
+      "balance_cents": 796000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_mieke32_int1",
+      "date": "2025-01-09",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_mieke32_int2",
+      "date": "2025-04-16",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

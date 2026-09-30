@@ -34,14 +34,14 @@
     {
       "account_id": "acc_jonas_current",
       "type": "current",
-      "iban": "BE00 SYNT JONA 0001",
+      "iban": "BE00 SYNT JONAS 0001",
       "balance_cents": 452640,
       "balance_as_of": "2026-09-30"
     },
     {
       "account_id": "acc_jonas_savings",
       "type": "savings",
-      "iban": "BE00 SYNT JONA 0002",
+      "iban": "BE00 SYNT JONAS 0002",
       "balance_cents": 2410000,
       "balance_as_of": "2026-09-30"
     }

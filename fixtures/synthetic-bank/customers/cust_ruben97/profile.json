@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_ruben97",
+  "personal": {
+    "first_name": "Ruben",
+    "last_name": "De Smet",
+    "birth_date": "1986-03-07",
+    "place_of_birth": "Antwerpen",
+    "address": {
+      "street": "Schoolstraat 3",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2004-03-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "City of Mechelen",
+    "job_title": "Policy officer",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_ruben97_current",
+      "type": "current",
+      "iban": "BE00 SYNT RUBEN97 0001",
+      "balance_cents": 453476,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_ruben97_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT RUBEN97 0002",
+      "balance_cents": 2197000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

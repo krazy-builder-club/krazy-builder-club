@@ -1,0 +1,227 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_mila30_tx00001,acc_mila30_current,2025-10-01,-1024,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_mila30_tx00002,acc_mila30_current,2025-10-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00003,acc_mila30_current,2025-10-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00004,acc_mila30_current,2025-10-04,-3530,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00005,acc_mila30_current,2025-10-05,-595,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_mila30_tx00006,acc_mila30_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00007,acc_mila30_current,2025-10-10,-922,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00008,acc_mila30_current,2025-10-11,-3722,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00009,acc_mila30_current,2025-10-12,-557,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_mila30_tx00010,acc_mila30_current,2025-10-15,-529,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00011,acc_mila30_current,2025-10-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00012,acc_mila30_current,2025-10-18,-4130,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00013,acc_mila30_current,2025-10-18,-4473,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00014,acc_mila30_current,2025-10-22,-700,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00015,acc_mila30_current,2025-10-25,-5061,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00016,acc_mila30_current,2025-10-26,-1606,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_mila30_tx00017,acc_mila30_current,2025-10-28,28137,EUR,Café De Kroon,Studentenjob 10/2025,income_student_job
+cust_mila30_tx00018,acc_mila30_current,2025-10-29,-1037,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00019,acc_mila30_current,2025-10-31,-987,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00020,acc_mila30_current,2025-11-01,-3492,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00021,acc_mila30_current,2025-11-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00022,acc_mila30_current,2025-11-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00023,acc_mila30_current,2025-11-05,-819,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_mila30_tx00024,acc_mila30_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00025,acc_mila30_current,2025-11-07,-1930,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00026,acc_mila30_current,2025-11-08,-3577,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00027,acc_mila30_current,2025-11-12,-791,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00028,acc_mila30_current,2025-11-14,-2236,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00029,acc_mila30_current,2025-11-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00030,acc_mila30_current,2025-11-15,-4027,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00031,acc_mila30_current,2025-11-18,-2788,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00032,acc_mila30_current,2025-11-19,-566,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00033,acc_mila30_current,2025-11-21,-2028,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00034,acc_mila30_current,2025-11-22,-3544,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00035,acc_mila30_current,2025-11-26,-741,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00036,acc_mila30_current,2025-11-28,26663,EUR,Café De Kroon,Studentenjob 11/2025,income_student_job
+cust_mila30_tx00037,acc_mila30_current,2025-11-29,-5078,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00038,acc_mila30_current,2025-11-30,-1157,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_mila30_tx00039,acc_mila30_current,2025-12-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00040,acc_mila30_current,2025-12-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00041,acc_mila30_current,2025-12-05,-1510,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00042,acc_mila30_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00043,acc_mila30_current,2025-12-06,-3616,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00044,acc_mila30_current,2025-12-07,-1331,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_mila30_tx00045,acc_mila30_current,2025-12-12,-2325,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00046,acc_mila30_current,2025-12-13,-4603,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00047,acc_mila30_current,2025-12-14,-1274,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_mila30_tx00048,acc_mila30_current,2025-12-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00049,acc_mila30_current,2025-12-17,-980,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00050,acc_mila30_current,2025-12-18,-3314,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00051,acc_mila30_current,2025-12-19,-1216,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00052,acc_mila30_current,2025-12-20,-3833,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00053,acc_mila30_current,2025-12-24,-640,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00054,acc_mila30_current,2025-12-26,-1911,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00055,acc_mila30_current,2025-12-27,-3494,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00056,acc_mila30_current,2025-12-28,32946,EUR,Café De Kroon,Studentenjob 12/2025,income_student_job
+cust_mila30_tx00057,acc_mila30_current,2025-12-28,-1434,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_mila30_tx00058,acc_mila30_current,2026-01-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00059,acc_mila30_current,2026-01-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00060,acc_mila30_current,2026-01-02,-1496,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00061,acc_mila30_current,2026-01-03,-3776,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00062,acc_mila30_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00063,acc_mila30_current,2026-01-07,-845,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_mila30_tx00064,acc_mila30_current,2026-01-09,-1079,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00065,acc_mila30_current,2026-01-10,-5088,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00066,acc_mila30_current,2026-01-14,-1256,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00067,acc_mila30_current,2026-01-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00068,acc_mila30_current,2026-01-16,-1915,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00069,acc_mila30_current,2026-01-17,-4965,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00070,acc_mila30_current,2026-01-18,-3031,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00071,acc_mila30_current,2026-01-21,-897,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00072,acc_mila30_current,2026-01-24,-4107,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00073,acc_mila30_current,2026-01-25,-608,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_mila30_tx00074,acc_mila30_current,2026-01-28,25009,EUR,Café De Kroon,Studentenjob 01/2026,income_student_job
+cust_mila30_tx00075,acc_mila30_current,2026-01-28,-1122,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00076,acc_mila30_current,2026-01-30,-1445,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00077,acc_mila30_current,2026-01-31,-3979,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00078,acc_mila30_current,2026-02-01,-1146,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_mila30_tx00079,acc_mila30_current,2026-02-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00080,acc_mila30_current,2026-02-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00081,acc_mila30_current,2026-02-04,-899,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00082,acc_mila30_current,2026-02-06,-1293,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00083,acc_mila30_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00084,acc_mila30_current,2026-02-07,-4401,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00085,acc_mila30_current,2026-02-14,-4216,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00086,acc_mila30_current,2026-02-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00087,acc_mila30_current,2026-02-18,-415,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00088,acc_mila30_current,2026-02-18,-4078,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00089,acc_mila30_current,2026-02-21,-3473,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00090,acc_mila30_current,2026-02-25,-401,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00091,acc_mila30_current,2026-02-28,44972,EUR,Café De Kroon,Studentenjob 02/2026,income_student_job
+cust_mila30_tx00092,acc_mila30_current,2026-02-28,-3788,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00093,acc_mila30_current,2026-02-28,-15000,EUR,Mila Lambrechts,Naar spaarrekening,transfer_internal
+cust_mila30_tx00094,acc_mila30_savings,2026-02-28,15000,EUR,Mila Lambrechts,Van zichtrekening,transfer_internal
+cust_mila30_tx00095,acc_mila30_current,2026-03-01,-682,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_mila30_tx00096,acc_mila30_current,2026-03-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00097,acc_mila30_current,2026-03-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00098,acc_mila30_current,2026-03-04,-695,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_mila30_tx00099,acc_mila30_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00100,acc_mila30_current,2026-03-07,-4139,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00101,acc_mila30_current,2026-03-08,-1274,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_mila30_tx00102,acc_mila30_current,2026-03-13,-1602,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00103,acc_mila30_current,2026-03-14,-4901,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00104,acc_mila30_current,2026-03-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00105,acc_mila30_current,2026-03-18,-1001,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_mila30_tx00106,acc_mila30_current,2026-03-18,-4173,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00107,acc_mila30_current,2026-03-20,-1162,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00108,acc_mila30_current,2026-03-21,-4850,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00109,acc_mila30_current,2026-03-22,-1365,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_mila30_tx00110,acc_mila30_current,2026-03-27,-2026,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00111,acc_mila30_current,2026-03-28,37825,EUR,Café De Kroon,Studentenjob 03/2026,income_student_job
+cust_mila30_tx00112,acc_mila30_current,2026-03-28,-3714,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00113,acc_mila30_current,2026-03-28,-10000,EUR,Mila Lambrechts,Naar spaarrekening,transfer_internal
+cust_mila30_tx00114,acc_mila30_savings,2026-03-28,10000,EUR,Mila Lambrechts,Van zichtrekening,transfer_internal
+cust_mila30_tx00115,acc_mila30_current,2026-04-01,-566,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00116,acc_mila30_current,2026-04-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00117,acc_mila30_current,2026-04-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00118,acc_mila30_current,2026-04-04,-4519,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00119,acc_mila30_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00120,acc_mila30_current,2026-04-08,-381,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00121,acc_mila30_current,2026-04-11,-5163,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00122,acc_mila30_current,2026-04-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00123,acc_mila30_current,2026-04-18,-3369,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00124,acc_mila30_current,2026-04-18,-3678,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00125,acc_mila30_current,2026-04-19,-1418,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_mila30_tx00126,acc_mila30_current,2026-04-22,-543,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_mila30_tx00127,acc_mila30_current,2026-04-24,-1802,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00128,acc_mila30_current,2026-04-25,-4063,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00129,acc_mila30_current,2026-04-26,-815,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_mila30_tx00130,acc_mila30_current,2026-04-28,38562,EUR,Café De Kroon,Studentenjob 04/2026,income_student_job
+cust_mila30_tx00131,acc_mila30_current,2026-04-28,-15000,EUR,Mila Lambrechts,Naar spaarrekening,transfer_internal
+cust_mila30_tx00132,acc_mila30_savings,2026-04-28,15000,EUR,Mila Lambrechts,Van zichtrekening,transfer_internal
+cust_mila30_tx00133,acc_mila30_current,2026-04-29,-1263,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_mila30_tx00134,acc_mila30_current,2026-05-01,-1835,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00135,acc_mila30_current,2026-05-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00136,acc_mila30_current,2026-05-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00137,acc_mila30_current,2026-05-02,-3732,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00138,acc_mila30_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00139,acc_mila30_current,2026-05-08,-2357,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00140,acc_mila30_current,2026-05-09,-3753,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00141,acc_mila30_current,2026-05-13,-581,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00142,acc_mila30_current,2026-05-15,-838,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00143,acc_mila30_current,2026-05-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00144,acc_mila30_current,2026-05-16,-5105,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00145,acc_mila30_current,2026-05-18,-3374,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00146,acc_mila30_current,2026-05-20,-1116,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00147,acc_mila30_current,2026-05-22,-1871,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00148,acc_mila30_current,2026-05-23,-4128,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00149,acc_mila30_current,2026-05-27,-1205,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_mila30_tx00150,acc_mila30_current,2026-05-28,45953,EUR,Café De Kroon,Studentenjob 05/2026,income_student_job
+cust_mila30_tx00151,acc_mila30_current,2026-05-28,-15000,EUR,Mila Lambrechts,Naar spaarrekening,transfer_internal
+cust_mila30_tx00152,acc_mila30_savings,2026-05-28,15000,EUR,Mila Lambrechts,Van zichtrekening,transfer_internal
+cust_mila30_tx00153,acc_mila30_current,2026-05-30,-4672,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00154,acc_mila30_current,2026-05-31,-645,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_mila30_tx00155,acc_mila30_current,2026-06-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00156,acc_mila30_current,2026-06-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00157,acc_mila30_current,2026-06-03,-698,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00158,acc_mila30_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00159,acc_mila30_current,2026-06-06,-3876,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00160,acc_mila30_current,2026-06-12,-1872,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00161,acc_mila30_current,2026-06-13,-4731,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00162,acc_mila30_current,2026-06-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00163,acc_mila30_current,2026-06-18,-3338,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00164,acc_mila30_current,2026-06-19,-2326,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00165,acc_mila30_current,2026-06-20,-5015,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00166,acc_mila30_current,2026-06-21,-1142,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_mila30_tx00167,acc_mila30_current,2026-06-24,-1272,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00168,acc_mila30_current,2026-06-26,-1528,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00169,acc_mila30_current,2026-06-27,-3647,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00170,acc_mila30_current,2026-06-28,42450,EUR,Café De Kroon,Studentenjob 06/2026,income_student_job
+cust_mila30_tx00171,acc_mila30_current,2026-06-28,-10000,EUR,Mila Lambrechts,Naar spaarrekening,transfer_internal
+cust_mila30_tx00172,acc_mila30_savings,2026-06-28,10000,EUR,Mila Lambrechts,Van zichtrekening,transfer_internal
+cust_mila30_tx00173,acc_mila30_current,2026-07-01,-1036,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00174,acc_mila30_current,2026-07-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00175,acc_mila30_current,2026-07-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00176,acc_mila30_current,2026-07-03,-850,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00177,acc_mila30_current,2026-07-04,-5009,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00178,acc_mila30_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00179,acc_mila30_current,2026-07-08,-813,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00180,acc_mila30_current,2026-07-10,-1523,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00181,acc_mila30_current,2026-07-11,-3551,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00182,acc_mila30_current,2026-07-11,-29400,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_mila30_tx00183,acc_mila30_current,2026-07-15,-436,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00184,acc_mila30_current,2026-07-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00185,acc_mila30_current,2026-07-18,-3478,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00186,acc_mila30_current,2026-07-18,-4958,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00187,acc_mila30_current,2026-07-24,-1568,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00188,acc_mila30_current,2026-07-25,-4537,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00189,acc_mila30_current,2026-07-28,34762,EUR,Café De Kroon,Studentenjob 07/2026,income_student_job
+cust_mila30_tx00190,acc_mila30_current,2026-07-29,-533,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00191,acc_mila30_current,2026-08-01,-3721,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00192,acc_mila30_current,2026-08-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00193,acc_mila30_current,2026-08-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00194,acc_mila30_current,2026-08-05,-1111,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00195,acc_mila30_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00196,acc_mila30_current,2026-08-07,-2347,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00197,acc_mila30_current,2026-08-08,-4673,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00198,acc_mila30_current,2026-08-12,-806,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_mila30_tx00199,acc_mila30_current,2026-08-14,-2024,EUR,Bol.com,Online aankoop,shopping_online
+cust_mila30_tx00200,acc_mila30_current,2026-08-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00201,acc_mila30_current,2026-08-15,-4715,EUR,Aldi,Betaling Bancontact,groceries
+cust_mila30_tx00202,acc_mila30_current,2026-08-16,-1344,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_mila30_tx00203,acc_mila30_current,2026-08-18,-3935,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00204,acc_mila30_current,2026-08-19,-888,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00205,acc_mila30_current,2026-08-21,-943,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00206,acc_mila30_current,2026-08-22,-5038,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00207,acc_mila30_current,2026-08-26,-617,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_mila30_tx00208,acc_mila30_current,2026-08-28,37828,EUR,Café De Kroon,Studentenjob 08/2026,income_student_job
+cust_mila30_tx00209,acc_mila30_current,2026-08-29,-4632,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00210,acc_mila30_current,2026-09-01,-47000,EUR,S. De Smet,Huur studentenkamer,housing_rent
+cust_mila30_tx00211,acc_mila30_current,2026-09-02,53000,EUR,Ouders Lambrechts,Bijdrage kot en studies,income_transfer_family
+cust_mila30_tx00212,acc_mila30_current,2026-09-04,-885,EUR,Zalando,Online aankoop,shopping_online
+cust_mila30_tx00213,acc_mila30_current,2026-09-05,-5197,EUR,Delhaize,Betaling Bancontact,groceries
+cust_mila30_tx00214,acc_mila30_current,2026-09-06,-1127,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_mila30_tx00215,acc_mila30_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_mila30_tx00216,acc_mila30_current,2026-09-11,-1841,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00217,acc_mila30_current,2026-09-12,-4249,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00218,acc_mila30_current,2026-09-15,-2000,EUR,Proximus,Mobiel,utilities_telecom
+cust_mila30_tx00219,acc_mila30_current,2026-09-16,-876,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00220,acc_mila30_current,2026-09-18,-3710,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_mila30_tx00221,acc_mila30_current,2026-09-19,-4945,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00222,acc_mila30_current,2026-09-20,-565,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_mila30_tx00223,acc_mila30_current,2026-09-23,-524,EUR,Action,Betaling Bancontact,shopping_household
+cust_mila30_tx00224,acc_mila30_current,2026-09-25,-2313,EUR,Coolblue,Online aankoop,shopping_online
+cust_mila30_tx00225,acc_mila30_current,2026-09-26,-3727,EUR,Colruyt,Betaling Bancontact,groceries
+cust_mila30_tx00226,acc_mila30_current,2026-09-28,24886,EUR,Café De Kroon,Studentenjob 09/2026,income_student_job

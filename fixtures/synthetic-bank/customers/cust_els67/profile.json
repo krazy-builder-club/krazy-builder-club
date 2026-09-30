@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_els67",
+  "personal": {
+    "first_name": "Els",
+    "last_name": "Verbeke",
+    "birth_date": "1982-01-20",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Stationsstraat 45",
+      "postal_code": "2000",
+      "city": "Antwerpen",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2000-02-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Leie Consulting BV",
+    "job_title": "Consultant",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_els67_current",
+      "type": "current",
+      "iban": "BE00 SYNT ELS67 0001",
+      "balance_cents": 302016,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_els67_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT ELS67 0002",
+      "balance_cents": 1532000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_els67_int1",
+      "date": "2025-01-14",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to keep at least 3,000 EUR on savings as a safety buffer."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

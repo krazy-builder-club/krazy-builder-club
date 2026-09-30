@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_yasmine29",
+  "personal": {
+    "first_name": "Yasmine",
+    "last_name": "Smets",
+    "birth_date": "2005-05-21",
+    "place_of_birth": "Kortrijk",
+    "address": {
+      "street": "Molenstraat 35",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "single",
+    "language": "nl",
+    "customer_since": "2023-12-01"
+  },
+  "employment": {
+    "status": "student",
+    "employer": "Delhaize",
+    "job_title": "Student job",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_yasmine29_current",
+      "type": "current",
+      "iban": "BE00 SYNT YASMINE29 0001",
+      "balance_cents": 120561,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_yasmine29_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT YASMINE29 0002",
+      "balance_cents": 356000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

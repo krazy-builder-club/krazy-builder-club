@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_dirk57",
+  "personal": {
+    "first_name": "Dirk",
+    "last_name": "Michiels",
+    "birth_date": "1978-10-24",
+    "place_of_birth": "Kortrijk",
+    "address": {
+      "street": "Dorpsstraat 116",
+      "postal_code": "3500",
+      "city": "Hasselt",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "1996-08-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Flanders Care vzw",
+    "job_title": "Nurse",
+    "since": null,
+    "previous": null
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_dirk57_current",
+      "type": "current",
+      "iban": "BE00 SYNT DIRK57 0001",
+      "balance_cents": 453825,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_dirk57_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT DIRK57 0002",
+      "balance_cents": 3038000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_dirk57_int1",
+      "date": "2025-09-21",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}
