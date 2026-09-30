@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_elien04",
+  "personal": {
+    "first_name": "Elien",
+    "last_name": "Mertens",
+    "birth_date": "1995-09-23",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Dorpsstraat 60",
+      "postal_code": "2500",
+      "city": "Lier",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2013-09-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Kempen Tech BV",
+    "job_title": "Developer",
+    "since": "2026-01-01",
+    "previous": {
+      "employer": "Scholengroep Rivierenland",
+      "job_title": "Teacher"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_elien04_current",
+      "type": "current",
+      "iban": "BE00 SYNT ELIE 0001",
+      "balance_cents": 450981,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_elien04_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT ELIE 0002",
+      "balance_cents": 1673954,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_elien04_int1",
+      "date": "2025-03-19",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_elien04_int2",
+      "date": "2026-01-22",
+      "channel": "app",
+      "topic": "mortgage",
+      "note": "Ran a mortgage simulation in the app for a bigger home."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

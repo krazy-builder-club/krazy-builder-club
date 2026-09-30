@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_dries20",
+  "personal": {
+    "first_name": "Dries",
+    "last_name": "Verbeke",
+    "birth_date": "1987-11-12",
+    "place_of_birth": "Aalst",
+    "address": {
+      "street": "Stationsstraat 49",
+      "postal_code": "3000",
+      "city": "Leuven",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2009-08-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Scholengroep Rivierenland",
+    "job_title": "Teacher",
+    "since": "2025-11-01",
+    "previous": {
+      "employer": "Kempen Tech BV",
+      "job_title": "Developer"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_dries20_current",
+      "type": "current",
+      "iban": "BE00 SYNT DRIE 0001",
+      "balance_cents": 451907,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_dries20_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT DRIE 0002",
+      "balance_cents": 3708000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_dries20_int1",
+      "date": "2025-03-10",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_dries20_int2",
+      "date": "2025-07-11",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

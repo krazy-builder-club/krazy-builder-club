@@ -1,0 +1,345 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_dries20_tx00001,acc_dries20_current,2025-10-01,-1636,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00002,acc_dries20_current,2025-10-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00003,acc_dries20_current,2025-10-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00004,acc_dries20_current,2025-10-03,-7362,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00005,acc_dries20_current,2025-10-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00006,acc_dries20_current,2025-10-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00007,acc_dries20_current,2025-10-04,-12885,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00008,acc_dries20_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00009,acc_dries20_current,2025-10-08,-2516,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00010,acc_dries20_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00011,acc_dries20_current,2025-10-10,41237,EUR,FONS,Groeipakket 10/2025 kind 1+2,income_child_benefit
+cust_dries20_tx00012,acc_dries20_current,2025-10-10,-6667,EUR,Zalando,Online aankoop,shopping_online
+cust_dries20_tx00013,acc_dries20_current,2025-10-11,-11200,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00014,acc_dries20_current,2025-10-12,-4935,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_dries20_tx00015,acc_dries20_current,2025-10-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00016,acc_dries20_current,2025-10-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 10/2025,childcare
+cust_dries20_tx00017,acc_dries20_current,2025-10-15,-2102,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00018,acc_dries20_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00019,acc_dries20_current,2025-10-17,-3653,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00020,acc_dries20_current,2025-10-18,-12830,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00021,acc_dries20_current,2025-10-18,-14976,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00022,acc_dries20_current,2025-10-22,-3110,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00023,acc_dries20_current,2025-10-23,-6725,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00024,acc_dries20_current,2025-10-25,-15236,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00025,acc_dries20_current,2025-10-26,-4640,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_dries20_tx00026,acc_dries20_current,2025-10-28,338000,EUR,Kempen Tech BV,Loon 2025-10,income_salary
+cust_dries20_tx00027,acc_dries20_current,2025-10-28,-105000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00028,acc_dries20_savings,2025-10-28,105000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00029,acc_dries20_current,2025-10-29,-2581,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00030,acc_dries20_current,2025-10-30,-6312,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00031,acc_dries20_current,2025-10-31,-3867,EUR,Zalando,Online aankoop,shopping_online
+cust_dries20_tx00032,acc_dries20_current,2025-11-01,-13588,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00033,acc_dries20_current,2025-11-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00034,acc_dries20_current,2025-11-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00035,acc_dries20_current,2025-11-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00036,acc_dries20_current,2025-11-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00037,acc_dries20_current,2025-11-05,-1895,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00038,acc_dries20_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00039,acc_dries20_current,2025-11-06,-4965,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00040,acc_dries20_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00041,acc_dries20_current,2025-11-08,-11163,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00042,acc_dries20_current,2025-11-10,41237,EUR,FONS,Groeipakket 11/2025 kind 1+2,income_child_benefit
+cust_dries20_tx00043,acc_dries20_current,2025-11-12,-2900,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00044,acc_dries20_current,2025-11-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00045,acc_dries20_current,2025-11-13,-4616,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00046,acc_dries20_current,2025-11-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 11/2025,childcare
+cust_dries20_tx00047,acc_dries20_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00048,acc_dries20_current,2025-11-15,-13811,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00049,acc_dries20_current,2025-11-18,-9049,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00050,acc_dries20_current,2025-11-19,-1386,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00051,acc_dries20_current,2025-11-20,-5797,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00052,acc_dries20_current,2025-11-21,-4476,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00053,acc_dries20_current,2025-11-22,-16587,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00054,acc_dries20_current,2025-11-26,-2497,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00055,acc_dries20_current,2025-11-28,404900,EUR,Scholengroep Rivierenland,Loon 2025-11,income_salary
+cust_dries20_tx00056,acc_dries20_current,2025-11-28,-220000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00057,acc_dries20_savings,2025-11-28,220000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00058,acc_dries20_current,2025-11-29,-16654,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00059,acc_dries20_current,2025-12-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00060,acc_dries20_current,2025-12-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00061,acc_dries20_current,2025-12-03,-3910,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00062,acc_dries20_current,2025-12-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00063,acc_dries20_current,2025-12-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00064,acc_dries20_current,2025-12-04,-5183,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00065,acc_dries20_current,2025-12-05,-7050,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00066,acc_dries20_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00067,acc_dries20_current,2025-12-06,-11541,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00068,acc_dries20_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00069,acc_dries20_current,2025-12-10,41237,EUR,FONS,Groeipakket 12/2025 kind 1+2,income_child_benefit
+cust_dries20_tx00070,acc_dries20_current,2025-12-10,-1350,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00071,acc_dries20_current,2025-12-11,-6737,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00072,acc_dries20_current,2025-12-12,-3727,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00073,acc_dries20_current,2025-12-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00074,acc_dries20_current,2025-12-13,-12051,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00075,acc_dries20_current,2025-12-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 12/2025,childcare
+cust_dries20_tx00076,acc_dries20_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00077,acc_dries20_current,2025-12-17,-3563,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00078,acc_dries20_current,2025-12-18,-5873,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00079,acc_dries20_current,2025-12-18,-11850,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00080,acc_dries20_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_dries20_tx00081,acc_dries20_current,2025-12-20,-11463,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00082,acc_dries20_current,2025-12-21,-3485,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_dries20_tx00083,acc_dries20_current,2025-12-24,-1932,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00084,acc_dries20_current,2025-12-27,-14698,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00085,acc_dries20_current,2025-12-28,404900,EUR,Scholengroep Rivierenland,Loon 2025-12,income_salary
+cust_dries20_tx00086,acc_dries20_current,2025-12-28,-3853,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_dries20_tx00087,acc_dries20_current,2025-12-28,-190000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00088,acc_dries20_savings,2025-12-28,190000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00089,acc_dries20_current,2025-12-31,-3523,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00090,acc_dries20_current,2026-01-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00091,acc_dries20_current,2026-01-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00092,acc_dries20_current,2026-01-03,-15585,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00093,acc_dries20_current,2026-01-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00094,acc_dries20_current,2026-01-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00095,acc_dries20_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00096,acc_dries20_current,2026-01-07,-2045,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00097,acc_dries20_current,2026-01-08,-4801,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00098,acc_dries20_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00099,acc_dries20_current,2026-01-10,41237,EUR,FONS,Groeipakket 01/2026 kind 1+2,income_child_benefit
+cust_dries20_tx00100,acc_dries20_current,2026-01-10,-15533,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00101,acc_dries20_current,2026-01-11,-4347,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_dries20_tx00102,acc_dries20_current,2026-01-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00103,acc_dries20_current,2026-01-14,-4004,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00104,acc_dries20_current,2026-01-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 01/2026,childcare
+cust_dries20_tx00105,acc_dries20_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00106,acc_dries20_current,2026-01-16,-4921,EUR,Coolblue,Online aankoop,shopping_online
+cust_dries20_tx00107,acc_dries20_current,2026-01-17,-11724,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00108,acc_dries20_current,2026-01-18,-11282,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00109,acc_dries20_current,2026-01-21,-2876,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00110,acc_dries20_current,2026-01-23,-7443,EUR,Coolblue,Online aankoop,shopping_online
+cust_dries20_tx00111,acc_dries20_current,2026-01-24,-13362,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00112,acc_dries20_current,2026-01-25,-1844,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_dries20_tx00113,acc_dries20_current,2026-01-28,404900,EUR,Scholengroep Rivierenland,Loon 2026-01,income_salary
+cust_dries20_tx00114,acc_dries20_current,2026-01-28,-1801,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00115,acc_dries20_current,2026-01-28,-220000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00116,acc_dries20_savings,2026-01-28,220000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00117,acc_dries20_current,2026-01-30,-5893,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00118,acc_dries20_current,2026-01-31,-11526,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00119,acc_dries20_current,2026-02-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00120,acc_dries20_current,2026-02-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00121,acc_dries20_current,2026-02-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00122,acc_dries20_current,2026-02-04,-1517,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00123,acc_dries20_current,2026-02-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00124,acc_dries20_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00125,acc_dries20_current,2026-02-07,-10980,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00126,acc_dries20_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00127,acc_dries20_current,2026-02-10,41237,EUR,FONS,Groeipakket 02/2026 kind 1+2,income_child_benefit
+cust_dries20_tx00128,acc_dries20_current,2026-02-11,-3387,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00129,acc_dries20_current,2026-02-12,-5515,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00130,acc_dries20_current,2026-02-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00131,acc_dries20_current,2026-02-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 02/2026,childcare
+cust_dries20_tx00132,acc_dries20_current,2026-02-14,-13450,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00133,acc_dries20_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00134,acc_dries20_current,2026-02-18,-1194,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00135,acc_dries20_current,2026-02-18,-13094,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00136,acc_dries20_current,2026-02-19,-6821,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00137,acc_dries20_current,2026-02-20,-5056,EUR,Zalando,Online aankoop,shopping_online
+cust_dries20_tx00138,acc_dries20_current,2026-02-21,-12623,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00139,acc_dries20_current,2026-02-25,-2079,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00140,acc_dries20_current,2026-02-26,-5223,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00141,acc_dries20_current,2026-02-27,-5046,EUR,Coolblue,Online aankoop,shopping_online
+cust_dries20_tx00142,acc_dries20_current,2026-02-28,404900,EUR,Scholengroep Rivierenland,Loon 2026-02,income_salary
+cust_dries20_tx00143,acc_dries20_current,2026-02-28,-12754,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00144,acc_dries20_current,2026-02-28,-205000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00145,acc_dries20_savings,2026-02-28,205000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00146,acc_dries20_current,2026-03-01,-3098,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_dries20_tx00147,acc_dries20_current,2026-03-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00148,acc_dries20_current,2026-03-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00149,acc_dries20_current,2026-03-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00150,acc_dries20_current,2026-03-04,-2532,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00151,acc_dries20_current,2026-03-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00152,acc_dries20_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00153,acc_dries20_current,2026-03-06,-5252,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00154,acc_dries20_current,2026-03-07,-11143,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00155,acc_dries20_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00156,acc_dries20_current,2026-03-10,41237,EUR,FONS,Groeipakket 03/2026 kind 1+2,income_child_benefit
+cust_dries20_tx00157,acc_dries20_current,2026-03-11,-2219,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00158,acc_dries20_current,2026-03-12,-5929,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00159,acc_dries20_current,2026-03-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00160,acc_dries20_current,2026-03-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 03/2026,childcare
+cust_dries20_tx00161,acc_dries20_current,2026-03-14,-14174,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00162,acc_dries20_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00163,acc_dries20_current,2026-03-18,-1548,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00164,acc_dries20_current,2026-03-18,-7910,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00165,acc_dries20_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_dries20_tx00166,acc_dries20_current,2026-03-20,-6936,EUR,Zalando,Online aankoop,shopping_online
+cust_dries20_tx00167,acc_dries20_current,2026-03-21,-11032,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00168,acc_dries20_current,2026-03-22,-1936,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_dries20_tx00169,acc_dries20_current,2026-03-26,-6445,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00170,acc_dries20_current,2026-03-28,404900,EUR,Scholengroep Rivierenland,Loon 2026-03,income_salary
+cust_dries20_tx00171,acc_dries20_current,2026-03-28,-13346,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00172,acc_dries20_current,2026-03-28,-230000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00173,acc_dries20_savings,2026-03-28,230000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00174,acc_dries20_current,2026-04-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00175,acc_dries20_current,2026-04-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00176,acc_dries20_current,2026-04-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00177,acc_dries20_current,2026-04-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00178,acc_dries20_current,2026-04-04,-11068,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00179,acc_dries20_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00180,acc_dries20_current,2026-04-08,-2992,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00181,acc_dries20_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00182,acc_dries20_current,2026-04-10,41237,EUR,FONS,Groeipakket 04/2026 kind 1+2,income_child_benefit
+cust_dries20_tx00183,acc_dries20_current,2026-04-10,-3871,EUR,Zalando,Online aankoop,shopping_online
+cust_dries20_tx00184,acc_dries20_current,2026-04-11,-11032,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00185,acc_dries20_current,2026-04-12,-2845,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_dries20_tx00186,acc_dries20_current,2026-04-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00187,acc_dries20_current,2026-04-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 04/2026,childcare
+cust_dries20_tx00188,acc_dries20_current,2026-04-15,-2352,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00189,acc_dries20_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00190,acc_dries20_current,2026-04-16,-4897,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00191,acc_dries20_current,2026-04-17,-3474,EUR,Coolblue,Online aankoop,shopping_online
+cust_dries20_tx00192,acc_dries20_current,2026-04-18,-6960,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00193,acc_dries20_current,2026-04-18,-11330,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00194,acc_dries20_current,2026-04-22,-1295,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00195,acc_dries20_current,2026-04-23,-5562,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00196,acc_dries20_current,2026-04-24,-5044,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00197,acc_dries20_current,2026-04-25,-14808,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00198,acc_dries20_current,2026-04-28,404900,EUR,Scholengroep Rivierenland,Loon 2026-04,income_salary
+cust_dries20_tx00199,acc_dries20_current,2026-04-28,-230000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00200,acc_dries20_savings,2026-04-28,230000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00201,acc_dries20_current,2026-04-30,-5671,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00202,acc_dries20_current,2026-05-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00203,acc_dries20_current,2026-05-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00204,acc_dries20_current,2026-05-02,-14663,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00205,acc_dries20_current,2026-05-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00206,acc_dries20_current,2026-05-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00207,acc_dries20_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00208,acc_dries20_current,2026-05-06,-1815,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00209,acc_dries20_current,2026-05-08,-4078,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00210,acc_dries20_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00211,acc_dries20_current,2026-05-09,-15173,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00212,acc_dries20_current,2026-05-10,41237,EUR,FONS,Groeipakket 05/2026 kind 1+2,income_child_benefit
+cust_dries20_tx00213,acc_dries20_current,2026-05-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00214,acc_dries20_current,2026-05-13,-3611,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00215,acc_dries20_current,2026-05-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 05/2026,childcare
+cust_dries20_tx00216,acc_dries20_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00217,acc_dries20_current,2026-05-16,-11514,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00218,acc_dries20_current,2026-05-17,-3301,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_dries20_tx00219,acc_dries20_current,2026-05-18,-9692,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00220,acc_dries20_current,2026-05-20,-2236,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00221,acc_dries20_current,2026-05-22,-3528,EUR,Zalando,Online aankoop,shopping_online
+cust_dries20_tx00222,acc_dries20_current,2026-05-23,-15445,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00223,acc_dries20_current,2026-05-24,-2648,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_dries20_tx00224,acc_dries20_current,2026-05-27,-1319,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00225,acc_dries20_current,2026-05-28,404900,EUR,Scholengroep Rivierenland,Loon 2026-05,income_salary
+cust_dries20_tx00226,acc_dries20_current,2026-05-28,-5589,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00227,acc_dries20_current,2026-05-28,-225000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00228,acc_dries20_savings,2026-05-28,225000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00229,acc_dries20_current,2026-05-29,-4136,EUR,Zalando,Online aankoop,shopping_online
+cust_dries20_tx00230,acc_dries20_current,2026-05-30,-14815,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00231,acc_dries20_current,2026-06-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00232,acc_dries20_current,2026-06-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00233,acc_dries20_current,2026-06-03,-4257,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00234,acc_dries20_current,2026-06-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00235,acc_dries20_current,2026-06-04,-5804,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00236,acc_dries20_current,2026-06-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00237,acc_dries20_current,2026-06-05,-4084,EUR,Zalando,Online aankoop,shopping_online
+cust_dries20_tx00238,acc_dries20_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00239,acc_dries20_current,2026-06-06,-16125,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00240,acc_dries20_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00241,acc_dries20_current,2026-06-10,41237,EUR,FONS,Groeipakket 06/2026 kind 1+2,income_child_benefit
+cust_dries20_tx00242,acc_dries20_current,2026-06-10,-2986,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00243,acc_dries20_current,2026-06-11,-4967,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00244,acc_dries20_current,2026-06-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00245,acc_dries20_current,2026-06-13,-15455,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00246,acc_dries20_current,2026-06-14,-3610,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_dries20_tx00247,acc_dries20_current,2026-06-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 06/2026,childcare
+cust_dries20_tx00248,acc_dries20_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00249,acc_dries20_current,2026-06-17,-2327,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00250,acc_dries20_current,2026-06-18,-6681,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00251,acc_dries20_current,2026-06-19,-3076,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00252,acc_dries20_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_dries20_tx00253,acc_dries20_current,2026-06-20,-12181,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00254,acc_dries20_current,2026-06-24,-2453,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_dries20_tx00255,acc_dries20_current,2026-06-27,-12572,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00256,acc_dries20_current,2026-06-28,404900,EUR,Scholengroep Rivierenland,Loon 2026-06,income_salary
+cust_dries20_tx00257,acc_dries20_current,2026-06-28,-4488,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_dries20_tx00258,acc_dries20_current,2026-06-28,-195000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00259,acc_dries20_savings,2026-06-28,195000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00260,acc_dries20_current,2026-07-01,-2855,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00261,acc_dries20_current,2026-07-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00262,acc_dries20_current,2026-07-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00263,acc_dries20_current,2026-07-02,-5541,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00264,acc_dries20_current,2026-07-03,-5736,EUR,Zalando,Online aankoop,shopping_online
+cust_dries20_tx00265,acc_dries20_current,2026-07-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00266,acc_dries20_current,2026-07-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00267,acc_dries20_current,2026-07-04,-16646,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00268,acc_dries20_current,2026-07-05,-2536,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_dries20_tx00269,acc_dries20_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00270,acc_dries20_current,2026-07-08,-3095,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00271,acc_dries20_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00272,acc_dries20_current,2026-07-09,-4932,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00273,acc_dries20_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_dries20_tx00274,acc_dries20_current,2026-07-11,-14385,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00275,acc_dries20_current,2026-07-11,-57200,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_dries20_tx00276,acc_dries20_current,2026-07-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00277,acc_dries20_current,2026-07-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
+cust_dries20_tx00278,acc_dries20_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00279,acc_dries20_current,2026-07-18,-6802,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00280,acc_dries20_current,2026-07-18,-11753,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00281,acc_dries20_current,2026-07-19,-3103,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_dries20_tx00282,acc_dries20_current,2026-07-22,-1575,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00283,acc_dries20_current,2026-07-24,-4457,EUR,Coolblue,Online aankoop,shopping_online
+cust_dries20_tx00284,acc_dries20_current,2026-07-25,-12164,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00285,acc_dries20_current,2026-07-26,-2189,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_dries20_tx00286,acc_dries20_current,2026-07-28,404900,EUR,Scholengroep Rivierenland,Loon 2026-07,income_salary
+cust_dries20_tx00287,acc_dries20_current,2026-07-28,-170000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00288,acc_dries20_savings,2026-07-28,170000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00289,acc_dries20_current,2026-08-01,-14346,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00290,acc_dries20_current,2026-08-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00291,acc_dries20_current,2026-08-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00292,acc_dries20_current,2026-08-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00293,acc_dries20_current,2026-08-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00294,acc_dries20_current,2026-08-05,-3885,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00295,acc_dries20_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00296,acc_dries20_current,2026-08-06,-5487,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00297,acc_dries20_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00298,acc_dries20_current,2026-08-08,-12714,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00299,acc_dries20_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_dries20_tx00300,acc_dries20_current,2026-08-12,-4146,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00301,acc_dries20_current,2026-08-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00302,acc_dries20_current,2026-08-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_dries20_tx00303,acc_dries20_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00304,acc_dries20_current,2026-08-15,-11519,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00305,acc_dries20_current,2026-08-18,-10247,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00306,acc_dries20_current,2026-08-20,-6874,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00307,acc_dries20_current,2026-08-21,-6496,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00308,acc_dries20_current,2026-08-22,-12967,EUR,Colruyt,Betaling Bancontact,groceries
+cust_dries20_tx00309,acc_dries20_current,2026-08-26,-3033,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00310,acc_dries20_current,2026-08-27,-4608,EUR,Q8,Brandstof,transport_fuel
+cust_dries20_tx00311,acc_dries20_current,2026-08-28,404900,EUR,Scholengroep Rivierenland,Loon 2026-08,income_salary
+cust_dries20_tx00312,acc_dries20_current,2026-08-28,-225000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00313,acc_dries20_savings,2026-08-28,225000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal
+cust_dries20_tx00314,acc_dries20_current,2026-08-29,-13874,EUR,Aldi,Betaling Bancontact,groceries
+cust_dries20_tx00315,acc_dries20_current,2026-09-01,-102500,EUR,V. Goossens,Huur,housing_rent
+cust_dries20_tx00316,acc_dries20_current,2026-09-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_dries20_tx00317,acc_dries20_current,2026-09-02,-1892,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00318,acc_dries20_current,2026-09-03,-8532,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_dries20_tx00319,acc_dries20_current,2026-09-03,-24850,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_dries20_tx00320,acc_dries20_current,2026-09-04,-4400,EUR,Coolblue,Online aankoop,shopping_online
+cust_dries20_tx00321,acc_dries20_current,2026-09-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_dries20_tx00322,acc_dries20_current,2026-09-04,-12780,EUR,Basisschool Sint-Jozef,Schoolrekening kind 2,education
+cust_dries20_tx00323,acc_dries20_current,2026-09-05,-12812,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00324,acc_dries20_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_dries20_tx00325,acc_dries20_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_dries20_tx00326,acc_dries20_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_dries20_tx00327,acc_dries20_current,2026-09-10,-5885,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00328,acc_dries20_current,2026-09-12,-12266,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00329,acc_dries20_current,2026-09-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_dries20_tx00330,acc_dries20_current,2026-09-14,-9400,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
+cust_dries20_tx00331,acc_dries20_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_dries20_tx00332,acc_dries20_current,2026-09-16,-2687,EUR,Action,Betaling Bancontact,shopping_household
+cust_dries20_tx00333,acc_dries20_current,2026-09-17,-5071,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_dries20_tx00334,acc_dries20_current,2026-09-18,-12861,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_dries20_tx00335,acc_dries20_current,2026-09-19,-16483,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00336,acc_dries20_current,2026-09-20,-4041,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_dries20_tx00337,acc_dries20_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_dries20_tx00338,acc_dries20_current,2026-09-23,-4084,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_dries20_tx00339,acc_dries20_current,2026-09-25,-5684,EUR,Bol.com,Online aankoop,shopping_online
+cust_dries20_tx00340,acc_dries20_current,2026-09-26,-13779,EUR,Delhaize,Betaling Bancontact,groceries
+cust_dries20_tx00341,acc_dries20_current,2026-09-27,-4377,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_dries20_tx00342,acc_dries20_current,2026-09-28,404900,EUR,Scholengroep Rivierenland,Loon 2026-09,income_salary
+cust_dries20_tx00343,acc_dries20_current,2026-09-28,-175000,EUR,Dries Verbeke,Naar spaarrekening,transfer_internal
+cust_dries20_tx00344,acc_dries20_savings,2026-09-28,175000,EUR,Dries Verbeke,Van zichtrekening,transfer_internal

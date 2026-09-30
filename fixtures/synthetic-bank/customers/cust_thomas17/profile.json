@@ -1,0 +1,77 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_thomas17",
+  "personal": {
+    "first_name": "Thomas",
+    "last_name": "Smets",
+    "birth_date": "1995-03-19",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Kerkstraat 28",
+      "postal_code": "8000",
+      "city": "Brugge",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2009-06-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Scholengroep Rivierenland",
+    "job_title": "Teacher",
+    "since": "2026-03-01",
+    "previous": {
+      "employer": "Noordzee Foods NV",
+      "job_title": "Quality lead"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_thomas17_current",
+      "type": "current",
+      "iban": "BE00 SYNT THOM 0001",
+      "balance_cents": 454491,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_thomas17_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT THOM 0002",
+      "balance_cents": 916000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_thomas17_int1",
+      "date": "2025-03-19",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_thomas17_int2",
+      "date": "2025-07-27",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_thomas17_int3",
+      "date": "2026-07-31",
+      "channel": "app",
+      "topic": "renovation",
+      "note": "Asked about a renovation loan to convert the attic into a bedroom."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

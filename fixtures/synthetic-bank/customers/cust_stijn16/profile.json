@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_stijn16",
+  "personal": {
+    "first_name": "Stijn",
+    "last_name": "Martens",
+    "birth_date": "1993-07-17",
+    "place_of_birth": "Brugge",
+    "address": {
+      "street": "Dorpsstraat 167",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2008-12-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Brabant Retail NV",
+    "job_title": "Store manager",
+    "since": "2026-02-01",
+    "previous": {
+      "employer": "Leie Consulting BV",
+      "job_title": "Consultant"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_stijn16_current",
+      "type": "current",
+      "iban": "BE00 SYNT STIJ 0001",
+      "balance_cents": 452831,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_stijn16_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT STIJ 0002",
+      "balance_cents": 1229000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_stijn16_int1",
+      "date": "2025-03-26",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_stijn16_int2",
+      "date": "2026-03-31",
+      "channel": "phone",
+      "topic": "renovation",
+      "note": "Asked about a renovation loan to convert the attic into a bedroom."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

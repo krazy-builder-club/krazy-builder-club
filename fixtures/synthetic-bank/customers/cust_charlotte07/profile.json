@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_charlotte07",
+  "personal": {
+    "first_name": "Charlotte",
+    "last_name": "De Smet",
+    "birth_date": "1992-01-10",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Molenstraat 14",
+      "postal_code": "8000",
+      "city": "Brugge",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2016-12-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Deltaport Logistics NV",
+    "job_title": "Planner",
+    "since": "2025-12-01",
+    "previous": {
+      "employer": "Flanders Care vzw",
+      "job_title": "Nurse"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_charlotte07_current",
+      "type": "current",
+      "iban": "BE00 SYNT CHAR 0001",
+      "balance_cents": 452503,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_charlotte07_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT CHAR 0002",
+      "balance_cents": 3094088,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_charlotte07_int1",
+      "date": "2025-03-12",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_charlotte07_int2",
+      "date": "2026-03-10",
+      "channel": "app",
+      "topic": "mortgage",
+      "note": "Ran a mortgage simulation in the app for a bigger home."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

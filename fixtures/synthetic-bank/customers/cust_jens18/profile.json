@@ -1,0 +1,77 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_jens18",
+  "personal": {
+    "first_name": "Jens",
+    "last_name": "De Wit",
+    "birth_date": "1994-11-14",
+    "place_of_birth": "Kortrijk",
+    "address": {
+      "street": "Nieuwstraat 150",
+      "postal_code": "2500",
+      "city": "Lier",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2009-09-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Leie Consulting BV",
+    "job_title": "Consultant",
+    "since": "2026-02-01",
+    "previous": {
+      "employer": "Kempen Tech BV",
+      "job_title": "Developer"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_jens18_current",
+      "type": "current",
+      "iban": "BE00 SYNT JENS 0001",
+      "balance_cents": 454421,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_jens18_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JENS 0002",
+      "balance_cents": 1118000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_jens18_int1",
+      "date": "2025-03-03",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_jens18_int2",
+      "date": "2025-07-24",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_jens18_int3",
+      "date": "2026-05-14",
+      "channel": "phone",
+      "topic": "renovation",
+      "note": "Asked about a renovation loan to convert the attic into a bedroom."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

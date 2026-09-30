@@ -1,0 +1,77 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_julie03",
+  "personal": {
+    "first_name": "Julie",
+    "last_name": "Jacobs",
+    "birth_date": "1995-03-10",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Dorpsstraat 168",
+      "postal_code": "3001",
+      "city": "Heverlee",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2006-09-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Deltaport Logistics NV",
+    "job_title": "Planner",
+    "since": "2026-01-01",
+    "previous": {
+      "employer": "Brabant Retail NV",
+      "job_title": "Store manager"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_julie03_current",
+      "type": "current",
+      "iban": "BE00 SYNT JULI 0001",
+      "balance_cents": 451236,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_julie03_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JULI 0002",
+      "balance_cents": 2866770,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_julie03_int1",
+      "date": "2025-03-10",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_julie03_int2",
+      "date": "2025-07-04",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_julie03_int3",
+      "date": "2026-03-11",
+      "channel": "app",
+      "topic": "mortgage",
+      "note": "Ran a mortgage simulation in the app for a bigger home."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

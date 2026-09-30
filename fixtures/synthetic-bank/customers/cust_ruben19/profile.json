@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_ruben19",
+  "personal": {
+    "first_name": "Ruben",
+    "last_name": "Wouters",
+    "birth_date": "1992-09-22",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Kerkstraat 151",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2005-10-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Noordzee Foods NV",
+    "job_title": "Quality lead",
+    "since": "2026-02-01",
+    "previous": {
+      "employer": "Deltaport Logistics NV",
+      "job_title": "Planner"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_ruben19_current",
+      "type": "current",
+      "iban": "BE00 SYNT RUBE 0001",
+      "balance_cents": 452915,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_ruben19_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT RUBE 0002",
+      "balance_cents": 1720000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_ruben19_int1",
+      "date": "2025-03-16",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_ruben19_int2",
+      "date": "2026-04-27",
+      "channel": "app",
+      "topic": "renovation",
+      "note": "Asked about a renovation loan to convert the attic into a bedroom."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

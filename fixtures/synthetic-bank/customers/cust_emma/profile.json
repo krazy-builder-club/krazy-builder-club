@@ -1,0 +1,85 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_emma",
+  "personal": {
+    "first_name": "Emma",
+    "last_name": "Claes",
+    "birth_date": "1992-04-17",
+    "place_of_birth": "Mechelen",
+    "address": {
+      "street": "Tiensestraat 88 bus 3",
+      "postal_code": "3000",
+      "city": "Leuven",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2014-09-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Nordlicht Software BV",
+    "job_title": "Product analyst",
+    "since": "2026-08-01",
+    "previous": {
+      "employer": "Brightwave Logistics NV",
+      "job_title": "Logistics planner"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_emma_current",
+      "type": "current",
+      "iban": "BE00 SYNT EMMA 0001",
+      "balance_cents": 441371,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_emma_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT EMMA 0002",
+      "balance_cents": 445000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [
+    {
+      "product": "Synthetic Global Equity Fund",
+      "type": "fund",
+      "units": 42.5,
+      "value_cents": 510000,
+      "as_of": "2026-09-30"
+    }
+  ],
+  "interactions": [
+    {
+      "interaction_id": "cust_emma_int1",
+      "date": "2024-03-12",
+      "channel": "branch",
+      "topic": "car_loan",
+      "note": "Took car loan after face-to-face advisor meeting; said she prefers discussing big decisions in person."
+    },
+    {
+      "interaction_id": "cust_emma_int2",
+      "date": "2025-11-18",
+      "channel": "phone",
+      "topic": "savings",
+      "note": "Wants to always keep at least 5,000 EUR on savings as a safety buffer. Plans the family budget monthly in a spreadsheet."
+    },
+    {
+      "interaction_id": "cust_emma_int3",
+      "date": "2026-08-04",
+      "channel": "app",
+      "topic": "kyc_update",
+      "note": "Updated employer to Nordlicht Software BV."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

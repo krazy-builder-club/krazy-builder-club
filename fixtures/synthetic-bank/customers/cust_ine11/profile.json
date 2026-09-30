@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_ine11",
+  "personal": {
+    "first_name": "Ine",
+    "last_name": "Michiels",
+    "birth_date": "1990-10-23",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Nieuwstraat 124",
+      "postal_code": "8500",
+      "city": "Kortrijk",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2017-12-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Kempen Tech BV",
+    "job_title": "Developer",
+    "since": "2026-01-01",
+    "previous": {
+      "employer": "Deltaport Logistics NV",
+      "job_title": "Planner"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_ine11_current",
+      "type": "current",
+      "iban": "BE00 SYNT INE1 0001",
+      "balance_cents": 453448,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_ine11_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT INE1 0002",
+      "balance_cents": 2179595,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_ine11_int1",
+      "date": "2025-03-19",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_ine11_int2",
+      "date": "2026-04-02",
+      "channel": "branch",
+      "topic": "mortgage",
+      "note": "Mortgage information meeting; looking for a bigger home for the family."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

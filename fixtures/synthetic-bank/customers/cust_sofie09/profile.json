@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_sofie09",
+  "personal": {
+    "first_name": "Sofie",
+    "last_name": "Hermans",
+    "birth_date": "1990-04-16",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Schoolstraat 12",
+      "postal_code": "3001",
+      "city": "Heverlee",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2007-12-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Flanders Care vzw",
+    "job_title": "Nurse",
+    "since": "2026-02-01",
+    "previous": {
+      "employer": "Noordzee Foods NV",
+      "job_title": "Quality lead"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_sofie09_current",
+      "type": "current",
+      "iban": "BE00 SYNT SOFI 0001",
+      "balance_cents": 453271,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_sofie09_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT SOFI 0002",
+      "balance_cents": 1785896,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_sofie09_int1",
+      "date": "2025-03-24",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_sofie09_int2",
+      "date": "2026-02-12",
+      "channel": "branch",
+      "topic": "mortgage",
+      "note": "Mortgage information meeting; looking for a bigger home for the family."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

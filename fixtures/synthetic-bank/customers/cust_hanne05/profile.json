@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_hanne05",
+  "personal": {
+    "first_name": "Hanne",
+    "last_name": "Willems",
+    "birth_date": "1988-03-03",
+    "place_of_birth": "Heverlee",
+    "address": {
+      "street": "Molenstraat 112",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2005-02-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Brabant Retail NV",
+    "job_title": "Store manager",
+    "since": "2025-11-01",
+    "previous": {
+      "employer": "Kempen Tech BV",
+      "job_title": "Developer"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_hanne05_current",
+      "type": "current",
+      "iban": "BE00 SYNT HANN 0001",
+      "balance_cents": 453192,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_hanne05_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT HANN 0002",
+      "balance_cents": 2430948,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_hanne05_int1",
+      "date": "2025-03-26",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_hanne05_int2",
+      "date": "2025-11-21",
+      "channel": "branch",
+      "topic": "mortgage",
+      "note": "Mortgage information meeting; looking for a bigger home for the family."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

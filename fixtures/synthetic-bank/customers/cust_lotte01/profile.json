@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_lotte01",
+  "personal": {
+    "first_name": "Lotte",
+    "last_name": "Peeters",
+    "birth_date": "1991-04-26",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Kerkstraat 12",
+      "postal_code": "9300",
+      "city": "Aalst",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2016-08-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Brabant Retail NV",
+    "job_title": "Store manager",
+    "since": "2026-01-01",
+    "previous": {
+      "employer": "Leie Consulting BV",
+      "job_title": "Consultant"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_lotte01_current",
+      "type": "current",
+      "iban": "BE00 SYNT LOTT 0001",
+      "balance_cents": 452625,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_lotte01_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LOTT 0002",
+      "balance_cents": 965608,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_lotte01_int1",
+      "date": "2025-03-14",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_lotte01_int2",
+      "date": "2026-04-11",
+      "channel": "branch",
+      "topic": "mortgage",
+      "note": "Mortgage information meeting; looking for a bigger home for the family."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_maarten21",
+  "personal": {
+    "first_name": "Maarten",
+    "last_name": "Hendrickx",
+    "birth_date": "1992-01-15",
+    "place_of_birth": "Gent",
+    "address": {
+      "street": "Stationsstraat 156",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2012-03-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Scholengroep Rivierenland",
+    "job_title": "Teacher",
+    "since": "2025-12-01",
+    "previous": {
+      "employer": "Brabant Retail NV",
+      "job_title": "Store manager"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_maarten21_current",
+      "type": "current",
+      "iban": "BE00 SYNT MAAR 0001",
+      "balance_cents": 454743,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_maarten21_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT MAAR 0002",
+      "balance_cents": 1729000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_maarten21_int1",
+      "date": "2025-03-12",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

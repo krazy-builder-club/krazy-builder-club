@@ -1,0 +1,356 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_stijn16_tx00001,acc_stijn16_current,2025-10-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00002,acc_stijn16_current,2025-10-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00003,acc_stijn16_current,2025-10-03,-5070,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00004,acc_stijn16_current,2025-10-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00005,acc_stijn16_current,2025-10-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00006,acc_stijn16_current,2025-10-04,-13906,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00007,acc_stijn16_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00008,acc_stijn16_current,2025-10-08,-1670,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00009,acc_stijn16_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00010,acc_stijn16_current,2025-10-10,41237,EUR,FONS,Groeipakket 10/2025 kind 1+2,income_child_benefit
+cust_stijn16_tx00011,acc_stijn16_current,2025-10-11,-15468,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00012,acc_stijn16_current,2025-10-12,-3083,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_stijn16_tx00013,acc_stijn16_current,2025-10-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00014,acc_stijn16_current,2025-10-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 10/2025,childcare
+cust_stijn16_tx00015,acc_stijn16_current,2025-10-15,-3838,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00016,acc_stijn16_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00017,acc_stijn16_current,2025-10-16,-5605,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00018,acc_stijn16_current,2025-10-17,-3145,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00019,acc_stijn16_current,2025-10-18,-9224,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00020,acc_stijn16_current,2025-10-18,-12552,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00021,acc_stijn16_current,2025-10-23,-5807,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00022,acc_stijn16_current,2025-10-25,-13361,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00023,acc_stijn16_current,2025-10-26,-4577,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00024,acc_stijn16_current,2025-10-28,315500,EUR,Leie Consulting BV,Loon 2025-10,income_salary
+cust_stijn16_tx00025,acc_stijn16_current,2025-10-28,-95000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00026,acc_stijn16_savings,2025-10-28,95000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00027,acc_stijn16_current,2025-10-29,-2273,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00028,acc_stijn16_current,2025-10-31,-4107,EUR,Coolblue,Online aankoop,shopping_online
+cust_stijn16_tx00029,acc_stijn16_current,2025-11-01,-14129,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00030,acc_stijn16_current,2025-11-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00031,acc_stijn16_current,2025-11-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00032,acc_stijn16_current,2025-11-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00033,acc_stijn16_current,2025-11-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00034,acc_stijn16_current,2025-11-05,-3212,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00035,acc_stijn16_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00036,acc_stijn16_current,2025-11-06,-6161,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00037,acc_stijn16_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00038,acc_stijn16_current,2025-11-08,-14562,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00039,acc_stijn16_current,2025-11-09,-2612,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00040,acc_stijn16_current,2025-11-10,41237,EUR,FONS,Groeipakket 11/2025 kind 1+2,income_child_benefit
+cust_stijn16_tx00041,acc_stijn16_current,2025-11-12,-3478,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00042,acc_stijn16_current,2025-11-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00043,acc_stijn16_current,2025-11-13,-6291,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00044,acc_stijn16_current,2025-11-14,-6868,EUR,Coolblue,Online aankoop,shopping_online
+cust_stijn16_tx00045,acc_stijn16_current,2025-11-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 11/2025,childcare
+cust_stijn16_tx00046,acc_stijn16_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00047,acc_stijn16_current,2025-11-15,-12562,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00048,acc_stijn16_current,2025-11-16,-4732,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00049,acc_stijn16_current,2025-11-18,-11558,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00050,acc_stijn16_current,2025-11-19,-2044,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00051,acc_stijn16_current,2025-11-20,-5172,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00052,acc_stijn16_current,2025-11-21,-6009,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00053,acc_stijn16_current,2025-11-22,-14815,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00054,acc_stijn16_current,2025-11-26,-1283,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00055,acc_stijn16_current,2025-11-27,-5392,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00056,acc_stijn16_current,2025-11-28,315500,EUR,Leie Consulting BV,Loon 2025-11,income_salary
+cust_stijn16_tx00057,acc_stijn16_current,2025-11-28,-5359,EUR,Coolblue,Online aankoop,shopping_online
+cust_stijn16_tx00058,acc_stijn16_current,2025-11-28,-65000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00059,acc_stijn16_savings,2025-11-28,65000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00060,acc_stijn16_current,2025-11-29,-13810,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00061,acc_stijn16_current,2025-12-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00062,acc_stijn16_current,2025-12-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00063,acc_stijn16_current,2025-12-03,-2832,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00064,acc_stijn16_current,2025-12-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00065,acc_stijn16_current,2025-12-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00066,acc_stijn16_current,2025-12-05,-5910,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00067,acc_stijn16_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00068,acc_stijn16_current,2025-12-06,-14512,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00069,acc_stijn16_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00070,acc_stijn16_current,2025-12-10,41237,EUR,FONS,Groeipakket 12/2025 kind 1+2,income_child_benefit
+cust_stijn16_tx00071,acc_stijn16_current,2025-12-10,-1165,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00072,acc_stijn16_current,2025-12-11,-6601,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00073,acc_stijn16_current,2025-12-12,-6086,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00074,acc_stijn16_current,2025-12-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00075,acc_stijn16_current,2025-12-13,-11120,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00076,acc_stijn16_current,2025-12-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 12/2025,childcare
+cust_stijn16_tx00077,acc_stijn16_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00078,acc_stijn16_current,2025-12-17,-1421,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00079,acc_stijn16_current,2025-12-18,-4846,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00080,acc_stijn16_current,2025-12-18,-8047,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00081,acc_stijn16_current,2025-12-19,-3819,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00082,acc_stijn16_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_stijn16_tx00083,acc_stijn16_current,2025-12-20,-12962,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00084,acc_stijn16_current,2025-12-21,-3783,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00085,acc_stijn16_current,2025-12-24,-2404,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00086,acc_stijn16_current,2025-12-27,-12169,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00087,acc_stijn16_current,2025-12-28,315500,EUR,Leie Consulting BV,Loon 2025-12,income_salary
+cust_stijn16_tx00088,acc_stijn16_current,2025-12-28,-4971,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_stijn16_tx00089,acc_stijn16_current,2025-12-28,-85000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00090,acc_stijn16_savings,2025-12-28,85000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00091,acc_stijn16_current,2025-12-31,-3323,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00092,acc_stijn16_current,2026-01-01,-6834,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00093,acc_stijn16_current,2026-01-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00094,acc_stijn16_current,2026-01-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00095,acc_stijn16_current,2026-01-02,-6823,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00096,acc_stijn16_current,2026-01-03,-13742,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00097,acc_stijn16_current,2026-01-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00098,acc_stijn16_current,2026-01-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00099,acc_stijn16_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00100,acc_stijn16_current,2026-01-07,-2826,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00101,acc_stijn16_current,2026-01-08,-5377,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00102,acc_stijn16_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00103,acc_stijn16_current,2026-01-09,-3351,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00104,acc_stijn16_current,2026-01-10,41237,EUR,FONS,Groeipakket 01/2026 kind 1+2,income_child_benefit
+cust_stijn16_tx00105,acc_stijn16_current,2026-01-10,-15860,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00106,acc_stijn16_current,2026-01-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00107,acc_stijn16_current,2026-01-14,-2235,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00108,acc_stijn16_current,2026-01-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 01/2026,childcare
+cust_stijn16_tx00109,acc_stijn16_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00110,acc_stijn16_current,2026-01-16,-4851,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00111,acc_stijn16_current,2026-01-17,-12520,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00112,acc_stijn16_current,2026-01-18,-5776,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00113,acc_stijn16_current,2026-01-21,-3561,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00114,acc_stijn16_current,2026-01-22,-5434,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00115,acc_stijn16_current,2026-01-23,-6790,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00116,acc_stijn16_current,2026-01-24,-14112,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00117,acc_stijn16_current,2026-01-28,315500,EUR,Leie Consulting BV,Loon 2026-01,income_salary
+cust_stijn16_tx00118,acc_stijn16_current,2026-01-28,-90000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00119,acc_stijn16_savings,2026-01-28,90000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00120,acc_stijn16_current,2026-01-30,-2544,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00121,acc_stijn16_current,2026-01-31,-12167,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00122,acc_stijn16_current,2026-02-01,-3915,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00123,acc_stijn16_current,2026-02-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00124,acc_stijn16_current,2026-02-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00125,acc_stijn16_current,2026-02-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00126,acc_stijn16_current,2026-02-04,-1356,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00127,acc_stijn16_current,2026-02-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00128,acc_stijn16_current,2026-02-05,-4601,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00129,acc_stijn16_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00130,acc_stijn16_current,2026-02-06,-2396,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00131,acc_stijn16_current,2026-02-07,-10979,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00132,acc_stijn16_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00133,acc_stijn16_current,2026-02-10,41237,EUR,FONS,Groeipakket 02/2026 kind 1+2,income_child_benefit
+cust_stijn16_tx00134,acc_stijn16_current,2026-02-11,-3610,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00135,acc_stijn16_current,2026-02-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00136,acc_stijn16_current,2026-02-13,-6727,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00137,acc_stijn16_current,2026-02-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 02/2026,childcare
+cust_stijn16_tx00138,acc_stijn16_current,2026-02-14,-16067,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00139,acc_stijn16_current,2026-02-15,-2185,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_stijn16_tx00140,acc_stijn16_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00141,acc_stijn16_current,2026-02-18,-2800,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00142,acc_stijn16_current,2026-02-18,-7836,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00143,acc_stijn16_current,2026-02-19,-5585,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00144,acc_stijn16_current,2026-02-21,-14787,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00145,acc_stijn16_current,2026-02-22,-4636,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_stijn16_tx00146,acc_stijn16_current,2026-02-26,-4837,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00147,acc_stijn16_current,2026-02-27,-3579,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00148,acc_stijn16_current,2026-02-28,358000,EUR,Brabant Retail NV,Loon 2026-02,income_salary
+cust_stijn16_tx00149,acc_stijn16_current,2026-02-28,-14797,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00150,acc_stijn16_current,2026-02-28,-120000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00151,acc_stijn16_savings,2026-02-28,120000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00152,acc_stijn16_current,2026-03-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00153,acc_stijn16_current,2026-03-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00154,acc_stijn16_current,2026-03-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00155,acc_stijn16_current,2026-03-04,-1561,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00156,acc_stijn16_current,2026-03-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00157,acc_stijn16_current,2026-03-05,-4799,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00158,acc_stijn16_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00159,acc_stijn16_current,2026-03-06,-5685,EUR,Coolblue,Online aankoop,shopping_online
+cust_stijn16_tx00160,acc_stijn16_current,2026-03-07,-14123,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00161,acc_stijn16_current,2026-03-08,-3415,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00162,acc_stijn16_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00163,acc_stijn16_current,2026-03-10,41237,EUR,FONS,Groeipakket 03/2026 kind 1+2,income_child_benefit
+cust_stijn16_tx00164,acc_stijn16_current,2026-03-12,-6220,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00165,acc_stijn16_current,2026-03-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00166,acc_stijn16_current,2026-03-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 03/2026,childcare
+cust_stijn16_tx00167,acc_stijn16_current,2026-03-14,-14475,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00168,acc_stijn16_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00169,acc_stijn16_current,2026-03-18,-3861,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00170,acc_stijn16_current,2026-03-18,-11748,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00171,acc_stijn16_current,2026-03-19,-6352,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00172,acc_stijn16_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_stijn16_tx00173,acc_stijn16_current,2026-03-21,-12994,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00174,acc_stijn16_current,2026-03-25,-3789,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00175,acc_stijn16_current,2026-03-26,-5328,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00176,acc_stijn16_current,2026-03-28,358000,EUR,Brabant Retail NV,Loon 2026-03,income_salary
+cust_stijn16_tx00177,acc_stijn16_current,2026-03-28,-11110,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00178,acc_stijn16_current,2026-03-28,-135000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00179,acc_stijn16_savings,2026-03-28,135000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00180,acc_stijn16_current,2026-03-29,-4737,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_stijn16_tx00181,acc_stijn16_current,2026-04-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00182,acc_stijn16_current,2026-04-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00183,acc_stijn16_current,2026-04-02,-6132,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00184,acc_stijn16_current,2026-04-03,-6239,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00185,acc_stijn16_current,2026-04-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00186,acc_stijn16_current,2026-04-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00187,acc_stijn16_current,2026-04-04,-14094,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00188,acc_stijn16_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00189,acc_stijn16_current,2026-04-08,-2233,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00190,acc_stijn16_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00191,acc_stijn16_current,2026-04-09,-6318,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00192,acc_stijn16_current,2026-04-10,41237,EUR,FONS,Groeipakket 04/2026 kind 1+2,income_child_benefit
+cust_stijn16_tx00193,acc_stijn16_current,2026-04-11,-13182,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00194,acc_stijn16_current,2026-04-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00195,acc_stijn16_current,2026-04-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 04/2026,childcare
+cust_stijn16_tx00196,acc_stijn16_current,2026-04-15,-3008,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00197,acc_stijn16_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00198,acc_stijn16_current,2026-04-18,-12417,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00199,acc_stijn16_current,2026-04-18,-12452,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00200,acc_stijn16_current,2026-04-22,-2046,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00201,acc_stijn16_current,2026-04-24,-6571,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00202,acc_stijn16_current,2026-04-25,-15569,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00203,acc_stijn16_current,2026-04-26,-3029,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00204,acc_stijn16_current,2026-04-28,358000,EUR,Brabant Retail NV,Loon 2026-04,income_salary
+cust_stijn16_tx00205,acc_stijn16_current,2026-04-28,-140000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00206,acc_stijn16_savings,2026-04-28,140000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00207,acc_stijn16_current,2026-04-29,-3539,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00208,acc_stijn16_current,2026-04-30,-6130,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00209,acc_stijn16_savings,2026-04-30,-1173000,EUR,Aannemer Bouwwerken Dirk,Voorschot zolderrenovatie,housing_renovation
+cust_stijn16_tx00210,acc_stijn16_current,2026-05-01,-4991,EUR,Coolblue,Online aankoop,shopping_online
+cust_stijn16_tx00211,acc_stijn16_current,2026-05-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00212,acc_stijn16_current,2026-05-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00213,acc_stijn16_current,2026-05-02,-12055,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00214,acc_stijn16_current,2026-05-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00215,acc_stijn16_current,2026-05-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00216,acc_stijn16_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00217,acc_stijn16_current,2026-05-06,-2784,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00218,acc_stijn16_current,2026-05-06,-97750,EUR,Gamma,Bouwmaterialen,housing_renovation
+cust_stijn16_tx00219,acc_stijn16_current,2026-05-08,-5286,EUR,Coolblue,Online aankoop,shopping_online
+cust_stijn16_tx00220,acc_stijn16_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00221,acc_stijn16_current,2026-05-09,-14769,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00222,acc_stijn16_current,2026-05-10,41237,EUR,FONS,Groeipakket 05/2026 kind 1+2,income_child_benefit
+cust_stijn16_tx00223,acc_stijn16_current,2026-05-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00224,acc_stijn16_current,2026-05-13,-3285,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00225,acc_stijn16_current,2026-05-14,-5251,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00226,acc_stijn16_current,2026-05-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 05/2026,childcare
+cust_stijn16_tx00227,acc_stijn16_current,2026-05-15,-6243,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00228,acc_stijn16_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00229,acc_stijn16_current,2026-05-16,-13215,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00230,acc_stijn16_current,2026-05-18,-7676,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00231,acc_stijn16_current,2026-05-20,-2599,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00232,acc_stijn16_current,2026-05-21,-6151,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00233,acc_stijn16_current,2026-05-23,-15453,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00234,acc_stijn16_current,2026-05-27,-2814,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00235,acc_stijn16_current,2026-05-28,358000,EUR,Brabant Retail NV,Loon 2026-05,income_salary
+cust_stijn16_tx00236,acc_stijn16_current,2026-05-28,-35000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00237,acc_stijn16_savings,2026-05-28,35000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00238,acc_stijn16_current,2026-05-30,-11779,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00239,acc_stijn16_current,2026-06-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00240,acc_stijn16_current,2026-06-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00241,acc_stijn16_current,2026-06-03,-3042,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00242,acc_stijn16_current,2026-06-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00243,acc_stijn16_current,2026-06-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00244,acc_stijn16_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00245,acc_stijn16_current,2026-06-06,-14925,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00246,acc_stijn16_current,2026-06-07,-2756,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00247,acc_stijn16_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00248,acc_stijn16_current,2026-06-10,41237,EUR,FONS,Groeipakket 06/2026 kind 1+2,income_child_benefit
+cust_stijn16_tx00249,acc_stijn16_current,2026-06-10,-3552,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00250,acc_stijn16_current,2026-06-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00251,acc_stijn16_current,2026-06-13,-14221,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00252,acc_stijn16_current,2026-06-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 06/2026,childcare
+cust_stijn16_tx00253,acc_stijn16_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00254,acc_stijn16_current,2026-06-17,-3352,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00255,acc_stijn16_current,2026-06-18,-6364,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00256,acc_stijn16_current,2026-06-18,-10574,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00257,acc_stijn16_current,2026-06-19,-5902,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00258,acc_stijn16_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_stijn16_tx00259,acc_stijn16_current,2026-06-20,-13282,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00260,acc_stijn16_current,2026-06-24,-3167,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00261,acc_stijn16_current,2026-06-26,-6424,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00262,acc_stijn16_current,2026-06-27,-10728,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00263,acc_stijn16_current,2026-06-28,358000,EUR,Brabant Retail NV,Loon 2026-06,income_salary
+cust_stijn16_tx00264,acc_stijn16_current,2026-06-28,-130000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00265,acc_stijn16_savings,2026-06-28,130000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00266,acc_stijn16_current,2026-07-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00267,acc_stijn16_current,2026-07-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00268,acc_stijn16_current,2026-07-02,-6075,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00269,acc_stijn16_current,2026-07-03,-3702,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00270,acc_stijn16_current,2026-07-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00271,acc_stijn16_current,2026-07-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00272,acc_stijn16_current,2026-07-04,-12692,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00273,acc_stijn16_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00274,acc_stijn16_current,2026-07-08,-4112,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00275,acc_stijn16_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00276,acc_stijn16_current,2026-07-09,-5085,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00277,acc_stijn16_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_stijn16_tx00278,acc_stijn16_current,2026-07-10,-3770,EUR,Coolblue,Online aankoop,shopping_online
+cust_stijn16_tx00279,acc_stijn16_current,2026-07-11,-13451,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00280,acc_stijn16_current,2026-07-11,-85300,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_stijn16_tx00281,acc_stijn16_current,2026-07-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00282,acc_stijn16_current,2026-07-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
+cust_stijn16_tx00283,acc_stijn16_current,2026-07-15,-3702,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00284,acc_stijn16_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00285,acc_stijn16_current,2026-07-17,-5371,EUR,Zalando,Online aankoop,shopping_online
+cust_stijn16_tx00286,acc_stijn16_current,2026-07-18,-8011,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00287,acc_stijn16_current,2026-07-18,-14904,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00288,acc_stijn16_current,2026-07-19,-2700,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_stijn16_tx00289,acc_stijn16_current,2026-07-22,-3729,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00290,acc_stijn16_current,2026-07-23,-4601,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00291,acc_stijn16_current,2026-07-24,-5405,EUR,Coolblue,Online aankoop,shopping_online
+cust_stijn16_tx00292,acc_stijn16_current,2026-07-25,-15076,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00293,acc_stijn16_current,2026-07-26,-2657,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00294,acc_stijn16_current,2026-07-28,358000,EUR,Brabant Retail NV,Loon 2026-07,income_salary
+cust_stijn16_tx00295,acc_stijn16_current,2026-07-28,-45000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00296,acc_stijn16_savings,2026-07-28,45000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00297,acc_stijn16_current,2026-07-29,-2058,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00298,acc_stijn16_current,2026-07-31,-6424,EUR,Coolblue,Online aankoop,shopping_online
+cust_stijn16_tx00299,acc_stijn16_current,2026-08-01,-14194,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00300,acc_stijn16_current,2026-08-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00301,acc_stijn16_current,2026-08-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00302,acc_stijn16_current,2026-08-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00303,acc_stijn16_current,2026-08-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00304,acc_stijn16_current,2026-08-05,-3630,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00305,acc_stijn16_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00306,acc_stijn16_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00307,acc_stijn16_current,2026-08-08,-11803,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00308,acc_stijn16_current,2026-08-09,-2833,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_stijn16_tx00309,acc_stijn16_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_stijn16_tx00310,acc_stijn16_current,2026-08-12,-1488,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00311,acc_stijn16_current,2026-08-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00312,acc_stijn16_current,2026-08-13,-6401,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_stijn16_tx00313,acc_stijn16_current,2026-08-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_stijn16_tx00314,acc_stijn16_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00315,acc_stijn16_current,2026-08-15,-13269,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00316,acc_stijn16_current,2026-08-16,-4340,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_stijn16_tx00317,acc_stijn16_current,2026-08-18,-8864,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00318,acc_stijn16_current,2026-08-19,-3776,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_stijn16_tx00319,acc_stijn16_current,2026-08-21,-4505,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00320,acc_stijn16_current,2026-08-22,-13288,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00321,acc_stijn16_current,2026-08-26,-3205,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00322,acc_stijn16_current,2026-08-28,358000,EUR,Brabant Retail NV,Loon 2026-08,income_salary
+cust_stijn16_tx00323,acc_stijn16_current,2026-08-28,-4241,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00324,acc_stijn16_current,2026-08-28,-140000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00325,acc_stijn16_savings,2026-08-28,140000,EUR,Stijn Martens,Van zichtrekening,transfer_internal
+cust_stijn16_tx00326,acc_stijn16_current,2026-08-29,-14366,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00327,acc_stijn16_current,2026-08-30,-2421,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_stijn16_tx00328,acc_stijn16_current,2026-09-01,-119000,EUR,E. Jacobs,Huur,housing_rent
+cust_stijn16_tx00329,acc_stijn16_current,2026-09-02,45000,EUR,B. Dubois,Bijdrage huishouden,income_transfer_household
+cust_stijn16_tx00330,acc_stijn16_current,2026-09-02,-2504,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00331,acc_stijn16_current,2026-09-03,-5132,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00332,acc_stijn16_current,2026-09-03,-7261,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_stijn16_tx00333,acc_stijn16_current,2026-09-03,-26500,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_stijn16_tx00334,acc_stijn16_current,2026-09-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_stijn16_tx00335,acc_stijn16_current,2026-09-04,-6492,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00336,acc_stijn16_current,2026-09-05,-15093,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00337,acc_stijn16_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_stijn16_tx00338,acc_stijn16_current,2026-09-06,-2308,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_stijn16_tx00339,acc_stijn16_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_stijn16_tx00340,acc_stijn16_current,2026-09-09,-2164,EUR,Action,Betaling Bancontact,shopping_household
+cust_stijn16_tx00341,acc_stijn16_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_stijn16_tx00342,acc_stijn16_current,2026-09-12,-15390,EUR,Aldi,Betaling Bancontact,groceries
+cust_stijn16_tx00343,acc_stijn16_current,2026-09-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_stijn16_tx00344,acc_stijn16_current,2026-09-14,-10950,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
+cust_stijn16_tx00345,acc_stijn16_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_stijn16_tx00346,acc_stijn16_current,2026-09-18,-4803,EUR,Bol.com,Online aankoop,shopping_online
+cust_stijn16_tx00347,acc_stijn16_current,2026-09-18,-11185,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_stijn16_tx00348,acc_stijn16_current,2026-09-19,-10699,EUR,Delhaize,Betaling Bancontact,groceries
+cust_stijn16_tx00349,acc_stijn16_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_stijn16_tx00350,acc_stijn16_current,2026-09-23,-1499,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_stijn16_tx00351,acc_stijn16_current,2026-09-24,-6050,EUR,Q8,Brandstof,transport_fuel
+cust_stijn16_tx00352,acc_stijn16_current,2026-09-26,-12860,EUR,Colruyt,Betaling Bancontact,groceries
+cust_stijn16_tx00353,acc_stijn16_current,2026-09-28,358000,EUR,Brabant Retail NV,Loon 2026-09,income_salary
+cust_stijn16_tx00354,acc_stijn16_current,2026-09-28,-125000,EUR,Stijn Martens,Naar spaarrekening,transfer_internal
+cust_stijn16_tx00355,acc_stijn16_savings,2026-09-28,125000,EUR,Stijn Martens,Van zichtrekening,transfer_internal

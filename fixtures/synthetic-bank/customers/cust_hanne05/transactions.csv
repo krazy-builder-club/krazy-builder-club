@@ -1,0 +1,350 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_hanne05_tx00001,acc_hanne05_current,2025-10-01,-1618,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00002,acc_hanne05_current,2025-10-01,-113500,EUR,A. Dubois,Huur,housing_rent
+cust_hanne05_tx00003,acc_hanne05_current,2025-10-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00004,acc_hanne05_current,2025-10-02,-4695,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00005,acc_hanne05_current,2025-10-03,-5394,EUR,Zalando,Online aankoop,shopping_online
+cust_hanne05_tx00006,acc_hanne05_current,2025-10-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00007,acc_hanne05_current,2025-10-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00008,acc_hanne05_current,2025-10-04,-11157,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00009,acc_hanne05_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00010,acc_hanne05_current,2025-10-08,-1712,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00011,acc_hanne05_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00012,acc_hanne05_current,2025-10-09,-5829,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00013,acc_hanne05_current,2025-10-10,41237,EUR,FONS,Groeipakket 10/2025 kind 1+2,income_child_benefit
+cust_hanne05_tx00014,acc_hanne05_current,2025-10-10,-5023,EUR,Zalando,Online aankoop,shopping_online
+cust_hanne05_tx00015,acc_hanne05_current,2025-10-11,-14014,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00016,acc_hanne05_current,2025-10-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00017,acc_hanne05_current,2025-10-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 10/2025,childcare
+cust_hanne05_tx00018,acc_hanne05_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00019,acc_hanne05_current,2025-10-16,-6467,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00020,acc_hanne05_current,2025-10-17,-6714,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00021,acc_hanne05_current,2025-10-18,-11109,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00022,acc_hanne05_current,2025-10-18,-12496,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00023,acc_hanne05_current,2025-10-22,-2276,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00024,acc_hanne05_current,2025-10-23,-5500,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00025,acc_hanne05_current,2025-10-24,-5852,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00026,acc_hanne05_current,2025-10-25,-14373,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00027,acc_hanne05_current,2025-10-26,-2817,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_hanne05_tx00028,acc_hanne05_current,2025-10-28,267500,EUR,Kempen Tech BV,Loon 2025-10,income_salary
+cust_hanne05_tx00029,acc_hanne05_current,2025-10-28,75000,EUR,Hanne Willems,Van spaarrekening,transfer_internal
+cust_hanne05_tx00030,acc_hanne05_savings,2025-10-28,-75000,EUR,Hanne Willems,Naar zichtrekening,transfer_internal
+cust_hanne05_tx00031,acc_hanne05_current,2025-10-29,-1340,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00032,acc_hanne05_current,2025-10-30,-4694,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00033,acc_hanne05_current,2025-11-01,-12975,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00034,acc_hanne05_current,2025-11-01,-113500,EUR,A. Dubois,Huur,housing_rent
+cust_hanne05_tx00035,acc_hanne05_savings,2025-11-01,3030000,EUR,Ouders,Schenking,income_gift
+cust_hanne05_tx00036,acc_hanne05_current,2025-11-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00037,acc_hanne05_current,2025-11-02,-2775,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_hanne05_tx00038,acc_hanne05_current,2025-11-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00039,acc_hanne05_current,2025-11-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00040,acc_hanne05_current,2025-11-05,-4094,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00041,acc_hanne05_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00042,acc_hanne05_current,2025-11-06,-5813,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00043,acc_hanne05_current,2025-11-07,-4550,EUR,Zalando,Online aankoop,shopping_online
+cust_hanne05_tx00044,acc_hanne05_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00045,acc_hanne05_current,2025-11-08,-12759,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00046,acc_hanne05_current,2025-11-10,41237,EUR,FONS,Groeipakket 11/2025 kind 1+2,income_child_benefit
+cust_hanne05_tx00047,acc_hanne05_current,2025-11-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00048,acc_hanne05_current,2025-11-13,-4704,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00049,acc_hanne05_current,2025-11-14,-6935,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00050,acc_hanne05_current,2025-11-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 11/2025,childcare
+cust_hanne05_tx00051,acc_hanne05_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00052,acc_hanne05_current,2025-11-15,-12782,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00053,acc_hanne05_savings,2025-11-16,-1515000,EUR,Notaris Vandamme,Voorschot compromis,housing_purchase
+cust_hanne05_tx00054,acc_hanne05_current,2025-11-18,-12586,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00055,acc_hanne05_current,2025-11-19,-3867,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00056,acc_hanne05_current,2025-11-20,-5347,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00057,acc_hanne05_current,2025-11-22,-11006,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00058,acc_hanne05_current,2025-11-23,-3657,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_hanne05_tx00059,acc_hanne05_current,2025-11-26,-4097,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00060,acc_hanne05_current,2025-11-27,-6993,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00061,acc_hanne05_current,2025-11-28,311400,EUR,Brabant Retail NV,Loon 2025-11,income_salary
+cust_hanne05_tx00062,acc_hanne05_current,2025-11-28,-4589,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00063,acc_hanne05_current,2025-11-28,-95000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00064,acc_hanne05_savings,2025-11-28,95000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00065,acc_hanne05_current,2025-11-29,-13272,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00066,acc_hanne05_current,2025-12-01,-113500,EUR,A. Dubois,Huur,housing_rent
+cust_hanne05_tx00067,acc_hanne05_current,2025-12-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00068,acc_hanne05_current,2025-12-03,-2591,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00069,acc_hanne05_current,2025-12-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00070,acc_hanne05_current,2025-12-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00071,acc_hanne05_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00072,acc_hanne05_current,2025-12-06,-11727,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00073,acc_hanne05_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00074,acc_hanne05_current,2025-12-10,41237,EUR,FONS,Groeipakket 12/2025 kind 1+2,income_child_benefit
+cust_hanne05_tx00075,acc_hanne05_current,2025-12-10,-2970,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00076,acc_hanne05_current,2025-12-11,-4949,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00077,acc_hanne05_current,2025-12-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00078,acc_hanne05_current,2025-12-13,-12605,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00079,acc_hanne05_current,2025-12-14,-4501,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_hanne05_tx00080,acc_hanne05_current,2025-12-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 12/2025,childcare
+cust_hanne05_tx00081,acc_hanne05_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00082,acc_hanne05_current,2025-12-17,-2911,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00083,acc_hanne05_current,2025-12-18,-9726,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00084,acc_hanne05_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_hanne05_tx00085,acc_hanne05_current,2025-12-20,-14645,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00086,acc_hanne05_current,2025-12-21,-4534,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_hanne05_tx00087,acc_hanne05_current,2025-12-24,-2141,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00088,acc_hanne05_current,2025-12-26,-5754,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00089,acc_hanne05_current,2025-12-27,-12725,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00090,acc_hanne05_current,2025-12-28,311400,EUR,Brabant Retail NV,Loon 2025-12,income_salary
+cust_hanne05_tx00091,acc_hanne05_current,2025-12-28,-110000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00092,acc_hanne05_savings,2025-12-28,110000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00093,acc_hanne05_current,2025-12-31,-2793,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00094,acc_hanne05_current,2026-01-01,-113500,EUR,A. Dubois,Huur,housing_rent
+cust_hanne05_tx00095,acc_hanne05_current,2026-01-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00096,acc_hanne05_current,2026-01-02,-2425,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00097,acc_hanne05_current,2026-01-03,-14339,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00098,acc_hanne05_current,2026-01-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00099,acc_hanne05_current,2026-01-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00100,acc_hanne05_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00101,acc_hanne05_current,2026-01-07,-3819,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00102,acc_hanne05_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00103,acc_hanne05_current,2026-01-09,-6051,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00104,acc_hanne05_current,2026-01-10,41237,EUR,FONS,Groeipakket 01/2026 kind 1+2,income_child_benefit
+cust_hanne05_tx00105,acc_hanne05_current,2026-01-10,-13076,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00106,acc_hanne05_current,2026-01-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00107,acc_hanne05_current,2026-01-14,-3118,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00108,acc_hanne05_current,2026-01-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 01/2026,childcare
+cust_hanne05_tx00109,acc_hanne05_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00110,acc_hanne05_savings,2026-01-15,-1212000,EUR,Notaris Vandamme,Registratie- en aktekosten,housing_purchase
+cust_hanne05_tx00111,acc_hanne05_current,2026-01-16,-6576,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00112,acc_hanne05_current,2026-01-17,-15502,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00113,acc_hanne05_current,2026-01-18,-6185,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00114,acc_hanne05_savings,2026-01-18,-94376,EUR,Verhuisfirma Snel,Verhuis,housing_moving
+cust_hanne05_tx00115,acc_hanne05_current,2026-01-21,-1726,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00116,acc_hanne05_current,2026-01-22,-6737,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00117,acc_hanne05_current,2026-01-23,-2814,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00118,acc_hanne05_current,2026-01-24,-13101,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00119,acc_hanne05_savings,2026-01-24,-80676,EUR,IKEA Zaventem,Betaling Bancontact,shopping_furniture
+cust_hanne05_tx00120,acc_hanne05_current,2026-01-28,311400,EUR,Brabant Retail NV,Loon 2026-01,income_salary
+cust_hanne05_tx00121,acc_hanne05_current,2026-01-28,-3605,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00122,acc_hanne05_current,2026-01-28,-120000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00123,acc_hanne05_savings,2026-01-28,120000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00124,acc_hanne05_current,2026-01-29,-5574,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00125,acc_hanne05_current,2026-01-31,-10826,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00126,acc_hanne05_current,2026-02-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00127,acc_hanne05_current,2026-02-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00128,acc_hanne05_current,2026-02-04,-3491,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00129,acc_hanne05_current,2026-02-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00130,acc_hanne05_current,2026-02-05,-127260,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_hanne05_tx00131,acc_hanne05_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00132,acc_hanne05_current,2026-02-06,-6891,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00133,acc_hanne05_current,2026-02-07,-11795,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00134,acc_hanne05_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00135,acc_hanne05_current,2026-02-10,41237,EUR,FONS,Groeipakket 02/2026 kind 1+2,income_child_benefit
+cust_hanne05_tx00136,acc_hanne05_current,2026-02-11,-2351,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00137,acc_hanne05_current,2026-02-12,-6156,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00138,acc_hanne05_current,2026-02-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00139,acc_hanne05_current,2026-02-13,-3448,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00140,acc_hanne05_current,2026-02-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 02/2026,childcare
+cust_hanne05_tx00141,acc_hanne05_current,2026-02-14,-13382,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00142,acc_hanne05_current,2026-02-15,-2650,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_hanne05_tx00143,acc_hanne05_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00144,acc_hanne05_current,2026-02-18,-1255,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00145,acc_hanne05_current,2026-02-18,-6593,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00146,acc_hanne05_current,2026-02-19,-4653,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00147,acc_hanne05_current,2026-02-21,-13300,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00148,acc_hanne05_current,2026-02-22,-3552,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_hanne05_tx00149,acc_hanne05_current,2026-02-25,-1672,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00150,acc_hanne05_current,2026-02-27,-6264,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00151,acc_hanne05_current,2026-02-28,311400,EUR,Brabant Retail NV,Loon 2026-02,income_salary
+cust_hanne05_tx00152,acc_hanne05_current,2026-02-28,-13057,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00153,acc_hanne05_current,2026-02-28,-95000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00154,acc_hanne05_savings,2026-02-28,95000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00155,acc_hanne05_current,2026-03-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00156,acc_hanne05_current,2026-03-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00157,acc_hanne05_current,2026-03-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00158,acc_hanne05_current,2026-03-05,-6979,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00159,acc_hanne05_current,2026-03-05,-127260,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_hanne05_tx00160,acc_hanne05_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00161,acc_hanne05_current,2026-03-06,-4781,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00162,acc_hanne05_current,2026-03-07,-13230,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00163,acc_hanne05_current,2026-03-08,-3731,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_hanne05_tx00164,acc_hanne05_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00165,acc_hanne05_current,2026-03-10,41237,EUR,FONS,Groeipakket 03/2026 kind 1+2,income_child_benefit
+cust_hanne05_tx00166,acc_hanne05_current,2026-03-11,-3572,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00167,acc_hanne05_current,2026-03-12,-6843,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00168,acc_hanne05_current,2026-03-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00169,acc_hanne05_current,2026-03-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 03/2026,childcare
+cust_hanne05_tx00170,acc_hanne05_current,2026-03-14,-15361,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00171,acc_hanne05_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00172,acc_hanne05_current,2026-03-18,-6844,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00173,acc_hanne05_current,2026-03-19,-6928,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00174,acc_hanne05_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_hanne05_tx00175,acc_hanne05_current,2026-03-21,-15006,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00176,acc_hanne05_current,2026-03-25,-3518,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00177,acc_hanne05_current,2026-03-28,311400,EUR,Brabant Retail NV,Loon 2026-03,income_salary
+cust_hanne05_tx00178,acc_hanne05_current,2026-03-28,-13765,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00179,acc_hanne05_current,2026-03-28,-100000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00180,acc_hanne05_savings,2026-03-28,100000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00181,acc_hanne05_current,2026-04-01,-1725,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00182,acc_hanne05_current,2026-04-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00183,acc_hanne05_current,2026-04-02,-6048,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00184,acc_hanne05_current,2026-04-03,-4440,EUR,Zalando,Online aankoop,shopping_online
+cust_hanne05_tx00185,acc_hanne05_current,2026-04-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00186,acc_hanne05_current,2026-04-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00187,acc_hanne05_current,2026-04-04,-15533,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00188,acc_hanne05_current,2026-04-05,-127260,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_hanne05_tx00189,acc_hanne05_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00190,acc_hanne05_current,2026-04-08,-1415,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00191,acc_hanne05_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00192,acc_hanne05_current,2026-04-10,41237,EUR,FONS,Groeipakket 04/2026 kind 1+2,income_child_benefit
+cust_hanne05_tx00193,acc_hanne05_current,2026-04-10,-6765,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00194,acc_hanne05_current,2026-04-11,-15266,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00195,acc_hanne05_current,2026-04-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00196,acc_hanne05_current,2026-04-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 04/2026,childcare
+cust_hanne05_tx00197,acc_hanne05_current,2026-04-15,-3527,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00198,acc_hanne05_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00199,acc_hanne05_current,2026-04-16,-5491,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00200,acc_hanne05_current,2026-04-18,-12234,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00201,acc_hanne05_current,2026-04-18,-12741,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00202,acc_hanne05_current,2026-04-22,-2199,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00203,acc_hanne05_current,2026-04-24,-3958,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00204,acc_hanne05_current,2026-04-25,-13764,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00205,acc_hanne05_current,2026-04-28,311400,EUR,Brabant Retail NV,Loon 2026-04,income_salary
+cust_hanne05_tx00206,acc_hanne05_current,2026-04-28,-105000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00207,acc_hanne05_savings,2026-04-28,105000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00208,acc_hanne05_current,2026-05-01,-6290,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00209,acc_hanne05_current,2026-05-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00210,acc_hanne05_current,2026-05-02,-15288,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00211,acc_hanne05_current,2026-05-03,-3314,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_hanne05_tx00212,acc_hanne05_current,2026-05-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00213,acc_hanne05_current,2026-05-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00214,acc_hanne05_current,2026-05-05,-127260,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_hanne05_tx00215,acc_hanne05_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00216,acc_hanne05_current,2026-05-07,-5666,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00217,acc_hanne05_current,2026-05-08,-3411,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00218,acc_hanne05_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00219,acc_hanne05_current,2026-05-09,-10778,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00220,acc_hanne05_current,2026-05-10,41237,EUR,FONS,Groeipakket 05/2026 kind 1+2,income_child_benefit
+cust_hanne05_tx00221,acc_hanne05_current,2026-05-10,-4362,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_hanne05_tx00222,acc_hanne05_current,2026-05-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00223,acc_hanne05_current,2026-05-13,-2273,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00224,acc_hanne05_current,2026-05-14,-5207,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00225,acc_hanne05_current,2026-05-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 05/2026,childcare
+cust_hanne05_tx00226,acc_hanne05_current,2026-05-15,-2419,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00227,acc_hanne05_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00228,acc_hanne05_current,2026-05-16,-11751,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00229,acc_hanne05_current,2026-05-18,-7411,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00230,acc_hanne05_current,2026-05-20,-1921,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00231,acc_hanne05_current,2026-05-23,-10695,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00232,acc_hanne05_current,2026-05-28,311400,EUR,Brabant Retail NV,Loon 2026-05,income_salary
+cust_hanne05_tx00233,acc_hanne05_current,2026-05-28,-120000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00234,acc_hanne05_savings,2026-05-28,120000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00235,acc_hanne05_current,2026-05-29,-6218,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00236,acc_hanne05_current,2026-05-30,-10816,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00237,acc_hanne05_current,2026-06-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00238,acc_hanne05_current,2026-06-03,-1909,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00239,acc_hanne05_current,2026-06-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00240,acc_hanne05_current,2026-06-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00241,acc_hanne05_current,2026-06-05,-3030,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00242,acc_hanne05_current,2026-06-05,-127260,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_hanne05_tx00243,acc_hanne05_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00244,acc_hanne05_current,2026-06-06,-13956,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00245,acc_hanne05_current,2026-06-07,-1723,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_hanne05_tx00246,acc_hanne05_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00247,acc_hanne05_current,2026-06-10,41237,EUR,FONS,Groeipakket 06/2026 kind 1+2,income_child_benefit
+cust_hanne05_tx00248,acc_hanne05_current,2026-06-10,-3344,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00249,acc_hanne05_current,2026-06-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00250,acc_hanne05_current,2026-06-13,-15890,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00251,acc_hanne05_current,2026-06-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 06/2026,childcare
+cust_hanne05_tx00252,acc_hanne05_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00253,acc_hanne05_current,2026-06-17,-1844,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00254,acc_hanne05_current,2026-06-18,-11362,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00255,acc_hanne05_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_hanne05_tx00256,acc_hanne05_current,2026-06-20,-11707,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00257,acc_hanne05_current,2026-06-24,-2225,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00258,acc_hanne05_current,2026-06-27,-12436,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00259,acc_hanne05_current,2026-06-28,311400,EUR,Brabant Retail NV,Loon 2026-06,income_salary
+cust_hanne05_tx00260,acc_hanne05_current,2026-06-28,-110000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00261,acc_hanne05_savings,2026-06-28,110000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00262,acc_hanne05_current,2026-07-01,-1864,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00263,acc_hanne05_current,2026-07-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00264,acc_hanne05_current,2026-07-02,-5565,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00265,acc_hanne05_current,2026-07-03,-4624,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00266,acc_hanne05_current,2026-07-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00267,acc_hanne05_current,2026-07-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00268,acc_hanne05_current,2026-07-04,-15907,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00269,acc_hanne05_current,2026-07-05,-127260,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_hanne05_tx00270,acc_hanne05_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00271,acc_hanne05_current,2026-07-08,-4008,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00272,acc_hanne05_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00273,acc_hanne05_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_hanne05_tx00274,acc_hanne05_current,2026-07-10,-6660,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00275,acc_hanne05_current,2026-07-11,-14789,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00276,acc_hanne05_current,2026-07-11,-85400,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_hanne05_tx00277,acc_hanne05_current,2026-07-12,-2202,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_hanne05_tx00278,acc_hanne05_current,2026-07-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00279,acc_hanne05_current,2026-07-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
+cust_hanne05_tx00280,acc_hanne05_current,2026-07-15,-1984,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00281,acc_hanne05_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00282,acc_hanne05_current,2026-07-16,-4764,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00283,acc_hanne05_current,2026-07-17,-5435,EUR,Zalando,Online aankoop,shopping_online
+cust_hanne05_tx00284,acc_hanne05_current,2026-07-18,-6112,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00285,acc_hanne05_current,2026-07-18,-14781,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00286,acc_hanne05_current,2026-07-22,-2232,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_hanne05_tx00287,acc_hanne05_current,2026-07-24,-6658,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00288,acc_hanne05_current,2026-07-25,-15912,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00289,acc_hanne05_current,2026-07-28,311400,EUR,Brabant Retail NV,Loon 2026-07,income_salary
+cust_hanne05_tx00290,acc_hanne05_current,2026-07-28,-10000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00291,acc_hanne05_savings,2026-07-28,10000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00292,acc_hanne05_current,2026-07-29,-1508,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00293,acc_hanne05_current,2026-08-01,-10765,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00294,acc_hanne05_current,2026-08-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00295,acc_hanne05_current,2026-08-02,-4976,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_hanne05_tx00296,acc_hanne05_current,2026-08-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00297,acc_hanne05_current,2026-08-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00298,acc_hanne05_current,2026-08-05,-127260,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_hanne05_tx00299,acc_hanne05_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00300,acc_hanne05_current,2026-08-06,-5116,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00301,acc_hanne05_current,2026-08-07,-6495,EUR,Zalando,Online aankoop,shopping_online
+cust_hanne05_tx00302,acc_hanne05_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00303,acc_hanne05_current,2026-08-08,-11679,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00304,acc_hanne05_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_hanne05_tx00305,acc_hanne05_current,2026-08-12,-1142,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00306,acc_hanne05_current,2026-08-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00307,acc_hanne05_current,2026-08-14,-6741,EUR,Bol.com,Online aankoop,shopping_online
+cust_hanne05_tx00308,acc_hanne05_current,2026-08-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_hanne05_tx00309,acc_hanne05_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00310,acc_hanne05_current,2026-08-15,-14553,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00311,acc_hanne05_current,2026-08-18,-9876,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00312,acc_hanne05_current,2026-08-19,-1210,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00313,acc_hanne05_current,2026-08-20,-5935,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_hanne05_tx00314,acc_hanne05_current,2026-08-21,-2859,EUR,Zalando,Online aankoop,shopping_online
+cust_hanne05_tx00315,acc_hanne05_current,2026-08-22,-13837,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00316,acc_hanne05_current,2026-08-28,311400,EUR,Brabant Retail NV,Loon 2026-08,income_salary
+cust_hanne05_tx00317,acc_hanne05_current,2026-08-28,-5585,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00318,acc_hanne05_current,2026-08-28,-105000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00319,acc_hanne05_savings,2026-08-28,105000,EUR,Hanne Willems,Van zichtrekening,transfer_internal
+cust_hanne05_tx00320,acc_hanne05_current,2026-08-29,-10602,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00321,acc_hanne05_current,2026-08-30,-3055,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_hanne05_tx00322,acc_hanne05_current,2026-09-02,55000,EUR,V. Janssens,Bijdrage huishouden,income_transfer_household
+cust_hanne05_tx00323,acc_hanne05_current,2026-09-02,-1853,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00324,acc_hanne05_current,2026-09-03,-9380,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_hanne05_tx00325,acc_hanne05_current,2026-09-03,-20400,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_hanne05_tx00326,acc_hanne05_current,2026-09-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_hanne05_tx00327,acc_hanne05_current,2026-09-04,-12437,EUR,Basisschool Sint-Jozef,Schoolrekening kind 2,education
+cust_hanne05_tx00328,acc_hanne05_current,2026-09-05,-13282,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00329,acc_hanne05_current,2026-09-05,-127260,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_hanne05_tx00330,acc_hanne05_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_hanne05_tx00331,acc_hanne05_current,2026-09-06,-1932,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_hanne05_tx00332,acc_hanne05_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_hanne05_tx00333,acc_hanne05_current,2026-09-09,-1601,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_hanne05_tx00334,acc_hanne05_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_hanne05_tx00335,acc_hanne05_current,2026-09-10,-6757,EUR,Q8,Brandstof,transport_fuel
+cust_hanne05_tx00336,acc_hanne05_current,2026-09-11,-6376,EUR,Zalando,Online aankoop,shopping_online
+cust_hanne05_tx00337,acc_hanne05_current,2026-09-12,-15140,EUR,Colruyt,Betaling Bancontact,groceries
+cust_hanne05_tx00338,acc_hanne05_current,2026-09-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_hanne05_tx00339,acc_hanne05_current,2026-09-14,-9350,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
+cust_hanne05_tx00340,acc_hanne05_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_hanne05_tx00341,acc_hanne05_current,2026-09-16,-2223,EUR,Action,Betaling Bancontact,shopping_household
+cust_hanne05_tx00342,acc_hanne05_current,2026-09-18,-7443,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_hanne05_tx00343,acc_hanne05_current,2026-09-19,-16093,EUR,Delhaize,Betaling Bancontact,groceries
+cust_hanne05_tx00344,acc_hanne05_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_hanne05_tx00345,acc_hanne05_current,2026-09-25,-5756,EUR,Coolblue,Online aankoop,shopping_online
+cust_hanne05_tx00346,acc_hanne05_current,2026-09-26,-15945,EUR,Aldi,Betaling Bancontact,groceries
+cust_hanne05_tx00347,acc_hanne05_current,2026-09-28,311400,EUR,Brabant Retail NV,Loon 2026-09,income_salary
+cust_hanne05_tx00348,acc_hanne05_current,2026-09-28,-75000,EUR,Hanne Willems,Naar spaarrekening,transfer_internal
+cust_hanne05_tx00349,acc_hanne05_savings,2026-09-28,75000,EUR,Hanne Willems,Van zichtrekening,transfer_internal

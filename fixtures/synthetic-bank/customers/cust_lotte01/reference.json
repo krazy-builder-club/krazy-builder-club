@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_lotte01",
+  "story": "Emma look-alike: renting, two kids, income up from 2026-01. Outcome: home_purchase.",
+  "cutoff": "2026-02-01",
+  "situation_tags_at_cutoff": [
+    "renting",
+    "family_two_children",
+    "new_job",
+    "income_rising"
+  ],
+  "personality_tags": [
+    "prefers_advisor_for_big_decisions"
+  ],
+  "outcome": "home_purchase",
+  "outcome_date": "2026-06-11",
+  "outcome_window_days": 183
+}

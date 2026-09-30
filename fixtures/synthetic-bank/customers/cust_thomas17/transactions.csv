@@ -1,0 +1,338 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_thomas17_tx00001,acc_thomas17_current,2025-10-01,-1298,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00002,acc_thomas17_current,2025-10-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00003,acc_thomas17_current,2025-10-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00004,acc_thomas17_current,2025-10-02,-5920,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00005,acc_thomas17_current,2025-10-03,-6943,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00006,acc_thomas17_current,2025-10-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00007,acc_thomas17_current,2025-10-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00008,acc_thomas17_current,2025-10-04,-16449,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00009,acc_thomas17_current,2025-10-05,-4195,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_thomas17_tx00010,acc_thomas17_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00011,acc_thomas17_current,2025-10-08,-1445,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00012,acc_thomas17_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00013,acc_thomas17_current,2025-10-10,41237,EUR,FONS,Groeipakket 10/2025 kind 1+2,income_child_benefit
+cust_thomas17_tx00014,acc_thomas17_current,2025-10-10,-5371,EUR,Coolblue,Online aankoop,shopping_online
+cust_thomas17_tx00015,acc_thomas17_current,2025-10-11,-12982,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00016,acc_thomas17_current,2025-10-12,-4099,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_thomas17_tx00017,acc_thomas17_current,2025-10-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00018,acc_thomas17_current,2025-10-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 10/2025,childcare
+cust_thomas17_tx00019,acc_thomas17_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00020,acc_thomas17_current,2025-10-17,-7837,EUR,Coolblue,Online aankoop,shopping_online
+cust_thomas17_tx00021,acc_thomas17_current,2025-10-18,-13128,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00022,acc_thomas17_current,2025-10-18,-14165,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00023,acc_thomas17_current,2025-10-19,-3015,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_thomas17_tx00024,acc_thomas17_current,2025-10-22,-1480,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00025,acc_thomas17_current,2025-10-24,-5436,EUR,Coolblue,Online aankoop,shopping_online
+cust_thomas17_tx00026,acc_thomas17_current,2025-10-25,-16175,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00027,acc_thomas17_current,2025-10-26,-2710,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_thomas17_tx00028,acc_thomas17_current,2025-10-28,331500,EUR,Noordzee Foods NV,Loon 2025-10,income_salary
+cust_thomas17_tx00029,acc_thomas17_current,2025-10-28,-55000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00030,acc_thomas17_savings,2025-10-28,55000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00031,acc_thomas17_current,2025-10-29,-4098,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00032,acc_thomas17_current,2025-10-31,-7968,EUR,Zalando,Online aankoop,shopping_online
+cust_thomas17_tx00033,acc_thomas17_current,2025-11-01,-17798,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00034,acc_thomas17_current,2025-11-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00035,acc_thomas17_current,2025-11-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00036,acc_thomas17_current,2025-11-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00037,acc_thomas17_current,2025-11-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00038,acc_thomas17_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00039,acc_thomas17_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00040,acc_thomas17_current,2025-11-08,-14290,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00041,acc_thomas17_current,2025-11-09,-2928,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_thomas17_tx00042,acc_thomas17_current,2025-11-10,41237,EUR,FONS,Groeipakket 11/2025 kind 1+2,income_child_benefit
+cust_thomas17_tx00043,acc_thomas17_current,2025-11-12,-3423,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00044,acc_thomas17_current,2025-11-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00045,acc_thomas17_current,2025-11-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 11/2025,childcare
+cust_thomas17_tx00046,acc_thomas17_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00047,acc_thomas17_current,2025-11-15,-12553,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00048,acc_thomas17_current,2025-11-18,-9279,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00049,acc_thomas17_current,2025-11-19,-1827,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00050,acc_thomas17_current,2025-11-21,-5064,EUR,Coolblue,Online aankoop,shopping_online
+cust_thomas17_tx00051,acc_thomas17_current,2025-11-22,-16653,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00052,acc_thomas17_current,2025-11-26,-2326,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_thomas17_tx00053,acc_thomas17_current,2025-11-28,331500,EUR,Noordzee Foods NV,Loon 2025-11,income_salary
+cust_thomas17_tx00054,acc_thomas17_current,2025-11-28,-120000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00055,acc_thomas17_savings,2025-11-28,120000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00056,acc_thomas17_current,2025-11-29,-15435,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00057,acc_thomas17_current,2025-11-30,-5168,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_thomas17_tx00058,acc_thomas17_current,2025-12-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00059,acc_thomas17_current,2025-12-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00060,acc_thomas17_current,2025-12-03,-2106,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_thomas17_tx00061,acc_thomas17_current,2025-12-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00062,acc_thomas17_current,2025-12-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00063,acc_thomas17_current,2025-12-05,-7908,EUR,Zalando,Online aankoop,shopping_online
+cust_thomas17_tx00064,acc_thomas17_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00065,acc_thomas17_current,2025-12-06,-12967,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00066,acc_thomas17_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00067,acc_thomas17_current,2025-12-10,41237,EUR,FONS,Groeipakket 12/2025 kind 1+2,income_child_benefit
+cust_thomas17_tx00068,acc_thomas17_current,2025-12-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00069,acc_thomas17_current,2025-12-13,-17548,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00070,acc_thomas17_current,2025-12-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 12/2025,childcare
+cust_thomas17_tx00071,acc_thomas17_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00072,acc_thomas17_current,2025-12-17,-3909,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_thomas17_tx00073,acc_thomas17_current,2025-12-18,-11506,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00074,acc_thomas17_current,2025-12-19,-6470,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00075,acc_thomas17_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_thomas17_tx00076,acc_thomas17_current,2025-12-20,-11984,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00077,acc_thomas17_current,2025-12-24,-3021,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00078,acc_thomas17_current,2025-12-25,-5516,EUR,Q8,Brandstof,transport_fuel
+cust_thomas17_tx00079,acc_thomas17_current,2025-12-26,-2963,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00080,acc_thomas17_current,2025-12-27,-12012,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00081,acc_thomas17_current,2025-12-28,331500,EUR,Noordzee Foods NV,Loon 2025-12,income_salary
+cust_thomas17_tx00082,acc_thomas17_current,2025-12-28,-90000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00083,acc_thomas17_savings,2025-12-28,90000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00084,acc_thomas17_current,2025-12-31,-2306,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00085,acc_thomas17_current,2026-01-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00086,acc_thomas17_current,2026-01-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00087,acc_thomas17_current,2026-01-03,-15425,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00088,acc_thomas17_current,2026-01-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00089,acc_thomas17_current,2026-01-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00090,acc_thomas17_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00091,acc_thomas17_current,2026-01-08,-5119,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00092,acc_thomas17_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00093,acc_thomas17_current,2026-01-09,-2783,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00094,acc_thomas17_current,2026-01-10,41237,EUR,FONS,Groeipakket 01/2026 kind 1+2,income_child_benefit
+cust_thomas17_tx00095,acc_thomas17_current,2026-01-10,-14321,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00096,acc_thomas17_current,2026-01-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00097,acc_thomas17_current,2026-01-14,-3271,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_thomas17_tx00098,acc_thomas17_current,2026-01-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 01/2026,childcare
+cust_thomas17_tx00099,acc_thomas17_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00100,acc_thomas17_current,2026-01-17,-15333,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00101,acc_thomas17_current,2026-01-18,-9620,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00102,acc_thomas17_current,2026-01-21,-2714,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00103,acc_thomas17_current,2026-01-22,-4605,EUR,Q8,Brandstof,transport_fuel
+cust_thomas17_tx00104,acc_thomas17_current,2026-01-24,-14577,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00105,acc_thomas17_current,2026-01-28,331500,EUR,Noordzee Foods NV,Loon 2026-01,income_salary
+cust_thomas17_tx00106,acc_thomas17_current,2026-01-28,-1519,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00107,acc_thomas17_current,2026-01-28,-120000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00108,acc_thomas17_savings,2026-01-28,120000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00109,acc_thomas17_current,2026-01-31,-15864,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00110,acc_thomas17_current,2026-02-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00111,acc_thomas17_current,2026-02-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00112,acc_thomas17_current,2026-02-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00113,acc_thomas17_current,2026-02-04,-2550,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00114,acc_thomas17_current,2026-02-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00115,acc_thomas17_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00116,acc_thomas17_current,2026-02-07,-15083,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00117,acc_thomas17_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00118,acc_thomas17_current,2026-02-10,41237,EUR,FONS,Groeipakket 02/2026 kind 1+2,income_child_benefit
+cust_thomas17_tx00119,acc_thomas17_current,2026-02-11,-2399,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00120,acc_thomas17_current,2026-02-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00121,acc_thomas17_current,2026-02-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 02/2026,childcare
+cust_thomas17_tx00122,acc_thomas17_current,2026-02-14,-17976,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00123,acc_thomas17_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00124,acc_thomas17_current,2026-02-18,-3480,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00125,acc_thomas17_current,2026-02-18,-12298,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00126,acc_thomas17_current,2026-02-19,-5586,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00127,acc_thomas17_current,2026-02-20,-3397,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00128,acc_thomas17_current,2026-02-21,-16550,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00129,acc_thomas17_current,2026-02-25,-4042,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00130,acc_thomas17_current,2026-02-26,-5386,EUR,Q8,Brandstof,transport_fuel
+cust_thomas17_tx00131,acc_thomas17_current,2026-02-27,-6324,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00132,acc_thomas17_current,2026-02-28,331500,EUR,Noordzee Foods NV,Loon 2026-02,income_salary
+cust_thomas17_tx00133,acc_thomas17_current,2026-02-28,-14606,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00134,acc_thomas17_current,2026-02-28,-95000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00135,acc_thomas17_savings,2026-02-28,95000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00136,acc_thomas17_current,2026-03-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00137,acc_thomas17_current,2026-03-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00138,acc_thomas17_current,2026-03-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00139,acc_thomas17_current,2026-03-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00140,acc_thomas17_current,2026-03-05,-6570,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00141,acc_thomas17_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00142,acc_thomas17_current,2026-03-06,-7349,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00143,acc_thomas17_current,2026-03-07,-13808,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00144,acc_thomas17_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00145,acc_thomas17_current,2026-03-10,41237,EUR,FONS,Groeipakket 03/2026 kind 1+2,income_child_benefit
+cust_thomas17_tx00146,acc_thomas17_current,2026-03-12,-6075,EUR,Q8,Brandstof,transport_fuel
+cust_thomas17_tx00147,acc_thomas17_current,2026-03-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00148,acc_thomas17_current,2026-03-13,-6006,EUR,Zalando,Online aankoop,shopping_online
+cust_thomas17_tx00149,acc_thomas17_current,2026-03-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 03/2026,childcare
+cust_thomas17_tx00150,acc_thomas17_current,2026-03-14,-16842,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00151,acc_thomas17_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00152,acc_thomas17_current,2026-03-18,-2882,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00153,acc_thomas17_current,2026-03-18,-10649,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00154,acc_thomas17_current,2026-03-19,-4949,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00155,acc_thomas17_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_thomas17_tx00156,acc_thomas17_current,2026-03-21,-14717,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00157,acc_thomas17_current,2026-03-22,-3076,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_thomas17_tx00158,acc_thomas17_current,2026-03-25,-3234,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00159,acc_thomas17_current,2026-03-28,381500,EUR,Scholengroep Rivierenland,Loon 2026-03,income_salary
+cust_thomas17_tx00160,acc_thomas17_current,2026-03-28,-13393,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00161,acc_thomas17_current,2026-03-28,-150000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00162,acc_thomas17_savings,2026-03-28,150000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00163,acc_thomas17_current,2026-03-29,-2591,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_thomas17_tx00164,acc_thomas17_current,2026-04-01,-3839,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00165,acc_thomas17_current,2026-04-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00166,acc_thomas17_current,2026-04-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00167,acc_thomas17_current,2026-04-03,-4893,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00168,acc_thomas17_current,2026-04-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00169,acc_thomas17_current,2026-04-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00170,acc_thomas17_current,2026-04-04,-15535,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00171,acc_thomas17_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00172,acc_thomas17_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00173,acc_thomas17_current,2026-04-10,41237,EUR,FONS,Groeipakket 04/2026 kind 1+2,income_child_benefit
+cust_thomas17_tx00174,acc_thomas17_current,2026-04-10,-8084,EUR,Zalando,Online aankoop,shopping_online
+cust_thomas17_tx00175,acc_thomas17_current,2026-04-11,-15131,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00176,acc_thomas17_current,2026-04-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00177,acc_thomas17_current,2026-04-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 04/2026,childcare
+cust_thomas17_tx00178,acc_thomas17_current,2026-04-15,-2425,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00179,acc_thomas17_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00180,acc_thomas17_current,2026-04-16,-6952,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00181,acc_thomas17_current,2026-04-17,-3862,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00182,acc_thomas17_current,2026-04-18,-12680,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00183,acc_thomas17_current,2026-04-18,-14450,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00184,acc_thomas17_current,2026-04-23,-5601,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00185,acc_thomas17_current,2026-04-24,-7025,EUR,Zalando,Online aankoop,shopping_online
+cust_thomas17_tx00186,acc_thomas17_current,2026-04-25,-17127,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00187,acc_thomas17_current,2026-04-28,381500,EUR,Scholengroep Rivierenland,Loon 2026-04,income_salary
+cust_thomas17_tx00188,acc_thomas17_current,2026-04-28,-145000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00189,acc_thomas17_savings,2026-04-28,145000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00190,acc_thomas17_current,2026-04-29,-4390,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00191,acc_thomas17_current,2026-04-30,-4976,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00192,acc_thomas17_current,2026-05-01,-7343,EUR,Coolblue,Online aankoop,shopping_online
+cust_thomas17_tx00193,acc_thomas17_current,2026-05-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00194,acc_thomas17_current,2026-05-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00195,acc_thomas17_current,2026-05-02,-16034,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00196,acc_thomas17_current,2026-05-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00197,acc_thomas17_current,2026-05-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00198,acc_thomas17_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00199,acc_thomas17_current,2026-05-07,-5346,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00200,acc_thomas17_current,2026-05-08,-3445,EUR,Coolblue,Online aankoop,shopping_online
+cust_thomas17_tx00201,acc_thomas17_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00202,acc_thomas17_current,2026-05-09,-11965,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00203,acc_thomas17_current,2026-05-10,41237,EUR,FONS,Groeipakket 05/2026 kind 1+2,income_child_benefit
+cust_thomas17_tx00204,acc_thomas17_current,2026-05-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00205,acc_thomas17_current,2026-05-13,-1886,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00206,acc_thomas17_current,2026-05-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 05/2026,childcare
+cust_thomas17_tx00207,acc_thomas17_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00208,acc_thomas17_current,2026-05-15,-7722,EUR,Coolblue,Online aankoop,shopping_online
+cust_thomas17_tx00209,acc_thomas17_current,2026-05-16,-15960,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00210,acc_thomas17_current,2026-05-18,-10928,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00211,acc_thomas17_current,2026-05-21,-6314,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00212,acc_thomas17_current,2026-05-23,-13722,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00213,acc_thomas17_current,2026-05-27,-1810,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00214,acc_thomas17_current,2026-05-28,381500,EUR,Scholengroep Rivierenland,Loon 2026-05,income_salary
+cust_thomas17_tx00215,acc_thomas17_current,2026-05-28,-6023,EUR,Q8,Brandstof,transport_fuel
+cust_thomas17_tx00216,acc_thomas17_current,2026-05-28,-150000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00217,acc_thomas17_savings,2026-05-28,150000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00218,acc_thomas17_current,2026-05-29,-5160,EUR,Zalando,Online aankoop,shopping_online
+cust_thomas17_tx00219,acc_thomas17_current,2026-05-30,-13330,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00220,acc_thomas17_current,2026-05-31,-3902,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_thomas17_tx00221,acc_thomas17_current,2026-06-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00222,acc_thomas17_current,2026-06-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00223,acc_thomas17_current,2026-06-03,-3602,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00224,acc_thomas17_current,2026-06-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00225,acc_thomas17_current,2026-06-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00226,acc_thomas17_current,2026-06-05,-6694,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00227,acc_thomas17_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00228,acc_thomas17_current,2026-06-06,-13936,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00229,acc_thomas17_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00230,acc_thomas17_current,2026-06-10,41237,EUR,FONS,Groeipakket 06/2026 kind 1+2,income_child_benefit
+cust_thomas17_tx00231,acc_thomas17_current,2026-06-10,-4027,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_thomas17_tx00232,acc_thomas17_current,2026-06-12,-3641,EUR,Zalando,Online aankoop,shopping_online
+cust_thomas17_tx00233,acc_thomas17_current,2026-06-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00234,acc_thomas17_current,2026-06-13,-13349,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00235,acc_thomas17_current,2026-06-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 06/2026,childcare
+cust_thomas17_tx00236,acc_thomas17_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00237,acc_thomas17_current,2026-06-17,-4509,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00238,acc_thomas17_current,2026-06-18,-7821,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00239,acc_thomas17_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_thomas17_tx00240,acc_thomas17_current,2026-06-20,-12838,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00241,acc_thomas17_current,2026-06-24,-4140,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00242,acc_thomas17_current,2026-06-26,-6087,EUR,Zalando,Online aankoop,shopping_online
+cust_thomas17_tx00243,acc_thomas17_current,2026-06-27,-12567,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00244,acc_thomas17_current,2026-06-28,381500,EUR,Scholengroep Rivierenland,Loon 2026-06,income_salary
+cust_thomas17_tx00245,acc_thomas17_current,2026-06-28,-5530,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_thomas17_tx00246,acc_thomas17_current,2026-06-28,-140000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00247,acc_thomas17_savings,2026-06-28,140000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00248,acc_thomas17_current,2026-07-01,-1689,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_thomas17_tx00249,acc_thomas17_current,2026-07-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00250,acc_thomas17_current,2026-07-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00251,acc_thomas17_current,2026-07-02,-5262,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00252,acc_thomas17_current,2026-07-03,-7491,EUR,Zalando,Online aankoop,shopping_online
+cust_thomas17_tx00253,acc_thomas17_current,2026-07-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00254,acc_thomas17_current,2026-07-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00255,acc_thomas17_current,2026-07-04,-14267,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00256,acc_thomas17_current,2026-07-05,-2035,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_thomas17_tx00257,acc_thomas17_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00258,acc_thomas17_current,2026-07-08,-4652,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00259,acc_thomas17_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00260,acc_thomas17_current,2026-07-09,-6751,EUR,Q8,Brandstof,transport_fuel
+cust_thomas17_tx00261,acc_thomas17_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_thomas17_tx00262,acc_thomas17_current,2026-07-10,-4902,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00263,acc_thomas17_current,2026-07-11,-12223,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00264,acc_thomas17_current,2026-07-11,-106000,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_thomas17_tx00265,acc_thomas17_current,2026-07-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00266,acc_thomas17_current,2026-07-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
+cust_thomas17_tx00267,acc_thomas17_current,2026-07-15,-4214,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_thomas17_tx00268,acc_thomas17_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00269,acc_thomas17_current,2026-07-18,-11851,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00270,acc_thomas17_current,2026-07-18,-12888,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00271,acc_thomas17_current,2026-07-19,-5548,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_thomas17_tx00272,acc_thomas17_current,2026-07-22,-3529,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00273,acc_thomas17_current,2026-07-25,-12117,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00274,acc_thomas17_current,2026-07-26,-5441,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_thomas17_tx00275,acc_thomas17_current,2026-07-28,381500,EUR,Scholengroep Rivierenland,Loon 2026-07,income_salary
+cust_thomas17_tx00276,acc_thomas17_current,2026-07-28,-40000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00277,acc_thomas17_savings,2026-07-28,40000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00278,acc_thomas17_current,2026-07-30,-6189,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00279,acc_thomas17_current,2026-08-01,-15128,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00280,acc_thomas17_current,2026-08-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00281,acc_thomas17_current,2026-08-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00282,acc_thomas17_current,2026-08-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00283,acc_thomas17_current,2026-08-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00284,acc_thomas17_current,2026-08-05,-2076,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00285,acc_thomas17_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00286,acc_thomas17_current,2026-08-06,-6938,EUR,Q8,Brandstof,transport_fuel
+cust_thomas17_tx00287,acc_thomas17_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00288,acc_thomas17_current,2026-08-08,-15747,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00289,acc_thomas17_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_thomas17_tx00290,acc_thomas17_current,2026-08-12,-2012,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_thomas17_tx00291,acc_thomas17_current,2026-08-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00292,acc_thomas17_current,2026-08-13,-6239,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00293,acc_thomas17_current,2026-08-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_thomas17_tx00294,acc_thomas17_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00295,acc_thomas17_current,2026-08-15,-14009,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00296,acc_thomas17_current,2026-08-18,-11522,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00297,acc_thomas17_current,2026-08-19,-1624,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00298,acc_thomas17_current,2026-08-20,-6569,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00299,acc_thomas17_current,2026-08-22,-14735,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00300,acc_thomas17_current,2026-08-23,-4299,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_thomas17_tx00301,acc_thomas17_current,2026-08-26,-2665,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00302,acc_thomas17_current,2026-08-28,381500,EUR,Scholengroep Rivierenland,Loon 2026-08,income_salary
+cust_thomas17_tx00303,acc_thomas17_current,2026-08-28,-2654,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00304,acc_thomas17_current,2026-08-28,-155000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00305,acc_thomas17_savings,2026-08-28,155000,EUR,Thomas Smets,Van zichtrekening,transfer_internal
+cust_thomas17_tx00306,acc_thomas17_current,2026-08-29,-16070,EUR,Colruyt,Betaling Bancontact,groceries
+cust_thomas17_tx00307,acc_thomas17_current,2026-08-30,-3435,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_thomas17_tx00308,acc_thomas17_savings,2026-08-30,-1146000,EUR,Aannemer Bouwwerken Dirk,Voorschot zolderrenovatie,housing_renovation
+cust_thomas17_tx00309,acc_thomas17_current,2026-09-01,-113500,EUR,K. Verbeke,Huur,housing_rent
+cust_thomas17_tx00310,acc_thomas17_current,2026-09-02,35000,EUR,P. Michiels,Bijdrage huishouden,income_transfer_household
+cust_thomas17_tx00311,acc_thomas17_current,2026-09-02,-2988,EUR,Action,Betaling Bancontact,shopping_household
+cust_thomas17_tx00312,acc_thomas17_current,2026-09-03,-5214,EUR,Q8,Brandstof,transport_fuel
+cust_thomas17_tx00313,acc_thomas17_current,2026-09-03,-13351,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_thomas17_tx00314,acc_thomas17_current,2026-09-03,-28800,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_thomas17_tx00315,acc_thomas17_current,2026-09-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_thomas17_tx00316,acc_thomas17_current,2026-09-04,-8204,EUR,Basisschool Sint-Jozef,Schoolrekening kind 2,education
+cust_thomas17_tx00317,acc_thomas17_current,2026-09-05,-16963,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00318,acc_thomas17_current,2026-09-05,-95500,EUR,Gamma,Bouwmaterialen,housing_renovation
+cust_thomas17_tx00319,acc_thomas17_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_thomas17_tx00320,acc_thomas17_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_thomas17_tx00321,acc_thomas17_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_thomas17_tx00322,acc_thomas17_current,2026-09-10,-6083,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_thomas17_tx00323,acc_thomas17_current,2026-09-11,-3703,EUR,Bol.com,Online aankoop,shopping_online
+cust_thomas17_tx00324,acc_thomas17_current,2026-09-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_thomas17_tx00325,acc_thomas17_current,2026-09-12,-16043,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00326,acc_thomas17_current,2026-09-13,-5377,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_thomas17_tx00327,acc_thomas17_current,2026-09-14,-9200,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
+cust_thomas17_tx00328,acc_thomas17_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_thomas17_tx00329,acc_thomas17_current,2026-09-16,-3980,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_thomas17_tx00330,acc_thomas17_current,2026-09-18,-14111,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_thomas17_tx00331,acc_thomas17_current,2026-09-19,-15149,EUR,Aldi,Betaling Bancontact,groceries
+cust_thomas17_tx00332,acc_thomas17_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_thomas17_tx00333,acc_thomas17_current,2026-09-24,-4622,EUR,Q8,Brandstof,transport_fuel
+cust_thomas17_tx00334,acc_thomas17_current,2026-09-26,-12874,EUR,Delhaize,Betaling Bancontact,groceries
+cust_thomas17_tx00335,acc_thomas17_current,2026-09-28,381500,EUR,Scholengroep Rivierenland,Loon 2026-09,income_salary
+cust_thomas17_tx00336,acc_thomas17_current,2026-09-28,-15000,EUR,Thomas Smets,Naar spaarrekening,transfer_internal
+cust_thomas17_tx00337,acc_thomas17_savings,2026-09-28,15000,EUR,Thomas Smets,Van zichtrekening,transfer_internal

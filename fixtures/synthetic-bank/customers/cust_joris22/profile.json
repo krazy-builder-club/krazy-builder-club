@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_joris22",
+  "personal": {
+    "first_name": "Joris",
+    "last_name": "Stevens",
+    "birth_date": "1988-07-28",
+    "place_of_birth": "Kortrijk",
+    "address": {
+      "street": "Stationsstraat 84",
+      "postal_code": "3001",
+      "city": "Heverlee",
+      "country": "BE"
+    },
+    "civil_status": "cohabiting",
+    "language": "nl",
+    "customer_since": "2005-04-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Brabant Retail NV",
+    "job_title": "Store manager",
+    "since": "2026-03-01",
+    "previous": {
+      "employer": "Kempen Tech BV",
+      "job_title": "Developer"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_joris22_current",
+      "type": "current",
+      "iban": "BE00 SYNT JORI 0001",
+      "balance_cents": 450976,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_joris22_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JORI 0002",
+      "balance_cents": 2120000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_joris22_int1",
+      "date": "2025-03-17",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_joris22_int2",
+      "date": "2025-07-11",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

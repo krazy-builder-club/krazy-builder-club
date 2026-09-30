@@ -1,0 +1,77 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_katrien10",
+  "personal": {
+    "first_name": "Katrien",
+    "last_name": "Aerts",
+    "birth_date": "1988-09-24",
+    "place_of_birth": "Mechelen",
+    "address": {
+      "street": "Schoolstraat 88",
+      "postal_code": "9000",
+      "city": "Gent",
+      "country": "BE"
+    },
+    "civil_status": "legally_cohabiting",
+    "language": "nl",
+    "customer_since": "2005-09-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Leie Consulting BV",
+    "job_title": "Consultant",
+    "since": "2025-11-01",
+    "previous": {
+      "employer": "Scholengroep Rivierenland",
+      "job_title": "Teacher"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_katrien10_current",
+      "type": "current",
+      "iban": "BE00 SYNT KATR 0001",
+      "balance_cents": 453590,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_katrien10_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT KATR 0002",
+      "balance_cents": 2274208,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_katrien10_int1",
+      "date": "2025-03-09",
+      "channel": "branch",
+      "topic": "contact",
+      "note": "Discussed a large purchase with an advisor in person; prefers face-to-face for big decisions."
+    },
+    {
+      "interaction_id": "cust_katrien10_int2",
+      "date": "2025-07-21",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_katrien10_int3",
+      "date": "2025-11-15",
+      "channel": "branch",
+      "topic": "mortgage",
+      "note": "Mortgage information meeting; looking for a bigger home for the family."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

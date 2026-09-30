@@ -1,0 +1,63 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_jonas",
+  "personal": {
+    "first_name": "Jonas",
+    "last_name": "Maes",
+    "birth_date": "1990-02-03",
+    "place_of_birth": "Lier",
+    "address": {
+      "street": "Bruul 41",
+      "postal_code": "2800",
+      "city": "Mechelen",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2011-05-20"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Scheldt Engineering NV",
+    "job_title": "Senior project engineer",
+    "since": "2026-06-01",
+    "previous": {
+      "employer": "Scheldt Engineering NV",
+      "job_title": "Project engineer"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_jonas_current",
+      "type": "current",
+      "iban": "BE00 SYNT JONA 0001",
+      "balance_cents": 452640,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_jonas_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT JONA 0002",
+      "balance_cents": 2410000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_jonas_int1",
+      "date": "2025-12-02",
+      "channel": "app",
+      "topic": "budget_tool",
+      "note": "Set up spending categories in the app; declined advisor callback, prefers arranging things digitally."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

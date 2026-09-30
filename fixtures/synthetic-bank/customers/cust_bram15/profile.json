@@ -1,0 +1,77 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_bram15",
+  "personal": {
+    "first_name": "Bram",
+    "last_name": "Coppens",
+    "birth_date": "1986-04-25",
+    "place_of_birth": "Kortrijk",
+    "address": {
+      "street": "Dorpsstraat 39",
+      "postal_code": "3001",
+      "city": "Heverlee",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2013-03-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "Kempen Tech BV",
+    "job_title": "Developer",
+    "since": "2025-12-01",
+    "previous": {
+      "employer": "Flanders Care vzw",
+      "job_title": "Nurse"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_bram15_current",
+      "type": "current",
+      "iban": "BE00 SYNT BRAM 0001",
+      "balance_cents": 453730,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_bram15_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT BRAM 0002",
+      "balance_cents": 1878000,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_bram15_int1",
+      "date": "2025-03-25",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_bram15_int2",
+      "date": "2025-07-16",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_bram15_int3",
+      "date": "2026-04-30",
+      "channel": "app",
+      "topic": "renovation",
+      "note": "Asked about a renovation loan to convert the attic into a bedroom."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

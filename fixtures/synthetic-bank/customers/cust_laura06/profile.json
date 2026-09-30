@@ -1,0 +1,77 @@
+{
+  "synthetic": true,
+  "customer_id": "cust_laura06",
+  "personal": {
+    "first_name": "Laura",
+    "last_name": "Goossens",
+    "birth_date": "1995-01-10",
+    "place_of_birth": "Leuven",
+    "address": {
+      "street": "Molenstraat 127",
+      "postal_code": "2500",
+      "city": "Lier",
+      "country": "BE"
+    },
+    "civil_status": "married",
+    "language": "nl",
+    "customer_since": "2009-04-01"
+  },
+  "employment": {
+    "status": "employed",
+    "employer": "City of Mechelen",
+    "job_title": "Policy officer",
+    "since": "2026-02-01",
+    "previous": {
+      "employer": "Leie Consulting BV",
+      "job_title": "Consultant"
+    }
+  },
+  "consent": {
+    "personalised_insights": true,
+    "marketing": false
+  },
+  "accounts": [
+    {
+      "account_id": "acc_laura06_current",
+      "type": "current",
+      "iban": "BE00 SYNT LAUR 0001",
+      "balance_cents": 451429,
+      "balance_as_of": "2026-09-30"
+    },
+    {
+      "account_id": "acc_laura06_savings",
+      "type": "savings",
+      "iban": "BE00 SYNT LAUR 0002",
+      "balance_cents": 2590206,
+      "balance_as_of": "2026-09-30"
+    }
+  ],
+  "positions": [],
+  "interactions": [
+    {
+      "interaction_id": "cust_laura06_int1",
+      "date": "2025-03-13",
+      "channel": "app",
+      "topic": "contact",
+      "note": "Uses budget tools in the app; declined advisor callback, prefers to arrange things digitally."
+    },
+    {
+      "interaction_id": "cust_laura06_int2",
+      "date": "2025-07-14",
+      "channel": "phone",
+      "topic": "contact",
+      "note": "Asked for a yearly cost overview; plans family expenses ahead."
+    },
+    {
+      "interaction_id": "cust_laura06_int3",
+      "date": "2026-03-18",
+      "channel": "app",
+      "topic": "mortgage",
+      "note": "Ran a mortgage simulation in the app for a bigger home."
+    }
+  ],
+  "history": {
+    "from": "2025-10-01",
+    "to": "2026-09-30"
+  }
+}

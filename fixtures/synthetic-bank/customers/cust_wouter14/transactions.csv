@@ -1,0 +1,344 @@
+transaction_id,account_id,booking_date,amount_cents,currency,counterparty,description,category
+cust_wouter14_tx00001,acc_wouter14_current,2025-10-01,-1680,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00002,acc_wouter14_current,2025-10-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00003,acc_wouter14_current,2025-10-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00004,acc_wouter14_current,2025-10-02,-6527,EUR,Q8,Brandstof,transport_fuel
+cust_wouter14_tx00005,acc_wouter14_current,2025-10-03,-4885,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00006,acc_wouter14_current,2025-10-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00007,acc_wouter14_current,2025-10-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00008,acc_wouter14_current,2025-10-04,-12696,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00009,acc_wouter14_current,2025-10-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00010,acc_wouter14_current,2025-10-08,-2530,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00011,acc_wouter14_current,2025-10-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00012,acc_wouter14_current,2025-10-09,-5461,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00013,acc_wouter14_current,2025-10-10,41237,EUR,FONS,Groeipakket 10/2025 kind 1+2,income_child_benefit
+cust_wouter14_tx00014,acc_wouter14_current,2025-10-10,-5208,EUR,Bol.com,Online aankoop,shopping_online
+cust_wouter14_tx00015,acc_wouter14_current,2025-10-11,-14273,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00016,acc_wouter14_current,2025-10-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00017,acc_wouter14_current,2025-10-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 10/2025,childcare
+cust_wouter14_tx00018,acc_wouter14_current,2025-10-15,-3044,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00019,acc_wouter14_current,2025-10-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00020,acc_wouter14_current,2025-10-16,-5783,EUR,Q8,Brandstof,transport_fuel
+cust_wouter14_tx00021,acc_wouter14_current,2025-10-18,-5720,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00022,acc_wouter14_current,2025-10-18,-10855,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00023,acc_wouter14_current,2025-10-19,-4537,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_wouter14_tx00024,acc_wouter14_current,2025-10-22,-1913,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00025,acc_wouter14_current,2025-10-24,-3574,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00026,acc_wouter14_current,2025-10-25,-12192,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00027,acc_wouter14_current,2025-10-28,332000,EUR,Brabant Retail NV,Loon 2025-10,income_salary
+cust_wouter14_tx00028,acc_wouter14_current,2025-10-28,-65000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00029,acc_wouter14_savings,2025-10-28,65000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00030,acc_wouter14_current,2025-10-29,-1520,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00031,acc_wouter14_current,2025-10-30,-4988,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00032,acc_wouter14_current,2025-11-01,-10733,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00033,acc_wouter14_current,2025-11-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00034,acc_wouter14_current,2025-11-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00035,acc_wouter14_current,2025-11-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00036,acc_wouter14_current,2025-11-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00037,acc_wouter14_current,2025-11-05,-1969,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00038,acc_wouter14_current,2025-11-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00039,acc_wouter14_current,2025-11-06,-5010,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00040,acc_wouter14_current,2025-11-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00041,acc_wouter14_current,2025-11-08,-14285,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00042,acc_wouter14_current,2025-11-10,41237,EUR,FONS,Groeipakket 11/2025 kind 1+2,income_child_benefit
+cust_wouter14_tx00043,acc_wouter14_current,2025-11-12,-1354,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00044,acc_wouter14_current,2025-11-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00045,acc_wouter14_current,2025-11-13,-5734,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00046,acc_wouter14_current,2025-11-14,-6904,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00047,acc_wouter14_current,2025-11-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 11/2025,childcare
+cust_wouter14_tx00048,acc_wouter14_current,2025-11-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00049,acc_wouter14_current,2025-11-15,-13718,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00050,acc_wouter14_current,2025-11-18,-7725,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00051,acc_wouter14_current,2025-11-21,-6180,EUR,Bol.com,Online aankoop,shopping_online
+cust_wouter14_tx00052,acc_wouter14_current,2025-11-22,-12599,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00053,acc_wouter14_current,2025-11-26,-2670,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00054,acc_wouter14_current,2025-11-27,-6175,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00055,acc_wouter14_current,2025-11-28,332000,EUR,Brabant Retail NV,Loon 2025-11,income_salary
+cust_wouter14_tx00056,acc_wouter14_current,2025-11-28,-115000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00057,acc_wouter14_savings,2025-11-28,115000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00058,acc_wouter14_current,2025-11-29,-13447,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00059,acc_wouter14_current,2025-12-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00060,acc_wouter14_current,2025-12-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00061,acc_wouter14_current,2025-12-03,-2165,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00062,acc_wouter14_current,2025-12-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00063,acc_wouter14_current,2025-12-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00064,acc_wouter14_current,2025-12-05,-5690,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00065,acc_wouter14_current,2025-12-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00066,acc_wouter14_current,2025-12-06,-14153,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00067,acc_wouter14_current,2025-12-07,-2477,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_wouter14_tx00068,acc_wouter14_current,2025-12-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00069,acc_wouter14_current,2025-12-10,41237,EUR,FONS,Groeipakket 12/2025 kind 1+2,income_child_benefit
+cust_wouter14_tx00070,acc_wouter14_current,2025-12-10,-3470,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00071,acc_wouter14_current,2025-12-11,-5041,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00072,acc_wouter14_current,2025-12-12,-2484,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00073,acc_wouter14_current,2025-12-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00074,acc_wouter14_current,2025-12-13,-12517,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00075,acc_wouter14_current,2025-12-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 12/2025,childcare
+cust_wouter14_tx00076,acc_wouter14_current,2025-12-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00077,acc_wouter14_current,2025-12-17,-3370,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00078,acc_wouter14_current,2025-12-18,-5985,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00079,acc_wouter14_current,2025-12-19,-2875,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00080,acc_wouter14_current,2025-12-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_wouter14_tx00081,acc_wouter14_current,2025-12-20,-14042,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00082,acc_wouter14_current,2025-12-26,-5476,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00083,acc_wouter14_current,2025-12-27,-13074,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00084,acc_wouter14_current,2025-12-28,332000,EUR,Brabant Retail NV,Loon 2025-12,income_salary
+cust_wouter14_tx00085,acc_wouter14_current,2025-12-28,-110000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00086,acc_wouter14_savings,2025-12-28,110000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00087,acc_wouter14_current,2025-12-31,-2877,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00088,acc_wouter14_current,2026-01-01,-4804,EUR,Q8,Brandstof,transport_fuel
+cust_wouter14_tx00089,acc_wouter14_current,2026-01-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00090,acc_wouter14_current,2026-01-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00091,acc_wouter14_current,2026-01-02,-5678,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00092,acc_wouter14_current,2026-01-03,-10268,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00093,acc_wouter14_current,2026-01-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00094,acc_wouter14_current,2026-01-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00095,acc_wouter14_current,2026-01-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00096,acc_wouter14_current,2026-01-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00097,acc_wouter14_current,2026-01-10,41237,EUR,FONS,Groeipakket 01/2026 kind 1+2,income_child_benefit
+cust_wouter14_tx00098,acc_wouter14_current,2026-01-10,-14808,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00099,acc_wouter14_current,2026-01-11,-4346,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_wouter14_tx00100,acc_wouter14_current,2026-01-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00101,acc_wouter14_current,2026-01-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 01/2026,childcare
+cust_wouter14_tx00102,acc_wouter14_current,2026-01-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00103,acc_wouter14_current,2026-01-16,-2205,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00104,acc_wouter14_current,2026-01-17,-10923,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00105,acc_wouter14_current,2026-01-18,-9357,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00106,acc_wouter14_current,2026-01-23,-3510,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00107,acc_wouter14_current,2026-01-24,-10173,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00108,acc_wouter14_current,2026-01-28,332000,EUR,Brabant Retail NV,Loon 2026-01,income_salary
+cust_wouter14_tx00109,acc_wouter14_current,2026-01-28,-1079,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00110,acc_wouter14_current,2026-01-28,-140000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00111,acc_wouter14_savings,2026-01-28,140000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00112,acc_wouter14_current,2026-01-30,-3249,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00113,acc_wouter14_current,2026-01-31,-11720,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00114,acc_wouter14_current,2026-02-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00115,acc_wouter14_current,2026-02-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00116,acc_wouter14_current,2026-02-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00117,acc_wouter14_current,2026-02-04,-1199,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00118,acc_wouter14_current,2026-02-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00119,acc_wouter14_current,2026-02-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00120,acc_wouter14_current,2026-02-07,-13962,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00121,acc_wouter14_current,2026-02-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00122,acc_wouter14_current,2026-02-10,41237,EUR,FONS,Groeipakket 02/2026 kind 1+2,income_child_benefit
+cust_wouter14_tx00123,acc_wouter14_current,2026-02-11,-2010,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00124,acc_wouter14_current,2026-02-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00125,acc_wouter14_current,2026-02-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 02/2026,childcare
+cust_wouter14_tx00126,acc_wouter14_current,2026-02-14,-12304,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00127,acc_wouter14_current,2026-02-15,-3166,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_wouter14_tx00128,acc_wouter14_current,2026-02-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00129,acc_wouter14_current,2026-02-18,-5523,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00130,acc_wouter14_current,2026-02-19,-6769,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00131,acc_wouter14_current,2026-02-21,-14839,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00132,acc_wouter14_current,2026-02-25,-3378,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00133,acc_wouter14_current,2026-02-26,-6388,EUR,Q8,Brandstof,transport_fuel
+cust_wouter14_tx00134,acc_wouter14_current,2026-02-28,332000,EUR,Brabant Retail NV,Loon 2026-02,income_salary
+cust_wouter14_tx00135,acc_wouter14_current,2026-02-28,-14989,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00136,acc_wouter14_current,2026-02-28,-120000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00137,acc_wouter14_savings,2026-02-28,120000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00138,acc_wouter14_current,2026-03-01,-4808,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_wouter14_tx00139,acc_wouter14_current,2026-03-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00140,acc_wouter14_current,2026-03-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00141,acc_wouter14_current,2026-03-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00142,acc_wouter14_current,2026-03-04,-2459,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00143,acc_wouter14_current,2026-03-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00144,acc_wouter14_current,2026-03-05,-6132,EUR,Q8,Brandstof,transport_fuel
+cust_wouter14_tx00145,acc_wouter14_current,2026-03-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00146,acc_wouter14_current,2026-03-06,-3481,EUR,Bol.com,Online aankoop,shopping_online
+cust_wouter14_tx00147,acc_wouter14_current,2026-03-07,-12132,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00148,acc_wouter14_current,2026-03-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00149,acc_wouter14_current,2026-03-10,41237,EUR,FONS,Groeipakket 03/2026 kind 1+2,income_child_benefit
+cust_wouter14_tx00150,acc_wouter14_current,2026-03-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00151,acc_wouter14_current,2026-03-13,-4858,EUR,Bol.com,Online aankoop,shopping_online
+cust_wouter14_tx00152,acc_wouter14_current,2026-03-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 03/2026,childcare
+cust_wouter14_tx00153,acc_wouter14_current,2026-03-14,-11229,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00154,acc_wouter14_current,2026-03-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00155,acc_wouter14_current,2026-03-18,-1270,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00156,acc_wouter14_current,2026-03-18,-8122,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00157,acc_wouter14_current,2026-03-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_wouter14_tx00158,acc_wouter14_current,2026-03-21,-15181,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00159,acc_wouter14_current,2026-03-25,-1951,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00160,acc_wouter14_current,2026-03-26,-5173,EUR,Q8,Brandstof,transport_fuel
+cust_wouter14_tx00161,acc_wouter14_current,2026-03-27,-5387,EUR,Bol.com,Online aankoop,shopping_online
+cust_wouter14_tx00162,acc_wouter14_current,2026-03-28,402600,EUR,City of Mechelen,Loon 2026-03,income_salary
+cust_wouter14_tx00163,acc_wouter14_current,2026-03-28,-12658,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00164,acc_wouter14_current,2026-03-28,-190000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00165,acc_wouter14_savings,2026-03-28,190000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00166,acc_wouter14_current,2026-04-01,-1590,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00167,acc_wouter14_current,2026-04-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00168,acc_wouter14_current,2026-04-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00169,acc_wouter14_current,2026-04-03,-2210,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00170,acc_wouter14_current,2026-04-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00171,acc_wouter14_current,2026-04-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00172,acc_wouter14_current,2026-04-04,-13173,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00173,acc_wouter14_current,2026-04-05,-3643,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_wouter14_tx00174,acc_wouter14_current,2026-04-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00175,acc_wouter14_current,2026-04-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00176,acc_wouter14_current,2026-04-09,-4917,EUR,Q8,Brandstof,transport_fuel
+cust_wouter14_tx00177,acc_wouter14_current,2026-04-10,41237,EUR,FONS,Groeipakket 04/2026 kind 1+2,income_child_benefit
+cust_wouter14_tx00178,acc_wouter14_current,2026-04-10,-4100,EUR,Bol.com,Online aankoop,shopping_online
+cust_wouter14_tx00179,acc_wouter14_current,2026-04-11,-13712,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00180,acc_wouter14_current,2026-04-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00181,acc_wouter14_current,2026-04-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 04/2026,childcare
+cust_wouter14_tx00182,acc_wouter14_current,2026-04-15,-3669,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00183,acc_wouter14_current,2026-04-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00184,acc_wouter14_current,2026-04-16,-4993,EUR,Q8,Brandstof,transport_fuel
+cust_wouter14_tx00185,acc_wouter14_current,2026-04-17,-5696,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00186,acc_wouter14_current,2026-04-18,-10148,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00187,acc_wouter14_current,2026-04-18,-10336,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00188,acc_wouter14_current,2026-04-25,-15157,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00189,acc_wouter14_current,2026-04-26,-2483,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_wouter14_tx00190,acc_wouter14_current,2026-04-28,402600,EUR,City of Mechelen,Loon 2026-04,income_salary
+cust_wouter14_tx00191,acc_wouter14_current,2026-04-28,-195000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00192,acc_wouter14_savings,2026-04-28,195000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00193,acc_wouter14_current,2026-04-29,-3913,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00194,acc_wouter14_current,2026-05-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00195,acc_wouter14_current,2026-05-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00196,acc_wouter14_current,2026-05-02,-11370,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00197,acc_wouter14_current,2026-05-03,-2463,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_wouter14_tx00198,acc_wouter14_current,2026-05-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00199,acc_wouter14_current,2026-05-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00200,acc_wouter14_current,2026-05-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00201,acc_wouter14_current,2026-05-06,-2963,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00202,acc_wouter14_current,2026-05-08,-2745,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00203,acc_wouter14_current,2026-05-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00204,acc_wouter14_current,2026-05-09,-10511,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00205,acc_wouter14_current,2026-05-10,41237,EUR,FONS,Groeipakket 05/2026 kind 1+2,income_child_benefit
+cust_wouter14_tx00206,acc_wouter14_current,2026-05-12,-15500,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00207,acc_wouter14_current,2026-05-13,-1948,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00208,acc_wouter14_current,2026-05-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 05/2026,childcare
+cust_wouter14_tx00209,acc_wouter14_current,2026-05-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00210,acc_wouter14_current,2026-05-16,-10937,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00211,acc_wouter14_current,2026-05-18,-9852,EUR,Zeeman,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00212,acc_wouter14_current,2026-05-20,-1259,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00213,acc_wouter14_current,2026-05-21,-4740,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00214,acc_wouter14_savings,2026-05-21,3270000,EUR,Ouders,Schenking,income_gift
+cust_wouter14_tx00215,acc_wouter14_current,2026-05-22,-2678,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00216,acc_wouter14_current,2026-05-23,-12038,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00217,acc_wouter14_current,2026-05-27,-2925,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00218,acc_wouter14_current,2026-05-28,402600,EUR,City of Mechelen,Loon 2026-05,income_salary
+cust_wouter14_tx00219,acc_wouter14_current,2026-05-28,-4571,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00220,acc_wouter14_current,2026-05-28,-205000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00221,acc_wouter14_savings,2026-05-28,205000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00222,acc_wouter14_current,2026-05-29,-3653,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00223,acc_wouter14_current,2026-05-30,-12970,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00224,acc_wouter14_current,2026-05-31,-2509,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_wouter14_tx00225,acc_wouter14_current,2026-06-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00226,acc_wouter14_current,2026-06-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00227,acc_wouter14_current,2026-06-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00228,acc_wouter14_current,2026-06-04,-4858,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00229,acc_wouter14_current,2026-06-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00230,acc_wouter14_savings,2026-06-05,-1635000,EUR,Notaris Vandamme,Voorschot compromis,housing_purchase
+cust_wouter14_tx00231,acc_wouter14_current,2026-06-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00232,acc_wouter14_current,2026-06-06,-14761,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00233,acc_wouter14_current,2026-06-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00234,acc_wouter14_current,2026-06-10,41237,EUR,FONS,Groeipakket 06/2026 kind 1+2,income_child_benefit
+cust_wouter14_tx00235,acc_wouter14_current,2026-06-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00236,acc_wouter14_current,2026-06-13,-14886,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00237,acc_wouter14_current,2026-06-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 06/2026,childcare
+cust_wouter14_tx00238,acc_wouter14_current,2026-06-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00239,acc_wouter14_current,2026-06-17,-3372,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00240,acc_wouter14_current,2026-06-18,-6984,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00241,acc_wouter14_current,2026-06-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_wouter14_tx00242,acc_wouter14_current,2026-06-20,-10595,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00243,acc_wouter14_current,2026-06-24,-3795,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00244,acc_wouter14_current,2026-06-26,-5969,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00245,acc_wouter14_current,2026-06-27,-10531,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00246,acc_wouter14_current,2026-06-28,402600,EUR,City of Mechelen,Loon 2026-06,income_salary
+cust_wouter14_tx00247,acc_wouter14_current,2026-06-28,-185000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00248,acc_wouter14_savings,2026-06-28,185000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00249,acc_wouter14_current,2026-07-01,-3376,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00250,acc_wouter14_current,2026-07-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00251,acc_wouter14_current,2026-07-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00252,acc_wouter14_current,2026-07-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00253,acc_wouter14_current,2026-07-04,-6400,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00254,acc_wouter14_current,2026-07-04,-15083,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00255,acc_wouter14_current,2026-07-05,-2456,EUR,Bakkerij Moens,Betaling Bancontact,eating_out
+cust_wouter14_tx00256,acc_wouter14_current,2026-07-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00257,acc_wouter14_current,2026-07-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00258,acc_wouter14_current,2026-07-09,-5853,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00259,acc_wouter14_current,2026-07-10,41237,EUR,FONS,Groeipakket 07/2026 kind 1+2,income_child_benefit
+cust_wouter14_tx00260,acc_wouter14_current,2026-07-10,-5936,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00261,acc_wouter14_current,2026-07-11,-11883,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00262,acc_wouter14_current,2026-07-11,-52200,EUR,Synthetic Vakantieparken,Vakantie,travel
+cust_wouter14_tx00263,acc_wouter14_current,2026-07-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00264,acc_wouter14_current,2026-07-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 07/2026,childcare
+cust_wouter14_tx00265,acc_wouter14_current,2026-07-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00266,acc_wouter14_current,2026-07-17,-5294,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00267,acc_wouter14_current,2026-07-18,-6451,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00268,acc_wouter14_current,2026-07-18,-11367,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00269,acc_wouter14_current,2026-07-19,-1693,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_wouter14_tx00270,acc_wouter14_current,2026-07-24,-6637,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00271,acc_wouter14_current,2026-07-25,-13655,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00272,acc_wouter14_current,2026-07-28,402600,EUR,City of Mechelen,Loon 2026-07,income_salary
+cust_wouter14_tx00273,acc_wouter14_current,2026-07-28,-150000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00274,acc_wouter14_savings,2026-07-28,150000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00275,acc_wouter14_current,2026-07-29,-1643,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00276,acc_wouter14_current,2026-07-30,-6496,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00277,acc_wouter14_current,2026-07-31,-2963,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00278,acc_wouter14_current,2026-08-01,-12325,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00279,acc_wouter14_current,2026-08-01,-115500,EUR,H. Mertens,Huur,housing_rent
+cust_wouter14_tx00280,acc_wouter14_current,2026-08-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00281,acc_wouter14_current,2026-08-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00282,acc_wouter14_current,2026-08-04,-7500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00283,acc_wouter14_savings,2026-08-04,-1308000,EUR,Notaris Vandamme,Registratie- en aktekosten,housing_purchase
+cust_wouter14_tx00284,acc_wouter14_current,2026-08-05,-2356,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00285,acc_wouter14_current,2026-08-05,-137340,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_wouter14_tx00286,acc_wouter14_current,2026-08-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00287,acc_wouter14_current,2026-08-06,-5549,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00288,acc_wouter14_savings,2026-08-07,-87864,EUR,Verhuisfirma Snel,Verhuis,housing_moving
+cust_wouter14_tx00289,acc_wouter14_current,2026-08-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00290,acc_wouter14_current,2026-08-08,-11504,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00291,acc_wouter14_current,2026-08-10,41237,EUR,FONS,Groeipakket 08/2026 kind 1+2,income_child_benefit
+cust_wouter14_tx00292,acc_wouter14_current,2026-08-12,-3589,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00293,acc_wouter14_current,2026-08-12,-17900,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00294,acc_wouter14_current,2026-08-13,-5939,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00295,acc_wouter14_savings,2026-08-13,-86803,EUR,IKEA Zaventem,Betaling Bancontact,shopping_furniture
+cust_wouter14_tx00296,acc_wouter14_current,2026-08-14,-6481,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00297,acc_wouter14_current,2026-08-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 08/2026,childcare
+cust_wouter14_tx00298,acc_wouter14_current,2026-08-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00299,acc_wouter14_current,2026-08-15,-11156,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00300,acc_wouter14_current,2026-08-16,-4594,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_wouter14_tx00301,acc_wouter14_current,2026-08-18,-7472,EUR,H&M,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00302,acc_wouter14_current,2026-08-19,-1240,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00303,acc_wouter14_current,2026-08-20,-4758,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00304,acc_wouter14_current,2026-08-21,-6564,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00305,acc_wouter14_current,2026-08-22,-12320,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00306,acc_wouter14_current,2026-08-23,-3903,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_wouter14_tx00307,acc_wouter14_current,2026-08-26,-1886,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00308,acc_wouter14_current,2026-08-27,-5199,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00309,acc_wouter14_current,2026-08-28,402600,EUR,City of Mechelen,Loon 2026-08,income_salary
+cust_wouter14_tx00310,acc_wouter14_current,2026-08-28,-5132,EUR,Bol.com,Online aankoop,shopping_online
+cust_wouter14_tx00311,acc_wouter14_current,2026-08-28,-30000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00312,acc_wouter14_savings,2026-08-28,30000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
+cust_wouter14_tx00313,acc_wouter14_current,2026-08-29,-13101,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00314,acc_wouter14_current,2026-09-02,35000,EUR,G. Vermeulen,Bijdrage huishouden,income_transfer_household
+cust_wouter14_tx00315,acc_wouter14_current,2026-09-02,-2398,EUR,HEMA,Betaling Bancontact,shopping_household
+cust_wouter14_tx00316,acc_wouter14_current,2026-09-03,-12582,EUR,Basisschool Sint-Jozef,Schoolrekening kind 1,education
+cust_wouter14_tx00317,acc_wouter14_current,2026-09-03,-23750,EUR,Synthetic Auto Finance,Aflossing autolening,loan_repayment
+cust_wouter14_tx00318,acc_wouter14_current,2026-09-04,-3115,EUR,Coolblue,Online aankoop,shopping_online
+cust_wouter14_tx00319,acc_wouter14_current,2026-09-04,-4500,EUR,Sportclub,Lidgeld kind 1,kids_activities
+cust_wouter14_tx00320,acc_wouter14_current,2026-09-04,-7791,EUR,Basisschool Sint-Jozef,Schoolrekening kind 2,education
+cust_wouter14_tx00321,acc_wouter14_current,2026-09-05,-12556,EUR,Delhaize,Betaling Bancontact,groceries
+cust_wouter14_tx00322,acc_wouter14_current,2026-09-05,-137340,EUR,Synthetic Bank,Aflossing woonkrediet,housing_mortgage
+cust_wouter14_tx00323,acc_wouter14_current,2026-09-06,-1399,EUR,Netflix,Netflix abonnement,subscription_streaming
+cust_wouter14_tx00324,acc_wouter14_current,2026-09-06,-2279,EUR,Frituur 't Pleintje,Betaling Bancontact,eating_out
+cust_wouter14_tx00325,acc_wouter14_current,2026-09-08,-9210,EUR,Synthetic Verzekeringen,Familiale + auto verzekering,insurance
+cust_wouter14_tx00326,acc_wouter14_current,2026-09-09,-1903,EUR,Kruidvat,Betaling Bancontact,shopping_household
+cust_wouter14_tx00327,acc_wouter14_current,2026-09-10,41237,EUR,FONS,Groeipakket 09/2026 kind 1+2,income_child_benefit
+cust_wouter14_tx00328,acc_wouter14_current,2026-09-12,-10226,EUR,Aldi,Betaling Bancontact,groceries
+cust_wouter14_tx00329,acc_wouter14_current,2026-09-12,-16800,EUR,Engie,Voorschot energie,utilities_energy
+cust_wouter14_tx00330,acc_wouter14_current,2026-09-14,-7350,EUR,IBO De Knikker,Naschoolse opvang kind 1 09/2026,childcare
+cust_wouter14_tx00331,acc_wouter14_current,2026-09-15,-7499,EUR,Proximus,Internet + mobiel,utilities_telecom
+cust_wouter14_tx00332,acc_wouter14_current,2026-09-16,-2369,EUR,Action,Betaling Bancontact,shopping_household
+cust_wouter14_tx00333,acc_wouter14_current,2026-09-17,-6964,EUR,Q8,Brandstof,transport_fuel
+cust_wouter14_tx00334,acc_wouter14_current,2026-09-18,-10724,EUR,JBC,Betaling Bancontact,shopping_clothing
+cust_wouter14_tx00335,acc_wouter14_current,2026-09-19,-14136,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00336,acc_wouter14_current,2026-09-20,-3592,EUR,Pizzeria Da Mario,Betaling Bancontact,eating_out
+cust_wouter14_tx00337,acc_wouter14_current,2026-09-20,-6120,EUR,De Watergroep,Water voorschot,utilities_water
+cust_wouter14_tx00338,acc_wouter14_current,2026-09-24,-5468,EUR,TotalEnergies,Brandstof,transport_fuel
+cust_wouter14_tx00339,acc_wouter14_current,2026-09-25,-5850,EUR,Zalando,Online aankoop,shopping_online
+cust_wouter14_tx00340,acc_wouter14_current,2026-09-26,-13023,EUR,Colruyt,Betaling Bancontact,groceries
+cust_wouter14_tx00341,acc_wouter14_current,2026-09-28,402600,EUR,City of Mechelen,Loon 2026-09,income_salary
+cust_wouter14_tx00342,acc_wouter14_current,2026-09-28,-135000,EUR,Wouter Van den Broeck,Naar spaarrekening,transfer_internal
+cust_wouter14_tx00343,acc_wouter14_savings,2026-09-28,135000,EUR,Wouter Van den Broeck,Van zichtrekening,transfer_internal
