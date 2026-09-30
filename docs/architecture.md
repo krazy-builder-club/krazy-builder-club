@@ -1,6 +1,6 @@
 # Backend Architecture
 
-This is the selected design. The platform scaffold (workspace, contracts, storage, API intake/reads, worker runtime, operator CLI) is implemented locally; nothing is deployed. It follows the Google Cloud, database-first, API-only direction in the latest request. [ADRs](decisions/README.md) explain the choices; [data](data.md) defines persistence, [API](api.md) defines contracts, and [conventions](conventions.md) owns deployment mechanics.
+This is the selected design. The platform scaffold (workspace, contracts, storage, API intake/reads, worker runtime, operator CLI) and the Librarian (memory patches, rendering, brain reads, grounded queries) are implemented locally; nothing is deployed. It follows the Google Cloud, database-first, API-only direction in the latest request. [ADRs](decisions/README.md) explain the choices; [data](data.md) defines persistence, [API](api.md) defines contracts, and [conventions](conventions.md) owns deployment mechanics.
 
 ## Stack
 
@@ -46,7 +46,7 @@ Default resource region is `europe-west1` (Belgium), configurable before provisi
 
 ## Repository Shape
 
-Implemented layout (module folders are created as each owner lands work; `src/adapters/`, `fixtures/`, `infra/` and `scripts/` at the root do not exist yet):
+Implemented layout (module folders are created as each owner lands work; `fixtures/`, `infra/` and root `scripts/` do not exist yet):
 
 ```text
 apps/backend/
@@ -69,7 +69,7 @@ infra/terraform/            GCP resources and least-privilege identities
 scripts/                    provisioning, replay, evaluation, OpenAPI generation
 ```
 
-Implemented today: `api/` (health, customers, event intake, event reads, jobs), `worker/` (IAM/OIDC gate, job runner with lease-fenced commits, outbox dispatcher, reconciliation, local transport), `modules/identity|customers|ingestion|jobs`, `operator/cli.ts` and `migrate.ts`. The worker dispatches only kinds with a registered handler; the others stay `queued`. The Cloud Tasks transport arrives with GCP provisioning; the local driver runs the same tick and handler code in-process.
+Implemented today: `api/` (health, key identity, customers, event intake/reads, brain/document reads, queries, jobs), `worker/` (IAM/OIDC gate, job runner with lease-fenced commits, outbox dispatcher, reconciliation, local transport), `modules/identity|customers|ingestion|jobs|brain|librarian`, `adapters/` (Gemini model client), `operator/cli.ts` and `migrate.ts`. The worker registers `librarian` and `query` handlers only when `MODEL_PROVIDER` is `vertex` or `gemini_api` (a local synthetic-data convenience rejected in production, [ADR 0008](decisions/0008-situation-personality-experience-memory.md)); with `none` those jobs stay queued. The worker dispatches only kinds with a registered handler; the others stay `queued`. The Cloud Tasks transport arrives with GCP provisioning; the local driver runs the same tick and handler code in-process.
 
 API and worker import the same contracts/repositories. Modules are logical ownership boundaries, not independently deployed microservices. Explicit dependencies make cloud adapters replaceable locally. Storage alone owns migrations; contracts has no storage/runtime dependencies. No `apps/web` scaffold is required.
 
@@ -78,8 +78,8 @@ API and worker import the same contracts/repositories. Modules are logical owner
 1. Authenticate the integration and resolve workspace/customer permission from the key, not an unchecked request field.
 2. Validate an envelope while accepting arbitrary bounded JSON or plain text inside it. Commit original source, customer source revision, job, and enqueue outbox in one transaction; return `202`.
 3. Dispatcher turns pending outbox rows into Cloud Tasks. Files first pass upload finalization and extraction; normalized text retains links to original evidence.
-4. Librarian loads only the target customer's supported context and source batch. The model returns a schema-validated patch with evidence IDs, statuses, and scope.
-5. Outside the model call, deterministic code checks referenced evidence and renders the fixed Markdown documents from structured memory.
+4. Librarian loads only the target customer's current memory and unprocessed sources above the snapshot watermark (bounded batch). The model returns a schema-validated patch citing sources by sequence, with statuses and scope.
+5. Outside the model call, deterministic code checks referenced evidence, applies the patch and renders the Situation/Personality/Experience document tree from structured memory ([data](data.md#memory-contract)).
 6. Atomically commit a new brain version, profile signature, processing watermark, and job result only if the base brain/source revisions still match. On conflict, rerun against current inputs; no long database transaction spans inference.
 
 Input ingestion never automatically queues the default Proactor review. A correction immediately marks dependent insights stale; Librarian applies the supported correction without waiting until Monday.

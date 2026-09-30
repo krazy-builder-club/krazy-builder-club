@@ -1,7 +1,9 @@
 import { createDatabase } from '@bob/storage';
 import { serve } from '@hono/node-server';
+import { createModelClients } from '../adapters/models.js';
 import { assertWorkerEnv, loadDotEnv, loadEnv } from '../config/env.js';
 import { log } from '../lib/log.js';
+import { createLibrarianHandlers } from '../modules/librarian/handlers.js';
 import { createWorkerApp } from './app.js';
 import { tick } from './dispatcher.js';
 import { googleIdTokenVerifier } from './oidc.js';
@@ -19,6 +21,19 @@ const database = createDatabase(env.DATABASE_URL, {
 // Handlers are registered as each owner lands its module (Librarian, extraction, Proactor,
 // delivery). Unregistered kinds remain queued and visible rather than failing.
 const handlers: HandlerRegistry = {};
+
+const models = createModelClients(env);
+if (models) {
+  Object.assign(
+    handlers,
+    createLibrarianHandlers({ librarianModel: models.librarian, queryModel: models.query }),
+  );
+} else {
+  log.warn('model_not_configured', {
+    provider: env.MODEL_PROVIDER,
+    queued: 'librarian,query',
+  });
+}
 
 let transport: TaskTransport;
 let local: LocalTransport | undefined;

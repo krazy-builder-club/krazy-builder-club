@@ -1,6 +1,6 @@
 # Data Architecture
 
-Database design, implemented in `packages/storage` (Drizzle schema, `drizzle/0000_init.sql`, `drizzle/0001_security.sql`). Tables exist in migrations; later-phase tables (brains, references, insights, subscriptions, deliveries) have no application code yet. Stack/execution choices live in [architecture](architecture.md); wire formats in [API](api.md). Storage owns every table once.
+Database design, implemented in `packages/storage` (Drizzle schema, `drizzle/0000_init.sql`, `drizzle/0001_security.sql`, `drizzle/0002_brain_skeleton.sql`). Tables exist in migrations; brains and model runs are written by the Librarian, while later-phase tables (references, insights, subscriptions, deliveries) have no application code yet. Stack/execution choices live in [architecture](architecture.md); wire formats in [API](api.md). Storage owns every table once.
 
 ## Sources of Truth
 
@@ -61,13 +61,24 @@ Inline sources carry their original JSON/text. File extraction stores text/obser
 
 ## Memory Contract
 
-`BrainSnapshot` contains schema version, customer/version, processed source revision/watermark, structured assertions, tags, goals/interactions, and documents. Canonical document names: `overview.md`, `personality.md`, `situation.md`, `goals.md`, `interactions.md`. One JSONB map stores their contents; retrieval/export does not require a directory scan.
+Implemented per [ADR 0008](decisions/0008-situation-personality-experience-memory.md); shared schemas live in `packages/contracts/src/memory.ts`. A `BrainSnapshot` row holds schema version 2 structured memory, the rendered documents (one JSONB map keyed by logical path), the profile signature, the source watermark (highest incorporated source sequence), and model/prompt versions. Paths are logical names, not files; retrieval/export needs no directory scan.
 
-Each assertion has a stable assertion ID, dimension, content/tag, evidence references, status (`observed`, `customer_confirmed`, `inferred`, `corrected`, `retired`), scope, observed/recorded timestamps, and optional review/expiry. References include event IDs and optional extraction spans/page IDs. A tag is supported by assertions, not an unexplained model adjective. Missing facts are not negative traits; purchases do not prove sensitive traits, exact item, beneficiary, or household context.
+| Path | Category | Assertion kinds | Holds |
+|---|---|---|---|
+| `overview.md` | Generated | none | Summary, document counts, open goals, items due for review; never a home for facts |
+| `situation/current.md` | Situation | `circumstance`, `commitment`, `constraint`, `transition` | What is true now; "Previously true" keeps retired items |
+| `situation/goals.md` | Goals and intent | `goal` (`goal_state`, `target_date`) | Customer-expressed or confirmed outcomes, deadlines, progress |
+| `personality/preferences.md` | Personality | `preference`, `value`, `decision_habit` | Contextual preferences, values and decision habits |
+| `personality/communication.md` | Personality | `communication` | Channel, tone, detail and help style |
+| `experience/history.md` | Experience | `life_event`, `decision`, `outcome` | Significant events, previous decisions and their outcomes |
+| `experience/interactions.md` | Experience | `interaction`, `feedback` | Service interactions, accepted/rejected help, feedback |
+| `evidence/sources.md` | Evidence | none | Ledger of incorporated sources and the assertions each supports |
 
-`MemoryPatch` contains base version, source IDs, upsert/retire operations and supported reasons. The model cannot set workspace/customer authority, SQL, next brain version, schedules, or payment commands. Code validates evidence existence and customer scope, allowed operations and source sequence, then applies/render/commits. A bounded invalid patch is retried once for repair, otherwise the job fails and the last valid snapshot remains current.
+Each assertion has a server-assigned ID prefixed by category (`s_001`, `g_002`, `p_003`, `x_004`), kind, life area (`home`, `work`, `household`, `finances`, `banking`, `health`, `mobility`, `education`, `leisure`, `other`; used as Markdown headings), statement, status (`observed`, `customer_confirmed`, `inferred`, `corrected`, `retired`), evidence references (event ID plus per-customer sequence, optional span), optional canonical tag, context, validity dates, review date, related assertion IDs, and recorded/updated/retired timestamps. `inferred` marks an interpretation, never a fact. A tag is supported by assertions, not an unexplained model adjective. Missing facts are not negative traits; purchases do not prove sensitive traits, exact item, beneficiary, or household context. Proposed help becomes a goal only when the customer expresses or confirms it.
 
-The commit locks the customer and checks base version plus source revision. If newer input arrived during inference, discard the patch and retry against the new batch. File extraction pending before the captured watermark blocks advancement past that source; unsupported sources count as inspected but do not generate invented assertions. New snapshots are immutable; correction history is retained.
+`MemoryPatch` is the model output: an optional summary and `add`/`update`/`retire` operations citing evidence by source sequence. The model cannot set workspace/customer authority, new assertion IDs, versions, schedules, or payment commands. Code checks that every cited sequence belongs to this customer and that each operation cites at least one source from the new batch; updates/retirements target active assertions, kind never changes, tags come from the category's vocabulary, and goal fields apply only to goals. Invalid output gets one repair round with the listed errors; otherwise the job fails and the last valid snapshot remains current. Default review horizons where the model gave none: circumstances/commitments/constraints 90 days, transitions 30, goals their target date or 30 days, inferred personality 180 days; experience does not expire. Retirement preserves history: the assertion keeps its evidence and moves to the document's retired section.
+
+Each Librarian job loads the latest snapshot and every source above its watermark, bounded to 25 events and 120 KiB of content (the first event is always taken). The commit locks the customer, requires the current brain version to equal the patch's base, then inserts the next immutable version with the new watermark; on a lost race it rolls back and retries against the newer brain. A job whose event is already at or below the watermark completes as `already_incorporated`. File sources are shown to the model as unextracted attachments until extraction exists. Customer creation commits the empty version-1 skeleton in the same transaction; the API role may insert only that skeleton (restrictive RLS policy in migration 0002). Correction history is retained.
 
 ## References and Pattern Evidence
 

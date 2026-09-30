@@ -6,6 +6,7 @@ import { bodyLimit } from 'hono/body-limit';
 import { envelope, errorHandler } from '../lib/errors.js';
 import { log } from '../lib/log.js';
 import { BEARER_SCHEME, createRouter } from '../lib/router.js';
+import { brainRoutes } from '../modules/brain/routes.js';
 import { customersRoutes } from '../modules/customers/routes.js';
 import {
   type AdmissionLimits,
@@ -13,6 +14,7 @@ import {
   admission,
   apiKeyAuth,
 } from '../modules/identity/auth.js';
+import { identityRoutes } from '../modules/identity/routes.js';
 import { ingestionRoutes } from '../modules/ingestion/routes.js';
 import { jobsRoutes } from '../modules/jobs/routes.js';
 
@@ -110,6 +112,8 @@ export function createApiApp(deps: ApiDeps) {
   app.route('/', customersRoutes(deps));
   app.route('/', ingestionRoutes(deps));
   app.route('/', jobsRoutes(deps));
+  app.route('/', brainRoutes(deps));
+  app.route('/', identityRoutes());
 
   app.openAPIRegistry.registerComponent('securitySchemes', BEARER_SCHEME, {
     type: 'http',

@@ -1,5 +1,6 @@
 export * from './db.js';
 export * from './migrate.js';
+export * from './repositories/brains.js';
 export * from './repositories/customers.js';
 export * from './repositories/identity.js';
 export * from './repositories/intake.js';

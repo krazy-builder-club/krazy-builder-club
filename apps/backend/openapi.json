@@ -309,7 +309,7 @@
         "tags": [
           "customers"
         ],
-        "summary": "List active customers this key may access",
+        "summary": "List active customers this key may access, optionally by exact external_id",
         "security": [
           {
             "apiKey": []
@@ -334,6 +334,16 @@
             },
             "required": false,
             "name": "limit",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "required": false,
+            "name": "external_id",
             "in": "query"
           }
         ],
@@ -1252,6 +1262,907 @@
           },
           "404": {
             "description": "Not found or not permitted for this key",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Workspace admission limit reached",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/customers/{customer_id}/brain": {
+      "get": {
+        "tags": [
+          "brain"
+        ],
+        "summary": "Current or historical brain: structured memory and rendered documents",
+        "description": "JSON by default; `format=markdown` returns all documents as one Markdown bundle. `has_pending_sources` means accepted sources are not yet incorporated.",
+        "security": [
+          {
+            "apiKey": []
+          }
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "required": true,
+            "name": "customer_id",
+            "in": "path"
+          },
+          {
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0
+            },
+            "required": false,
+            "name": "version",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "enum": [
+                "json",
+                "markdown"
+              ],
+              "default": "json"
+            },
+            "required": false,
+            "name": "format",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Brain version",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "customer_id": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "version": {
+                      "type": "integer"
+                    },
+                    "schema_version": {
+                      "type": "integer"
+                    },
+                    "source_watermark": {
+                      "type": "integer"
+                    },
+                    "current_source_revision": {
+                      "type": "integer"
+                    },
+                    "has_pending_sources": {
+                      "type": "boolean"
+                    },
+                    "created_at": {
+                      "type": "string"
+                    },
+                    "tree": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "folder": {
+                            "type": "string"
+                          },
+                          "documents": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "enum": [
+                                "overview.md",
+                                "situation/current.md",
+                                "situation/goals.md",
+                                "personality/preferences.md",
+                                "personality/communication.md",
+                                "experience/history.md",
+                                "experience/interactions.md",
+                                "evidence/sources.md"
+                              ]
+                            }
+                          }
+                        },
+                        "required": [
+                          "folder",
+                          "documents"
+                        ]
+                      }
+                    },
+                    "documents": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "structured": {
+                      "type": "object",
+                      "properties": {
+                        "schema_version": {
+                          "type": "number",
+                          "enum": [
+                            2
+                          ]
+                        },
+                        "summary": {
+                          "type": "string",
+                          "maxLength": 1000
+                        },
+                        "next_id": {
+                          "type": "integer",
+                          "exclusiveMinimum": 0
+                        },
+                        "assertions": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string",
+                                "pattern": "^[sgpx]_\\d{3,}$"
+                              },
+                              "kind": {
+                                "type": "string",
+                                "enum": [
+                                  "circumstance",
+                                  "commitment",
+                                  "constraint",
+                                  "transition",
+                                  "goal",
+                                  "preference",
+                                  "value",
+                                  "decision_habit",
+                                  "communication",
+                                  "life_event",
+                                  "decision",
+                                  "outcome",
+                                  "interaction",
+                                  "feedback"
+                                ]
+                              },
+                              "area": {
+                                "type": "string",
+                                "enum": [
+                                  "home",
+                                  "work",
+                                  "household",
+                                  "finances",
+                                  "banking",
+                                  "health",
+                                  "mobility",
+                                  "education",
+                                  "leisure",
+                                  "other"
+                                ]
+                              },
+                              "statement": {
+                                "type": "string",
+                                "minLength": 1,
+                                "maxLength": 500
+                              },
+                              "status": {
+                                "type": "string",
+                                "enum": [
+                                  "observed",
+                                  "customer_confirmed",
+                                  "inferred",
+                                  "corrected",
+                                  "retired"
+                                ]
+                              },
+                              "evidence": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "event_id": {
+                                      "type": "string",
+                                      "format": "uuid"
+                                    },
+                                    "sequence": {
+                                      "type": "integer",
+                                      "exclusiveMinimum": 0
+                                    },
+                                    "span": {
+                                      "type": "string",
+                                      "maxLength": 200
+                                    }
+                                  },
+                                  "required": [
+                                    "event_id",
+                                    "sequence"
+                                  ],
+                                  "additionalProperties": false
+                                },
+                                "minItems": 1
+                              },
+                              "tag": {
+                                "type": "string",
+                                "maxLength": 100
+                              },
+                              "context": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "valid_from": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "valid_until": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "review_after": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "goal_state": {
+                                "type": "string",
+                                "enum": [
+                                  "open",
+                                  "in_progress",
+                                  "achieved",
+                                  "abandoned"
+                                ]
+                              },
+                              "target_date": {
+                                "type": "string",
+                                "format": "date"
+                              },
+                              "related_ids": {
+                                "type": "array",
+                                "items": {
+                                  "type": "string",
+                                  "pattern": "^[sgpx]_\\d{3,}$"
+                                },
+                                "maxItems": 20
+                              },
+                              "recorded_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "updated_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "retired_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "retired_reason": {
+                                "type": "string",
+                                "maxLength": 500
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "kind",
+                              "area",
+                              "statement",
+                              "status",
+                              "evidence",
+                              "recorded_at",
+                              "updated_at"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "event_id": {
+                                "type": "string",
+                                "format": "uuid"
+                              },
+                              "sequence": {
+                                "type": "integer",
+                                "exclusiveMinimum": 0
+                              },
+                              "event_type": {
+                                "type": "string"
+                              },
+                              "source": {
+                                "type": "string"
+                              },
+                              "occurred_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "received_at": {
+                                "type": "string",
+                                "format": "date-time"
+                              },
+                              "corrects_event_id": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ],
+                                "format": "uuid"
+                              }
+                            },
+                            "required": [
+                              "event_id",
+                              "sequence",
+                              "event_type",
+                              "source",
+                              "occurred_at",
+                              "received_at",
+                              "corrects_event_id"
+                            ],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": [
+                        "schema_version",
+                        "summary",
+                        "next_id",
+                        "assertions",
+                        "evidence"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "signature": {
+                      "type": "object",
+                      "properties": {
+                        "personality": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "budget_conscious",
+                              "prefers_self_service",
+                              "likes_planning",
+                              "travel_interested"
+                            ]
+                          }
+                        },
+                        "situation": {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "renting",
+                              "moving_soon",
+                              "starting_new_job"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "personality",
+                        "situation"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "customer_id",
+                    "version",
+                    "schema_version",
+                    "source_watermark",
+                    "current_source_revision",
+                    "has_pending_sources",
+                    "created_at",
+                    "tree",
+                    "documents",
+                    "structured",
+                    "signature"
+                  ]
+                }
+              },
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters or missing required header",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Missing, invalid, expired or revoked API key",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Key lacks the required capability",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found or not permitted for this key",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Workspace admission limit reached",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/customers/{customer_id}/brain/document": {
+      "get": {
+        "tags": [
+          "brain"
+        ],
+        "summary": "One rendered brain document as Markdown",
+        "description": "The path is a query parameter because document paths contain `/`. Same headers as the brain.",
+        "security": [
+          {
+            "apiKey": []
+          }
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "required": true,
+            "name": "customer_id",
+            "in": "path"
+          },
+          {
+            "schema": {
+              "type": "string",
+              "enum": [
+                "overview.md",
+                "situation/current.md",
+                "situation/goals.md",
+                "personality/preferences.md",
+                "personality/communication.md",
+                "experience/history.md",
+                "experience/interactions.md",
+                "evidence/sources.md"
+              ]
+            },
+            "required": true,
+            "name": "path",
+            "in": "query"
+          },
+          {
+            "schema": {
+              "type": "integer",
+              "exclusiveMinimum": 0
+            },
+            "required": false,
+            "name": "version",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Markdown",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters or missing required header",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Missing, invalid, expired or revoked API key",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Key lacks the required capability",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found or not permitted for this key",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Workspace admission limit reached",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/customers/{customer_id}/query": {
+      "post": {
+        "tags": [
+          "brain"
+        ],
+        "summary": "Ask a question grounded in the current brain (asynchronous)",
+        "description": "Queues a read-only query job against the latest brain. With `wait_seconds` the request is held until the job is terminal (`200` with the job) or the wait ends (`202`). Counts against the model admission group. Never changes the brain.",
+        "security": [
+          {
+            "apiKey": []
+          }
+        ],
+        "parameters": [
+          {
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "required": true,
+            "name": "customer_id",
+            "in": "path"
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "name": "idempotency-key",
+            "in": "header"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "question": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 2000
+                  },
+                  "wait_seconds": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 25,
+                    "default": 0
+                  }
+                },
+                "required": [
+                  "question"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Finished within the wait",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "librarian",
+                        "extraction",
+                        "upload_finalize",
+                        "query",
+                        "proactor",
+                        "delivery",
+                        "webhook_verification",
+                        "customer_deletion"
+                      ]
+                    },
+                    "customer_id": {
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "format": "uuid"
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "queued",
+                        "running",
+                        "retry_wait",
+                        "succeeded",
+                        "failed",
+                        "cancelled"
+                      ]
+                    },
+                    "attempts": {
+                      "type": "integer"
+                    },
+                    "result": {},
+                    "error": {
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "code": {
+                          "type": "string"
+                        },
+                        "message": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "code",
+                        "message"
+                      ]
+                    },
+                    "created_at": {
+                      "type": "string"
+                    },
+                    "updated_at": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "kind",
+                    "customer_id",
+                    "status",
+                    "attempts",
+                    "error",
+                    "created_at",
+                    "updated_at"
+                  ]
+                }
+              }
+            }
+          },
+          "202": {
+            "description": "Queued",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "job_id": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "queued"
+                      ]
+                    },
+                    "brain_version": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "job_id",
+                    "status",
+                    "brain_version"
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters or missing required header",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Missing, invalid, expired or revoked API key",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Key lacks the required capability",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found or not permitted for this key",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Conflict",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body exceeds the bounded size",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Invalid envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Workspace admission limit reached",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorEnvelope"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/me": {
+      "get": {
+        "tags": [
+          "identity"
+        ],
+        "summary": "What the presented key may do (capabilities and customer scope); never the secret",
+        "security": [
+          {
+            "apiKey": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Key identity",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "workspace_id": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "key_id": {
+                      "type": "string",
+                      "format": "uuid"
+                    },
+                    "capabilities": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "enum": [
+                          "customers:write",
+                          "sources:write",
+                          "data:read",
+                          "query:run",
+                          "insights:read",
+                          "feedback:write",
+                          "evaluate:run",
+                          "subscriptions:manage"
+                        ]
+                      }
+                    },
+                    "all_customers": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "workspace_id",
+                    "key_id",
+                    "capabilities",
+                    "all_customers"
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Missing, invalid, expired or revoked API key",
             "content": {
               "application/json": {
                 "schema": {

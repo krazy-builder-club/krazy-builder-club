@@ -11,3 +11,4 @@ Accepted records are append-only. Use the next free number and [template](TEMPLA
 | [0005](0005-durable-scheduled-work.md) | Accepted | Jobs/outbox, Tasks, database schedules, verified insight webhooks |
 | [0006](0006-api-contract-reference.md) | Accepted | Sanction the API contract reference and schema ownership |
 | [0007](0007-database-roles-and-definer-functions.md) | Accepted | Migrator-owned database, NOLOGIN runtime roles, forced RLS, `bob_system` definer functions |
+| [0008](0008-situation-personality-experience-memory.md) | Accepted | Situation/Personality/Experience brain tree, Librarian patch contract, skeleton on creation |

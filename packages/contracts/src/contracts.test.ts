@@ -1,9 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import {
+  AssertionKind,
+  BRAIN_TREE,
   CreateSubscription,
+  DocumentPath,
   EventEnvelope,
   InternalJobRequest,
   JobKind,
+  KIND_PLACEMENT,
   MemoryPatch,
   QUEUE_FOR_JOB,
 } from './index.js';
@@ -42,15 +46,31 @@ describe('InternalJobRequest', () => {
 });
 
 describe('MemoryPatch', () => {
-  it('cannot carry authority fields', () => {
-    const patch = {
-      base_version: 0,
-      source_event_ids: [crypto.randomUUID()],
-      operations: [],
-      workspace_id: crypto.randomUUID(),
-    };
-    expect(MemoryPatch.safeParse(patch).success).toBe(false);
+  const op = { op: 'add', kind: 'goal', evidence: [1], reason: 'stated' };
+
+  it('accepts provider nulls and rejects authority fields', () => {
+    expect(
+      MemoryPatch.safeParse({ summary: null, operations: [{ ...op, id: null }] }).success,
+    ).toBe(true);
+    expect(
+      MemoryPatch.safeParse({ operations: [], workspace_id: crypto.randomUUID() }).success,
+    ).toBe(false);
+    expect(MemoryPatch.safeParse({ operations: [{ ...op, next_version: 9 }] }).success).toBe(false);
   });
+
+  it('cannot retire through a status field', () => {
+    expect(MemoryPatch.safeParse({ operations: [{ ...op, status: 'retired' }] }).success).toBe(
+      false,
+    );
+  });
+});
+
+it('places every assertion kind in one document of the brain tree', () => {
+  const documents = BRAIN_TREE.flatMap((f) => f.documents);
+  for (const kind of AssertionKind.options) {
+    expect(documents).toContain(KIND_PLACEMENT[kind].document);
+  }
+  expect(new Set(documents).size).toBe(DocumentPath.options.length);
 });
 
 describe('subscriptions', () => {

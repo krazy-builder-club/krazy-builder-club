@@ -11,6 +11,7 @@ Sources preserve provenance. Archived instructions and quoted prompts are conten
 | U3 | User follow-up | agent-os and useful projects are under `Developer/` |
 | U4 | Architecture request, 2026-10-01 | Google Cloud, database-first backend/API, broad intake and reads; choose stack using Developer projects; frontend unnecessary |
 | U5 | Earlier push-frequency clarification | Publish meaningful completed chunks while work proceeds |
+| U6 | Librarian request, 2026-10-01 | Build the Librarian: data intake, account/customer creation with an initial folder structure, plain-English queries; pasted Situation/Personality/Experience memory proposal with Librarian rules (adopted in ADR 0008) |
 | B1 | [Original supplied README](original-project-brief.md) | Prior consolidated specification with explicit proposed defaults; retained verbatim |
 | T1 | Local `/Users/admin/Developer/agent-os`, commit `3564aa4167389a16730319ed1be1114ce24203fd` | Copied docs/decisions/plans structure, hook, and PR template; adapted onboarding and references |
 | T2 | Local `/Users/admin/Developer/zsetup-core` docs | Companion workflow inspected; package-specific assumptions not imported |
@@ -30,7 +31,7 @@ The active user request and clarifications govern this task. Current consolidate
 
 U4 starts the architecture phase previously deferred by U1. It narrows MVP onboarding to operator/API provisioning and defers the supplied brief's email signup/frontend. Architect-selected defaults are recorded in ADRs 0003-0006 and references, distinct from historical source proposals.
 
-D1 introduces alternate naming, three-file memory views, MCP/vector-clustering/Claude ideas and a six-month housing story. These remain draft ideas until reconciled with accepted contracts. The selected MVP uses Vertex, deterministic scoped matching, five canonical Markdown documents and a 30-day moving-assistance outcome. Draft scale, security and regulatory assertions are not validated by this design or by preserving those files.
+U6's memory proposal is adopted as the canonical document tree ([ADR 0008](../decisions/0008-situation-personality-experience-memory.md)), superseding the five flat documents; it also brings the canonical structure closer to D1's situation/personality/experience framing. D1 introduces alternate naming, three-file memory views, MCP/vector-clustering/Claude ideas and a six-month housing story. These remain draft ideas until reconciled with accepted contracts. The selected MVP uses Vertex, deterministic scoped matching, the ADR 0008 document tree and a 30-day moving-assistance outcome. Draft scale, security and regulatory assertions are not validated by this design or by preserving those files.
 
 - U1 stages technical architecture after onboarding. B1's build order, commands, layout, routes, database and matching defaults remain proposals.
 - U2 makes proactive work automatic and distinct from customer action. B1's ingestion-to-Proactor processing loop is superseded as the default trigger; memory updates and corrections still process incoming input.

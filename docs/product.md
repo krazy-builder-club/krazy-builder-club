@@ -29,7 +29,7 @@ The exact meaning of the latest discussion's "100 items" is open. The brief's 10
 
 Maintains supported memory from information supplied to the service. Reads incoming events and prior relevant memory, distinguishes facts from hypotheses, preserves source references, applies scoped corrections, and retires stale context. A read-only query answers from that customer's permitted context without silently rewriting memory.
 
-The discussion's phrase "keeps it out" is ambiguous; the brief consistently describes retaining and organizing supplied information. Use that interpretation until clarified. Librarian ingestion can happen when input arrives; this is distinct from triggering proactive suggestions.
+The discussion's phrase "keeps it out" is ambiguous; the brief consistently describes retaining and organizing supplied information. Use that interpretation until clarified. Librarian ingestion can happen when input arrives; this is distinct from triggering proactive suggestions. The memory structure and update rules are in [ADR 0008](decisions/0008-situation-personality-experience-memory.md) and [data](data.md#memory-contract).
 
 ## Proactor
 

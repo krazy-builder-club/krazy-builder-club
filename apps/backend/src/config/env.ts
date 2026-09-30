@@ -40,6 +40,15 @@ const envSchema = z.object({
   /** Local-only: run the clock and task transport in-process instead of Scheduler/Tasks. */
   WORKER_LOCAL_DRIVER: bool,
   WORKER_LOCAL_TICK_SECONDS: z.coerce.number().int().min(1).default(5),
+
+  /** `vertex` uses ADC (deployed); `gemini_api` is a local synthetic-data convenience; `none` leaves model jobs queued. */
+  MODEL_PROVIDER: z.enum(['vertex', 'gemini_api', 'none']).default('none'),
+  GOOGLE_CLOUD_PROJECT: z.string().optional(),
+  GOOGLE_CLOUD_LOCATION: z.string().default('global'),
+  /** Secret: only for `gemini_api`; never logged. */
+  GEMINI_API_KEY: z.string().optional(),
+  LIBRARIAN_MODEL: z.string().default('gemini-3.5-flash'),
+  QUERY_MODEL: z.string().default('gemini-3.5-flash'),
 });
 
 export type Env = z.infer<typeof envSchema>;
@@ -57,6 +66,11 @@ export function loadEnv(source: NodeJS.ProcessEnv = process.env): Env {
 export function assertWorkerEnv(env: Env): void {
   if (env.NODE_ENV === 'production' && env.WORKER_LOCAL_DRIVER) {
     throw new Error('Invalid environment:\n  WORKER_LOCAL_DRIVER: not allowed in production');
+  }
+  if (env.NODE_ENV === 'production' && env.MODEL_PROVIDER === 'gemini_api') {
+    throw new Error(
+      'Invalid environment:\n  MODEL_PROVIDER: gemini_api is not allowed in production',
+    );
   }
   if (
     !env.WORKER_LOCAL_DRIVER &&

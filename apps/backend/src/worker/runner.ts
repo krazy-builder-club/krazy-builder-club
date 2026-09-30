@@ -36,6 +36,11 @@ export type JobContext = {
    * lease. Never call a model or webhook inside `fn` — no transaction spans external work.
    */
   commit: <T>(fn: (tx: Tx) => Promise<T>, result?: (value: T) => unknown) => Promise<T>;
+  /**
+   * A short workspace-scoped transaction for loading inputs or recording diagnostics. It does not
+   * complete the job and must not span a model or webhook call either.
+   */
+  transaction: <T>(fn: (tx: Tx) => Promise<T>) => Promise<T>;
 };
 
 export type JobHandler = (ctx: JobContext) => Promise<void>;
@@ -85,8 +90,11 @@ export async function runJob(
       return value;
     });
 
+  const transaction: JobContext['transaction'] = (fn) =>
+    withWorkspace(deps.db, job.workspaceId, fn);
+
   try {
-    await handler({ job, signal, commit });
+    await handler({ job, signal, commit, transaction });
     if (!completed) {
       await withWorkspace(deps.db, job.workspaceId, (tx) =>
         completeJob(tx, job.id, job.leaseToken, null),

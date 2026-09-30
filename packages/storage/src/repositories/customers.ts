@@ -53,7 +53,7 @@ export type Cursor = { createdAt: string; id: string };
 export async function listCustomers(
   tx: Tx,
   grant: CustomerGrant,
-  page: { after?: Cursor; limit: number },
+  page: { after?: Cursor; limit: number; externalId?: string },
 ) {
   const after = page.after
     ? sql`(${customers.createdAt}, ${customers.id}) > (${page.after.createdAt}::timestamptz, ${page.after.id}::uuid)`
@@ -61,7 +61,14 @@ export async function listCustomers(
   const rows = await tx
     .select({ customer: customers, position: sql<string>`${customers.createdAt}::text` })
     .from(customers)
-    .where(and(eq(customers.state, 'active'), grantCondition(grant), after))
+    .where(
+      and(
+        eq(customers.state, 'active'),
+        grantCondition(grant),
+        page.externalId === undefined ? undefined : eq(customers.externalId, page.externalId),
+        after,
+      ),
+    )
     .orderBy(asc(customers.createdAt), asc(customers.id))
     .limit(page.limit + 1);
   const hasMore = rows.length > page.limit;

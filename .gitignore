@@ -10,3 +10,6 @@ runtime/
 *.sqlite
 *.sqlite3
 *.db
+
+# Agent worktrees nested in the checkout (e.g. Claude Code); they carry their own config.
+.claude/worktrees/

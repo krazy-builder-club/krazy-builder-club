@@ -2,6 +2,7 @@ import { CreateCustomer, CustomerCreated, CustomerView, PageQuery, pageOf } from
 import {
   appendSourceEvent,
   type CustomerRow,
+  commitBrainSnapshot,
   type Db,
   findCustomerByExternalId,
   insertCustomer,
@@ -15,6 +16,7 @@ import { canonicalJson, sha256 } from '../../lib/hash.js';
 import { createRouter, decodeCursor, encodeCursor, iso, requiresApiKey } from '../../lib/router.js';
 import { type AppEnv, requireCapability, requireCustomer } from '../identity/auth.js';
 import { idempotent, readIdempotencyKey } from '../identity/idempotency.js';
+import { skeletonSnapshot } from '../librarian/skeleton.js';
 
 export const customerView = (row: CustomerRow): CustomerView => ({
   id: row.id,
@@ -75,8 +77,11 @@ export function customersRoutes(deps: { db: Db }) {
               },
             );
           }
+          // Commit the empty brain atomically, before any source can advance the revision.
+          const skeleton = skeletonSnapshot(auth.workspaceId, customer.id, customer.createdAt);
+          if (!(await commitBrainSnapshot(tx, skeleton))) throw new Error('skeleton not committed');
           let metadataJobId: string | null = null;
-          let current = customer;
+          let current: CustomerRow = { ...customer, currentBrainVersion: 1 };
           if (body.metadata) {
             const accepted = await appendSourceEvent(tx, {
               workspaceId: auth.workspaceId,
@@ -115,9 +120,9 @@ export function customersRoutes(deps: { db: Db }) {
       method: 'get',
       path: '/v1/customers',
       tags: ['customers'],
-      summary: 'List active customers this key may access',
+      summary: 'List active customers this key may access, optionally by exact external_id',
       security: requiresApiKey,
-      request: { query: PageQuery },
+      request: { query: PageQuery.extend({ external_id: z.string().min(1).max(200).optional() }) },
       responses: {
         200: {
           description: 'Page',
@@ -128,12 +133,13 @@ export function customersRoutes(deps: { db: Db }) {
     }),
     async (c) => {
       const auth = requireCapability(c, 'data:read');
-      const { cursor, limit } = c.req.valid('query');
+      const { cursor, limit, external_id } = c.req.valid('query');
       const after = decodeCursor(cursor, (v) => CursorShape.parse(v));
       if (cursor && !after) throw new AppError('validation_error', 400, 'Invalid cursor');
       const page = await withWorkspace(deps.db, auth.workspaceId, (tx) =>
         listCustomers(tx, auth.grant, {
           limit,
+          externalId: external_id,
           after: after && { createdAt: after.t, id: after.id },
         }),
       );

@@ -1,6 +1,6 @@
 # API Contract
 
-Accepted design. Implemented locally and described by the generated [`apps/backend/openapi.json`](../apps/backend/openapi.json): health, `POST/GET /customers`, `GET /customers/{id}`, event intake and reads, and `GET /jobs/{id}`. Other routes below are not implemented yet; nothing is deployed. Platform owns shared Zod schemas and generated OpenAPI 3.1; changes update this reference. Persistence and internal roles live in [data](data.md), limits/execution in [architecture](architecture.md).
+Accepted design. Implemented locally and described by the generated [`apps/backend/openapi.json`](../apps/backend/openapi.json): health, `GET /me`, `POST/GET /customers` (with `external_id` lookup), `GET /customers/{id}`, event intake and reads, brain and document reads, grounded queries, and `GET /jobs/{id}`. Other routes below are not implemented yet; nothing is deployed. Platform owns shared Zod schemas and generated OpenAPI 3.1; changes update this reference. Persistence and internal roles live in [data](data.md), limits/execution in [architecture](architecture.md).
 
 ## Common Rules
 
@@ -22,8 +22,9 @@ Error envelope:
 
 | Method/path | Capability | Response/behavior |
 |---|---|---|
-| `POST /customers` | `customers:write`, workspace-wide grant | `201` create from `external_id` and optional supplied metadata; metadata becomes a source event/job; existing `external_id` is `409 customer_exists` |
-| `GET /customers` | `data:read` | `200` paginated customers filtered to key grants |
+| `GET /me` | Any valid key | `200` workspace, key ID, capabilities and customer-grant mode of the presented key; never the secret |
+| `POST /customers` | `customers:write`, workspace-wide grant | `201` create from `external_id` and optional supplied metadata; commits the empty version-1 brain in the same transaction; metadata becomes a source event/job; existing `external_id` is `409 customer_exists` |
+| `GET /customers` | `data:read` | `200` paginated customers filtered to key grants; `external_id=` selects an exact match |
 | `GET /customers/{id}` | `data:read` | `200` permitted customer identity and processing state |
 | `DELETE /customers/{id}` | `customers:write` | `202` durable deletion job; immediately disables reads and pending delivery |
 | `POST /customers/{id}/events` | `sources:write` | `202` accepted source and Librarian job; no automatic Proactor trigger |
@@ -32,9 +33,9 @@ Error envelope:
 | `POST /customers/{id}/uploads` | `sources:write` | `201` pending upload, create-only signed PUT URL and required headers |
 | `POST /customers/{id}/uploads/{upload_id}/complete` | `sources:write` | `202` verified attachment source/extraction job; unknown file type is explicitly unsupported |
 | `GET /customers/{id}/files/{file_id}` | `data:read` | `200` metadata/extraction status; `download=true` adds a short-lived URL for pinned original generation |
-| `GET /customers/{id}/brain` | `data:read` | `200` latest/version-selected structured memory and Markdown; `404 brain_not_ready` until first valid snapshot |
-| `GET /customers/{id}/brain/documents/{name}` | `data:read` | `200 text/markdown` fixed document name, version/ETag and pending-source headers |
-| `POST /customers/{id}/query` | `query:run` | `202` grounded read-only query job, retrieved through jobs endpoint |
+| `GET /customers/{id}/brain` | `data:read` | `200` latest/`version=`-selected structured memory, tree and documents; `format=markdown` returns one Markdown bundle; `404 brain_not_ready` only for customers without any snapshot |
+| `GET /customers/{id}/brain/document?path=` | `data:read` | `200 text/markdown` for one canonical path (query parameter because paths contain `/`), optional `version`, ETag and pending-source headers; unknown path `400` |
+| `POST /customers/{id}/query` | `query:run` | `202` grounded read-only query job, retrieved through jobs endpoint; optional `wait_seconds` (max 25) returns `200` with the finished job; also counts the model admission group |
 | `POST /customers/{id}/evaluate` | `evaluate:run` | `202` manual Proactor job; does not send a webhook or alter weekly scheduling |
 | `GET /customers/{id}/insights` | `insights:read` | `200` permitted insights, latest status/freshness/evidence |
 | `POST /customers/{id}/feedback` | `feedback:write` | `202` confirm/dismiss/correct an insight; persist event and return processing job |
@@ -85,9 +86,9 @@ Signed downloads expire after five minutes and use attachment disposition. They 
 
 ## Brain and Query Results
 
-`GET brain?version=N` returns a stored snapshot; absence selects latest. Return `customer_id`, `version`, `schema_version`, `source_watermark`, `current_source_revision`, `has_pending_sources`, `structured`, `documents` and evidence references. Documents contain the five canonical names from data. Never silently represent the latest committed brain as having incorporated queued input.
+`GET brain?version=N` returns a stored snapshot; absence selects latest. Return `customer_id`, `version`, `schema_version`, `source_watermark`, `current_source_revision`, `has_pending_sources`, `structured`, `documents` and evidence references. `tree` lists the folders and documents in display order; `documents` contains the canonical paths from [data](data.md#memory-contract). Responses carry `ETag`, `X-BOB-Brain-Version` and `X-BOB-Pending-Sources`. Never silently represent the latest committed brain as having incorporated queued input.
 
-Query request: `{"question":"What moving help has this customer asked for?"}`. On success, the job's result includes `answer`, `brain_version`, evidence IDs, uncertainties and `has_pending_sources`. No brain exists: reject `409 brain_not_ready`. It does not mutate memory or trigger delivery. Context/output bounds apply; query failures preserve memory.
+Query request: `{"question":"What moving help has this customer asked for?","wait_seconds":10}` (`Idempotency-Key` required). Acceptance returns `{job_id, status, brain_version}`, capturing the latest brain. On success, the job's result includes `question`, `answer`, `answerable`, `brain_version`, `source_watermark`, `cited_assertion_ids`, `evidence_event_ids`, `uncertainties` and `has_pending_sources`. Citations outside the captured brain are removed and disclosed as an uncertainty. No brain exists: reject `409 brain_not_ready`. It does not mutate memory or trigger delivery. Context/output bounds apply; query failures preserve memory.
 
 Insight fields include `id`, customer, `kind`, candidate need/horizon, evidence basis, proposed action, explanation, uncertainties, brain/source versions, synthetic data label, cohort support when eligible, lifecycle and freshness. A displayed cohort rate is a count/rate in references, never a personalized probability. `no_action` and insufficient-support review reasons are available through jobs/reviews even when no insight is created.
 

@@ -5,7 +5,7 @@ import { createDatabase, withWorkspace } from '../src/db.js';
 import { getCustomer, insertCustomer } from '../src/repositories/customers.js';
 import { lookupApiKey } from '../src/repositories/identity.js';
 import { claimOutbox } from '../src/repositories/jobs.js';
-import { customers, TENANT_TABLES } from '../src/schema/index.js';
+import { brainSnapshots, customers, TENANT_TABLES } from '../src/schema/index.js';
 import {
   closePools,
   databaseUrls,
@@ -121,5 +121,44 @@ describe.skipIf(!dbAvailable())('tenant isolation (PostgreSQL RLS)', () => {
       pgError(/permission denied for function bob_claim_outbox/),
     );
     await expect(claimOutbox(pools.worker.db, ['librarian'], 1, 60)).resolves.toBeInstanceOf(Array);
+  });
+
+  it('lets the API role insert only the version-1 skeleton brain', async () => {
+    const skeleton = (
+      customerId: string,
+      overrides: Partial<typeof brainSnapshots.$inferInsert>,
+    ) => ({
+      workspaceId: a.workspaceId,
+      customerId,
+      version: 1,
+      baseVersion: null,
+      structured: {},
+      documents: {},
+      signature: {},
+      sourceWatermark: 0,
+      modelVersion: null,
+      promptVersion: 'skeleton',
+      schemaVersion: 2,
+      ...overrides,
+    });
+    const fresh = async () => {
+      const customer = await withWorkspace(pools.api.db, a.workspaceId, (tx) =>
+        insertCustomer(tx, { workspaceId: a.workspaceId, externalId: `ext-${randomUUID()}` }),
+      );
+      if (!customer) throw new Error('customer not created');
+      return customer.id;
+    };
+    const insert = (row: typeof brainSnapshots.$inferInsert) =>
+      withWorkspace(pools.api.db, a.workspaceId, (tx) => tx.insert(brainSnapshots).values(row));
+
+    await expect(insert(skeleton(await fresh(), {}))).resolves.toBeDefined();
+    await expect(insert(skeleton(await fresh(), { version: 2, baseVersion: 1 }))).rejects.toSatisfy(
+      pgError(/new row violates row-level security policy/),
+    );
+    await expect(
+      insert(
+        skeleton(await fresh(), { modelVersion: 'gemini-test', promptVersion: 'librarian-1' }),
+      ),
+    ).rejects.toSatisfy(pgError(/new row violates row-level security policy/));
   });
 });
