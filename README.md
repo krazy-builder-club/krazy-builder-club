@@ -2,7 +2,7 @@
 
 **BOB** is the working product name: a hosted API that turns supplied customer information into persistent, evidence-backed Markdown memory and scheduled suggestions. The final name is open.
 
-Context: Tectonic Hackathon, KBC challenge. The selected architecture is Google Cloud with a TypeScript/Hono API, Cloud SQL PostgreSQL, Cloud Storage, and scheduled Cloud Run workers. The MVP is API-only, with operator-provisioned workspaces/keys and no signup frontend. This repository contains documentation; no application or deployment exists yet.
+Context: Tectonic Hackathon, KBC challenge. The selected architecture is Google Cloud with a TypeScript/Hono API, Cloud SQL PostgreSQL, Cloud Storage, and scheduled Cloud Run workers. The MVP is API-only, with operator-provisioned workspaces/keys and no signup frontend. This repository contains documentation and a prepared deployment foundation; no application has been deployed. See [current state](docs/STATE.md) for cloud status and [deployment conventions](docs/conventions.md#4-release-and-deployment) for setup.
 
 ## Product Direction
 

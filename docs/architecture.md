@@ -10,8 +10,8 @@ This is the selected design for implementation, not a deployed system. It follow
 | HTTP | Hono 4, `@hono/node-server`, `@hono/zod-openapi`, Zod 4; generated OpenAPI 3.1 |
 | Persistence | Cloud SQL PostgreSQL 17; Drizzle ORM/migrations and `pg` connection pool |
 | Files | Private Google Cloud Storage bucket; short-lived signed uploads/downloads |
-| Models | Google Gen AI SDK `@google/genai`, Vertex AI API with runtime service-account identity |
-| Initial model | `gemini-3.5-flash` for both roles, configurable separately; structured JSON output and runtime validation |
+| Models | OpenRouter API; worker-only API key from Google Secret Manager, per [ADR 0007](decisions/0007-cloud-deployment-foundation.md) |
+| Initial model | OpenRouter model IDs selected and live-tested during scaffold; roles configurable separately; structured JSON output and runtime validation |
 | Background work | Cloud Tasks HTTP queues targeting IAM-protected Cloud Run worker endpoints |
 | Clock | Cloud Scheduler every minute in UTC; database owns each subscription's timezone/due time |
 | Infrastructure | Terraform, Artifact Registry, Secret Manager, Cloud Logging/Monitoring |
@@ -34,7 +34,7 @@ flowchart TD
     Worker --> Tasks[Cloud Tasks queues]
     Tasks --> Worker
     Worker --> GCS
-    Worker --> Model[Vertex AI: Librarian / Proactor]
+    Worker --> Model[OpenRouter: Librarian / Proactor]
     Worker --> Hook[Verified webhook consumer]
     DB --> Pattern[Scoped historical matcher in worker]
     Pattern --> Model
@@ -42,7 +42,7 @@ flowchart TD
 
 Two Cloud Run services run entrypoints from one codebase/image: `bob-api` and `bob-worker`. A Cloud Run Job runs database migrations. The worker exposes fixed internal handlers for dispatch, extraction, Librarian, query, Proactor, and delivery; it requires Google IAM authentication. Public API keys never authorize internal handlers.
 
-Default resource region is `europe-west1` (Belgium), configurable before provisioning. Place SQL, bucket, queues, registry, and compute together. Synthetic demo inference may use Vertex's global endpoint for model availability; this is not an EU-only data-residency guarantee. Real-data processing needs an explicitly verified permitted model endpoint and retention policy before enablement. Model ID/region access must be live-tested in the target project.
+Default resource region is `europe-west1` (Belgium), configurable before provisioning. Place SQL, bucket, queues, registry, and compute together. OpenRouter model/provider routing must be live-tested before release. A Belgian compute region does not guarantee EU-only model processing; real-data processing requires a verified permitted provider endpoint and retention policy. Vertex AI is deferred unless funded hackathon access is confirmed.
 
 ## Repository Shape
 
@@ -59,7 +59,7 @@ apps/backend/
     patterns/              deterministic eligible historical matching
     proactor/              need evaluation and insight lifecycle
     delivery/              subscriptions, webhook validation/signing
-  src/adapters/             pg, GCS, Cloud Tasks, Vertex, clock
+  src/adapters/             pg, GCS, Cloud Tasks, OpenRouter, clock
   src/config/               validated environment
   src/migrate.ts            compiled migration entrypoint
 packages/contracts/         shared Zod schemas and provider-output schemas
@@ -130,7 +130,7 @@ Initial shared per-workspace admission limits are 60 mutations, 120 direct reads
 
 API keys are random opaque secrets, shown once and stored as HMAC hashes plus display prefix. Keys bind one workspace, capabilities, and optionally customer grants. Runtime SQL roles cannot bypass row security; workspace context is transaction-local and application repositories additionally enforce customer grants. Operator/migration privileges are isolated. No generic SQL tool is exposed to models.
 
-Runtime service accounts use only required Cloud SQL, bucket, queue, model, and secret permissions. Scheduler/task invokers can invoke only the private worker. Signed upload issuance has narrowly scoped signing permission. Webhook signing secrets are encrypted with Cloud KMS and never listed in GET responses. Logs contain IDs, revisions, durations, token usage, and scrubbed codes, not input bodies or credentials.
+Runtime service accounts use only required Cloud SQL, bucket, queue and secret permissions; OpenRouter model access uses only the worker-mounted key. Scheduler/task invokers can invoke only the private worker. Signed upload issuance has narrowly scoped signing permission. Webhook signing secrets are encrypted with Cloud KMS and never listed in GET responses. Logs contain IDs, revisions, durations, token usage, and scrubbed codes, not input bodies or credentials.
 
 Start with a zonal Cloud SQL Enterprise development instance with automated backups/PITR configured and tested, a private bucket, and scale-to-zero Cloud Run services. Set instance/queue limits and billing alerts before deployment. Cloud SQL has an always-on cost floor even if HTTP compute scales down; no price or scalability claim is established. Regional HA and real-data retention/deletion policy are prerequisites for any production assessment, outside this synthetic MVP.
 
@@ -152,5 +152,5 @@ Architecture recommendations above are our choices; these primary sources suppor
 - [Cloud Tasks to private Cloud Run](https://docs.cloud.google.com/run/docs/triggering/using-tasks) and [HTTP task deadlines](https://docs.cloud.google.com/tasks/docs/reference/rest/v2/projects.locations.queues.tasks).
 - [Cloud Scheduler delivery](https://docs.cloud.google.com/scheduler/docs/overview) and [cron/timezone behavior](https://docs.cloud.google.com/scheduler/docs/configuring/cron-job-schedules).
 - [Cloud Storage signed URLs](https://docs.cloud.google.com/storage/docs/access-control/signed-urls).
-- [Google model lifecycle](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions) and [structured outputs](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/multimodal/control-generated-output). Model availability and schema support still require a target-project smoke test.
+- [OpenRouter quickstart](https://openrouter.ai/docs/quickstart). The selected model's structured-output support, evidence adherence and timeout/usage behavior still require a live adapter smoke test.
 - [PostgreSQL row security](https://www.postgresql.org/docs/17/ddl-rowsecurity.html).

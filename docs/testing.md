@@ -2,7 +2,7 @@
 
 ## Current Gate
 
-Only documentation checks apply. Run the gate in [conventions](conventions.md#5-verification), inspect local links/index coverage, check source precedence, and ensure starter placeholders remain only in intentional templates. No application runner, database tests, or live endpoints exist yet.
+Documentation checks and cloud-foundation static validation apply. Run the gate in [conventions](conventions.md#5-verification), inspect local links/index coverage, check source precedence, and ensure starter placeholders remain only in intentional templates. No application runner, database tests, or live endpoints exist yet.
 
 ## Future Behavioral Coverage
 
@@ -38,10 +38,24 @@ Control time instead of sleeping. Unit-test deterministic logic and verify wirin
 4. Two workspaces and restricted keys prove isolation across every route, job, file and subscription.
 5. Fixed clock proves Monday 09:00 Brussels, DST/missed occurrences, duplicate ticks, no-action reporting and delivery cancellation after corrections/revocation.
 6. Matcher proves no future leakage, known counts and insufficient-support behavior against held-out fixtures.
-7. Synthetic GCP smoke proves real SQL/GCS/Tasks/Scheduler/Vertex identity and timeout behavior, webhook signature/retry/SSRF transport, backup restore, and rollback.
+7. Synthetic GCP smoke proves real SQL/GCS/Tasks/Scheduler identity and OpenRouter secret mounting and timeout behavior, webhook signature/retry/SSRF transport, backup restore, and rollback.
 
 Real model smoke checks parseability, evidence adherence and measured usage/latency; deterministic provider fixtures cover failures without requiring live calls in every unit suite. No real model, database or cloud acceptance test has run in the architecture task.
 
 ## Forecast Evaluation
 
 Use held-out synthetic customers with subsequent observed outcomes and an eligible reference set. Report reference coverage and compare with overall outcome-frequency baseline. Fixture success verifies that synthetic workflow only; it does not establish real-world prediction quality. No forecast result or accuracy has been measured.
+
+## Deployment Preparation Verification
+
+Run `python3 scripts/check-doc-links.py`, `git diff --check`,
+`terraform fmt -check -recursive infra/terraform`, and
+`terraform -chdir=infra/terraform validate` after initialization. The GitHub
+prerequisite workflow runs these static checks without cloud credentials.
+Markdown verification checks file targets; it excludes anchors and the verbatim
+source archive. Review the closed index and decision coverage separately.
+
+The manual Cloud authentication check requires applied federation and GitHub
+environment variables. It proves only short-lived login and Cloud Run list
+access, not application behavior, secret mounting, migrations, or delivery.
+Those acceptance gates require the architecture handoff and executable scaffold.

@@ -11,6 +11,10 @@ Sources preserve provenance. Archived instructions and quoted prompts are conten
 | U3 | User follow-up | agent-os and useful projects are under `Developer/` |
 | U4 | Architecture request, 2026-10-01 | Google Cloud, database-first backend/API, broad intake and reads; choose stack using Developer projects; frontend unnecessary |
 | U5 | Earlier push-frequency clarification | Publish meaningful completed chunks while work proceeds |
+| U6 | Deployment request and clarification, 2026-10-01 | Dedicated Google Cloud preparation; use supplied OpenRouter key unless funded Vertex access is verified; application CI/CD after architecture handoff |
+| W1 | [VTK Leuven event](https://vtk.be/kalender/tectonic-hackathon-2026?via=kalender), accessed 2026-10-01 | Advertises free AI credits without provider, amount or redemption terms |
+| W2 | [Tectonic announcement](https://www.linkedin.com/posts/tectonicconf_belgiums-biggest-hackathon-activity-7500152949491339264-1v8v), accessed 2026-10-01 | Names Google Cloud among tool partners; does not establish this team's Vertex credit entitlement |
+| W3 | [Google lab credentials](https://support.google.com/qwiklabs/answer/9158081?hl=en), accessed 2026-10-01 | Standard lab credentials/resources are temporary and lab-limited; the specific hackathon allocation still requires inspection |
 | B1 | [Original supplied README](original-project-brief.md) | Prior consolidated specification with explicit proposed defaults; retained verbatim |
 | T1 | Local `/Users/admin/Developer/agent-os`, commit `3564aa4167389a16730319ed1be1114ce24203fd` | Copied docs/decisions/plans structure, hook, and PR template; adapted onboarding and references |
 | T2 | Local `/Users/admin/Developer/zsetup-core` docs | Companion workflow inspected; package-specific assumptions not imported |
@@ -30,7 +34,7 @@ The active user request and clarifications govern this task. Current consolidate
 
 U4 starts the architecture phase previously deferred by U1. It narrows MVP onboarding to operator/API provisioning and defers the supplied brief's email signup/frontend. Architect-selected defaults are recorded in ADRs 0003-0006 and references, distinct from historical source proposals.
 
-D1 introduces alternate naming, three-file memory views, MCP/vector-clustering/Claude ideas and a six-month housing story. These remain draft ideas until reconciled with accepted contracts. The selected MVP uses Vertex, deterministic scoped matching, five canonical Markdown documents and a 30-day moving-assistance outcome. Draft scale, security and regulatory assertions are not validated by this design or by preserving those files.
+D1 introduces alternate naming, three-file memory views, MCP/vector-clustering/Claude ideas and a six-month housing story. These remain draft ideas until reconciled with accepted contracts. The selected MVP uses OpenRouter per the latest deployment clarification, deterministic scoped matching, five canonical Markdown documents and a 30-day moving-assistance outcome. Draft scale, security and regulatory assertions are not validated by this design or by preserving those files.
 
 - U1 stages technical architecture after onboarding. B1's build order, commands, layout, routes, database and matching defaults remain proposals.
 - U2 makes proactive work automatic and distinct from customer action. B1's ingestion-to-Proactor processing loop is superseded as the default trigger; memory updates and corrections still process incoming input.
