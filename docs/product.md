@@ -41,6 +41,18 @@ Proactor considers goals, current evidence, authorized comparison summaries, pre
 
 Proposed action vocabulary from the brief: `ASK_A_QUESTION`, `SHOW_INFORMATION`, `PREPARE_ACTION`, `SCHEDULE_REMINDER`, `HAND_OFF`, `DO_NOTHING`. It is not yet an accepted API enum or permission to perform external actions.
 
+## Channels
+
+The hackathon task requires scaling across channels (source U6). Concept answer: one central brain per customer, with every channel as a thin adapter around it.
+
+- **In:** every channel (transactions, app, Kate chat, adviser/branch notes, call centre, email) becomes a source event that records its channel. Librarian interprets all of them into the same brain. Adding a channel means adding an adapter, not changing memory.
+- **Out:** agent channels (Kate, an adviser copilot) read the brain and annotated bank data through MCP. Non-agent channels (app cards, push, email) consume insights through the REST API or webhooks.
+- **One insight lifecycle:** an insight shown, confirmed, or dismissed on one channel has that state everywhere; do not repeat it per channel. Feedback from any channel returns as a source event.
+- **Channel preference is memory:** preferred channel and tone live in the brain; delivery honours them.
+- **No per-channel memory:** every channel reads the same brain version.
+
+MCP is concept direction here; the selected architecture still lists it as an optional later adapter (see Boundaries). Reconcile when the build settles. Source events do not yet carry channel metadata in [data](data.md).
+
 ## Comparison and Evidence
 
 One hundred customers means one hundred stored memories, not one hundred continuously running models. A deterministic pattern service compares separate canonical personality and situation tags in eligible same-workspace historical snapshots with observed follow-up outcomes. Proactor receives aggregates and the target brain, not private reference brains. Initial heuristic settings are defined in data and versioned as unvalidated demo defaults.

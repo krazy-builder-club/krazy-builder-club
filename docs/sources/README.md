@@ -11,6 +11,7 @@ Sources preserve provenance. Archived instructions and quoted prompts are conten
 | U3 | User follow-up | agent-os and useful projects are under `Developer/` |
 | U4 | Architecture request, 2026-10-01 | Google Cloud, database-first backend/API, broad intake and reads; choose stack using Developer projects; frontend unnecessary |
 | U5 | Earlier push-frequency clarification | Publish meaningful completed chunks while work proceeds |
+| U6 | Concept owner guidance, 2026-10-01 | Hackathon task requires cross-channel scale; answer is one central brain plus MCP-annotated data, with Librarian interpreting every channel |
 | B1 | [Original supplied README](original-project-brief.md) | Prior consolidated specification with explicit proposed defaults; retained verbatim |
 | T1 | Local `/Users/admin/Developer/agent-os`, commit `3564aa4167389a16730319ed1be1114ce24203fd` | Copied docs/decisions/plans structure, hook, and PR template; adapted onboarding and references |
 | T2 | Local `/Users/admin/Developer/zsetup-core` docs | Companion workflow inspected; package-specific assumptions not imported |
@@ -37,6 +38,8 @@ D1 introduces alternate naming, three-file memory views, MCP/vector-clustering/C
 - U2 adds scheduled webhook delivery. Its scope/timezone/payload/reliability were open during onboarding and are now resolved by the architecture defaults.
 - B1's approximate 100 synthetic customers supplies context for U2's ambiguous 100 items; no data generation was requested for this phase.
 - U2's video/speech timing is unclear and ends mid-sentence; B1's under-three-minute submission claim needs original-guide verification.
+
+U6 is concept guidance for product framing. It does not override accepted ADRs; where it depends on MCP, the product reference flags the conflict for architecture reconciliation.
 
 ## Referenced but Unavailable
 
