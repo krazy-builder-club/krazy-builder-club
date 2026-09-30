@@ -1,5 +1,7 @@
 # Krazy Builder Club: BOB
 
+**Live demo:** https://bob-demo-preview-308772028148.europe-west1.run.app/
+
 > **Disclaimer:** we could not use Aikido during the hackathon because its access limits were saturated, so the security-scanning part of the task is not done. Nothing in this repository claims Aikido results.
 
 **BOB (Bank-Organized Brain)** rethinks how a bank stores what it knows about its customers. Tectonic Hackathon, KBC challenge: make customers' lives fundamentally simpler.
