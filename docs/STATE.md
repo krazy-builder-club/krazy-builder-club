@@ -1,10 +1,10 @@
 # Current State
 
-Last updated: 2026-10-01 - initial information layer established from agent-os and supplied context.
+Last updated: 2026-10-01 - Google Cloud backend architecture, data/API contracts and implementation gates completed.
 
 ## Current Status
 
-Onboarding documentation is complete. Technical architecture is next. This repository has no application scaffold or verified runtime capabilities.
+Onboarding and architecture design are complete. The selected backend is ready to scaffold. This repository has documentation only; no application, migrations, cloud resources or verified runtime capabilities exist yet.
 
 ## Status Table
 
@@ -12,26 +12,27 @@ Onboarding documentation is complete. Technical architecture is next. This repos
 |---|---|---|
 | Agent management workflow | Done | Read order, governance, state, ADRs, hook, PR checklist adapted |
 | Product and sources | Done | Brief archived; latest discussion reconciled with provenance |
-| Logical data reference | Done | Information and evidence concepts recorded; no physical schema selected |
-| Technical architecture | Next | Runtime, auth, database, scheduler, webhook contract, hosting undecided |
+| Data architecture | Done | PostgreSQL table design, evidence/versioning, tenant scope, jobs/outbox and delivery lifecycle |
+| Technical architecture | Done | Google Cloud, Hono/TypeScript, Cloud SQL/GCS, Vertex, Tasks/Scheduler; ADRs 0003-0006 |
+| API contract | Done | Intake/upload/read/query, insight/feedback, schedule and signed webhook interfaces defined |
 | API, Librarian, Proactor | Planned | No implementation |
 | Synthetic fixtures | Planned | Approximately 100 customers discussed; none generated |
 | Demo and presentation | In progress | Use case, video script and product description drafted in [plans](plans/video-and-product-description.md); original guide needed to verify submission rules |
 
 ## In Flight
 
-None. Implementation owners are unassigned.
+Delivery team: video/product-description drafts in `docs/plans/video-and-product-description.md` and root presentation files. Their proposed story needs alignment with the selected runtime contracts before recording. Human backend implementation owners remain unassigned; architecture's workstream roles describe responsibility areas only.
 
 ## Blocked
 
-No blocker for architecture preparation. The original hackathon guide and earlier discussions referenced in the supplied README are unavailable; submission rules cannot be independently confirmed yet.
+No blocker for local scaffolding. Cloud deployment needs the actual GCP project/billing/identity configuration and a model availability smoke test. Original hackathon guide/earlier discussion files remain unavailable, so submission rules cannot be independently confirmed.
 
 ## Next
 
-1. Begin architecture using its decision agenda; settle demo scenario, ownership, and schedule semantics.
-2. Record stack and boundaries, then agree shared API/data/webhook contracts before parallel coding.
-3. Scaffold and prove one customer's ingestion, memory, and read-only query flow.
-4. Add scheduled Proactor delivery, feedback, reference cases, then demo and presentation.
+1. Platform owner scaffolds the pinned Node/Hono workspace, contracts, PostgreSQL migrations, operator/key CLI and real-DB verification gate.
+2. Implement one customer's intake -> durable job -> Librarian -> persisted Markdown -> scoped GET/read-only query; prove isolation/replay/failure behavior.
+3. Add files/extraction, synthetic reference cases and deterministic patterns, then scheduled Proactor and verified webhook delivery.
+4. Provision a dedicated synthetic GCP environment, run cloud acceptance checks, and complete the moving-assistance demo/presentation.
 
 ## How to Update
 

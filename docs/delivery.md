@@ -1,8 +1,8 @@
 # Demo and Delivery Reference
 
-## Candidate Narrative
+## Selected Narrative
 
-Moving-related assistance is the supplied brief's proposed scenario, pending selection:
+Moving-related assistance is the selected synthetic scenario. Proactor evaluates the 30-day need `move_planning_help` against observed reference outcome `requested_move_planning_help`:
 
 1. Send synthetic inputs including an explicit moving statement.
 2. Inspect raw evidence and the separate personality/situation memory; ask a grounded question.
@@ -12,6 +12,8 @@ Moving-related assistance is the supplied brief's proposed scenario, pending sel
 6. Show a differing customer or no-action case, and demonstrate duplicate input/delivery handling.
 
 The working video plan proposes a concrete version of this narrative: a synthetic renting family whose home is getting too small, corrected by the customer to a renovation. See [video and product description plan](plans/video-and-product-description.md).
+
+That teammate draft is preserved as a story candidate. Before recording, align its three-file `experience.md` view with the canonical goals/interactions representation, its six-month/22-match examples with the selected 30-day/top-ten reference policy, and its 07:00 clock with Monday 09:00 Brussels (07:00 UTC only during summer time). Household facts need explicit supported input, not a presumed child-benefit interpretation. Root presentation drafts also mention MCP, vector clustering, Claude and unverified production/security claims; they do not override the selected API-only Vertex/heuristic design or establish implemented guarantees.
 
 Compute cohort counts from fixtures and label them synthetic. A manual demo-clock advance must be disclosed as simulating the schedule, not presented as a live Monday run. Show only working features.
 

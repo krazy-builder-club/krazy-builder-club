@@ -9,8 +9,9 @@ Start at [AGENTS.md](../AGENTS.md). Read conventions, state, relevant ADRs, then
 | [conventions.md](conventions.md) | Conventions | Operating rules; changed when workflow changes |
 | [STATE.md](STATE.md) | State | Single current snapshot; every task owner at handoff |
 | [product.md](product.md) | Reference | Requirements and product questions; knowledge steward |
-| [architecture.md](architecture.md) | Reference | Decision agenda now, actual system shape later; architecture owner |
-| [data.md](data.md) | Reference | Logical information, evidence, ownership; data owner |
+| [architecture.md](architecture.md) | Reference | Selected backend/cloud components and flows; architecture owner |
+| [api.md](api.md) | Reference | HTTP, jobs, uploads and webhook design; platform contract owner |
+| [data.md](data.md) | Reference | Physical table design, evidence/versioning and access; storage owner |
 | [testing.md](testing.md) | Reference | Verification and behavioral acceptance; verification owner |
 | [delivery.md](delivery.md) | Reference | Demo and submission expectations; demo owner |
 | [decisions/](decisions/README.md) | Decisions | Durable choices and rationale; decision owner |
