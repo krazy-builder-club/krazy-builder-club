@@ -11,3 +11,4 @@ Accepted records are append-only. Use the next free number and [template](TEMPLA
 | [0004](0004-scoped-patterns-and-customer-memory.md) | Accepted | Database-backed brains and workspace-scoped deterministic pattern service |
 | [0005](0005-durable-scheduled-work.md) | Accepted | Jobs/outbox, Tasks, database schedules, verified insight webhooks |
 | [0006](0006-api-contract-reference.md) | Accepted | Sanction the API contract reference and schema ownership |
+| [0007](0007-scalable-cohort-comparison.md) | Proposed | Post-MVP comparison funnel: profile on write, dirty-only reviews, blocking + ANN, cohort aggregates; no protected attributes |

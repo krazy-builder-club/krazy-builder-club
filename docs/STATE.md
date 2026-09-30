@@ -33,6 +33,7 @@ No blocker for local scaffolding. Cloud deployment needs the actual GCP project/
 2. Implement one customer's intake -> durable job -> Librarian -> persisted Markdown -> scoped GET/read-only query; prove isolation/replay/failure behavior.
 3. Add files/extraction, synthetic reference cases and deterministic patterns, then scheduled Proactor and verified webhook delivery.
 4. Provision a dedicated synthetic GCP environment, run cloud acceptance checks, and complete the moving-assistance demo/presentation.
+5. After the MVP matcher works, pattern owner reviews Proposed ADR 0007 (scalable cohort comparison) for acceptance.
 
 ## How to Update
 

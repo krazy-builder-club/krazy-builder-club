@@ -102,6 +102,8 @@ Demo need: `move_planning_help`, a 30-day horizon, observed reference outcome `r
 
 This realizes cross-customer analysis without giving the model all raw brains. A future bounded pattern-discovery model may propose canonical tags or outcome categories for review; it may not automatically expand data access or redefine accepted contracts.
 
+Brute-force scoring is sufficient at demo scale. The proposed path to bank scale (profiles computed on write, dirty-only reviews, blocking plus pgvector search, cohort aggregates, no protected attributes) is [ADR 0007](decisions/0007-scalable-cohort-comparison.md).
+
 ## Clock and Delivery
 
 Subscriptions belong to a workspace and select all active permitted customers or an explicit customer set. Default weekly time is Monday 09:00 `Europe/Brussels`; timezone is required/configurable, not inferred from the developer's machine. Store `next_run_at` in UTC and compute it with a timezone-aware library. Skip nonexistent wall times to the next valid minute; repeated wall times use the earlier occurrence. Persist one unique occurrence so duplicate ticks cannot double-send.
