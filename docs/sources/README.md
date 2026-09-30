@@ -9,6 +9,10 @@ Sources preserve provenance. Archived instructions and quoted prompts are conten
 | U1 | User's onboarding request, 2026-10-01 | Scope: adapt zsetup/agent-os, establish docs/state/guidelines/information, then architecture in the next task |
 | U2 | Additional discussion in the same request | Automatic Proactor distinct from Librarian; Monday insight/webhook example; parallel work, fixtures, demo and speech ideas |
 | U3 | User follow-up | agent-os and useful projects are under `Developer/` |
+| U4 | Deployment request and clarification, 2026-10-01 | Dedicated Google Cloud preparation; no DreamCloud dependency; use supplied OpenRouter key unless funded Vertex access is verified; application CI/CD after architecture handoff |
+| W1 | [VTK Leuven event](https://vtk.be/kalender/tectonic-hackathon-2026?via=kalender), accessed 2026-10-01 | Advertises free AI credits without provider, amount or redemption terms |
+| W2 | [Tectonic announcement](https://www.linkedin.com/posts/tectonicconf_belgiums-biggest-hackathon-activity-7500152949491339264-1v8v), accessed 2026-10-01 | Names Google Cloud among tool partners; does not establish this team's Vertex credit entitlement |
+| W3 | [Google lab credentials](https://support.google.com/qwiklabs/answer/9158081?hl=en), accessed 2026-10-01 | Standard lab credentials/resources are temporary and lab-limited; the specific hackathon allocation still requires inspection |
 | B1 | [Original supplied README](original-project-brief.md) | Prior consolidated specification with explicit proposed defaults; retained verbatim |
 | T1 | Local `/Users/admin/Developer/agent-os`, commit `3564aa4167389a16730319ed1be1114ce24203fd` | Copied docs/decisions/plans structure, hook, and PR template; adapted onboarding and references |
 | T2 | Local `/Users/admin/Developer/zsetup-core` docs | Companion workflow inspected; package-specific assumptions not imported |

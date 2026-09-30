@@ -10,3 +10,11 @@ runtime/
 *.sqlite
 *.sqlite3
 *.db
+# Cloud credentials, state, and saved plans must never enter Git.
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+!*.tfvars.example
+gha-creds-*.json

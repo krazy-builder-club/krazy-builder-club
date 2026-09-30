@@ -20,7 +20,34 @@ Finish verified, authorized work through landing. If a material decision or chec
 
 ## 4. Release and Deployment
 
-No release or deployment pipeline exists. Select it during architecture and document environments, triggers, migrations, worker lifecycle, and rollback here before shipping. Adopting agent-os does not select shared `@zsetup/*` libraries.
+The development deployment foundation is [Terraform](../infra/terraform/README.md),
+with choices in [ADR 0007](decisions/0007-cloud-deployment-foundation.md). Current
+provisioning and blockers live in [STATE](STATE.md). The project is
+`krazy-builder-club-dev`, region `europe-west1`; always pass `--project` explicitly.
+Do not change the CLI default, which points to an unrelated production project.
+
+GitHub runs documentation and credential-free Terraform validation on PRs and
+`main`. The manual Cloud authentication check uses the `development` environment
+and short-lived OIDC credentials. Configure the environment to accept only `main`;
+the federation provider also checks immutable repository/owner IDs and the
+branch/environment. No OpenRouter key belongs in GitHub Actions secrets.
+
+Terraform owns foundational resources. Project creation/billing are bootstrap
+operations; upload secret bytes using the provided script after the empty Secret
+Manager resource exists. Migrate ignored local bootstrap state to the private
+versioned GCS state bucket before shared applies. The monthly $50 alert is an
+alert only, and is not applied until billing works.
+
+Application CI/CD is deferred until architecture handoff and executable build,
+API, worker, migration and health-check commands exist. The planned release order
+is verify -> build one immutable image -> execute compatible migration job ->
+update IAM-only worker and API -> smoke-check -> enable Scheduler. Never enable
+the clock against an unverified worker. Terraform owns service configuration;
+image releases must use the agreed ownership mechanism to avoid Terraform
+reverting deployments. Roll back compute by routing to the previous verified
+revision; database rollback requires explicit migration compatibility/recovery
+checks, never a guessed reverse migration. These application stages are planned,
+not implemented or verified.
 
 ## 5. Verification
 

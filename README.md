@@ -2,7 +2,7 @@
 
 **BOB** is the working product name: a hosted API that turns supplied customer information into persistent, evidence-backed Markdown memory and scheduled suggestions. The final name is open.
 
-Context: Tectonic Hackathon, KBC challenge. This repository currently contains project documentation and the agent management workflow. No application, database, API, scheduler, or deployment exists yet. Technical architecture is the next task.
+Context: Tectonic Hackathon, KBC challenge. This repository contains documentation and a prepared Google Cloud deployment foundation. Architecture is in progress in a separate workstream; no application has been deployed. See [current state](docs/STATE.md) for the billing blocker and [deployment conventions](docs/conventions.md#4-release-and-deployment) for setup.
 
 ## Product Direction
 

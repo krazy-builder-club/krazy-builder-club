@@ -2,7 +2,7 @@
 
 ## Current Gate
 
-Only documentation checks apply. Run the gate in [conventions](conventions.md#5-verification), inspect local links/index coverage, check source precedence, and ensure starter placeholders remain only in intentional templates. No application runner, database tests, or live endpoints exist yet.
+Documentation checks and cloud-foundation static validation apply. Run the gate in [conventions](conventions.md#5-verification), inspect local links/index coverage, check source precedence, and ensure starter placeholders remain only in intentional templates. No application runner, database tests, or live endpoints exist yet.
 
 ## Future Behavioral Coverage
 
@@ -28,3 +28,17 @@ Control time instead of sleeping. Unit-test deterministic logic and verify wirin
 ## Forecast Evaluation
 
 Use held-out synthetic customers with subsequent observed outcomes and an eligible reference set. Report reference coverage and compare with overall outcome-frequency baseline. Fixture success verifies that synthetic workflow only; it does not establish real-world prediction quality. No forecast result or accuracy has been measured.
+
+## Deployment Preparation Verification
+
+Run `python3 scripts/check-doc-links.py`, `git diff --check`,
+`terraform fmt -check -recursive infra/terraform`, and
+`terraform -chdir=infra/terraform validate` after initialization. The GitHub
+prerequisite workflow runs these static checks without cloud credentials.
+Markdown verification checks file targets; it excludes anchors and the verbatim
+source archive. Review the closed index and decision coverage separately.
+
+The manual Cloud authentication check requires applied federation and GitHub
+environment variables. It proves only short-lived login and Cloud Run list
+access, not application behavior, secret mounting, migrations, or delivery.
+Those acceptance gates require the architecture handoff and executable scaffold.

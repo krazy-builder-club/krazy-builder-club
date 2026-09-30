@@ -7,4 +7,4 @@ Accepted records are append-only. Use the next free number and [template](TEMPLA
 | [0001](0001-docs-and-agent-workflow.md) | Accepted | Adopt agent-os and sanction the initial closed documentation map |
 | [0002](0002-onboarding-scope-and-proactive-boundary.md) | Accepted | Documentation first; latest automatic Proactor direction overrides source trigger defaults |
 
-No runtime, database, framework, provider, deployment, physical schema, or API path has been accepted.
+| [0007](0007-cloud-deployment-foundation.md) | Accepted | Dedicated Google Cloud project, OpenRouter secret and restricted GitHub OIDC deployment foundation |
