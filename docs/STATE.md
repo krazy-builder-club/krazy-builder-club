@@ -16,7 +16,7 @@ Onboarding documentation is complete. Technical architecture is next. This repos
 | Technical architecture | Next | Runtime, auth, database, scheduler, webhook contract, hosting undecided |
 | API, Librarian, Proactor | Planned | No implementation |
 | Synthetic fixtures | Planned | Approximately 100 customers discussed; none generated |
-| Demo and presentation | Planned | Narrative captured; original guide needed to verify submission rules |
+| Demo and presentation | In progress | Use case, video script and product description drafted in [plans](plans/video-and-product-description.md); original guide needed to verify submission rules |
 
 ## In Flight
 

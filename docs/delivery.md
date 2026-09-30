@@ -11,6 +11,8 @@ Moving-related assistance is the supplied brief's proposed scenario, pending sel
 5. Submit a correction that a task is already handled; show memory change and suppression of the dependent insight.
 6. Show a differing customer or no-action case, and demonstrate duplicate input/delivery handling.
 
+The working video plan proposes a concrete version of this narrative: a synthetic renting family whose home is getting too small, corrected by the customer to a renovation. See [video and product description plan](plans/video-and-product-description.md).
+
 Compute cohort counts from fixtures and label them synthetic. A manual demo-clock advance must be disclosed as simulating the schedule, not presented as a live Monday run. Show only working features.
 
 ## Presentation Work
