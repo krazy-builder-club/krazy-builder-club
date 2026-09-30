@@ -15,6 +15,7 @@ Onboarding and architecture design are complete. The selected backend is ready t
 | Data architecture | Done | PostgreSQL table design, evidence/versioning, tenant scope, jobs/outbox and delivery lifecycle |
 | Technical architecture | Done | Google Cloud, Hono/TypeScript, Cloud SQL/GCS, Tasks/Scheduler; OpenRouter supersedes Vertex model default in ADR 0007 |
 | Cloud deployment foundation | Prepared, billing blocked | Dedicated project exists; Terraform and prerequisite workflows prepared in PR #1 |
+| GitHub Actions verification | Account blocked | Workflow runs triggered but no jobs started: GitHub account locked due to billing issue |
 | API contract | Done | Intake/upload/read/query, insight/feedback, schedule and signed webhook interfaces defined |
 | API, Librarian, Proactor | Planned | No implementation |
 | Synthetic fixtures | Planned | Approximately 100 customers discussed; none generated |
@@ -43,6 +44,13 @@ lab as a durable host without checking its actual allocation.
 Delivery team: video/product-description drafts in `docs/plans/video-and-product-description.md` and root presentation files. Their proposed story needs alignment with the selected runtime contracts before recording. Human backend implementation owners remain unassigned; architecture's workstream roles describe responsibility areas only.
 
 ## Blocked
+
+GitHub-hosted Actions is blocked separately: runs `36764448155` and
+`36764442745` failed before any steps ran. Check annotations state:
+"The job was not started because your account is locked due to a billing issue."
+The GitHub account owner must resolve that lock before hosted verification.
+Local Terraform validation, workflow lint, documentation links and whitespace
+checks passed; they do not prove a hosted run or cloud deployment.
 
 No blocker for local scaffolding. Cloud provisioning and secret upload are blocked by billing project quota on the personal billing account. The student lab project ID, allowed resources and expiry are pending. Supply those details or an eligible billing account/project; then apply the foundation and run identity/model smoke checks. Original hackathon guide/earlier discussion files remain unavailable, so submission rules cannot be independently confirmed.
 

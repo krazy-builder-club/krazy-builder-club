@@ -152,5 +152,5 @@ Architecture recommendations above are our choices; these primary sources suppor
 - [Cloud Tasks to private Cloud Run](https://docs.cloud.google.com/run/docs/triggering/using-tasks) and [HTTP task deadlines](https://docs.cloud.google.com/tasks/docs/reference/rest/v2/projects.locations.queues.tasks).
 - [Cloud Scheduler delivery](https://docs.cloud.google.com/scheduler/docs/overview) and [cron/timezone behavior](https://docs.cloud.google.com/scheduler/docs/configuring/cron-job-schedules).
 - [Cloud Storage signed URLs](https://docs.cloud.google.com/storage/docs/access-control/signed-urls).
-- [Google model lifecycle](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions) and [structured outputs](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/multimodal/control-generated-output). Model availability and schema support still require a target-project smoke test.
+- [OpenRouter quickstart](https://openrouter.ai/docs/quickstart). The selected model's structured-output support, evidence adherence and timeout/usage behavior still require a live adapter smoke test.
 - [PostgreSQL row security](https://www.postgresql.org/docs/17/ddl-rowsecurity.html).

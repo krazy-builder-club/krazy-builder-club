@@ -34,7 +34,7 @@ The active user request and clarifications govern this task. Current consolidate
 
 U4 starts the architecture phase previously deferred by U1. It narrows MVP onboarding to operator/API provisioning and defers the supplied brief's email signup/frontend. Architect-selected defaults are recorded in ADRs 0003-0006 and references, distinct from historical source proposals.
 
-D1 introduces alternate naming, three-file memory views, MCP/vector-clustering/Claude ideas and a six-month housing story. These remain draft ideas until reconciled with accepted contracts. The selected MVP uses Vertex, deterministic scoped matching, five canonical Markdown documents and a 30-day moving-assistance outcome. Draft scale, security and regulatory assertions are not validated by this design or by preserving those files.
+D1 introduces alternate naming, three-file memory views, MCP/vector-clustering/Claude ideas and a six-month housing story. These remain draft ideas until reconciled with accepted contracts. The selected MVP uses OpenRouter per the latest deployment clarification, deterministic scoped matching, five canonical Markdown documents and a 30-day moving-assistance outcome. Draft scale, security and regulatory assertions are not validated by this design or by preserving those files.
 
 - U1 stages technical architecture after onboarding. B1's build order, commands, layout, routes, database and matching defaults remain proposals.
 - U2 makes proactive work automatic and distinct from customer action. B1's ingestion-to-Proactor processing loop is superseded as the default trigger; memory updates and corrections still process incoming input.
