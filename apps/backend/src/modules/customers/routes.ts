@@ -96,7 +96,7 @@ export function customersRoutes(deps: { db: Db }) {
             if (accepted.status !== 'accepted')
               throw new Error(`metadata intake ${accepted.status}`);
             metadataJobId = accepted.jobId;
-            current = { ...customer, sourceRevision: accepted.sourceRevision };
+            current = { ...current, sourceRevision: accepted.sourceRevision };
           }
           await recordAudit(tx, {
             workspaceId: auth.workspaceId,

@@ -10,8 +10,8 @@ This is the selected design. The platform scaffold (workspace, contracts, storag
 | HTTP | Hono 4, `@hono/node-server`, `@hono/zod-openapi`, Zod 4; generated OpenAPI 3.1 |
 | Persistence | Cloud SQL PostgreSQL 17; Drizzle ORM/migrations and `pg` connection pool |
 | Files | Private Google Cloud Storage bucket; short-lived signed uploads/downloads |
-| Models | Google Gen AI SDK `@google/genai`, Vertex AI API with runtime service-account identity |
-| Initial model | `gemini-3.5-flash` for both roles, configurable separately; structured JSON output and runtime validation |
+| Models | OpenRouter chat completions with JSON-schema output; worker-only key from Secret Manager ([ADR 0009](decisions/0009-openrouter-model-provider.md)) |
+| Initial model | `google/gemini-3.8-flash` for both roles, configurable separately; runtime Zod validation is authoritative |
 | Background work | Cloud Tasks HTTP queues targeting IAM-protected Cloud Run worker endpoints |
 | Clock | Cloud Scheduler every minute in UTC; database owns each subscription's timezone/due time |
 | Infrastructure | Terraform, Artifact Registry, Secret Manager, Cloud Logging/Monitoring |
@@ -34,7 +34,7 @@ flowchart TD
     Worker --> Tasks[Cloud Tasks queues]
     Tasks --> Worker
     Worker --> GCS
-    Worker --> Model[Vertex AI: Librarian / Proactor]
+    Worker --> Model[OpenRouter: Librarian / Proactor]
     Worker --> Hook[Verified webhook consumer]
     DB --> Pattern[Scoped historical matcher in worker]
     Pattern --> Model
@@ -42,7 +42,7 @@ flowchart TD
 
 Two Cloud Run services run entrypoints from one codebase/image: `bob-api` and `bob-worker`. A Cloud Run Job runs database migrations. The worker exposes fixed internal handlers for dispatch, extraction, Librarian, query, Proactor, and delivery; it requires Google IAM authentication. Public API keys never authorize internal handlers.
 
-Default resource region is `europe-west1` (Belgium), configurable before provisioning. Place SQL, bucket, queues, registry, and compute together. Synthetic demo inference may use Vertex's global endpoint for model availability; this is not an EU-only data-residency guarantee. Real-data processing needs an explicitly verified permitted model endpoint and retention policy before enablement. Model ID/region access must be live-tested in the target project.
+Default resource region is `europe-west1` (Belgium), configurable before provisioning. Place SQL, bucket, queues, registry, and compute together. Synthetic demo inference goes through OpenRouter to the configured model's providers; this is not an EU-only data-residency guarantee. Real-data processing needs an explicitly verified permitted provider route and retention policy before enablement.
 
 ## Repository Shape
 
@@ -59,7 +59,7 @@ apps/backend/
     patterns/              deterministic eligible historical matching
     proactor/              need evaluation and insight lifecycle
     delivery/              subscriptions, webhook validation/signing
-  src/adapters/             pg, GCS, Cloud Tasks, Vertex, clock
+  src/adapters/             pg, GCS, Cloud Tasks, OpenRouter, clock
   src/config/               validated environment
   src/migrate.ts            compiled migration entrypoint
 packages/contracts/         shared Zod schemas and provider-output schemas
@@ -69,7 +69,7 @@ infra/terraform/            GCP resources and least-privilege identities
 scripts/                    provisioning, replay, evaluation, OpenAPI generation
 ```
 
-Implemented today: `api/` (health, key identity, customers, event intake/reads, brain/document reads, queries, jobs), `worker/` (IAM/OIDC gate, job runner with lease-fenced commits, outbox dispatcher, reconciliation, local transport), `modules/identity|customers|ingestion|jobs|brain|librarian`, `adapters/` (Gemini model client), `operator/cli.ts` and `migrate.ts`. The worker registers `librarian` and `query` handlers only when `MODEL_PROVIDER` is `vertex` or `gemini_api` (a local synthetic-data convenience rejected in production, [ADR 0008](decisions/0008-situation-personality-experience-memory.md)); with `none` those jobs stay queued. The worker dispatches only kinds with a registered handler; the others stay `queued`. The Cloud Tasks transport arrives with GCP provisioning; the local driver runs the same tick and handler code in-process.
+Implemented today: `api/` (health, key identity, customers, event intake/reads, brain/document reads, queries, jobs), `worker/` (IAM/OIDC gate, job runner with lease-fenced commits, outbox dispatcher, reconciliation, local transport), `modules/identity|customers|ingestion|jobs|brain|librarian`, `adapters/` (OpenRouter model client), `operator/cli.ts` and `migrate.ts`. The worker registers `librarian` and `query` handlers when an OpenRouter key is configured ([ADR 0009](decisions/0009-openrouter-model-provider.md)); with `MODEL_PROVIDER=none` or no key those jobs stay queued. The worker dispatches only kinds with a registered handler; the others stay `queued`. The Cloud Tasks transport arrives with GCP provisioning; the local driver runs the same tick and handler code in-process.
 
 API and worker import the same contracts/repositories. Modules are logical ownership boundaries, not independently deployed microservices. Explicit dependencies make cloud adapters replaceable locally. Storage alone owns migrations; contracts has no storage/runtime dependencies. No `apps/web` scaffold is required.
 
@@ -154,5 +154,5 @@ Architecture recommendations above are our choices; these primary sources suppor
 - [Cloud Tasks to private Cloud Run](https://docs.cloud.google.com/run/docs/triggering/using-tasks) and [HTTP task deadlines](https://docs.cloud.google.com/tasks/docs/reference/rest/v2/projects.locations.queues.tasks).
 - [Cloud Scheduler delivery](https://docs.cloud.google.com/scheduler/docs/overview) and [cron/timezone behavior](https://docs.cloud.google.com/scheduler/docs/configuring/cron-job-schedules).
 - [Cloud Storage signed URLs](https://docs.cloud.google.com/storage/docs/access-control/signed-urls).
-- [Google model lifecycle](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions) and [structured outputs](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/multimodal/control-generated-output). Model availability and schema support still require a target-project smoke test.
+- [OpenRouter structured outputs](https://openrouter.ai/docs/features/structured-outputs) and [provider routing](https://openrouter.ai/docs/features/provider-routing). Live-tested for `google/gemini-3.8-flash` on 2026-10-01 ([ADR 0009](decisions/0009-openrouter-model-provider.md)).
 - [PostgreSQL row security](https://www.postgresql.org/docs/17/ddl-rowsecurity.html).

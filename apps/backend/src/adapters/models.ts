@@ -1,41 +1,25 @@
 import type { Env } from '../config/env.js';
 import type { ModelClient } from '../modules/librarian/model.js';
-import { GeminiModelClient } from './gemini.js';
+import { OpenRouterModelClient } from './openrouter.js';
 
 /**
  * Builds the two role clients from the validated environment. `undefined` means no provider is
- * configured: model jobs then stay queued instead of failing.
+ * configured: model jobs then stay queued instead of failing. Without an explicit
+ * `MODEL_PROVIDER`, a present `OPENROUTER_API_KEY` (mounted from Secret Manager) selects it.
  */
 export function createModelClients(
   env: Env,
 ): { librarian: ModelClient; query: ModelClient } | undefined {
-  if (env.MODEL_PROVIDER === 'none') return undefined;
-  if (env.MODEL_PROVIDER === 'vertex') {
-    const project = env.GOOGLE_CLOUD_PROJECT;
-    if (!project) {
-      throw new Error(
-        'Invalid environment:\n  GOOGLE_CLOUD_PROJECT: required when MODEL_PROVIDER=vertex',
-      );
-    }
-    const location = env.GOOGLE_CLOUD_LOCATION;
-    return {
-      librarian: new GeminiModelClient({
-        mode: 'vertex',
-        project,
-        location,
-        model: env.LIBRARIAN_MODEL,
-      }),
-      query: new GeminiModelClient({ mode: 'vertex', project, location, model: env.QUERY_MODEL }),
-    };
-  }
-  const apiKey = env.GEMINI_API_KEY;
+  const provider = env.MODEL_PROVIDER ?? (env.OPENROUTER_API_KEY ? 'openrouter' : 'none');
+  if (provider === 'none') return undefined;
+  const apiKey = env.OPENROUTER_API_KEY;
   if (!apiKey) {
     throw new Error(
-      'Invalid environment:\n  GEMINI_API_KEY: required when MODEL_PROVIDER=gemini_api',
+      'Invalid environment:\n  OPENROUTER_API_KEY: required when MODEL_PROVIDER=openrouter',
     );
   }
   return {
-    librarian: new GeminiModelClient({ mode: 'api_key', apiKey, model: env.LIBRARIAN_MODEL }),
-    query: new GeminiModelClient({ mode: 'api_key', apiKey, model: env.QUERY_MODEL }),
+    librarian: new OpenRouterModelClient({ apiKey, model: env.LIBRARIAN_MODEL }),
+    query: new OpenRouterModelClient({ apiKey, model: env.QUERY_MODEL }),
   };
 }

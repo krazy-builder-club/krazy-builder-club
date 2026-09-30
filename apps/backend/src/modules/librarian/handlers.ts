@@ -44,7 +44,7 @@ import { bundleDocuments, renderDocuments } from './render.js';
 /** Batch bounds per Librarian job; remaining sources are picked up by their own jobs. */
 export const LIBRARIAN_BATCH = { maxEvents: 25, maxContentBytes: 120 * 1024 } as const;
 const LIBRARIAN_MAX_OUTPUT_TOKENS = 8192;
-const QUERY_MAX_OUTPUT_TOKENS = 2048;
+const QUERY_MAX_OUTPUT_TOKENS = 4096;
 const WORKSPACE_WIDE = { allCustomers: true } as const;
 
 export type LibrarianDeps = {

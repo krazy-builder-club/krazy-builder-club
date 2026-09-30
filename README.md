@@ -57,7 +57,7 @@ pnpm operator key:create --workspace <workspace_id> --name demo --capabilities a
 pnpm dev:api
 ```
 
-The API serves `/openapi.json` on port 3000. `pnpm dev:worker` runs the worker with the in-process local driver; point its `DATABASE_URL` at the worker login role. The Librarian needs a model: set `MODEL_PROVIDER=vertex` with `GOOGLE_CLOUD_PROJECT` and Application Default Credentials, or `MODEL_PROVIDER=gemini_api` with `GEMINI_API_KEY` for local synthetic data only. With the default `none`, Librarian and query jobs stay queued. The full check is `pnpm verify` (see [testing](docs/testing.md)).
+The API serves `/openapi.json` on port 3000. `pnpm dev:worker` runs the worker with the in-process local driver; point its `DATABASE_URL` at the worker login role. The Librarian needs a model: set `OPENROUTER_API_KEY` in the worker's environment (default model `google/gemini-3.8-flash`, override with `LIBRARIAN_MODEL`/`QUERY_MODEL`). Without a key, Librarian and query jobs stay queued. The full check is `pnpm verify` (see [testing](docs/testing.md)).
 
 ### Librarian Quickstart
 

@@ -76,6 +76,8 @@ describe.skipIf(!dbAvailable())('brain, query and identity routes', () => {
 
     it('reports pending sources when creation metadata was accepted', async () => {
       const customer = await newCustomer({ metadata: { segment: 'retail' } });
+      // Regression: the create response once rebuilt the row from before the skeleton commit.
+      expect(customer.current_brain_version).toBe(1);
       const res = await call(app, 'GET', `/v1/customers/${customer.id}/brain`, { token: full });
       expect(res.body.version).toBe(1);
       expect(res.body.has_pending_sources).toBe(true);
