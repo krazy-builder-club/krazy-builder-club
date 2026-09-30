@@ -5,11 +5,13 @@
 Banks see a customer's biggest life moments in their data (a new job, a growing family, a home getting too small), but that data tracks numbers, not lives. So customers still get generic offers.
 
 ## Solution
-BOB gives every customer a readable brain: plain Markdown built from bank data, where every line cites the source it came from.
+BOB gives every customer a readable brain: five Markdown files built from bank data, where every line cites the source it came from.
 
-- **Situation:** what is true now, plus goals.
-- **Personality:** how they decide and like to be helped.
-- **Experience:** what happened and how they reacted.
+- `overview.md`: a generated summary of the other four.
+- `situation.md`: what is true now.
+- `goals.md`: what they want, only as stated or confirmed by the customer.
+- `personality.md`: how they decide and like to be helped.
+- `experience.md`: what happened and how they reacted.
 
 ## How it works
 - **Librarian (built):** an LLM agent reads incoming transactions, metadata, notes and corrections. It updates the brain as validated, evidence-linked facts. Code, not the model, renders the Markdown, and a correction retires the old fact instead of deleting it.
