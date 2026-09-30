@@ -1,17 +1,69 @@
-# Krazy Builder Club
+# Krazy Builder Club: BOB
 
-**BOB** is the working product name: a hosted API that turns supplied customer information into persistent, evidence-backed Markdown memory and scheduled suggestions. The final name is open.
+> **Disclaimer:** we could not use Aikido during the hackathon because its access limits were saturated, so the security-scanning part of the task is not done. Nothing in this repository claims Aikido results.
 
-Context: Tectonic Hackathon, KBC challenge. The selected architecture is Google Cloud with a TypeScript/Hono API, Cloud SQL PostgreSQL, Cloud Storage, and scheduled Cloud Run workers. The MVP is API-only, with operator-provisioned workspaces/keys and no signup frontend. The platform scaffold and the Librarian run locally: customer creation with an initial brain, event intake, Markdown brain reads, plain-English questions, jobs, the worker runtime and the operator CLI. The Proactor, uploads and delivery are not built yet, and nothing is deployed. See [STATE](docs/STATE.md).
+**BOB (Bank-Organized Brain)** rethinks how a bank stores what it knows about its customers. Tectonic Hackathon, KBC challenge: make customers' lives fundamentally simpler.
 
-## Product Direction
+## The Idea
 
-- **Librarian:** maintains each customer's memory from incoming transactions, metadata, notes, and corrections; supports grounded read-only questions.
-- **Proactor:** automatically reviews customer context on a schedule and proposes useful next steps. Monday-morning insights delivered to a configured webhook are the initial example.
-- **Memory:** a Situation / Personality / Experience document tree with explicit goals, a generated overview and an evidence ledger ([data](docs/data.md#memory-contract)); raw inputs stay separate from memory.
-- **Intelligence:** existing models and permitted historical comparisons; synthetic prototype data and no custom model training.
+Banks already hold the data that marks the big moments in a life: salaries, rent, child benefit, savings. It sits in tables built for bookkeeping, not understanding, so customers still get generic offers.
 
-The proactive cycle is automatic. A person's action or Librarian update is not the default trigger for Proactor. Personal identification locates a customer record; authorization separately establishes access.
+BOB gives every customer a **brain**: readable Markdown that an LLM or agent can interpret, built from that bank data. Every line cites the transaction or statement it came from.
+
+- **Librarian agent:** keeps each brain up to date as new data arrives (transactions, profile data, notes, corrections).
+- **Proactor agent:** on a schedule (Monday morning), looks for patterns *within* one brain (savings dropping below the customer's own goal) and *across* brains (similar families who later bought a bigger home). It then proposes one simple, explained next step, or nothing.
+- **Channels:** the app, Kate or an advisor all read the same central brain, so every channel knows the same customer.
+
+Example: Emma rents in Leuven, has two kids and just got an 18% raise, and daycare pushed her savings under her own €5,000 buffer. Most similar families moved to a bigger home within six months. BOB does not push a mortgage; it asks "Is your home still big enough?" and shows a budget that protects her buffer.
+
+## What Works Today
+
+| Part | Status |
+|---|---|
+| API: customers, event intake, brain reads, jobs, OpenAPI | Built, runs locally |
+| Librarian: evidence-linked memory, validated patches, corrections | Built, live-tested locally via OpenRouter |
+| Ask BOB: plain-English questions answered from one brain | Built |
+| 100 synthetic customers and an importer into the API | Built on branch `feat/fixtures-synthetic-bank` |
+| Proactor, scheduled delivery, uploads | Next |
+| Google Cloud deployment | Designed, not deployed |
+| MCP adapter | Proposed |
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Bank["Bank data<br/>profiles, transactions, notes<br/>(100 synthetic customers)"] -->|"POST events"| API
+    Channels["Channels<br/>app, Kate, advisor"] -->|"questions, feedback"| API
+    API["bob-api<br/>Hono + OpenAPI<br/>API-key auth"] --> DB[("PostgreSQL<br/>row-level security per workspace<br/>sources, brains, jobs")]
+    DB -->|"outbox"| Worker["bob-worker<br/>lease-fenced job runner"]
+    Worker -->|"Librarian / query"| LLM["LLM via OpenRouter"]
+    Worker -->|"validated brain version"| DB
+    API -->|"brain + answers"| Channels
+    Clock["Monday schedule"]:::next -.-> Proactor["Proactor<br/>patterns + cohorts"]:::next
+    DB -.-> Proactor
+    Proactor -.->|"suggestion or nothing"| Hook["Signed webhook"]:::next
+    Hook -.-> Channels
+    classDef next stroke-dasharray: 5 5
+```
+
+Dashed parts are designed but not built. API and worker share one codebase; the target is Cloud Run with Cloud SQL, Cloud Tasks and Cloud Scheduler in `europe-west1`. The model writes a structured patch; code validates it against the evidence and renders the Markdown, so the brain cannot contain an uncited fact.
+
+Each brain is five Markdown files, some split into sub-documents, plus an evidence ledger ([ADR 0008](docs/decisions/0008-situation-personality-experience-memory.md)):
+
+```text
+overview.md                     generated summary, no facts of its own
+situation/current.md            what is true now
+situation/goals.md              what the customer wants (stated or confirmed)
+personality/preferences.md      how they decide
+personality/communication.md    how they like to be helped
+experience/history.md           life events and past decisions
+experience/interactions.md      contacts, feedback, accepted or rejected help
+evidence/sources.md             every source and what it supports
+```
+
+<!-- Screenshots (neilord): add images to docs/assets/ and reference them here, e.g.
+![Emma's brain](docs/assets/emma-brain.png)
+-->
 
 ## Start Here
 
