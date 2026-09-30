@@ -1,0 +1,34 @@
+{
+  "name": "@bob/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:api": "tsx watch --conditions=@bob/source src/api/main.ts",
+    "dev:worker": "tsx watch --conditions=@bob/source src/worker/main.ts",
+    "build": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\" && tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "db:migrate": "tsx --conditions=@bob/source src/migrate.ts",
+    "operator": "tsx --conditions=@bob/source src/operator/cli.ts",
+    "openapi:generate": "tsx --conditions=@bob/source scripts/openapi.ts"
+  },
+  "dependencies": {
+    "@bob/contracts": "workspace:*",
+    "@bob/storage": "workspace:*",
+    "@hono/node-server": "2.1.3",
+    "@hono/zod-openapi": "1.6.3",
+    "drizzle-orm": "0.45.3",
+    "google-auth-library": "11.1.0",
+    "hono": "4.13.11",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@testcontainers/postgresql": "12.2.0",
+    "@types/node": "24.19.0",
+    "testcontainers": "12.2.0",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "vitest": "4.1.11"
+  }
+}

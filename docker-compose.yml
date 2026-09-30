@@ -1,0 +1,14 @@
+# Local development database only. Tests start their own Testcontainers PostgreSQL.
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: bob_migrator
+      POSTGRES_PASSWORD: bob_local_only
+      POSTGRES_DB: bob
+    ports:
+      - "${BOB_PG_PORT:-5432}:5432"
+    volumes:
+      - bob-pg:/var/lib/postgresql/data
+volumes:
+  bob-pg:

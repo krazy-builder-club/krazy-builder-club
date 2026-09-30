@@ -1,6 +1,6 @@
 # Data Architecture
 
-Selected database design, to implement in Drizzle migrations. No physical database or migrations exist yet. Stack/execution choices live in [architecture](architecture.md); wire formats in [API](api.md). Storage owns every table once.
+Database design, implemented in `packages/storage` (Drizzle schema, `drizzle/0000_init.sql`, `drizzle/0001_security.sql`). Tables exist in migrations; later-phase tables (brains, references, insights, subscriptions, deliveries) have no application code yet. Stack/execution choices live in [architecture](architecture.md); wire formats in [API](api.md). Storage owns every table once.
 
 ## Sources of Truth
 
@@ -35,6 +35,7 @@ Fields below define key responsibilities and constraints; migrations may add aud
 | `webhook_deliveries` | workspace/subscription/insight/id, payload version, frozen body/hash, attempts, next_attempt_at, state; unique subscription/insight/event-type |
 | `delivery_attempts` | workspace/delivery/attempt, start/end, destination verification result, status/error, response code; no response body or secret |
 | `audit_events` | workspace, actor/key/service, event type, target ID, timestamp, scrubbed metadata |
+| `idempotency_records` | workspace/key/route/idempotency key, request hash, response status/body, expiry (at least seven days); stored in the mutation's transaction |
 | `admission_windows` | workspace/key/route group, window start, request count; unique scope/window; transactional fixed-window request quota |
 | `usage_reservations` | workspace/job/model attempt, estimated token/cost upper bound, reserved/settled/released state; reserve before provider call, settle recorded usage |
 
@@ -46,7 +47,7 @@ API key capabilities: `customers:write`, `sources:write`, `data:read`, `query:ru
 
 API repositories require verified workspace and customer scope; no unscoped customer repository methods. Enable/force PostgreSQL RLS on tenant tables with transaction-local `app.workspace_id`; runtime roles are non-owner and lack `BYPASSRLS`. Use parameterized `set_config(..., true)` inside each transaction, so pooled connections cannot retain another tenant's context. Policies apply to reads and writes. Customer-key grants remain application checks beyond workspace RLS; do not claim RLS alone enforces those grants.
 
-Database roles: migrator owns schema; API reads/writes only its needed tables; worker reads/writes scoped processing tables; dispatcher has limited access to cross-workspace operational due IDs/outbox, never customer bodies. API-key lookup uses a dedicated narrow lookup function/role that returns only identity/scope metadata for an exact hash; it is not an unscoped data reader. Workers receive trusted workspace/job IDs through IAM-authenticated handlers, verify the stored job/scope, then open a scoped transaction.
+Implemented role model: [ADR 0007](decisions/0007-database-roles-and-definer-functions.md). Database roles: migrator owns the database and schema; API reads/writes only its needed tables; worker reads/writes scoped processing tables; dispatcher has limited access to cross-workspace operational due IDs/outbox, never customer bodies. API-key lookup uses a dedicated narrow lookup function/role that returns only identity/scope metadata for an exact hash; it is not an unscoped data reader. Workers receive trusted workspace/job IDs through IAM-authenticated handlers, verify the stored job/scope, then open a scoped transaction.
 
 Subscriptions retain their creator key and scope. Recheck key revocation, capability/customer grants, active customer state, workspace state and destination status before scheduling and every delivery. Revocation cancels pending work/delivery authority even if a model run already started. A narrowed creator scope pauses incompatible subscriptions until edited/reverified.
 

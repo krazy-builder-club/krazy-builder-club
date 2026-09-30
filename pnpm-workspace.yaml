@@ -1,0 +1,11 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# Native postinstall scripts we do not need: esbuild ships per-platform binaries, and
+# ssh2/cpu-features/protobufjs (via testcontainers/google libs) only build optional accelerators.
+allowBuilds:
+  cpu-features: false
+  esbuild: false
+  protobufjs: false
+  ssh2: false

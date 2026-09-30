@@ -1,0 +1,33 @@
+{
+  "name": "bob",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BOB customer-memory and proactive-insights backend: pnpm workspace with apps/backend (Hono API + IAM worker), packages/contracts and packages/storage.",
+  "packageManager": "pnpm@11.14.0",
+  "engines": {
+    "node": ">=24 <25",
+    "pnpm": ">=11"
+  },
+  "scripts": {
+    "verify": "pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm openapi:check",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "build": "pnpm -r build",
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down",
+    "db:generate": "pnpm --filter @bob/storage db:generate",
+    "db:migrate": "pnpm --filter @bob/backend db:migrate",
+    "dev:api": "pnpm --filter @bob/backend dev:api",
+    "dev:worker": "pnpm --filter @bob/backend dev:worker",
+    "operator": "pnpm --filter @bob/backend operator",
+    "openapi:generate": "pnpm --filter @bob/backend openapi:generate",
+    "openapi:check": "pnpm --filter @bob/backend openapi:generate && git diff --exit-code apps/backend/openapi.json"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.14",
+    "typescript": "6.0.3"
+  }
+}

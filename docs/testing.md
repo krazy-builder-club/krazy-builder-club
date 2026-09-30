@@ -2,11 +2,15 @@
 
 ## Current Gate
 
-Only documentation checks apply. Run the gate in [conventions](conventions.md#5-verification), inspect local links/index coverage, check source precedence, and ensure starter placeholders remain only in intentional templates. No application runner, database tests, or live endpoints exist yet.
+`pnpm verify` runs Biome, typecheck, Vitest (contracts, storage, backend), build, and OpenAPI freshness. CI also checks that `pnpm db:generate` produces no migration drift, and builds the image. Documentation changes still use the checks in [conventions](conventions.md#5-verification).
+
+Database suites run on a Testcontainers PostgreSQL 17 shaped like Cloud SQL: a non-superuser migrator owns the database, and the API/worker connect as login members of `bob_api`/`bob_worker` ([ADR 0007](decisions/0007-database-roles-and-definer-functions.md)). A missing Docker daemon fails the run. `BOB_ALLOW_DB_SKIP=1` skips database suites for local iteration only. With Colima, export `DOCKER_HOST=unix://$HOME/.colima/default/docker.sock` and `TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock`.
+
+Covered today: forced RLS on every tenant table, no role bypass or owner exemption, no pooled-context leakage, key lookup through the definer only, and worker-only transport functions. Also covered: intake sequencing/dedup/conflict/correction scope; no Proactor from ingestion; idempotency replay/conflict; auth, capability and grant checks on every implemented route; shared admission windows; the worker IAM gate and closed kind allowlist; fencing tokens; retry generations; expired-lease recovery; enqueue-interruption recovery; duplicate delivery; and scrubbed errors. Not covered yet: Librarian, uploads, queries, Proactor, schedules, delivery, and any cloud behavior.
 
 ## Future Behavioral Coverage
 
-Selected runner is Vitest. Scaffold `pnpm verify` to run Biome, typecheck, tests, build and OpenAPI freshness; it is a target interface, not an executable command yet. Use real PostgreSQL 17/Testcontainers for persistence, migrations and RLS checks. CI must fail rather than silently skip its required database suites. Exercise cloud integration boundaries against a synthetic GCP environment and document local infra-dependent skips.
+Runner is Vitest. Use real PostgreSQL 17/Testcontainers for persistence, migrations and RLS checks. CI must fail rather than silently skip its required database suites. Exercise cloud integration boundaries against a synthetic GCP environment and document local infra-dependent skips.
 
 | Behavior | What must be demonstrated |
 |---|---|
@@ -40,7 +44,7 @@ Control time instead of sleeping. Unit-test deterministic logic and verify wirin
 6. Matcher proves no future leakage, known counts and insufficient-support behavior against held-out fixtures.
 7. Synthetic GCP smoke proves real SQL/GCS/Tasks/Scheduler/Vertex identity and timeout behavior, webhook signature/retry/SSRF transport, backup restore, and rollback.
 
-Real model smoke checks parseability, evidence adherence and measured usage/latency; deterministic provider fixtures cover failures without requiring live calls in every unit suite. No real model, database or cloud acceptance test has run in the architecture task.
+Real model smoke checks parseability, evidence adherence and measured usage/latency; deterministic provider fixtures cover failures without requiring live calls in every unit suite. Gates 1 and 4 are met locally for implemented routes, and gate 2 up to the persisted brain, which awaits the Librarian handler. No real model or cloud acceptance test has run.
 
 ## Forecast Evaluation
 

@@ -34,13 +34,19 @@ Primary reference: [Google Workload Identity Federation for deployment pipelines
 
 ## 5. Verification
 
-Current documentation-only gate:
+Code gate (requires Docker for the real-PostgreSQL suites; details in [testing](testing.md)):
+
+```bash
+pnpm verify
+```
+
+Documentation gate:
 
 ```bash
 git diff --check
 ```
 
-Also check local Markdown links, indexed coverage, unfilled starter placeholders outside intentional templates, and consistency of requirements versus proposals. Report results and limits. Add the selected build/lint/test command during scaffolding and update [testing](testing.md).
+Also check local Markdown links, indexed coverage, unfilled starter placeholders outside intentional templates, and consistency of requirements versus proposals. Report results and limits.
 
 The verbatim source archive retains its original Markdown hard breaks; `.gitattributes` exempts that file's end-of-line spaces from the whitespace check.
 

@@ -1,6 +1,6 @@
 # API Contract
 
-Accepted design for implementation. No live endpoints or generated OpenAPI artifact exists yet. Platform owns shared Zod schemas and generated OpenAPI 3.1; changes update this reference. Persistence and internal roles live in [data](data.md), limits/execution in [architecture](architecture.md).
+Accepted design. Implemented locally and described by the generated [`apps/backend/openapi.json`](../apps/backend/openapi.json): health, `POST/GET /customers`, `GET /customers/{id}`, event intake and reads, and `GET /jobs/{id}`. Other routes below are not implemented yet; nothing is deployed. Platform owns shared Zod schemas and generated OpenAPI 3.1; changes update this reference. Persistence and internal roles live in [data](data.md), limits/execution in [architecture](architecture.md).
 
 ## Common Rules
 
@@ -22,7 +22,7 @@ Error envelope:
 
 | Method/path | Capability | Response/behavior |
 |---|---|---|
-| `POST /customers` | `customers:write`, workspace-wide grant | `201` create from `external_id` and optional supplied metadata; metadata becomes a source event/job |
+| `POST /customers` | `customers:write`, workspace-wide grant | `201` create from `external_id` and optional supplied metadata; metadata becomes a source event/job; existing `external_id` is `409 customer_exists` |
 | `GET /customers` | `data:read` | `200` paginated customers filtered to key grants |
 | `GET /customers/{id}` | `data:read` | `200` permitted customer identity and processing state |
 | `DELETE /customers/{id}` | `customers:write` | `202` durable deletion job; immediately disables reads and pending delivery |
@@ -64,6 +64,8 @@ Accept JSON or `text/plain`. Plain text uses authenticated customer scope and is
   "payload": {"text": "I am moving on 20 October and want help planning."}
 }
 ```
+
+Plain text is stored with `source` `http_text`. JSON `payload` must be non-null. A `corrects_event_id` outside this customer is `422`.
 
 Correction adds `corrects_event_id` or an assertion reference within `payload`; target must be in this customer. `received_at`, authoritative workspace, sequence and source revision are server-owned. Initial inline MIME types are JSON and plain text; raw binary uses upload endpoints.
 

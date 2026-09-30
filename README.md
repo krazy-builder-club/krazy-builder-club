@@ -2,7 +2,7 @@
 
 **BOB** is the working product name: a hosted API that turns supplied customer information into persistent, evidence-backed Markdown memory and scheduled suggestions. The final name is open.
 
-Context: Tectonic Hackathon, KBC challenge. The selected architecture is Google Cloud with a TypeScript/Hono API, Cloud SQL PostgreSQL, Cloud Storage, and scheduled Cloud Run workers. The MVP is API-only, with operator-provisioned workspaces/keys and no signup frontend. This repository contains documentation; no application or deployment exists yet.
+Context: Tectonic Hackathon, KBC challenge. The selected architecture is Google Cloud with a TypeScript/Hono API, Cloud SQL PostgreSQL, Cloud Storage, and scheduled Cloud Run workers. The MVP is API-only, with operator-provisioned workspaces/keys and no signup frontend. The platform scaffold runs locally: customer and event intake, reads, jobs, the worker runtime and the operator CLI. The Librarian, Proactor and delivery are not built yet, and nothing is deployed. See [STATE](docs/STATE.md).
 
 ## Product Direction
 
@@ -25,6 +25,38 @@ The proactive cycle is automatic. A person's action or Librarian update is not t
 | [API contract](docs/api.md) | Planned ingestion, reads, schedules and webhooks |
 | [Source register](docs/sources/README.md) | Provenance and precedence |
 
-No application run commands exist. See [conventions](docs/conventions.md#5-verification) for documentation checks. The archived brief's `pnpm` commands are future proposals.
+## Run Locally
+
+Requires Node 24, pnpm 11 and Docker. Copy `.env.example` to `.env` and set its secrets.
+
+```bash
+pnpm install
+```
+
+```bash
+pnpm db:up
+```
+
+```bash
+pnpm db:migrate
+```
+
+```bash
+pnpm operator dev:login-roles --api-password <pw> --worker-password <pw>
+```
+
+```bash
+pnpm operator workspace:create --name "Demo Bank"
+```
+
+```bash
+pnpm operator key:create --workspace <workspace_id> --name demo --capabilities all --all-customers
+```
+
+```bash
+pnpm dev:api
+```
+
+The API serves `/openapi.json` on port 3000. `pnpm dev:worker` runs the worker with the in-process local driver; point its `DATABASE_URL` at the worker login role. The full check is `pnpm verify` (see [testing](docs/testing.md)).
 
 Repository: [neilord/krazy-builder-club](https://github.com/neilord/krazy-builder-club).
