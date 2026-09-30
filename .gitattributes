@@ -1,0 +1,2 @@
+# Preserve intentional Markdown hard breaks in the verbatim supplied source.
+docs/sources/original-project-brief.md whitespace=-blank-at-eol

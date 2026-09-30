@@ -1,0 +1,25 @@
+#!/bin/sh
+# Non-blocking reminder to keep docs/STATE.md current (the docs pipeline).
+#
+# Direct commits to main skip the PR checklist — the pipeline's only other reminder —
+# so this nudges on that path. It NEVER blocks a commit; it only prints when a code
+# change lands without STATE.md in the same commit. Install per-clone with:
+#   git config core.hooksPath .githooks
+
+staged=$(git diff --cached --name-only)
+
+# Nothing staged (e.g. an empty/merge commit) — stay quiet.
+[ -z "$staged" ] && exit 0
+
+# STATE.md is already part of this commit — the handoff is done. Stay quiet.
+echo "$staged" | grep -q '^docs/STATE\.md$' && exit 0
+
+# Docs-only / meta commits rarely move project state; only nudge when real code changed.
+# Capture the non-doc/-meta files and test for non-empty — `grep -qv` mis-reports its exit
+# status on BSD/macOS grep when a matching line is also present, so don't rely on it.
+code_changes=$(printf '%s\n' "$staged" | grep -vE '^(docs/|\.github/|\.githooks/|CLAUDE\.md$|README\.md$|\.gitignore$)')
+if [ -n "$code_changes" ]; then
+  echo "reminder: docs/STATE.md is not in this commit — update it if this changes project state (docs pipeline)."
+fi
+
+exit 0
