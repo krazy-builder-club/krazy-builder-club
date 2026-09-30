@@ -31,7 +31,7 @@ No blocker for local scaffolding. Deployment is blocked: no GCP project/billing/
 
 ## Next
 
-1. Confirm the first GitHub Actions run on `main` is green (verify + image); it does not deploy.
+1. Resolve the GitHub account billing lock, then re-run CI on `main` (verify + image; it does not deploy). The first run on 2026-10-01 never started because of that lock; `pnpm verify` passed locally.
 2. Librarian owner: register the `librarian` handler (Vertex adapter, `MemoryPatch` validation, deterministic Markdown render, revision-checked snapshot commit via `ctx.commit`), then `GET brain`/documents and the read-only query job.
 3. Add files/extraction, synthetic reference cases and deterministic patterns, then scheduled Proactor and verified webhook delivery.
 4. Provision a dedicated synthetic GCP environment, run cloud acceptance checks, and complete the moving-assistance demo/presentation.
