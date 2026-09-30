@@ -1,0 +1,21 @@
+we are a group of 4 builders participating in a hackathon. our group is now called the krazybuildersclub. the goal is to redefine how a bank (kbc) can make their customer's life more simple in a fundamental way.
+
+as a first step, we will start to rethink the fundaments of how the bank stores their data. currently, kbc (the bank) stores all customer info (transactions; personal info (age, job, place of birth, address...); bank accounts; investment positions...) in typical bank databases. we are not experts in this, but we assume to have this information.
+
+the first thing we want to do is to transform these classical databases into databases that are interpretable for LLMs or agents. that's why we want to have an MCP structure, which is basically annotating descriptions to the databases. every client should have info in a database.
+
+another fundamental addition is that we want to build a digital brain that represents every client. let's call it Bob. each client should have a version of Bob. Bob the brain. the brain is basically a collection of markdown files that are super interpretable for LLMs or agents. the brains should all have the same structure: one file about the experience of a person, one file about the personality of a person, one file about the situation of a person. this should define a person as a whole (let us know if you have a better idea).
+
+this brain will be built based on the "bank" data that is available about a person (transactions, personal info...). as new info comes in, the brain gets updated by a librarian agent.
+
+on a trigger (this could be a timestamp or a new transaction), another agent is triggered, the actor agent. this agent analyses patterns in two ways. first, within one person's brain. can we recognize patterns in the behavior of one person and suggest actions that make his life easier? e.g., a person stops going to the gym, so we suggest that he should cancel his subscription
+
+second, the actor agent compares between multiple people's brains and tries to recognize patterns in this way. for example, if the actor agent recognizes that people are in the same situation in life (house, kids, renting), and he saw that one of them has bought a house to live bigger with his kids, he might recognize that the other person will also want to buy a house. then we can suggest him steps to help him get a loan or something.
+
+that is the conceptual idea. now the practical side.
+
+in parallel, another builder is already building the github repo. i believe that he will also setup an external database that we will have the "bank" data in. then we still need to find a way to store the brain files, which are the three markdown files per person.
+
+still in parallel, a third group member is setting up the practical structure for the proof of concept. he is setting things up in google cloud, so that we can get a working DB and automatic suggestions for user comfort.
+
+then, we also need to think about the video. but first, we need to apply this context to the repo that my colleague is building 
