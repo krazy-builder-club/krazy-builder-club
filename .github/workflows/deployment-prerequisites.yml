@@ -1,7 +1,6 @@
 name: Deployment prerequisites
 on:
   push:
-    branches: [main]
   pull_request:
 permissions:
   contents: read
@@ -12,7 +11,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 2
-      - run: git diff-tree --check --root HEAD
+      - run: git diff --check HEAD~1 HEAD
       - run: python3 scripts/check-doc-links.py
   terraform:
     runs-on: ubuntu-latest

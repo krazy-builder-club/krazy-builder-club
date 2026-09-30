@@ -6,7 +6,7 @@ This is the canonical consolidated product context. Provenance and precedence ar
 
 BOB is a hosted service with an API for ingesting information about identified customers, maintaining readable memory, answering questions, and supplying proactive insights. A bank assistant such as Kate, an adviser interface, or a customer-facing integration can consume that context. We are not building a bank or a replacement for Kate.
 
-An account represents the service operator/developer; a customer represents a person whose information is managed. Workspace isolation and email signup/API keys are carried forward from the supplied brief as intended capabilities. Their exact ownership and authentication design remains open. Identifiers route requests; they do not grant permission.
+An account represents the service operator/developer; a workspace is the tenant boundary; a customer represents a person whose information is managed. The selected MVP uses operator-provisioned workspaces and scoped API keys. Email signup and any frontend are deferred by the latest backend-first request and [ADR 0003](decisions/0003-google-cloud-backend-stack.md). Identifiers route requests; they do not grant permission.
 
 ## Carried-Forward Requirements
 
@@ -19,7 +19,7 @@ An account represents the service operator/developer; a customer represents a pe
 | Compare personality and situation across authorized historical cases | Supplied brief |
 | Hosted API with information-in and understanding-out capabilities | Both |
 | Automatic proactive processing; user action is not its default trigger | Latest discussion, takes precedence |
-| User-configured webhook for scheduled information and insights | Latest discussion; delivery design remains open |
+| User-configured webhook for scheduled information and insights | Latest discussion; selected delivery design in API/architecture |
 | Approximately 100 synthetic customer profiles for demonstration | Supplied brief; latest discussion mentions 100 items |
 | Central shared docs and coordinated independent workstreams | Both |
 
@@ -43,9 +43,9 @@ Proposed action vocabulary from the brief: `ASK_A_QUESTION`, `SHOW_INFORMATION`,
 
 ## Comparison and Evidence
 
-One hundred customers means one hundred stored memories, not one hundred continuously running models. Compare separate canonical personality and situation tags using historical snapshots with observed follow-up outcomes. The comparison mechanism and thresholds are open.
+One hundred customers means one hundred stored memories, not one hundred continuously running models. A deterministic pattern service compares separate canonical personality and situation tags in eligible same-workspace historical snapshots with observed follow-up outcomes. Proactor receives aggregates and the target brain, not private reference brains. Initial heuristic settings are defined in data and versioned as unvalidated demo defaults.
 
-The brief proposes forecasting a useful assistance need within 30 days, with moving-related help as the first scenario. Those are candidates to decide during architecture. Broader next-transaction prediction was discussed, but is not an established prototype capability.
+The selected first scenario forecasts moving-planning assistance over 30 days, with observed reference outcome `requested_move_planning_help`. Broader next-transaction prediction was discussed, but is not an established prototype capability.
 
 Show evidence, uncertainty, and reference counts. A cohort frequency is not a calibrated individual probability. Personal corrections override generic patterns. Without observed outcomes, label suggestions as hypotheses; with insufficient reference support, ask for relevant context or return no action. Detailed logical information requirements live in [data](data.md).
 
@@ -53,16 +53,10 @@ Show evidence, uncertainty, and reference counts. A cohort frequency is not a ca
 
 Prototype data is synthetic. No custom model training, real banking/payment execution, automatic credit or insurance decisions, billing, or claim of production readiness is included. Cross-customer matching is in the product direction; autonomous customer-agent conversations and an unrestricted swarm are unnecessary.
 
-Input format breadth, API routes, frontend scope, and adapter options are open. Do not promise arbitrary file parsing or URL fetching. MCP is an optional future adapter, not an initial requirement.
+The selected backend exposes flexible text/JSON intake, bounded file uploads with explicit extraction status, data reads, and scheduled delivery. Exact architecture is in [architecture](architecture.md) and interfaces in [API](api.md). Unknown file types may be retained without being understood; arbitrary URL crawling is excluded. No frontend is required. MCP remains an optional later adapter.
 
-## Questions for Architecture
+## Selected Defaults and Remaining Inputs
 
-1. What first assistance need, scenario, and observable outcome should the demo prove?
-2. Is scheduling per customer or per integration/workspace; what defines an active customer?
-3. Which timezone and delivery time define Monday morning, and what happens when runs are missed?
-4. Does each review deliver one digest or separate customer insights? Should a no-action review deliver anything?
-5. What identifies an integration and its permitted customer set, and how is webhook setup verified?
-6. What correction, dismissal, and freshness rules govern queued insights?
-7. Who owns each workstream, and what presentation format and deadline apply?
+The architecture/data/API references define the scenario, subscription/customer scope, Monday timezone, missed-run policy, per-customer insight delivery, no-action reporting, destination verification and correction/freshness behavior. These are architect-selected defaults under the user's request to choose the stack, and can be superseded explicitly as the team learns.
 
-Stack selection and physical contracts belong to the next task. Current task ordering lives in [STATE](STATE.md).
+Deployment still needs a GCP project/billing/environment and model availability smoke test. Human implementation owners, presentation format and actual deadline are not supplied. They do not block the selected design. Current task ordering lives in [STATE](STATE.md).

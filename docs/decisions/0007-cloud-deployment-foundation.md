@@ -14,8 +14,9 @@ infrastructure administration separate from the application deployer.
 The latest user clarification selects OpenRouter unless hackathon-funded
 Vertex AI is confirmed. No such entitlement has been verified. The deployment
 foundation does not enable Vertex AI or require Google model credentials.
-This supersedes any prior model-provider default for deployment; the concurrent
-architecture owner must reconcile its model adapter at handoff.
+This supersedes [ADR 0003](0003-google-cloud-backend-stack.md) only for the
+model-provider default. The reconciled architecture uses OpenRouter; runtime
+model IDs and provider capabilities still require scaffold smoke tests.
 
 ## Rationale
 

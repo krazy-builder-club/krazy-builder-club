@@ -20,14 +20,28 @@ Finish verified, authorized work through landing. If a material decision or chec
 
 ## 4. Release and Deployment
 
+The application deployment flow below is a design to implement; prerequisite workflows and Terraform are prepared, but no application is deployed. Adopting agent-os does not add shared `@zsetup/*` dependencies.
+
+Terraform manages a dedicated GCP project/environment's Cloud Run services, SQL, bucket, queues, Scheduler, identities, KMS and secrets wiring. Keep Terraform state in a restricted GCS backend, outside Git. Project ID, billing, region/domain, budget caps and secret values are deployment inputs, never borrowed from another project's credentials.
+
+GitHub Actions verifies code/contracts/migrations, builds one non-root backend image, and pushes its immutable digest to Artifact Registry. Use Workload Identity Federation restricted to this repo/ref/environment, not stored service-account JSON. PRs verify/build without deployment. Initial provisioning and first synthetic deploy are an explicit implementation task; after configuration, authorized `main` changes deploy to the demo environment.
+
+Run expand-compatible migrations through an IAM-only Cloud Run Job before API/worker rollout; a failed migration stops deployment. Revisions share schemas/queue payloads during rollout, so contract changes stay backward-compatible until old jobs/revisions drain. Use Cloud SQL private IP with Direct VPC egress and the Cloud SQL connector/proxy for authorized encrypted connections; keep database credentials in Secret Manager, and do not open authorized networks broadly. Public webhook egress stays outside private-address access policies, with application destination pinning checks.
+
+Deploy/health-check new revisions, smoke-test auth, source commit, task dispatch, brain read and schedule/delivery, then shift traffic. Rollback API/worker to the previous tested image digest without automatically reversing database changes. Destructive migrations require a separate staged plan and verified backup/restore. Configure automated backups/PITR, protection against accidental SQL deletion, limits/alerts, and a synthetic cleanup path. A docs-only push does not create or deploy cloud infrastructure.
+
+Primary reference: [Google Workload Identity Federation for deployment pipelines](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines). The local LeadFilter runbook informed the mechanics; no live deploy has been verified here.
+
+### Deployment Foundation Preparation
+
 The development deployment foundation is [Terraform](../infra/terraform/README.md),
 with choices in [ADR 0007](decisions/0007-cloud-deployment-foundation.md). Current
 provisioning and blockers live in [STATE](STATE.md). The project is
 `krazy-builder-club-dev`, region `europe-west1`; always pass `--project` explicitly.
 Do not change the CLI default, which points to an unrelated production project.
 
-GitHub runs documentation and credential-free Terraform validation on PRs and
-`main`. The manual Cloud authentication check uses the `development` environment
+GitHub runs documentation and credential-free Terraform validation on pushes and
+PRs. The manual Cloud authentication check uses the `development` environment
 and short-lived OIDC credentials. Configure the environment to accept only `main`;
 the federation provider also checks immutable repository/owner IDs and the
 branch/environment. No OpenRouter key belongs in GitHub Actions secrets.
@@ -48,6 +62,7 @@ reverting deployments. Roll back compute by routing to the previous verified
 revision; database rollback requires explicit migration compatibility/recovery
 checks, never a guessed reverse migration. These application stages are planned,
 not implemented or verified.
+
 
 ## 5. Verification
 

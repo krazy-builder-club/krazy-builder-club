@@ -2,7 +2,7 @@
 
 **BOB** is the working product name: a hosted API that turns supplied customer information into persistent, evidence-backed Markdown memory and scheduled suggestions. The final name is open.
 
-Context: Tectonic Hackathon, KBC challenge. This repository contains documentation and a prepared Google Cloud deployment foundation. Architecture is in progress in a separate workstream; no application has been deployed. See [current state](docs/STATE.md) for the billing blocker and [deployment conventions](docs/conventions.md#4-release-and-deployment) for setup.
+Context: Tectonic Hackathon, KBC challenge. The selected architecture is Google Cloud with a TypeScript/Hono API, Cloud SQL PostgreSQL, Cloud Storage, and scheduled Cloud Run workers. The MVP is API-only, with operator-provisioned workspaces/keys and no signup frontend. This repository contains documentation and a prepared deployment foundation; no application has been deployed. See [current state](docs/STATE.md) for cloud status and [deployment conventions](docs/conventions.md#4-release-and-deployment) for setup.
 
 ## Product Direction
 
@@ -21,7 +21,8 @@ The proactive cycle is automatic. A person's action or Librarian update is not t
 | [Product reference](docs/product.md) | Requirements, role boundaries, and questions |
 | [Current state](docs/STATE.md) | Current phase and next work |
 | [Agent entry point](AGENTS.md) | Coding and management agent onboarding |
-| [Architecture brief](docs/architecture.md) | Next phase's decision agenda |
+| [Architecture](docs/architecture.md) | Selected stack, service boundaries and implementation sequence |
+| [API contract](docs/api.md) | Planned ingestion, reads, schedules and webhooks |
 | [Source register](docs/sources/README.md) | Provenance and precedence |
 
 No application run commands exist. See [conventions](docs/conventions.md#5-verification) for documentation checks. The archived brief's `pnpm` commands are future proposals.
